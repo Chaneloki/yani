@@ -1,3 +1,7 @@
+遊戲公開網址：https://chaneloki.github.io/yani/
+
+推送到 `main` 後，GitHub Actions 會先執行測試及建置，再自動發佈 `dist/` 到 GitHub Pages。部署狀態見 repository 的 Actions 分頁。玩家的存檔及音量設定保存在各自瀏覽器，首次點擊後才會播放音樂。
+
 ## 日常改句子：直接編輯劇本
 
 正文以以下兩份 Markdown 為準（會覆蓋章節 JSON 內的舊正文）：
