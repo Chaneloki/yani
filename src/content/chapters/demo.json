@@ -1,0 +1,148 @@
+{
+  "scenes": [
+    {
+      "id": "demo.natsumi",
+      "title": "同一個夜晚，兩種心情",
+      "perspective": "natsumi",
+      "timeline": "功能示範 · 同一時間 A",
+      "stage": {
+        "background": "evening",
+        "portraits": [
+          {
+            "character": "natsumi",
+            "variant": "real",
+            "expression": "neutral",
+            "position": "right"
+          }
+        ],
+        "cg": null
+      },
+      "nodes": [
+        {
+          "id": "notice",
+          "type": "narration",
+          "text": "這是一段引擎試映。以下文字只用於測試互動功能，並非正式序章，也不代表故事事件。"
+        },
+        {
+          "id": "thought",
+          "type": "thought",
+          "speaker": "natsumi",
+          "text": "【佔位內心獨白】這裡將呈現奈津美的想法。雙視角可以描述同一時間，保留各自知道的事情。"
+        },
+        {
+          "id": "line",
+          "type": "dialogue",
+          "speaker": "natsumi",
+          "text": "【功能佔位】健太郎，先看看哪一個畫面？",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "smile",
+                "position": "right"
+              }
+            ]
+          }
+        },
+        {
+          "id": "select",
+          "type": "choice",
+          "text": "選擇一個展示路徑（不影響正式劇情）",
+          "options": [
+            {
+              "id": "other",
+              "text": "換個角度 · 健太郎視角",
+              "target": "demo.kentaro",
+              "set": {
+                "preview": "perspective"
+              }
+            },
+            {
+              "id": "palette",
+              "text": "看看幻想世界的配色",
+              "target": "demo.palette",
+              "set": {
+                "preview": "palette"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo.kentaro",
+      "title": "從另一邊看見",
+      "perspective": "kentaro",
+      "timeline": "功能示範 · 同一時間 A",
+      "stage": {
+        "background": "blue",
+        "portraits": [
+          {
+            "character": "kentaro",
+            "variant": "real",
+            "expression": "smile",
+            "position": "left"
+          }
+        ],
+        "cg": null
+      },
+      "nodes": [
+        {
+          "id": "thought",
+          "type": "thought",
+          "speaker": "kentaro",
+          "text": "【佔位內心獨白】同一時間，這裡呈現健太郎的視角；讀檔也會還原這個視角。"
+        },
+        {
+          "id": "line",
+          "type": "dialogue",
+          "speaker": "kentaro",
+          "text": "【功能佔位】奈津美，這邊也準備好了！"
+        },
+        {
+          "id": "next",
+          "type": "narration",
+          "text": "【功能說明】接下來僅切換場景色調與角色版本，並非穿越情節。",
+          "next": "demo.palette"
+        }
+      ]
+    },
+    {
+      "id": "demo.palette",
+      "title": "冒險的色彩",
+      "perspective": "natsumi",
+      "timeline": "獨立美術測試 · 不屬於故事時間線",
+      "stage": {
+        "background": "fantasy",
+        "portraits": [
+          {
+            "character": "kentaro",
+            "variant": "hero",
+            "expression": "neutral",
+            "position": "left"
+          },
+          {
+            "character": "natsumi",
+            "variant": "witch",
+            "expression": "neutral",
+            "position": "right"
+          }
+        ],
+        "cg": null
+      },
+      "nodes": [
+        {
+          "id": "intro",
+          "type": "narration",
+          "text": "【美術佔位】勇者與魔女的立繪位置預留於此。實際插圖、表情與背景將由作者提供。"
+        },
+        {
+          "id": "finish",
+          "type": "narration",
+          "text": "試映到這裡。你可以開啟閱讀紀錄、儲存目前進度，或從章節選單重新體驗另一條展示路徑。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "original": "夕陽下的寧靜校園小徑.png",
+    "renamed": "bg-campus-sunset.png",
+    "id": "campus-sunset",
+    "web": "bg-campus-sunset.webp",
+    "sourceBytes": 2567222,
+    "webBytes": 1978448,
+    "sha256": "816e3945c9be4669c3aae38721a6f6947ea70f3d3f46b96d08bde936a69a4455"
+  },
+  {
+    "original": "夕陽下的寧靜空教室.png",
+    "renamed": "bg-classroom-sunset.png",
+    "id": "classroom-sunset",
+    "web": "bg-classroom-sunset.webp",
+    "sourceBytes": 1968973,
+    "webBytes": 1447560,
+    "sha256": "cf7fd4a5651dddab4c36a382e899e316fb8776bd17e6cbf49095214941d1b939"
+  },
+  {
+    "original": "夜色窗邊的溫馨書房_yamada.png",
+    "renamed": "bg-kentaro-room-night.png",
+    "id": "kentaro-room-night",
+    "web": "bg-kentaro-room-night.webp",
+    "sourceBytes": 1851112,
+    "webBytes": 1311626,
+    "sha256": "5af5bd9d3254da68ca14e0229d1773893672e212c1fc0badaf0a1b510a330d80"
+  },
+  {
+    "original": "明亮動漫風汽車維修車房.png",
+    "renamed": "bg-automotive-workshop-day.png",
+    "id": "automotive-workshop-day",
+    "web": "bg-automotive-workshop-day.webp",
+    "sourceBytes": 2421521,
+    "webBytes": 1762320,
+    "sha256": "164776bd52d3a99102f6885dd40d5f9babe3bd7524f1db6edd36c776e9e21aee"
+  },
+  {
+    "original": "暖陽下的溫馨遊戲零食房_yamada.png",
+    "renamed": "bg-kentaro-gaming-room-day.png",
+    "id": "kentaro-gaming-room-day",
+    "web": "bg-kentaro-gaming-room-day.webp",
+    "sourceBytes": 2095468,
+    "webBytes": 1494326,
+    "sha256": "09c3440a33ec73cfdf2f2472e1fc64918542066eb336544bd6d82f17f6dbbc09"
+  },
+  {
+    "original": "月光下的寧靜臥室_nishi.png",
+    "renamed": "bg-natsumi-bedroom-moonlight.png",
+    "id": "natsumi-bedroom-moonlight",
+    "web": "bg-natsumi-bedroom-moonlight.webp",
+    "sourceBytes": 1701642,
+    "webBytes": 1176882,
+    "sha256": "0a64ab9cdde05ad7c1175731d89376b71a76e830999e1f03e0546c2f4226bb83"
+  },
+  {
+    "original": "溫馨夜色現代臥室插畫_nishi.png",
+    "renamed": "bg-natsumi-bedroom-night.png",
+    "id": "natsumi-bedroom-night",
+    "web": "bg-natsumi-bedroom-night.webp",
+    "sourceBytes": 1809537,
+    "webBytes": 1275418,
+    "sha256": "0ede75c00f8469ba8a1792ec076d90c36c1bcabec41026a3292a3db826e1522a"
+  },
+  {
+    "original": "陽光下的日式榻榻米書房_yamada.png",
+    "renamed": "bg-kentaro-room-day.png",
+    "id": "kentaro-room-day",
+    "web": "bg-kentaro-room-day.webp",
+    "sourceBytes": 1950632,
+    "webBytes": 1374798,
+    "sha256": "40a4e3567d4c69457c4b03f7658c3db557d5a8e688e7d042726bd7b6618b58d1"
+  },
+  {
+    "original": "陽光灑落的暖心咖啡館.png",
+    "renamed": "bg-cafe-afternoon.png",
+    "id": "cafe-afternoon",
+    "web": "bg-cafe-afternoon.webp",
+    "sourceBytes": 2181723,
+    "webBytes": 1634306,
+    "sha256": "66d03e776a7c8d3cfd39aba3ddb5be05f0202a18f16257ddc07cb74123f766fb"
+  },
+  {
+    "original": "黃昏拉麵店的溫暖一隅.png",
+    "renamed": "bg-ramen-shop-evening.png",
+    "id": "ramen-shop-evening",
+    "web": "bg-ramen-shop-evening.webp",
+    "sourceBytes": 2206218,
+    "webBytes": 1681112,
+    "sha256": "3d6529d47fb8bd862ce54fcc2c8c9ca54d04869d5aaf700e109f642c5243426c"
+  },
+  {
+    "original": "黃昏時分的現代車站大堂.png",
+    "renamed": "bg-station-sunset.png",
+    "id": "station-sunset",
+    "web": "bg-station-sunset.webp",
+    "sourceBytes": 2125744,
+    "webBytes": 1615152,
+    "sha256": "fa96fcdbb5c7665ea584674e301597dc93badb6b884f56bb724a1ae65e6b7dd4"
+  }
+]

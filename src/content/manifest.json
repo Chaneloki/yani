@@ -1,0 +1,34 @@
+{
+  "id": "yamada-nishi",
+  "revision": "demo-1",
+  "start": "prologue.natsumi.exam",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "序章 · 約會前夕",
+      "file": "chapters/prologue.json",
+      "entries": [
+        {
+          "scene": "prologue.natsumi.exam",
+          "title": "終於有時間了",
+          "perspective": "natsumi"
+        },
+        {
+          "scene": "prologue.kentaro.workshop",
+          "title": "比誰都期待的星期六",
+          "perspective": "kentaro"
+        }
+      ],
+      "textFiles": [
+        "scripts/prologue-natsumi.md",
+        "scripts/prologue-kentaro.md"
+      ]
+    },
+    {
+      "id": "demo",
+      "title": "引擎功能示範",
+      "file": "chapters/demo.json",
+      "demo": true
+    }
+  ]
+}

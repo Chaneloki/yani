@@ -1,0 +1,203 @@
+{
+  "backgrounds": {
+    "evening": {
+      "label": "日常 · 暮色佔位",
+      "theme": "evening",
+      "src": null
+    },
+    "blue": {
+      "label": "日常 · 藍調佔位",
+      "theme": "blue",
+      "src": null
+    },
+    "fantasy": {
+      "label": "幻想 · 配色測試（非劇情）",
+      "theme": "fantasy",
+      "src": null
+    },
+    "campus": {
+      "label": "校園小徑 · 夕陽",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-campus-sunset.webp"
+    },
+    "cafe": {
+      "label": "咖啡店 · 午後",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-cafe-afternoon.webp"
+    },
+    "ramen": {
+      "label": "拉麵店 · 黃昏",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-ramen-shop-evening.webp"
+    },
+    "natsumi-room": {
+      "label": "奈津美臥室 · 夜晚亮燈",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-natsumi-bedroom-night.webp"
+    },
+    "kentaro-room": {
+      "label": "健太郎房間 · 夜晚",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-kentaro-room-night.webp"
+    },
+    "workshop": {
+      "label": "實習工場 · 日間",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-automotive-workshop-day.webp"
+    },
+    "campus-sunset": {
+      "label": "校園小徑 · 夕陽",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-campus-sunset.webp"
+    },
+    "classroom-sunset": {
+      "label": "教室 · 夕陽",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-classroom-sunset.webp"
+    },
+    "kentaro-room-night": {
+      "label": "健太郎房間 · 夜晚",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-kentaro-room-night.webp"
+    },
+    "automotive-workshop-day": {
+      "label": "實習工場 · 日間",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-automotive-workshop-day.webp"
+    },
+    "kentaro-gaming-room-day": {
+      "label": "健太郎遊戲房 · 日間零食",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-kentaro-gaming-room-day.webp"
+    },
+    "natsumi-bedroom-moonlight": {
+      "label": "奈津美臥室 · 熄燈月光",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-natsumi-bedroom-moonlight.webp"
+    },
+    "natsumi-bedroom-night": {
+      "label": "奈津美臥室 · 夜晚亮燈",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-natsumi-bedroom-night.webp"
+    },
+    "kentaro-room-day": {
+      "label": "健太郎房間 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-kentaro-room-day.webp"
+    },
+    "cafe-afternoon": {
+      "label": "咖啡店 · 午後",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-cafe-afternoon.webp"
+    },
+    "ramen-shop-evening": {
+      "label": "拉麵店 · 黃昏",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-ramen-shop-evening.webp"
+    },
+    "station-sunset": {
+      "label": "車站大堂 · 黃昏",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-station-sunset.webp"
+    }
+  },
+  "cg": {},
+  "bgm": {
+    "warm-daily-life": {
+      "label": "溫暖日常",
+      "src": "./assets/audio/bgm/bgm-warm-daily-life.mp3",
+      "instruments": "鋼琴、木結他、柔和弦樂",
+      "loop": true
+    },
+    "cheerful-school-days": {
+      "label": "輕快校園",
+      "src": "./assets/audio/bgm/bgm-cheerful-school-days.mp3",
+      "instruments": "明亮鋼琴、輕快節奏",
+      "loop": true
+    },
+    "upbeat-everyday": {
+      "label": "活力日常",
+      "src": "./assets/audio/bgm/bgm-upbeat-everyday.mp3",
+      "instruments": "木結他、低音、輕敲擊樂",
+      "loop": true
+    },
+    "cozy-cafe-jazz": {
+      "label": "悠閒爵士",
+      "src": "./assets/audio/bgm/bgm-cozy-cafe-jazz.mp3",
+      "instruments": "電鋼琴、柔和鼓點",
+      "loop": true
+    },
+    "heartwarming-romance": {
+      "label": "溫柔時光",
+      "src": "./assets/audio/bgm/bgm-heartwarming-romance.mp3",
+      "instruments": "柔和結他、鋼琴、小提琴",
+      "loop": true
+    },
+    "playful-comedy": {
+      "label": "俏皮插曲",
+      "src": "./assets/audio/bgm/bgm-playful-comedy.mp3",
+      "instruments": "木琴、撥弦、輕快節奏",
+      "loop": true
+    },
+    "peaceful-night": {
+      "label": "靜謐夜色",
+      "src": "./assets/audio/bgm/bgm-peaceful-night.mp3",
+      "instruments": "安靜鋼琴、柔和電子音色",
+      "loop": true
+    },
+    "happy-anticipation": {
+      "label": "雀躍期待",
+      "src": "./assets/audio/bgm/bgm-happy-anticipation.mp3",
+      "instruments": "明亮鋼琴、輕快結他、少量電子音",
+      "loop": true
+    }
+  },
+  "se": {},
+  "messageImages": {
+    "workshop-bumper-photo": {
+      "label": "健太郎的實習照片",
+      "alt": "健太郎拍下的維修工場照片：拆卸保險桿的車頭、工具與畫面底部的鞋尖。",
+      "src": "./assets/messages/photo-workshop-bumper.png"
+    },
+    "rolling-tabby-cat": {
+      "label": "開心翻滾的貓咪",
+      "alt": "開心得在地上翻滾的虎斑貓貼圖。",
+      "kind": "sticker",
+      "width": 1280,
+      "height": 1280,
+      "src": "./assets/messages/sticker-rolling-tabby-cat.png"
+    },
+    "fantasy-castle-promo": {
+      "label": "遊戲宣傳圖",
+      "alt": "勇者與魔女眺望雲霧包圍的高聳城堡，遠方山脈層層延伸。",
+      "kind": "illustration",
+      "width": 1672,
+      "height": 941,
+      "src": "./assets/messages/promo-fantasy-castle.png"
+    },
+    "fireball-mishap": {
+      "label": "魔女火球誤擊勇者",
+      "alt": "魔女施放火球，意外將勇者炸飛的搞笑遊戲截圖。",
+      "kind": "illustration",
+      "width": 1672,
+      "height": 940,
+      "src": "./assets/messages/screenshot-fireball-mishap.png"
+    },
+    "cooperative-stone-bridge": {
+      "label": "石橋合作關卡",
+      "alt": "勇者操作機關，魔女施法啟動連接古城遺跡的石橋。",
+      "kind": "illustration",
+      "width": 1672,
+      "height": 941,
+      "src": "./assets/messages/promo-cooperative-stone-bridge.png"
+    },
+    "game-purchase-complete": {
+      "label": "遊戲購買成功",
+      "alt": "手機遊戲商店顯示 Purchase Complete 與遊戲下載按鈕的購買成功畫面。",
+      "kind": "screenshot",
+      "width": 940,
+      "height": 1672,
+      "src": "./assets/messages/screenshot-game-purchase-complete.png"
+    }
+  }
+}

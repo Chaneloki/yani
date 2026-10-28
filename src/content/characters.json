@@ -1,0 +1,44 @@
+{
+  "kentaro": {
+    "name": "山田健太郎",
+    "shortName": "健太郎",
+    "color": "#b18a67",
+    "variants": {
+      "real": {
+        "neutral": "./assets/characters/CHAR_KENTARO.png",
+        "smile": "./assets/characters/CHAR_KENTARO.png"
+      },
+      "hero": {
+        "neutral": "./assets/characters/ROLE_HERO.png",
+        "smile": "./assets/characters/ROLE_HERO.png"
+      }
+    }
+  },
+  "natsumi": {
+    "name": "西奈津美",
+    "shortName": "奈津美",
+    "color": "#6d8598",
+    "variants": {
+      "real": {
+        "neutral": "./assets/characters/CHAR_NATSUMI.png",
+        "smile": "./assets/characters/CHAR_NATSUMI.png"
+      },
+      "witch": {
+        "neutral": "./assets/characters/ROLE_WITCH.png",
+        "smile": "./assets/characters/ROLE_WITCH.png"
+      }
+    }
+  },
+  "university_classmate": {
+    "name": "大學同學",
+    "shortName": "大學同學",
+    "color": "#b9c7cb",
+    "variants": {}
+  },
+  "workshop_classmate": {
+    "name": "實習同學",
+    "shortName": "實習同學",
+    "color": "#b9c7cb",
+    "variants": {}
+  }
+}

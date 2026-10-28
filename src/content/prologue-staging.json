@@ -1,0 +1,198 @@
+{
+  "sceneBackgrounds": {
+    "prologue.natsumi.exam": "classroom-sunset",
+    "prologue.natsumi.ramen": "ramen-shop-evening",
+    "prologue.natsumi.cafe": "cafe-afternoon",
+    "prologue.natsumi.invitation": "natsumi-bedroom-night",
+    "prologue.natsumi.research": "natsumi-bedroom-night",
+    "prologue.natsumi.friday": "natsumi-bedroom-night",
+    "prologue.natsumi.night": "natsumi-bedroom-night",
+    "prologue.kentaro.workshop": "automotive-workshop-day",
+    "prologue.kentaro.ramen": "ramen-shop-evening",
+    "prologue.kentaro.after-class": "automotive-workshop-day",
+    "prologue.kentaro.invitation": "kentaro-room-night",
+    "prologue.kentaro.research": "automotive-workshop-day",
+    "prologue.kentaro.friday": "kentaro-room-night",
+    "prologue.kentaro.night": "kentaro-room-night"
+  },
+  "nodeBackgrounds": [
+    {
+      "scene": "prologue.natsumi.exam",
+      "sourceLine": 8,
+      "background": "campus-sunset"
+    },
+    {
+      "scene": "prologue.natsumi.night",
+      "sourceLine": 234,
+      "background": "natsumi-bedroom-moonlight"
+    },
+    {
+      "scene": "prologue.kentaro.ramen",
+      "sourceLine": 77,
+      "background": "station-sunset"
+    },
+    {
+      "scene": "prologue.kentaro.after-class",
+      "sourceLine": 117,
+      "background": "station-sunset"
+    }
+  ],
+  "sceneBgm": {
+    "prologue.natsumi.exam": "cheerful-school-days",
+    "prologue.natsumi.ramen": "heartwarming-romance",
+    "prologue.natsumi.cafe": "cozy-cafe-jazz",
+    "prologue.natsumi.invitation": "peaceful-night",
+    "prologue.natsumi.research": "warm-daily-life",
+    "prologue.natsumi.friday": "happy-anticipation",
+    "prologue.natsumi.night": "peaceful-night",
+    "prologue.kentaro.workshop": "upbeat-everyday",
+    "prologue.kentaro.ramen": "heartwarming-romance",
+    "prologue.kentaro.after-class": "cheerful-school-days",
+    "prologue.kentaro.invitation": "peaceful-night",
+    "prologue.kentaro.research": "warm-daily-life",
+    "prologue.kentaro.friday": "happy-anticipation",
+    "prologue.kentaro.night": "peaceful-night"
+  },
+  "nodeBgm": [
+    {
+      "scene": "prologue.natsumi.invitation",
+      "sourceLine": 92,
+      "bgm": "playful-comedy"
+    },
+    {
+      "scene": "prologue.natsumi.invitation",
+      "sourceLine": 98,
+      "bgm": "peaceful-night"
+    },
+    {
+      "scene": "prologue.kentaro.invitation",
+      "sourceLine": 130,
+      "bgm": "playful-comedy"
+    },
+    {
+      "scene": "prologue.kentaro.invitation",
+      "sourceLine": 137,
+      "bgm": "peaceful-night"
+    }
+  ],
+  "messageAttachments": [
+    {
+      "scene": "prologue.natsumi.exam",
+      "sourceLine": 13,
+      "attachments": [
+        "workshop-bumper-photo"
+      ]
+    },
+    {
+      "scene": "prologue.kentaro.workshop",
+      "sourceLine": 33,
+      "attachments": [
+        "workshop-bumper-photo"
+      ]
+    },
+    {
+      "scene": "prologue.natsumi.exam",
+      "sourceLine": 23,
+      "attachments": [
+        "rolling-tabby-cat"
+      ]
+    },
+    {
+      "scene": "prologue.kentaro.after-class",
+      "sourceLine": 100,
+      "attachments": [
+        "rolling-tabby-cat"
+      ]
+    },
+    {
+      "scene": "prologue.natsumi.invitation",
+      "sourceLine": 98,
+      "attachments": [
+        "fireball-mishap"
+      ]
+    },
+    {
+      "scene": "prologue.kentaro.invitation",
+      "sourceLine": 125,
+      "attachments": [
+        "fireball-mishap"
+      ]
+    },
+    {
+      "scene": "prologue.natsumi.invitation",
+      "sourceLine": 135,
+      "attachments": [
+        "game-purchase-complete"
+      ]
+    },
+    {
+      "scene": "prologue.kentaro.invitation",
+      "sourceLine": 202,
+      "attachments": [
+        "game-purchase-complete"
+      ]
+    }
+  ],
+  "nodeMedia": [
+    {
+      "scene": "prologue.natsumi.cafe",
+      "sourceLine": 64,
+      "media": "fantasy-castle-promo"
+    },
+    {
+      "scene": "prologue.natsumi.cafe",
+      "sourceLine": 66,
+      "media": null
+    },
+    {
+      "scene": "prologue.natsumi.cafe",
+      "sourceLine": 71,
+      "media": "cooperative-stone-bridge"
+    },
+    {
+      "scene": "prologue.natsumi.cafe",
+      "sourceLine": 75,
+      "media": null
+    },
+    {
+      "scene": "prologue.natsumi.invitation",
+      "sourceLine": 90,
+      "media": "fireball-mishap"
+    },
+    {
+      "scene": "prologue.natsumi.invitation",
+      "sourceLine": 98,
+      "media": null
+    },
+    {
+      "scene": "prologue.kentaro.invitation",
+      "sourceLine": 128,
+      "media": "fireball-mishap"
+    },
+    {
+      "scene": "prologue.kentaro.invitation",
+      "sourceLine": 137,
+      "media": null
+    },
+    {
+      "scene": "prologue.natsumi.invitation",
+      "sourceLine": 131,
+      "media": "game-purchase-complete"
+    },
+    {
+      "scene": "prologue.natsumi.invitation",
+      "sourceLine": 135,
+      "media": null
+    },
+    {
+      "scene": "prologue.kentaro.invitation",
+      "sourceLine": 198,
+      "media": "game-purchase-complete"
+    },
+    {
+      "scene": "prologue.kentaro.invitation",
+      "sourceLine": 202,
+      "media": null
+    }
+  ]
+}

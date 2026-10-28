@@ -1,0 +1,66 @@
+[
+  {
+    "original": "R_daily.mp3",
+    "renamed": "bgm-warm-daily-life.mp3",
+    "id": "warm-daily-life",
+    "label": "溫暖日常",
+    "sha256": "a52d02f3ac3f7480a39cf6a71ea9d822730b3bece2d4e2ad91fa48713a09ef62",
+    "bytes": 8286924
+  },
+  {
+    "original": "R_holiday.mp3",
+    "renamed": "bgm-cheerful-school-days.mp3",
+    "id": "cheerful-school-days",
+    "label": "輕快校園",
+    "sha256": "abec936d9b6d85b2273b025905bbc3e420f9ab4b16489e7a101388339a4b6932",
+    "bytes": 10508364
+  },
+  {
+    "original": "R_yamada_intern.mp3",
+    "renamed": "bgm-upbeat-everyday.mp3",
+    "id": "upbeat-everyday",
+    "label": "活力日常",
+    "sha256": "1b637bddb2b34fa12a8d9c53eb001078f63cdd6d4cab826b6120852246421c40",
+    "bytes": 6732684
+  },
+  {
+    "original": "R_cafe.mp3",
+    "renamed": "bgm-cozy-cafe-jazz.mp3",
+    "id": "cozy-cafe-jazz",
+    "label": "悠閒爵士",
+    "sha256": "c7f718ace9a1848bbecf819d6d396b58c5804294a342c952257f4bd7a669c4e8",
+    "bytes": 6503244
+  },
+  {
+    "original": "R_normal_date.mp3",
+    "renamed": "bgm-heartwarming-romance.mp3",
+    "id": "heartwarming-romance",
+    "label": "溫柔時光",
+    "sha256": "42138cc9021e59ab2883a251acf5068d1576b7fe7d3033724bb52defc0bd1cc3",
+    "bytes": 6571404
+  },
+  {
+    "original": "R_funny.mp3",
+    "renamed": "bgm-playful-comedy.mp3",
+    "id": "playful-comedy",
+    "label": "俏皮插曲",
+    "sha256": "b4311b25ccdff97de938f7fe86b943f702e6233e7703282072b97fdfffe20b0d",
+    "bytes": 2731404
+  },
+  {
+    "original": "R_night_message.mp3",
+    "renamed": "bgm-peaceful-night.mp3",
+    "id": "peaceful-night",
+    "label": "靜謐夜色",
+    "sha256": "dc0aa1f0e7956930c5b3b52c8c94936ade6e64f94f17f46064a7ecc58bc6268d",
+    "bytes": 15499404
+  },
+  {
+    "original": "R_wait_sat.mp3",
+    "renamed": "bgm-happy-anticipation.mp3",
+    "id": "happy-anticipation",
+    "label": "雀躍期待",
+    "sha256": "69e8d7a0e5a05f6a0cc4f537f1ade6a222dcb28b8ce1b07d7f5825ab51f05e2b",
+    "bytes": 2602764
+  }
+]
