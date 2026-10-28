@@ -50,3 +50,30 @@
 @media(max-width:700px){.message-photo[data-kind=sticker]{width:140px}.stage-media{width:88%;top:22%}.stage-media .message-photo img{max-height:32dvh}}
 .message-photo img,.stage-media .message-photo img{aspect-ratio:var(--image-ratio,4/3)}.message-photo[data-kind=screenshot]{width:min(100%,200px)}.message-photo[data-kind=screenshot] img{max-height:240px;object-fit:contain}.stage-media[data-orientation=portrait]{width:min(34vw,300px);top:15%}.stage-media[data-orientation=portrait] .message-photo{width:100%}.stage-media[data-orientation=portrait] .message-photo img{max-height:44dvh;object-fit:contain}
 @media(max-width:700px){.stage-media[data-orientation=portrait]{width:50%;top:20%}.stage-media[data-orientation=portrait] .message-photo img{max-height:36dvh}}
+/* Light chat surface, with room for both a photo preview and its message. */
+.message-thread{background:#f7f8fa;border-color:#ffffffb3;box-shadow:0 12px 40px #0003;color:#27333d}
+.thread-header{background:#fff;border-bottom-color:#dfe5e8;color:#41515c;flex-wrap:wrap;gap:2px 12px}
+.thread-header:after{content:'上下滑動查看紀錄 · 圖片可點開放大';flex-basis:100%;font-size:10px;letter-spacing:.3px;color:#647580}
+.thread-header button{color:#466b60}
+.thread-header button:hover{background:#eef4f1}
+.message-scroll{height:min(48dvh,520px);max-height:none;scrollbar-color:#a5b6b0 #edf1ef;padding:18px 22px;scroll-padding:18px}
+.message-date{color:#6c7981}
+.thread-bubble{flex-shrink:0;min-width:0;background:#fff;color:#25343d;border-color:#dce3e7;box-shadow:0 2px 5px #223c4506}
+.thread-bubble[data-direction=sent]{background:#e3f1e8;border-color:#c9dfd1;color:#233b2e}
+.thread-bubble small{color:#627785}
+.thread-bubble[data-direction=sent] small{color:#537461}
+.thread-bubble p{text-shadow:none}
+.message-scroll .message-photo{width:min(100%,260px);background:#edf1f3;border-color:#ccd7dc}
+.message-scroll .message-photo img{height:auto;max-height:min(20dvh,180px);width:100%;object-fit:contain;aspect-ratio:var(--image-ratio,4/3)}
+.message-scroll .message-photo span{color:#526974;background:#f2f5f6;padding:7px 10px}
+.message-scroll .message-photo:hover{background:#e4ece8;border-color:#7a9e8c}
+.message-scroll .message-photo[data-kind=sticker]{width:120px;background:transparent}
+.message-scroll .message-photo[data-kind=sticker] span{background:transparent;color:#537461}
+.message-scroll .message-photo[data-kind=screenshot]{width:130px}
+@media(max-width:700px){
+ .message-scroll{height:44dvh;max-height:none;padding:12px}
+ .message-scroll .message-photo{width:min(100%,210px)}
+ .message-scroll .message-photo img{max-height:16dvh}
+ .thread-header:after{font-size:9px}
+ .dialogue[data-channel=message]{padding-bottom:22px}
+}

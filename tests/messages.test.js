@@ -29,7 +29,7 @@ test('both POVs share the authored workshop photo and read messages retain it',(
  const received=story.scenes['prologue.natsumi.exam'].nodes.find(n=>n.id==='line-0013');
  const sent=story.scenes['prologue.kentaro.workshop'].nodes.find(n=>n.id==='line-0033');
  assert.deepEqual(received.attachments,['workshop-bumper-photo']);assert.deepEqual(sent.attachments,received.attachments);
- const e=new NovelEngine(story);for(let i=0;i<10;i++)e.advance();
+ const e=new NovelEngine(story);while(e.node.id!==received.id){assert.equal(e.advance(),true);}
  assert.deepEqual(chapterMessages(story,e.state)[0].node.attachments,received.attachments);
 });
 

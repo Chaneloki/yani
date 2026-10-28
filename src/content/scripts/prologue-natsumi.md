@@ -93,6 +93,7 @@
 ### prologue.natsumi.exam/line-0024 | 旁白
 
 緊接著，是一隻開心得在地上翻滾的貓咪貼圖。
+---
 西笑出聲。
 
 ### prologue.natsumi.exam/line-0026 | 奈津美 · 手機訊息
@@ -101,7 +102,7 @@
 
 ### prologue.natsumi.exam/line-0027 | 健太郎 · 手機訊息
 
-「因為很適合現在的心情啊！」
+「因為很適合現在的心情啊。」
 
 ### prologue.natsumi.exam/line-0028 | 奈津美 · 手機訊息
 
@@ -136,6 +137,7 @@
 ### prologue.natsumi.ramen/line-0033 | 旁白
 
 只不過最近實在太忙。
+---
 尤其是期末考前那幾個星期，西幾乎每天都泡在圖書館，連睡覺前都忍不住拿出筆記再看兩眼。
 
 ### prologue.natsumi.ramen/line-0035 | 旁白
@@ -149,6 +151,7 @@
 ### prologue.natsumi.ramen/line-0036 | 旁白
 
 她當時盯著螢幕沉默了幾秒。
+---
 山田看了她一眼。
 
 ### prologue.natsumi.ramen/line-0038 | 健太郎
@@ -182,6 +185,7 @@
 ### prologue.natsumi.ramen/line-0045 | 旁白
 
 西記得自己那時候真的很想笑。
+---
 她明明還在為報告煩惱，他卻一本正經地擔心她的拉麵。
 
 ### prologue.natsumi.ramen/line-0047 | 旁白
@@ -206,12 +210,13 @@
 
 ### prologue.natsumi.ramen/line-0050-part-2 | 旁白
 
-想念坐在健太郎旁邊聽他說些沒什麼營養的話，想念他講到興奮時會突然提高音量，然後被自己提醒「太大聲了啦」。
+想念坐在健太郎旁邊聽他說些沒什麼營養的話
+---
+想念他講到興奮時會突然提高音量，然後被自己提醒「太大聲了啦」。
 
 ### prologue.natsumi.ramen/line-0051 | 旁白
 
-還有他有時候會在她說話說到一半時，突然伸手整理她翹起來的髮尾。
-那種什麼也不用特別做的時間。
+還有他有時候會在她說話說到一半時，突然伸手整理她翹起來的髮尾...
 
 ### prologue.natsumi.ramen/line-0053 | 旁白
 
@@ -225,7 +230,9 @@
 
 ### prologue.natsumi.cafe/line-0055 | 旁白
 
-考試結束後，幾個同學相約到咖啡店坐坐。西正用小匙挖著杯子裡快要融化的冰淇淋，聽見問題，抬起頭想了想。
+考試結束後，幾個同學相約到咖啡店坐坐。
+---
+西正用小匙挖著杯子裡快要融化的冰淇淋，聽見問題，抬起頭想了想。
 
 ### prologue.natsumi.cafe/line-0056 | 奈津美
 
@@ -286,11 +293,14 @@
 ### prologue.natsumi.cafe/line-0069 | 旁白
 
 西原本只是好奇地看了一眼。
+---
 結果越看越有興趣。
 
 ### prologue.natsumi.cafe/line-0071 | 旁白
 
-影片裡，兩名角色正站在一座古老的石橋前。勇者負責擋住不斷出現的怪物，魔女則需要在後方啟動法術機關。
+影片裡，兩名角色正站在一座古老的石橋前。
+---
+勇者負責擋住不斷出現的怪物，魔女則需要在後方啟動法術機關。
 
 ### prologue.natsumi.cafe/line-0071-part-2 | 旁白
 
@@ -322,12 +332,16 @@
 
 ### prologue.natsumi.cafe/line-0078 | 旁白
 
-雖然偶爾會做出一些莫名其妙的操作，但往往玩得比誰都開心。尤其是遇到困難的關卡時，他反而會越來越起勁。
+雖然偶爾會做出一些莫名其妙的操作，但往往玩得比誰都開心。
+---
+尤其是遇到困難的關卡時，他反而會越來越起勁。
+---
 ……啊。
 
 ### prologue.natsumi.cafe/line-0080 | 旁白
 
 要是和健太郎一起玩的話，感覺一定很有趣。
+---
 西想到這裡，立刻拿出手機記下遊戲名稱。
 
 ### prologue.natsumi.cafe/line-0082 | 奈津美
@@ -362,7 +376,11 @@
 
 ### prologue.natsumi.invitation/line-0088-part-2 | 旁白
 
-社群網站上到處都是玩家分享的影片，有人展示自己設計的角色，也有人討論隱藏劇情，甚至還有情侶因為遊戲中的選擇吵架，最後被其他玩家笑稱為「感情測試器」。
+社群網站上到處都是玩家分享的影片
+---
+有人展示自己設計的角色，也有人討論隱藏劇情
+---
+甚至還有情侶因為遊戲中的選擇吵架，最後被其他玩家笑稱為「感情測試器」。
 
 ### prologue.natsumi.invitation/line-0089 | 旁白
 
@@ -383,8 +401,8 @@
 ### prologue.natsumi.invitation/line-0093 | 旁白
 
 西忍不住笑出聲。
-她把影片重播了一次。
-又笑了。
+---
+她把影片重播了一次。又笑了。
 
 ### prologue.natsumi.invitation/line-0096 | 奈津美
 
@@ -404,7 +422,7 @@
 
 ### prologue.natsumi.invitation/line-0100 | 健太郎 · 手機訊息
 
-「哈哈哈哈哈哈這什麼啦！」
+「哈哈哈哈哈哈這什麼啦」
 
 ### prologue.natsumi.invitation/line-0101 | 奈津美 · 手機訊息
 
@@ -412,7 +430,7 @@
 
 ### prologue.natsumi.invitation/line-0102 | 健太郎 · 手機訊息
 
-「喔喔！最近很紅的那個！」
+「喔喔！最近很紅的那個」
 
 ### prologue.natsumi.invitation/line-0103 | 奈津美 · 手機訊息
 
@@ -420,7 +438,7 @@
 
 ### prologue.natsumi.invitation/line-0104 | 健太郎 · 手機訊息
 
-「好啊！」
+「好啊」
 
 ### prologue.natsumi.invitation/line-0105 | 旁白
 
@@ -440,7 +458,7 @@
 
 ### prologue.natsumi.invitation/line-0109 | 健太郎 · 手機訊息
 
-「沒啊！本來就想找妳出來。」
+「本來就想找妳出來。」
 
 ### prologue.natsumi.invitation/line-0110 | 奈津美 · 手機訊息
 
@@ -457,11 +475,12 @@
 ### prologue.natsumi.invitation/line-0113 | 旁白
 
 這次山田沒有立刻回覆。
+---
 過了幾秒，螢幕上跳出一句話。
 
 ### prologue.natsumi.invitation/line-0115 | 健太郎 · 手機訊息
 
-「我也是！」
+「我也是」
 
 ### prologue.natsumi.invitation/line-0116 | 健太郎 · 手機訊息
 
@@ -490,6 +509,7 @@
 ### prologue.natsumi.invitation/line-0122 | 旁白
 
 西抿著嘴笑起來。
+---
 這就是健太郎。
 
 ### prologue.natsumi.invitation/line-0124 | 旁白
@@ -503,6 +523,7 @@
 ### prologue.natsumi.invitation/line-0125 | 旁白
 
 有時候西甚至會覺得，健太郎真正享受的根本不是那些活動，而是有人陪他一起做。
+---
 而她自己，現在似乎也越來越像這樣了。
 
 ### prologue.natsumi.invitation/line-0127 | 奈津美 · 手機訊息
@@ -549,7 +570,7 @@
 
 ### prologue.natsumi.invitation/line-0139 | 健太郎 · 手機訊息
 
-「對啊！」
+「對啊」
 
 ### prologue.natsumi.invitation/line-0140 | 奈津美 · 手機訊息
 
@@ -557,7 +578,7 @@
 
 ### prologue.natsumi.invitation/line-0141 | 健太郎 · 手機訊息
 
-「哈哈哈哈反正要玩嘛！」
+「哈哈哈哈反正要玩嘛」
 
 ### prologue.natsumi.invitation/line-0142 | 旁白
 
@@ -577,11 +598,12 @@
 
 ### prologue.natsumi.invitation/line-0146 | 健太郎 · 手機訊息
 
-「那就可以先下載好啊！」
+「那就可以先下載好啊」
 
 ### prologue.natsumi.invitation/line-0147 | 旁白
 
 ……無法反駁。
+---
 西抱著手機笑了好一會兒，才終於平靜下來。
 
 ### prologue.natsumi.invitation/line-0149 | 奈津美 · 手機訊息
@@ -590,7 +612,7 @@
 
 ### prologue.natsumi.invitation/line-0150 | 健太郎 · 手機訊息
 
-「不客氣！」
+「奈津美」
 
 ### prologue.natsumi.invitation/line-0151 | 旁白
 
@@ -602,7 +624,7 @@
 
 ### prologue.natsumi.invitation/line-0153 | 健太郎 · 手機訊息
 
-「那妳星期六帶好吃的來！」
+「奈津美可以帶好吃的來」
 
 ### prologue.natsumi.invitation/line-0154 | 奈津美 · 手機訊息
 
