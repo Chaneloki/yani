@@ -8,13 +8,14 @@ const app = document.querySelector('#app');
 const el = (tag, className, text) => { const e = document.createElement(tag); if(className) e.className=className; if(text !== undefined) e.textContent=text; return e; };
 function button(text, action, className='') { const b=el('button',className,text); b.type='button'; b.onclick=action; return b; }
 try {
+ const updates=await (await fetch(new URL('./content/changelog.json',import.meta.url))).json();
  const story=await loadStory(); let engine=new NovelEngine(story); const store=new SaveStore(story,window.localStorage);
- app.innerHTML=`<main class="shell"><header><a class="brand" href="./">山田 <span>×</span> 西<small>YAMADA & NISHI</small></a><div class="edition">INTERACTIVE STORY <span>／ FOUNDATION 01</span></div><div class="system-controls"><button id="immersive" aria-label="切換全螢幕">⛶</button><button id="system-menu" aria-label="系統選單">⚙</button></div></header><section class="novel" aria-label="視覺小說舞台"><div class="background" aria-hidden="true"></div><div class="scenery" aria-hidden="true"><div class="window"></div><div class="sun"></div><div class="horizon"></div><div class="vignette"></div></div><img class="cg" alt="場景插圖" hidden><div class="scene-meta"><span id="chapter"></span><span id="timeline"></span></div><div class="scene-title"><small>兩人的故事，從這裡開始</small><h1></h1><p>VISUAL NOVEL · ENGINE PREVIEW</p></div><div class="portraits"></div><div class="stage-media" hidden></div><div class="reading"><div class="reading-top"><span id="perspective"></span><span id="content-status"></span></div><article class="dialogue"><div class="speaker"></div><div class="line-body"><div class="message-meta" hidden><span aria-hidden="true">✉</span><span id="message-label"></span></div><p id="text" aria-live="polite"></p></div><section class="message-thread" aria-label="本章手機訊息" hidden><div class="thread-header"><span>✉ 本章聊天紀錄</span><button id="latest-message">最新訊息 ↓</button></div><div class="message-scroll" role="log" aria-label="已讀訊息，由舊至新" tabindex="0"></div></section><div class="choices"></div><button id="advance" class="advance">點擊繼續 <span>↗</span></button></article></div></section><footer><div class="footer-note"><i></i> 把時間留給彼此 <span>／ 開發試映</span></div><nav aria-label="故事功能"></nav></footer><div class="status" role="status" aria-live="polite"></div></main><dialog aria-labelledby="panel-title"><div class="panel-header"><h2 id="panel-title"></h2><button id="close-panel" aria-label="關閉">✕</button></div><div class="panel-body"></div></dialog>`;
+ app.innerHTML=`<main class="shell"><header><a class="brand" href="./">山田 <span>×</span> 西<small>YAMADA & NISHI</small></a><div class="edition">INTERACTIVE STORY <span>／ FOUNDATION 01</span></div><div class="system-controls"><button id="immersive" aria-label="切換全螢幕">⛶</button><button id="system-menu" aria-label="系統選單">⚙</button></div></header><section class="novel" aria-label="視覺小說舞台"><div class="background" aria-hidden="true"></div><div class="scenery" aria-hidden="true"><div class="window"></div><div class="sun"></div><div class="horizon"></div><div class="vignette"></div></div><img class="cg" alt="場景插圖" hidden><div class="scene-meta"><span id="chapter"></span><span id="timeline"></span></div><div class="scene-title"><small>兩人的故事，從這裡開始</small><h1></h1><p>VISUAL NOVEL · ENGINE PREVIEW</p></div><div class="portraits"></div><aside class="stage-media phone-preview" aria-label="手機圖片" hidden><div class="phone-status" aria-hidden="true">9:41 <span>● ▰</span></div><div class="phone-preview-heading">手機相簿</div><div class="phone-media-content"></div><div class="phone-home" aria-hidden="true"></div></aside><div class="reading"><div class="reading-top"><span id="perspective"></span><span id="content-status"></span></div><article class="dialogue"><div class="speaker"></div><div class="line-body"><div class="message-meta" hidden><span aria-hidden="true">✉</span><span id="message-label"></span></div><p id="text" aria-live="polite"></p></div><section class="message-thread" aria-label="本章手機訊息" hidden><img class="phone-contact-art" alt="" aria-hidden="true"><div class="phone-status" aria-hidden="true">9:41 <span>● ▰</span></div><div class="thread-header"><span id="phone-contact">✉ 本章聊天紀錄</span><button id="latest-message">最新訊息 ↓</button></div><div class="message-scroll" role="log" aria-label="已讀訊息，由舊至新" tabindex="0"></div><div class="phone-home" aria-hidden="true"></div></section><div class="choices"></div><button id="advance" class="advance">點擊繼續 <span>↗</span></button></article></div></section><footer><div class="footer-note"><i></i> 把時間留給彼此 <span>／ 開發試映</span></div><nav aria-label="故事功能"></nav></footer><div class="status" role="status" aria-live="polite"></div></main><dialog aria-labelledby="panel-title"><div class="panel-header"><h2 id="panel-title"></h2><button id="close-panel" aria-label="關閉">✕</button></div><div class="panel-body"></div></dialog>`;
  const audio=new AudioManager(story.assets,window.localStorage);
  audio.bgm.id='bgm-player';audio.bgm.hidden=true;audio.bgm.setAttribute('aria-hidden','true');app.append(audio.bgm);
  document.addEventListener('pointerdown',()=>{void audio.unlock();},{passive:true});
  document.addEventListener('keydown',()=>{void audio.unlock();});
- const $=s=>app.querySelector(s); const modal=$('dialog'); let previousScene='';
+ const $=s=>app.querySelector(s); const modal=$('dialog'); let previousScene='',atHome=true;
  const imageViewer=el('dialog','media-viewer');imageViewer.setAttribute('aria-label','圖片預覽');
  const imageTitle=el('h2',''),imageClose=button('✕',()=>imageViewer.close());imageClose.setAttribute('aria-label','關閉圖片');
  const imageHeading=el('div','panel-header');imageHeading.append(imageTitle,imageClose);
@@ -39,9 +40,12 @@ try {
   audio.sync(stage.bgm ?? null);
   $('.novel').dataset.theme=bg.theme; $('.novel').dataset.hasBackground=String(!!bg.src); $('.novel').dataset.memory=String(s.memory===true); $('.background').style.backgroundImage=bg.src?`url("${new URL(bg.src,document.baseURI).href}")`:'';
   if(previousScene!==s.id){$('.novel').classList.remove('enter');void $('.novel').offsetWidth;$('.novel').classList.add('enter');previousScene=s.id;}
-  $('.stage-media').hidden=!stage.media;
-  $('.stage-media').dataset.orientation=stage.media && story.assets.messageImages[stage.media].height>story.assets.messageImages[stage.media].width?'portrait':'landscape';
-  $('.stage-media').replaceChildren(...(stage.media?attachmentButtons({attachments:[stage.media]}):[]));
+  // Phone photos are a cue on this page, not a persistent scene layer.
+  const phoneMedia=n.stage?.media || null;
+  $('.stage-media').hidden=!phoneMedia || n.channel==='message';
+  $('.stage-media').dataset.orientation=phoneMedia && story.assets.messageImages[phoneMedia].height>story.assets.messageImages[phoneMedia].width?'portrait':'landscape';
+  $('.phone-media-content').replaceChildren(...(phoneMedia?attachmentButtons({attachments:[phoneMedia]}):[]));
+  $('.novel').dataset.phonePhoto=String(!!phoneMedia && n.channel!=='message');
   const cg=stage.cg && story.assets.cg[stage.cg]; $('.cg').hidden=!cg; if(cg) $('.cg').src=new URL(cg.src,document.baseURI).href;
   const chapter=story.chapters.find(c=>c.id===s.chapterId);
   $('#chapter').textContent=`${chapter.title} ／ ${s.title}`;
@@ -64,6 +68,9 @@ try {
 
   $('.message-thread').hidden=n.channel!=='message';
   if(n.channel==='message'){
+    const contact=story.characters[s.perspective==='natsumi'?'kentaro':'natsumi'];
+    $('.phone-contact-art').src=new URL(contact.variants.real.neutral,document.baseURI).href;
+    $('#phone-contact').textContent=`${story.characters[s.perspective==='natsumi'?'kentaro':'natsumi'].shortName} · 訊息`;
     const messages=chapterMessages(story,engine.state),rows=[];let lastScene='';
     for(const {scene,node} of messages){
       if(lastScene!==scene.id){rows.push(el('p','message-date',scene.timeline));lastScene=scene.id;}
@@ -87,10 +94,10 @@ try {
  }
  $('.message-scroll').onscroll=()=>{const log=$('.message-scroll');log.dataset.followBottom=String(log.scrollHeight-log.clientHeight-log.scrollTop<3);};
  $('#latest-message').onclick=()=>{$('.message-scroll').scrollTop=$('.message-scroll').scrollHeight;};
- function next(){if(modal.open || imageViewer.open)return;if(engine.advance()){autosave();render();}}
+ function next(){if(atHome || modal.open || imageViewer.open)return;if(engine.advance()){autosave();render();}}
  $('#advance').onclick=next;
  $('.novel').onclick=e=>{if(!e.target.closest('button,.message-thread'))next();};
- document.addEventListener('keydown',e=>{if(!modal.open && !imageViewer.open && ['Space','ArrowRight'].includes(e.code) && !e.target.closest('button,a,input,select,.message-thread')){e.preventDefault();next();}});
+ document.addEventListener('keydown',e=>{if(!atHome && !modal.open && !imageViewer.open && ['Space','ArrowRight'].includes(e.code) && !e.target.closest('button,a,input,select,.message-thread')){e.preventDefault();next();}});
  function panel(title){$('#panel-title').textContent=title;$('.panel-body').replaceChildren();modal.showModal();return $('.panel-body');}
  $('#close-panel').onclick=()=>modal.close();
  modal.onclick=e=>{if(e.target===modal){const r=modal.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)modal.close();}};
@@ -103,7 +110,7 @@ try {
     const card=el('div','slot'),label=slot==='auto'?'自動存檔':`手動存檔 ${slot}`;
     card.append(el('strong','',label),el('p','muted',error || (data?`${story.scenes[data.state.sceneId].title} · ${new Date(data.savedAt).toLocaleString('zh-Hant')}`:'尚未存檔')));
     const b=button(mode==='save'?'儲存':'讀取',()=>{
-      const action=()=>{if(mode==='save'){store.save(slot,engine.snapshot());notify('進度已儲存');}else{const fresh=store.load(slot);if(!fresh)throw Error('沒有存檔');engine=new NovelEngine(story,fresh.state);render();notify('已還原進度、視角與舞台');}if(modal.open)modal.close();};
+      const action=()=>{if(mode==='save'){store.save(slot,engine.snapshot());notify('進度已儲存');}else{const fresh=store.load(slot);if(!fresh)throw Error('沒有存檔');engine=new NovelEngine(story,fresh.state);showGame();notify('已還原進度、視角與舞台');}if(modal.open)modal.close();};
       if(mode==='save'&&(data||error)) {modal.close();confirmPanel('覆蓋這個存檔槽的現有內容？',action);}
       else if(mode==='load'){modal.close();confirmPanel('讀取這份存檔，取代目前閱讀進度？',action);}
       else safe(action);
@@ -121,8 +128,49 @@ try {
  }),button('閱讀紀錄',()=>{const body=panel('走過的字句');for(const h of engine.state.history){const s=story.scenes[h.sceneId],n=s.nodes.find(n=>n.id===h.nodeId);const item=el('article','history-entry');item.dataset.channel=n.channel || 'speech';item.append(el('small','',`${s.title} · ${story.characters[s.perspective].shortName}視角`),el('strong','',n.speaker?`${story.characters[n.speaker].shortName}${n.channel==='message'?' · 訊息':''}`:'旁白'),el('p','',n.text),...attachmentButtons({...n,attachments:[...(n.attachments || []),...(n.stage?.media?[n.stage.media]:[])]}));body.append(item);}
    modal.scrollTop=modal.scrollHeight;
  }),button('存檔',()=>slots('save')),button('讀檔',()=>slots('load')),button('設定',()=>openAudioSettings({panel,audio,el,button,modal})));
- $('#system-menu').onclick=()=>{const body=panel('系統選單');body.append(el('p','muted','山田 × 西 · 序章'));for(const b of $('nav').querySelectorAll('button'))body.append(button(b.textContent,()=>{modal.close();b.click();},'menu-button'));body.append(button('切換全螢幕',()=>{modal.close();$('#immersive').click();},'menu-button'));};
+ $('#system-menu').onclick=()=>{const body=panel('系統選單');body.append(el('p','muted','山田 × 西 · 序章'));for(const b of $('nav').querySelectorAll('button'))body.append(button(b.textContent,()=>{modal.close();b.click();},'menu-button'));body.append(button('返回開始畫面',()=>{modal.close();showHome();},'menu-button'));body.append(button('切換全螢幕',()=>{modal.close();$('#immersive').click();},'menu-button'));};
  $('#immersive').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();else notify('此瀏覽器未提供全螢幕模式；已使用自適應舞台。');}catch{notify('目前無法啟用全螢幕模式。');}};
- render();notify('');
+ const home=el('section','title-screen');home.setAttribute('aria-label','開始畫面');
+ const titleArt=story.assets.titleBackground?.src;
+ if(titleArt)home.style.setProperty('--title-art',`url("${new URL(titleArt,document.baseURI).href}")`);
+ home.innerHTML=`<div class="title-content"><div class="title-actions"></div></div>`;
+ const cover=story.assets.titleVideo;
+ const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+ let coverVideo=null;
+ if(cover?.src){
+   home.classList.add('has-cover');
+   coverVideo=el('video','title-video');coverVideo.muted=true;coverVideo.loop=true;coverVideo.playsInline=true;
+   coverVideo.preload='metadata';coverVideo.setAttribute('aria-hidden','true');coverVideo.tabIndex=-1;
+   coverVideo.src=new URL(cover.src,document.baseURI).href;
+   if(cover.poster){coverVideo.poster=new URL(cover.poster,document.baseURI).href;home.style.setProperty('--title-art',`url("${coverVideo.poster}")`);}
+   home.prepend(coverVideo);
+   reducedMotion.addEventListener('change',()=>{if(reducedMotion.matches)coverVideo.pause();else if(atHome)void coverVideo.play().catch(()=>{});});
+ }
+ app.append(home);
+ function showGame(){atHome=false;coverVideo?.pause();home.hidden=true;$('.shell').hidden=false;render();$('#advance').focus({preventScroll:true});}
+ function showHome(){atHome=true;if(coverVideo && !reducedMotion.matches)void coverVideo.play().catch(()=>{});$('.shell').hidden=true;home.hidden=false;audio.sync(story.titleBgm ?? null);home.querySelector('.title-primary').focus({preventScroll:true});notify('');}
+ function choosePerspective(){
+   const body=panel('從誰的視角開始？');
+   body.append(el('p','muted','同一段約會前夕，兩份不同的心情。選擇一個視角，開始閱讀序章。'));
+   const cards=el('div','perspective-cards');
+   for(const entry of story.chapters.find(c=>c.id==='prologue').entries){
+     const c=story.characters[entry.perspective];
+     const card=button('',()=>{
+       const start=()=>{engine=new NovelEngine({...story,start:entry.scene});modal.close();showGame();autosave();};
+       let hasAutosave=false;try{hasAutosave=!!store.storage.getItem(store.key('auto'));}catch{}
+       if(hasAutosave){modal.close();confirmPanel('從這個視角重新開始？自動存檔會更新，手動存檔會保留。',start);}else safe(start);
+     },'perspective-card');
+     card.append(el('span','card-eyebrow',entry.perspective==='natsumi'?'NATSUMI NISHI':'KENTARO YAMADA'),el('strong','',c.shortName+'視角'),el('span','',entry.title),el('span','card-arrow','開始閱讀 ↗'));
+     cards.append(card);
+   }
+   body.append(cards);
+ }
+ const actions=home.querySelector('.title-actions');
+ const start=button('',choosePerspective,'title-action title-primary');start.append(el('span','','開始故事'),el('small','','↗'));
+ const load=button('',()=>slots('load'),'title-action');load.append(el('span','','讀取存檔'),el('small','','↗'));
+ const log=button('',()=>{const body=panel('更新日誌');for(const update of updates){const item=el('article','update-entry');item.append(el('time','',update.date),el('h3','',update.title));const list=el('ul','');for(const line of update.items)list.append(el('li','',line));item.append(list);body.append(item);}},'title-action');log.append(el('span','','更新日誌'),el('small','','↗'));
+ actions.append(start,load,log);
+ $('.brand').onclick=e=>{e.preventDefault();showHome();};
+ showHome();
  // Do not overwrite an earlier autosave before the player has chosen to continue or load it.
 } catch(e){app.replaceChildren(el('main','fatal',`無法啟動：${e.message}`));}

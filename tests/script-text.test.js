@@ -45,3 +45,16 @@ test('engine advances split pages before scene jump and restores old and split-p
  const restored=new NovelEngine(story,e.snapshot());assert.equal(restored.stage.background,'room');
  assert.equal(new NovelEngine(story,old).node.id,'one');restored.advance();assert.equal(restored.scene.id,'other');
 });
+
+test('slash-wrapped headings omit the whole dialogue block without leaking it into adjacent prose',()=>{
+ const c=chapter();applyScriptText(c,[document.replace('### scene/two | 健太郎 · 手機訊息','/### scene/two | 健太郎 · 手機訊息/')]);
+ assert.deepEqual(c.scenes[0].nodes.map(n=>n.id),['one']);
+ assert.equal(c.scenes[0].nodes[0].text,'修改後的句子。\n第二行。');
+ assert.deepEqual(c.omittedNodes,['scene/two']);
+});
+
+test('omitting the final paragraph preserves the next scene transition',()=>{
+ const c=chapter();delete c.scenes[0].nodes[0].next;c.scenes[0].nodes[1].next='other';
+ applyScriptText(c,[document.replace('### scene/two | 健太郎 · 手機訊息','/### scene/two | 健太郎 · 手機訊息/')]);
+ assert.equal(c.scenes[0].nodes.length,1);assert.equal(c.scenes[0].nodes[0].next,'other');
+});

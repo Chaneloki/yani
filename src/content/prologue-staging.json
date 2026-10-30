@@ -131,6 +131,20 @@
       "attachments": [
         "game-purchase-complete"
       ]
+    },
+    {
+      "scene": "prologue.natsumi.friday",
+      "sourceLine": 164,
+      "attachments": [
+        "gaming-date-ready"
+      ]
+    },
+    {
+      "scene": "prologue.kentaro.friday",
+      "sourceLine": 277,
+      "attachments": [
+        "gaming-date-ready"
+      ]
     }
   ],
   "nodeMedia": [
@@ -192,6 +206,56 @@
     {
       "scene": "prologue.kentaro.invitation",
       "sourceLine": 202,
+      "media": null
+    },
+    {
+      "scene": "prologue.natsumi.friday",
+      "sourceLine": 162,
+      "media": "gaming-date-ready"
+    },
+    {
+      "scene": "prologue.natsumi.friday",
+      "sourceLine": 164,
+      "media": null
+    },
+    {
+      "scene": "prologue.natsumi.friday",
+      "sourceLine": 165,
+      "media": "gaming-date-ready"
+    },
+    {
+      "scene": "prologue.natsumi.friday",
+      "sourceLine": 166,
+      "media": null
+    },
+    {
+      "scene": "prologue.kentaro.friday",
+      "sourceLine": 275,
+      "media": "gaming-date-ready"
+    },
+    {
+      "scene": "prologue.kentaro.friday",
+      "sourceLine": 277,
+      "media": null
+    },
+    {
+      "scene": "prologue.natsumi.night",
+      "sourceLine": 222,
+      "media": "skeptical-tabby-cat"
+    },
+    {
+      "scene": "prologue.natsumi.night",
+      "sourceLine": 224,
+      "media": null
+    },
+    {
+      "scene": "prologue.kentaro.night",
+      "sourceLine": 372,
+      "media": "skeptical-tabby-cat"
+    },
+    {
+      "scene": "prologue.kentaro.night",
+      "sourceLine": 375,
       "media": null
     }
   ]

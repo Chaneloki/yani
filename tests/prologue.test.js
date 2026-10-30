@@ -74,7 +74,7 @@ test('sentence reflow preserves the current edited text and all previous save ID
   const current=story.scenes[old.id];
   // Editable Markdown may change prose; the original JSON import remains lossless.
   assert.equal(imported.scenes.find(s=>s.id===old.id).nodes.map(n=>n.text).join(''),old.nodes.map(n=>n.text).join(''));
-  for(const n of old.nodes)assert.ok(current.nodes.some(now=>now.id===n.id),`${old.id}/${n.id} removed`);
+  for(const n of old.nodes)assert.ok(current.nodes.some(now=>now.id===n.id) || story.chapters.find(c=>c.id==='prologue').omittedNodes?.includes(`${old.id}/${n.id}`),`${old.id}/${n.id} removed`);
  }
 });
 

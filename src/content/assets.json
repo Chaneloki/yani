@@ -150,6 +150,11 @@
       "src": "./assets/audio/bgm/bgm-happy-anticipation.mp3",
       "instruments": "明亮鋼琴、輕快結他、少量電子音",
       "loop": true
+    },
+    "sound-from-far-mountain": {
+      "label": "遠山之聲",
+      "src": "./assets/audio/bgm/bgm-sound-from-far-mountain.mp3",
+      "loop": true
     }
   },
   "se": {},
@@ -198,6 +203,29 @@
       "width": 940,
       "height": 1672,
       "src": "./assets/messages/screenshot-game-purchase-complete.png"
+    },
+    "gaming-date-ready": {
+      "label": "約會遊戲準備完成",
+      "alt": "電視顯示奇幻遊戲畫面，桌上擺好兩支控制器、洋芋片、零食和飲料。",
+      "src": "./assets/messages/photo-gaming-date-ready.png",
+      "width": 1448,
+      "height": 1086
+    },
+    "skeptical-tabby-cat": {
+      "label": "奈津美的懷疑貓咪貼圖",
+      "alt": "橘白虎斑貓托著下巴，瞇起眼睛露出懷疑的神情。",
+      "kind": "sticker",
+      "width": 1280,
+      "height": 1280,
+      "src": "./assets/messages/sticker-skeptical-tabby-cat.png"
     }
+  },
+  "titleBackground": {
+    "label": "開始畫面背景（待提供）",
+    "src": null
+  },
+  "titleVideo": {
+    "src": "./assets/video/cover.mp4",
+    "poster": "./assets/backgrounds/cover-poster.jpg"
   }
 }

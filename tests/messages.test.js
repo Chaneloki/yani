@@ -62,3 +62,23 @@ test('fireball clip and purchase receipt are shared by both POVs and show at the
  while(e.node.id!=='line-0131')e.advance();assert.equal(e.stage.media,'game-purchase-complete');
  while(e.node.id!=='line-0135')e.advance();assert.equal(e.stage.media,null);
 });
+
+test('gaming date photo appears in both Friday message threads and clears from the stage',()=>{
+ for(const [scene,node] of [['prologue.natsumi.friday','line-0164'],['prologue.kentaro.friday','line-0277']]){
+  const e=new NovelEngine(story);e.go(scene);
+  while(e.node.id!==node)assert.equal(e.advance(),true);
+  assert.deepEqual(e.node.attachments,['gaming-date-ready']);assert.equal(e.stage.media,null);
+  assert.deepEqual(chapterMessages(story,e.state).at(-1).node.attachments,['gaming-date-ready']);
+ }
+ const e=new NovelEngine(story);e.go('prologue.natsumi.friday');assert.equal(e.stage.media,'gaming-date-ready');
+});
+
+test('Natsumi skeptical sticker is shared across both night POVs and clears after its narration',()=>{
+ for(const [scene,start,end] of [['prologue.natsumi.night','line-0222','line-0224'],['prologue.kentaro.night','line-0372','line-0375']]){
+  const e=new NovelEngine(story);e.go(scene);
+  while(e.node.id!==start)assert.equal(e.advance(),true);
+  assert.equal(e.stage.media,'skeptical-tabby-cat');assert.equal(e.node.type,'narration');
+  while(e.node.id!==end)assert.equal(e.advance(),true);
+  assert.equal(e.stage.media,null);
+ }
+});

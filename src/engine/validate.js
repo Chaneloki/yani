@@ -2,6 +2,7 @@ const plain = v => v && typeof v === 'object' && !Array.isArray(v);
 export function assert(ok, message) { if (!ok) throw new Error(message); }
 export function validateStory(story) {
   assert(story.id && story.revision && story.scenes[story.start], '故事起點不存在');
+  if (story.titleBgm) assert(story.assets.bgm?.[story.titleBgm]?.src, `未知首頁音樂：${story.titleBgm}`);
   const seen = new Set();
   for (const chapter of story.chapters) for (const entry of chapter.entries || []) assert(chapter.scenes.some(s => s.id === entry.scene) && story.characters[entry.perspective], `未知章節入口：${entry.scene}`);
   for (const chapter of story.chapters) for (const s of chapter.scenes) {

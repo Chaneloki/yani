@@ -3,21 +3,24 @@ export function applyScriptText(chapter, documents) {
   const nodes = new Map(chapter.scenes.flatMap(s => s.nodes.map(n => [`${s.id}/${n.id}`, n])));
   const edits = new Map();
   for (const document of documents) {
-    let key = null, lines = [];
+    let key = null, lines = [], omitted = false;
     const flush = () => {
       if (!key) return;
       if (!nodes.has(key)) throw Error(`劇本段落 ID 不存在：${key}`);
       if (edits.has(key)) throw Error(`劇本段落 ID 重複：${key}`);
       const text = lines.join('\n').trim();
+      if (omitted) { edits.set(key, []); return; }
       if (!text) throw Error(`劇本段落不可留空：${key}`);
       const pages = text.split(/^\s*---[ \t]*$/m).map(page => page.trim());
       if (pages.some(page => !page)) throw Error(`分頁前後不可留空：${key}`);
       edits.set(key, pages);
     };
     for (const line of document.replace(/\r\n/g, '\n').split('\n')) {
-      if (line.startsWith('### ')) {
+      if (line.startsWith('### ') || line.startsWith('/### ')) {
         flush();
-        const match = /^### ([\w.-]+\/[\w.-]+) \| .+$/.exec(line);
+        omitted = line.startsWith('/### ');
+        const heading = omitted ? line.slice(1).replace(/\/$/, '') : line;
+        const match = /^### ([\w.-]+\/[\w.-]+) \| .+$/.exec(heading);
         if (!match) throw Error(`劇本標記格式錯誤：${line}`);
         key = match[1]; lines = [];
       } else if (/^#{1,2} /.test(line)) { flush(); key = null; lines = []; }
@@ -44,12 +47,20 @@ export function applyScriptText(chapter, documents) {
         return page;
       });
     });
+    // Omitting the closing paragraph must preserve the scene's outgoing link.
+    const tail = scene.nodes.at(-1);
+    if (pages.length && edits.get(`${scene.id}/${tail.id}`)?.length === 0 && tail.next) {
+      pages.at(-1).next = tail.next;
+      if (tail.advanceLabel) pages.at(-1).advanceLabel = tail.advanceLabel;
+    }
+    if (!pages.length) throw Error(`場景不可刪除全部段落：${scene.id}`);
     for (const page of pages) {
       if (ids.has(page.id)) throw Error(`分頁 ID 衝突：${scene.id}/${page.id}`);
       ids.add(page.id);
     }
     return pages;
   });
+  chapter.omittedNodes = [...edits].filter(([, pages]) => pages.length === 0).map(([key]) => key);
   chapter.scenes.forEach((scene, index) => { scene.nodes = expanded[index]; });
   return chapter;
 }

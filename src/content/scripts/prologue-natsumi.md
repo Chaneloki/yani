@@ -48,7 +48,7 @@
 
 ### prologue.natsumi.exam/line-0013 | 健太郎 · 手機訊息
 
-「今天實習做到這個！超難搞哈哈哈。」
+「今天實習做到這個，超難搞哈哈哈。」
 
 ### prologue.natsumi.exam/line-0014 | 旁白
 
@@ -88,7 +88,7 @@
 
 ### prologue.natsumi.exam/line-0023 | 健太郎 · 手機訊息
 
-「恭喜啊啊啊！！！」
+「恭喜啊啊啊！」
 
 ### prologue.natsumi.exam/line-0024 | 旁白
 
@@ -176,7 +176,7 @@
 
 ### prologue.natsumi.ramen/line-0043 | 旁白
 
-他說得很自然，還把自己碗裡的一塊叉燒夾給她。
+他還把自己碗裡的一塊叉燒夾給她。
 
 ### prologue.natsumi.ramen/line-0044 | 健太郎
 
@@ -210,7 +210,7 @@
 
 ### prologue.natsumi.ramen/line-0050-part-2 | 旁白
 
-想念坐在健太郎旁邊聽他說些沒什麼營養的話
+想念坐在健太郎旁邊聽他說話，被他逗笑。
 ---
 想念他講到興奮時會突然提高音量，然後被自己提醒「太大聲了啦」。
 
@@ -242,8 +242,7 @@
 
 「然後呢？」
 
-### prologue.natsumi.cafe/line-0058 | 奈津美
-
+/### prologue.natsumi.cafe/line-0058 | 奈津美/
 「跟男朋友約會吧。」
 
 ### prologue.natsumi.cafe/line-0059 | 旁白
@@ -430,7 +429,7 @@
 
 ### prologue.natsumi.invitation/line-0102 | 健太郎 · 手機訊息
 
-「喔喔！最近很紅的那個」
+「喔喔，最近很紅的那個」
 
 ### prologue.natsumi.invitation/line-0103 | 奈津美 · 手機訊息
 
@@ -450,7 +449,7 @@
 
 ### prologue.natsumi.invitation/line-0107 | 健太郎 · 手機訊息
 
-「可以啊！」
+「可以啊。」
 
 ### prologue.natsumi.invitation/line-0108 | 奈津美 · 手機訊息
 
@@ -496,7 +495,7 @@
 
 ### prologue.natsumi.invitation/line-0119 | 健太郎 · 手機訊息
 
-「沒有啊！在家也很好！」
+「沒有啊，在家也很好。」
 
 ### prologue.natsumi.invitation/line-0120 | 奈津美 · 手機訊息
 
@@ -504,7 +503,7 @@
 
 ### prologue.natsumi.invitation/line-0121 | 健太郎 · 手機訊息
 
-「真的！而且妳不是想玩嗎？」
+「真的，而且妳不是想玩嗎？」
 
 ### prologue.natsumi.invitation/line-0122 | 旁白
 
@@ -540,24 +539,26 @@
 
 ### prologue.natsumi.invitation/line-0130 | 健太郎 · 手機訊息
 
-「OK！！」
+「OK。」
 
 ### prologue.natsumi.invitation/line-0131 | 旁白
 
 西正準備退出聊天視窗，卻突然收到一張截圖。
+---
 那是一張遊戲購買成功的畫面。
-她眨了眨眼。
 
-### prologue.natsumi.invitation/line-0134 | 奈津美 · 手機訊息
+/### prologue.natsumi.invitation/line-0134 | 奈津美 · 手機訊息/
 
 「……欸？」
 
 ### prologue.natsumi.invitation/line-0135 | 健太郎 · 手機訊息
 
-「買好了！」
+「買好了。」
 
 ### prologue.natsumi.invitation/line-0136 | 奈津美 · 手機訊息
 
+「……欸？」
+---
 「等一下。」
 
 ### prologue.natsumi.invitation/line-0137 | 健太郎 · 手機訊息
@@ -590,7 +591,7 @@
 
 ### prologue.natsumi.invitation/line-0144 | 健太郎 · 手機訊息
 
-「不快點買怎麼玩啦！」
+「不快點買怎麼玩啦。」
 
 ### prologue.natsumi.invitation/line-0145 | 奈津美 · 手機訊息
 
@@ -610,7 +611,7 @@
 
 「好啦，謝謝你。」
 
-### prologue.natsumi.invitation/line-0150 | 健太郎 · 手機訊息
+/### prologue.natsumi.invitation/line-0150 | 健太郎 · 手機訊息/
 
 「奈津美」
 
@@ -639,6 +640,7 @@
 ### prologue.natsumi.research/line-0156 | 旁白
 
 她並不是那種會把所有攻略背下來的人，但對於遊戲裡不同職業的設定，她倒是產生了相當濃厚的興趣。
+---
 尤其是魔女。
 
 ### prologue.natsumi.research/line-0158 | 旁白
@@ -648,7 +650,9 @@
 ### prologue.natsumi.research/line-0159 | 旁白
 
 而勇者則更偏向近身戰鬥，除了攻擊，也能保護隊友。
+---
 兩個角色必須合作才能完成故事。
+---
 西越看越覺得有趣。
 
 ## 魔女大人與勇者 · 星期五晚上 · 共同時間 B
@@ -660,7 +664,7 @@
 
 ### prologue.natsumi.friday/line-0164 | 健太郎 · 手機訊息
 
-「準備好了！」
+「準備好了。」
 
 ### prologue.natsumi.friday/line-0165 | 旁白
 
@@ -680,7 +684,7 @@
 
 ### prologue.natsumi.friday/line-0169 | 健太郎 · 手機訊息
 
-「哈哈哈哈。」
+「哈哈哈哈」
 
 ### prologue.natsumi.friday/line-0170 | 奈津美 · 手機訊息
 
@@ -688,7 +692,7 @@
 
 ### prologue.natsumi.friday/line-0171 | 健太郎 · 手機訊息
 
-「那個好吃啊！」
+「那個好吃啊」
 
 ### prologue.natsumi.friday/line-0172 | 奈津美 · 手機訊息
 
@@ -720,7 +724,7 @@
 
 ### prologue.natsumi.friday/line-0178 | 健太郎 · 手機訊息
 
-「喔喔！」
+「喔喔。」
 
 ### prologue.natsumi.friday/line-0179 | 奈津美 · 手機訊息
 
@@ -728,7 +732,7 @@
 
 ### prologue.natsumi.friday/line-0180 | 健太郎 · 手機訊息
 
-「勇者！」
+「勇者」
 
 ### prologue.natsumi.friday/line-0181 | 旁白
 
@@ -740,7 +744,7 @@
 
 ### prologue.natsumi.friday/line-0183 | 健太郎 · 手機訊息
 
-「欸！為什麼？！」
+「欸為什麼？」
 
 ### prologue.natsumi.friday/line-0184 | 奈津美 · 手機訊息
 
@@ -748,12 +752,14 @@
 
 ### prologue.natsumi.friday/line-0185 | 健太郎 · 手機訊息
 
-「哈哈哈哈因為很帥啊！」
+「哈哈哈哈因為很帥啊」
 
 ### prologue.natsumi.friday/line-0186 | 旁白
 
 她笑著搖了搖頭。
+---
 完全不意外。
+---
 過了一會兒，山田又發來一句。
 
 ### prologue.natsumi.friday/line-0189 | 健太郎 · 手機訊息
@@ -763,12 +769,13 @@
 ### prologue.natsumi.friday/line-0190 | 旁白
 
 西的手指微微停頓。
-……又來了。
-這個人，總是能夠毫無預兆地說出這種話。
+---
+……又來了。這個人，總是能夠毫無預兆地說出這種話。
 
 ### prologue.natsumi.friday/line-0193 | 旁白
 
 明明在一起幾年了，還是偶爾會被他弄得心裡一跳。
+---
 不過這次，她很快便笑著回覆。
 
 ### prologue.natsumi.friday/line-0195 | 奈津美 · 手機訊息
@@ -777,7 +784,7 @@
 
 ### prologue.natsumi.friday/line-0196 | 健太郎 · 手機訊息
 
-「真的假的？！」
+「真的假的」
 
 ### prologue.natsumi.friday/line-0197 | 奈津美 · 手機訊息
 
@@ -785,7 +792,7 @@
 
 ### prologue.natsumi.friday/line-0198 | 健太郎 · 手機訊息
 
-「那不就換妳保護我了！」
+「那不就換妳保護我了」
 
 ### prologue.natsumi.friday/line-0199 | 奈津美 · 手機訊息
 
@@ -793,11 +800,12 @@
 
 ### prologue.natsumi.friday/line-0200 | 健太郎 · 手機訊息
 
-「拜託了！魔女大人！」
+「拜託了，魔女大人」
 
 ### prologue.natsumi.friday/line-0201 | 旁白
 
 西笑得肩膀微微顫抖。
+---
 她故意等了幾秒才回覆。
 
 ### prologue.natsumi.friday/line-0203 | 奈津美 · 手機訊息
@@ -806,13 +814,13 @@
 
 ### prologue.natsumi.friday/line-0204 | 健太郎 · 手機訊息
 
-「遵命！！」
+「遵命！」
 
 ### prologue.natsumi.friday/line-0205 | 旁白
 
-螢幕上又出現了那隻翻滾的狗。
-西忍不住笑出聲。
-她已經可以想像星期六會有多吵了。
+螢幕上又出現了那隻翻滾的貓。
+---
+西忍不住笑出聲。她已經可以想像星期六會有多吵了。
 
 ## 明天見 · 星期五深夜 · 約會前夕
 
@@ -823,12 +831,12 @@
 ### prologue.natsumi.night/line-0209 | 旁白
 
 一件簡單的上衣，搭配舒適的長裙。畢竟只是去健太郎家裡玩，不需要穿得太正式。
+---
 不過，她還是花了一點時間挑選。
 
 ### prologue.natsumi.night/line-0211 | 旁白
 
-拿起其中一件，想了想，又換成另一件。
-最後看著鏡子，輕輕笑了一下。
+拿起其中一件，想了想，又換成另一件。最後看著鏡子，輕輕笑了一下。
 
 ### prologue.natsumi.night/line-0213 | 奈津美
 
@@ -848,7 +856,7 @@
 
 ### prologue.natsumi.night/line-0217 | 健太郎 · 手機訊息
 
-「哈哈哈好！那我等妳！」
+「哈哈哈好，那我等妳。」
 
 ### prologue.natsumi.night/line-0218 | 奈津美 · 手機訊息
 
@@ -856,7 +864,7 @@
 
 ### prologue.natsumi.night/line-0219 | 健太郎 · 手機訊息
 
-「才不會啦！」
+「才不會啦。」
 
 ### prologue.natsumi.night/line-0220 | 奈津美 · 手機訊息
 
@@ -864,11 +872,12 @@
 
 ### prologue.natsumi.night/line-0221 | 健太郎 · 手機訊息
 
-「那次是意外！！」
+「那次是意外。」
 
 ### prologue.natsumi.night/line-0222 | 旁白
 
 西笑著回了一張故意表示懷疑的貼圖。
+---
 她把手機放到床頭，拉開窗簾，看了一眼外面的夜色。
 
 ### prologue.natsumi.night/line-0224 | 旁白
@@ -882,32 +891,28 @@
 ### prologue.natsumi.night/line-0225 | 旁白
 
 明天就可以見到健太郎了。
-而且是一整天。
 
-### prologue.natsumi.night/line-0227 | 旁白
+/### prologue.natsumi.night/line-0227 | 旁白/
 
-不用趕報告，不用惦記著考試，也不用在晚飯吃到一半時，突然想起還有事情等著自己完成。
+/不用趕報告，不用惦記著考試，也不用在晚飯吃到一半時，突然想起還有事情等著自己完成。/
 
-### prologue.natsumi.night/line-0228 | 旁白
+/### prologue.natsumi.night/line-0228 | 旁白/
 
-他們可以一起打遊戲，吃點零食，或許中途出去買個午飯，回來再繼續玩。
-要是遊戲太難，說不定還會一起卡關。
+/他們可以一起打遊戲，吃點零食，或許中途出去買個午飯，回來再繼續玩。要是遊戲太難，說不定還會一起卡關。/
 
 ### prologue.natsumi.night/line-0230 | 旁白
 
-要是健太郎又做出什麼莫名其妙的操作，她一定會笑他。
-至於自己會不會也犯同樣的錯……
-……嗯。
-到時候再說吧。
+/要是健太郎又做出什麼莫名其妙的操作，她一定會笑他。至於自己會不會也犯同樣的錯…………嗯。到時候再說吧。/
 
 ### prologue.natsumi.night/line-0234 | 旁白
 
 西鑽進被窩，伸手關掉床頭燈。
+---
 房間陷入黑暗的瞬間，她又想起剛才健太郎那句「這樣我就可以保護妳了」。
 
-### prologue.natsumi.night/line-0236 | 旁白
+/### prologue.natsumi.night/line-0236 | 旁白/
 
-她忍不住笑了。
+/她忍不住笑了。/
 
 ### prologue.natsumi.night/line-0237 | 奈津美
 
@@ -916,12 +921,12 @@
 ### prologue.natsumi.night/line-0238 | 旁白
 
 明明只是遊戲而已。
+---
 不過，如果真的有一天能夠和他一起到某個奇妙的世界冒險，應該也會很有趣吧。
 
 ### prologue.natsumi.night/line-0240 | 旁白
 
-她一定會好好使用魔法。
-至於健太郎……
+她一定會好好使用魔法。至於健太郎……
 
 ### prologue.natsumi.night/line-0242 | 旁白
 
@@ -933,9 +938,10 @@
 
 ### prologue.natsumi.night/line-0244 | 旁白
 
-……不行。
-光是想像就覺得很好笑。
+……不行。光是想像就覺得很好笑。
+---
 她翻了個身，終於帶著笑意沉沉睡去。
+---                                       
 明天只是一次普通的約會。
 
 ### prologue.natsumi.night/line-0248 | 旁白

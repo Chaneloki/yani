@@ -1,3 +1,11 @@
+動態封面：`src/content/assets.json` 的 `titleVideo` 設定影片 `src` 同靜態 `poster`。目前使用 `public/assets/video/cover.mp4`（靜音、循環、進入故事後暫停）。瀏覽器阻擋自動播放或玩家偏好減少動態時，保留靜態封面。原始影片在專案外 `01bg/cover.mp4`，網頁版本已壓縮並移除音軌；替換影片後可同步更新 `public/assets/backgrounds/cover-poster.jpg`。
+
+開始畫面：玩家點「開始故事」後選擇奈津美／健太郎視角，或直接讀取現有存檔。系統選單可返回開始畫面。首頁不會自動覆蓋存檔；重新開始前會提示自動存檔將更新。
+
+首頁背景：把圖片放到 `public/assets/backgrounds/`，再設定 `src/content/assets.json` 的 `titleBackground.src` 為 `./assets/backgrounds/檔名`。目前使用中性漸層佔位。更新日誌編輯 `src/content/changelog.json`（日期、標題及條列內容）。
+
+刪除整段對白：將該段的 `###` 標記前後加上 `/`，例如 `/### prologue.natsumi.cafe/line-0058 | 奈津美/`。整段正文會被遊戲略過，檔案仍保留供日後恢復；移除標記前後的 `/` 即可恢復。單獨在正文加 `/` 不會刪除整段。若舊存檔停在已刪除段落，請從章節選單重新開始該場景。
+
 遊戲公開網址：https://chaneloki.github.io/yani/
 
 推送到 `main` 後，GitHub Actions 會先執行測試及建置，再自動發佈 `dist/` 到 GitHub Pages。部署狀態見 repository 的 Actions 分頁。玩家的存檔及音量設定保存在各自瀏覽器，首次點擊後才會播放音樂。

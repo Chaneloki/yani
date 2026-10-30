@@ -30,5 +30,6 @@
       "file": "chapters/demo.json",
       "demo": true
     }
-  ]
+  ],
+  "titleBgm": "sound-from-far-mountain"
 }

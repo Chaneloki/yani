@@ -46,15 +46,15 @@
 
 ### prologue.kentaro.workshop/line-0011 | 健太郎
 
-「快了快了！就剩這個！」
+「快了快了，就剩這個。」
 
-### prologue.kentaro.workshop/line-0012 | 實習同學
+/### prologue.kentaro.workshop/line-0012 | 實習同學/
 
-「你剛才不是也說快了嗎？」
+/「你剛才不是也說快了嗎？」/
 
-### prologue.kentaro.workshop/line-0013 | 健太郎
+/### prologue.kentaro.workshop/line-0013 | 健太郎/
 
-「哈哈哈哈！這次是真的啦！」
+/「哈哈哈哈，這次是真的啦。」/
 
 ### prologue.kentaro.workshop/line-0014 | 旁白
 
@@ -74,7 +74,9 @@
 
 ### prologue.kentaro.workshop/line-0018 | 旁白
 
-平常在街上看到的汽車，外觀看起來都整整齊齊。可是拆開之後，裡面竟然藏著這麼多不同的零件，每個部件又都有各自的功能。
+平常在街上看到的汽車，外觀看起來都整整齊齊。
+---
+可是拆開之後，裡面竟然藏著這麼多不同的零件，每個部件又都有各自的功能。
 
 ### prologue.kentaro.workshop/line-0018-part-2 | 旁白
 
@@ -82,19 +84,19 @@
 
 ### prologue.kentaro.workshop/line-0019 | 旁白
 
-嗯。
-這個應該要拍一下。
+嗯。這個應該要拍一下。
+---
 他掏出手機，對著車頭隨手按下快門。
-喀嚓。
 
 ### prologue.kentaro.workshop/line-0023 | 旁白
 
 照片有些傾斜，左邊拍進了工具箱，右邊則被車身佔據大半。畫面最下方還露出他自己的鞋尖。
+---
 山田低頭看了看。
 
 ### prologue.kentaro.workshop/line-0025 | 健太郎
 
-「喔！還不錯嘛！」
+「喔，還不錯嘛。」
 
 ### prologue.kentaro.workshop/line-0026 | 旁白
 
@@ -114,24 +116,23 @@
 
 ### prologue.kentaro.workshop/line-0030 | 健太郎
 
-「哈哈哈哈！真的耶！」
+「哈哈哈哈，真的耶。」
 
 ### prologue.kentaro.workshop/line-0031 | 旁白
 
 山田自己也笑了起來，卻完全沒有重拍的意思。
+---
 他打開手機裡最熟悉的聊天視窗，將照片傳了出去。
 
 ### prologue.kentaro.workshop/line-0033 | 健太郎 · 手機訊息
 
-「今天實習做到這個！超難搞哈哈哈。」
+「今天實習做到這個，超難搞哈哈哈。」
 
 ### prologue.kentaro.workshop/line-0034 | 旁白
 
-發送成功後，他看了眼時間。
-已經中午了。
-……啊，對了。
-今天是奈津美最後一科考試。
-他立刻補上一句。
+發送成功後，他看了眼時間。已經中午了。
+---
+……啊，對了。今天是奈津美最後一科考試。
 
 ### prologue.kentaro.workshop/line-0039 | 健太郎 · 手機訊息
 
@@ -140,6 +141,7 @@
 ### prologue.kentaro.workshop/line-0040 | 旁白
 
 螢幕上的訊息安靜地停留在原處。
+---
 山田把手機收回口袋，沒有再等回覆。
 
 ### prologue.kentaro.workshop/line-0042 | 旁白
@@ -153,15 +155,17 @@
 ### prologue.kentaro.workshop/line-0043 | 旁白
 
 不過，今天之後就結束了。
-想到這裡，他的心情也跟著輕快起來。
-等她考完，終於可以一起好好玩了吧。
+---
+想到這裡，他的心情也跟著輕快起來。等她考完，終於可以一起好好玩了吧。
 
 ## 還想再待一會兒 · 回憶 · 期末考前
 
 ### prologue.kentaro.ramen/line-0047 | 旁白
 
 最近幾個星期，山田其實一直在想同一件事。
-想跟奈津美待久一點。
+---
+想跟奈津美待久一點...
+---
 這並不是因為兩人很久沒有見面。
 
 ### prologue.kentaro.ramen/line-0050 | 旁白
@@ -178,7 +182,7 @@
 
 ### prologue.kentaro.ramen/line-0052 | 旁白
 
-他可以跟她說今天實習課發生的蠢事，說哪個同學把工具放錯了地方，或者路上看到一輛自己很喜歡的車。
+他可以跟她說今天實習課發生的事，說哪個同學把工具放錯了地方，或者路上看到一輛自己很喜歡的車。
 
 ### prologue.kentaro.ramen/line-0052-part-2 | 旁白
 
@@ -187,11 +191,13 @@
 ### prologue.kentaro.ramen/line-0053 | 旁白
 
 山田很喜歡看她笑。
+---
 尤其是她明明想忍住，最後卻因為實在太好笑而忍不住笑出聲的時候。
 
 ### prologue.kentaro.ramen/line-0055 | 旁白
 
 那種反應總會讓他也跟著笑起來。
+---
 只是最近，他們經常才剛開始聊得起勁，奈津美便要回去趕報告或者溫習。
 
 ### prologue.kentaro.ramen/line-0057 | 旁白
@@ -224,13 +230,11 @@
 
 ### prologue.kentaro.ramen/line-0064 | 旁白
 
-她低頭重新看了一遍訊息，似乎正在考慮該怎麼處理。
-山田看了看她，又看了看面前的拉麵。
+她低頭重新看了一遍訊息，似乎正在考慮該怎麼處理。山田看了看她，又看了看面前的拉麵。
 
 ### prologue.kentaro.ramen/line-0066 | 旁白
 
-他當然想和奈津美多待一會兒。
-難得找到一間不用排隊的店，本來還想吃完之後一起逛逛。
+他當然想和奈津美多待一會兒。難得找到一間不用排隊的店，本來還想吃完之後一起逛逛。
 
 ### prologue.kentaro.ramen/line-0068 | 旁白
 
@@ -258,7 +262,7 @@
 
 ### prologue.kentaro.ramen/line-0074 | 健太郎
 
-「因為真的快爛了啊！」
+「因為真的快爛了啊。」
 
 ### prologue.kentaro.ramen/line-0075 | 奈津美
 
@@ -270,12 +274,13 @@
 
 ### prologue.kentaro.ramen/line-0077 | 旁白
 
-那天他送奈津美到車站，兩人在閘口前道別。她向他揮揮手，轉身走進車站，很快便消失在人群裡。
+那天他送奈津美到車站，兩人在閘口前道別。
+---
+她向他揮揮手，轉身走進車站，很快便消失在人群裡。
 
 ### prologue.kentaro.ramen/line-0078 | 旁白
 
-山田站在原地，看了一眼手機。
-才過了不到一個小時。
+山田站在原地，看了一眼手機。才過了不到一個小時。
 
 ### prologue.kentaro.ramen/line-0080 | 健太郎
 
@@ -283,14 +288,15 @@
 
 ### prologue.kentaro.ramen/line-0081 | 旁白
 
-他有些意猶未盡地嘀咕。
-明明剛才還有很多事情想說。
+他有些意猶未盡地嘀咕。明明剛才還有很多事情想說。
 
 ### prologue.kentaro.ramen/line-0083 | 旁白
 
-像是學校附近新開的店、上星期看到的電影，還有一件他本來打算講給她聽的趣事。
+像是學校附近新開的店、上星期看到的電影。
+---
 算了。
-下次再說吧。
+--- 
+下次再說吧！
 
 ### prologue.kentaro.ramen/line-0086 | 旁白
 
@@ -306,8 +312,8 @@
 
 ### prologue.kentaro.ramen/line-0088 | 旁白
 
-他喜歡她這一點。
-雖然有時候也會覺得她實在太拼命。
+他喜歡她這一點。雖然有時候也會覺得她實在太拼命。
+---
 不過，等到考試結束，一定要找個時間好好約會。
 
 ### prologue.kentaro.ramen/line-0091 | 旁白
@@ -338,7 +344,7 @@
 
 ### prologue.kentaro.after-class/line-0098 | 健太郎
 
-「喔——！太好了！」
+「喔——，太好了。」
 
 ### prologue.kentaro.after-class/line-0099 | 旁白
 
@@ -346,13 +352,11 @@
 
 ### prologue.kentaro.after-class/line-0100 | 健太郎 · 手機訊息
 
-「恭喜啊啊啊！！！」
+「恭喜啊啊啊！」
 
-### prologue.kentaro.after-class/line-0101 | 旁白
+/### prologue.kentaro.after-class/line-0101 | 旁白/
 
-想了想，又從貼圖收藏裡找出那隻在地上高興地翻滾的貓咪。
-發送。
-完美。
+/想了想，又從貼圖收藏裡找出那隻在地上高興地翻滾的貓咪。發送。完美。/
 
 ### prologue.kentaro.after-class/line-0104 | 奈津美 · 手機訊息
 
@@ -364,7 +368,7 @@
 
 ### prologue.kentaro.after-class/line-0106 | 健太郎 · 手機訊息
 
-「因為很適合現在的心情啊！」
+「因為很適合現在的心情啊。」
 
 ### prologue.kentaro.after-class/line-0107 | 奈津美 · 手機訊息
 
@@ -376,8 +380,7 @@
 
 ### prologue.kentaro.after-class/line-0109 | 旁白
 
-山田忍不住又笑了一次。
-是真的很高興。
+山田是真的很高興。
 
 ### prologue.kentaro.after-class/line-0111 | 旁白
 
@@ -389,23 +392,23 @@
 
 ### prologue.kentaro.after-class/line-0112 | 旁白
 
-……而且。
-他也終於可以跟她好好約會了。
-這個星期六，他原本想帶奈津美出去玩。
+……而且。他也終於可以跟她好好約會了。這個星期六，他原本想帶奈津美出去玩。
 
 ### prologue.kentaro.after-class/line-0115 | 旁白
 
-最近聽朋友提起附近有幾間不錯的店，他還想著可以找間吃午飯，下午再隨意逛逛。要是奈津美想去別的地方，也可以到時候再決定。
+最近聽朋友提起附近有幾間不錯的店，他還想著可以找間吃午飯，下午再隨意逛逛。
+---
+要是奈津美想去別的地方，也可以到時候再決定。
 
 ### prologue.kentaro.after-class/line-0116 | 旁白
 
 反正只要一起出去，做什麼都挺有趣的。
+---
 山田一邊走向車站，一邊想著要不要現在就問她。
 
 ### prologue.kentaro.after-class/line-0118 | 旁白
 
-不過，想到她今天才剛考完試，還是先讓她休息一下好了。
-等晚上再說也不遲。
+不過，想到她今天才剛考完試，還是先讓她休息一下好了。等晚上再說也不遲。
 
 ## 買好了 · 星期三晚上 · 共同時間 A
 
@@ -419,8 +422,7 @@
 
 ### prologue.kentaro.invitation/line-0123 | 旁白
 
-手機忽然震動。
-是奈津美傳來的影片。
+手機忽然震動。是奈津美傳來的影片。
 
 ### prologue.kentaro.invitation/line-0125 | 奈津美 · 手機訊息
 
@@ -429,20 +431,20 @@
 ### prologue.kentaro.invitation/line-0126 | 旁白
 
 山田點開。
+---
 影片裡，兩名玩家正操作著勇者和魔女，與一隻巨大的怪物戰鬥。勇者衝在最前面，魔女站在後方準備施放法術。
 
 ### prologue.kentaro.invitation/line-0128 | 旁白
 
-下一秒，一團巨大的火球突然從魔女手中飛出，連同勇者一起炸了出去。
-畫面上的兩個角色以滑稽的姿勢倒在地上。
+下一秒，一團巨大的火球突然從魔女手中飛出，連同勇者一起炸了出去。畫面上的兩個角色以滑稽的姿勢倒在地上。
 
 ### prologue.kentaro.invitation/line-0130 | 健太郎
 
 「噗——哈哈哈哈哈哈！」
 
-### prologue.kentaro.invitation/line-0131 | 旁白
+/### prologue.kentaro.invitation/line-0131 | 旁白/
 
-山田直接笑出聲。
+/山田直接笑出聲。/
 
 ### prologue.kentaro.invitation/line-0132 | 健太郎
 
@@ -451,11 +453,12 @@
 ### prologue.kentaro.invitation/line-0133 | 旁白
 
 他又把影片倒回去看了一遍。
+---
 尤其是勇者被炸飛的那一瞬間。
 
 ### prologue.kentaro.invitation/line-0135 | 健太郎
 
-「哈哈哈哈！也太慘了吧！」
+「哈哈哈哈，也太慘了吧。」
 
 ### prologue.kentaro.invitation/line-0136 | 旁白
 
@@ -472,8 +475,8 @@
 ### prologue.kentaro.invitation/line-0139 | 旁白
 
 山田重新看了看影片。
-……啊。
-這不是最近很紅的那款嗎？
+---
+……啊。這不是最近很紅的那款嗎？
 
 ### prologue.kentaro.invitation/line-0142 | 旁白
 
@@ -481,7 +484,7 @@
 
 ### prologue.kentaro.invitation/line-0143 | 健太郎 · 手機訊息
 
-「喔喔！最近很紅的那個！」
+「喔喔，最近很紅的那個。」
 
 ### prologue.kentaro.invitation/line-0144 | 奈津美 · 手機訊息
 
@@ -489,14 +492,13 @@
 
 ### prologue.kentaro.invitation/line-0145 | 健太郎 · 手機訊息
 
-「好啊！」
+「好啊。」
 
 ### prologue.kentaro.invitation/line-0146 | 旁白
 
 他幾乎沒有多想便答應了。
-本來就挺有興趣的。
-而且還可以跟奈津美一起玩。
-光是想想就覺得很好玩。
+---
+本來就挺有興趣的。而且還可以跟奈津美一起玩。光是想想就覺得很好玩。
 
 ### prologue.kentaro.invitation/line-0150 | 奈津美 · 手機訊息
 
@@ -504,15 +506,15 @@
 
 ### prologue.kentaro.invitation/line-0151 | 旁白
 
-山田盯著螢幕，嘴角不自覺地揚了起來。
 一整天。
-……喔！
-對耶！
+---
+……喔！對耶！
+---
 這次真的可以待一整天了！
 
 ### prologue.kentaro.invitation/line-0156 | 健太郎 · 手機訊息
 
-「可以啊！」
+「可以啊。」
 
 ### prologue.kentaro.invitation/line-0157 | 奈津美 · 手機訊息
 
@@ -520,7 +522,7 @@
 
 ### prologue.kentaro.invitation/line-0158 | 健太郎 · 手機訊息
 
-「沒啊！本來就想找妳出來。」
+「沒啊，本來就想找妳出來。」
 
 ### prologue.kentaro.invitation/line-0159 | 旁白
 
@@ -541,6 +543,7 @@
 ### prologue.kentaro.invitation/line-0163 | 旁白
 
 山田看著那行字，臉上的笑容慢慢變得柔和。
+---
 原來奈津美也一直這樣想。
 
 ### prologue.kentaro.invitation/line-0165 | 旁白
@@ -554,17 +557,18 @@
 ### prologue.kentaro.invitation/line-0166 | 旁白
 
 現在，她終於能夠直接說出自己想做的事情了。
+---
 而且想做的事情，是和他約會。
-……哈哈。
-好開心啊。
+---
+……哈哈。好開心啊。
 
 ### prologue.kentaro.invitation/line-0170 | 健太郎 · 手機訊息
 
-「我也是！」
+「我也是。」
 
-### prologue.kentaro.invitation/line-0171 | 旁白
+/### prologue.kentaro.invitation/line-0171 | 旁白/
 
-他回覆。
+/他回覆。/
 
 ### prologue.kentaro.invitation/line-0172 | 健太郎 · 手機訊息
 
@@ -580,7 +584,7 @@
 
 ### prologue.kentaro.invitation/line-0174 | 健太郎 · 手機訊息
 
-「沒有啊！在家也很好！」
+「沒有啊，在家也很好。」
 
 ### prologue.kentaro.invitation/line-0175 | 奈津美 · 手機訊息
 
@@ -588,11 +592,10 @@
 
 ### prologue.kentaro.invitation/line-0176 | 健太郎 · 手機訊息
 
-「真的！而且妳不是想玩嗎？」
+「真的，而且妳不是想玩嗎？」
 
 ### prologue.kentaro.invitation/line-0177 | 旁白
 
-山田把手機放在膝蓋上，靠著椅背笑了笑。
 其實出門也好，在家也好，對他來說並沒有多大分別。
 
 ### prologue.kentaro.invitation/line-0179 | 旁白
@@ -601,19 +604,15 @@
 
 ### prologue.kentaro.invitation/line-0180 | 旁白
 
-一起看電影、吃飯、逛街，或者偶爾跑到比較遠的地方走走，每一次都有不一樣的樂趣。
-可是待在家裡也很好啊。
+一起看電影、吃飯、逛街，或者偶爾跑到比較遠的地方走走，每一次都有不一樣的樂趣。可是待在家裡也很好啊。
 
 ### prologue.kentaro.invitation/line-0182 | 旁白
 
-尤其是可以一起玩遊戲。
-她想玩魔女，他就可以試試其他角色；如果遇到難關，兩個人還能一起研究怎麼通過。
+尤其是可以一起玩遊戲。她想玩魔女，他就可以試試其他角色；如果遇到難關，兩個人還能一起研究怎麼通過。
 
-### prologue.kentaro.invitation/line-0184 | 旁白
+/### prologue.kentaro.invitation/line-0184 | 旁白/
 
-說不定又會出現剛才影片裡那種奇怪的事故。
-一想到這裡，他便忍不住笑出聲。
-……不過被炸飛的那個最好不要是自己。
+/說不定又會出現剛才影片裡那種奇怪的事故。一想到這裡，他便忍不住笑出聲。……不過被炸飛的那個最好不要是自己。/
 
 ### prologue.kentaro.invitation/line-0187 | 奈津美 · 手機訊息
 
@@ -629,25 +628,25 @@
 
 ### prologue.kentaro.invitation/line-0190 | 健太郎 · 手機訊息
 
-「OK！！」
+「OK。」
 
 ### prologue.kentaro.invitation/line-0191 | 旁白
 
 山田立刻打開遊戲商店。
+---
 既然已經決定要玩，那當然得先買好。
 
 ### prologue.kentaro.invitation/line-0193 | 旁白
 
 他找到那款遊戲，確認主機版本，又看了看介紹裡的合作模式。
-本地雙人遊玩。
-兩支控制器。
-一台主機。
+---
+本地雙人遊玩。兩支控制器。一台主機。
+---
 嗯，沒問題。
 
 ### prologue.kentaro.invitation/line-0198 | 旁白
 
-購買。
-螢幕顯示交易成功。
+購買。螢幕顯示交易成功。
 
 ### prologue.kentaro.invitation/line-0200 | 健太郎
 
@@ -659,7 +658,7 @@
 
 ### prologue.kentaro.invitation/line-0202 | 健太郎 · 手機訊息
 
-「買好了！」
+「買好了。」
 
 ### prologue.kentaro.invitation/line-0203 | 旁白
 
@@ -683,7 +682,7 @@
 
 ### prologue.kentaro.invitation/line-0208 | 健太郎 · 手機訊息
 
-「對啊！」
+「對啊。」
 
 ### prologue.kentaro.invitation/line-0209 | 奈津美 · 手機訊息
 
@@ -695,7 +694,7 @@
 
 ### prologue.kentaro.invitation/line-0211 | 健太郎 · 手機訊息
 
-「哈哈哈哈反正要玩嘛！」
+「哈哈哈哈反正要玩嘛。」
 
 ### prologue.kentaro.invitation/line-0212 | 奈津美 · 手機訊息
 
@@ -703,7 +702,7 @@
 
 ### prologue.kentaro.invitation/line-0213 | 健太郎 · 手機訊息
 
-「不快點買怎麼玩啦！」
+「不快點買怎麼玩啦。」
 
 ### prologue.kentaro.invitation/line-0214 | 奈津美 · 手機訊息
 
@@ -711,22 +710,23 @@
 
 ### prologue.kentaro.invitation/line-0215 | 健太郎 · 手機訊息
 
-「那就可以先下載好啊！」
+「那就可以先下載好啊。」
 
 ### prologue.kentaro.invitation/line-0216 | 旁白
 
 他一邊回覆，一邊看著開始下載的進度條，心情好得不得了。
-其實他也知道自己買得很快。
+---
+其實他當然也知道自己買得很快。
 
 ### prologue.kentaro.invitation/line-0218 | 旁白
 
 但奈津美說想玩，他自己也覺得有趣，而且星期六就要一起玩了。
+---
 既然如此，現在買不就好了嗎？
 
 ### prologue.kentaro.invitation/line-0220 | 旁白
 
 他還打算趁這幾天確認一下控制器有沒有問題，免得到時候玩不了。
-奈津美最後回了一句。
 
 ### prologue.kentaro.invitation/line-0222 | 奈津美 · 手機訊息
 
@@ -734,7 +734,7 @@
 
 ### prologue.kentaro.invitation/line-0223 | 健太郎 · 手機訊息
 
-「不客氣！」
+「不客氣。」
 
 ### prologue.kentaro.invitation/line-0224 | 奈津美 · 手機訊息
 
@@ -754,19 +754,15 @@
 
 ### prologue.kentaro.invitation/line-0228 | 健太郎 · 手機訊息
 
-「那妳星期六帶好吃的來！」
+「那妳星期六帶好吃的來。」
 
 ### prologue.kentaro.invitation/line-0229 | 奈津美 · 手機訊息
 
 「成交。」
 
-### prologue.kentaro.invitation/line-0230 | 旁白
+/### prologue.kentaro.invitation/line-0230 | 旁白/
 
-山田滿意地把手機放下。
-遊戲有人一起玩。
-零食也有人帶。
-而且還能和奈津美待一整天。
-……這星期六也太棒了吧！
+/山田滿意地把手機放下。遊戲有人一起玩。零食也有人帶。而且還能和奈津美待一整天。……這星期六也太棒了吧！/
 
 ## 想一起冒險 · 約會前的兩天
 
@@ -780,9 +776,7 @@
 
 ### prologue.kentaro.research/line-0238 | 旁白
 
-尤其是勇者。
-披風、鎧甲、長劍。
-還有一大堆看起來很厲害的技能。
+尤其是勇者。披風、鎧甲、長劍。還有一大堆看起來很厲害的技能。
 
 ### prologue.kentaro.research/line-0241 | 健太郎
 
@@ -799,6 +793,7 @@
 ### prologue.kentaro.research/line-0244 | 旁白
 
 其中一段宣傳影片，展示了勇者和魔女的配合作戰。
+---
 勇者以長劍擋下怪物的攻擊，魔女則在後方施放法術，將怪物短暫困住。
 
 ### prologue.kentaro.research/line-0246 | 旁白
@@ -811,14 +806,11 @@
 
 ### prologue.kentaro.research/line-0248 | 旁白
 
-山田看得眼睛都亮了。
-這種合作方式感覺很有意思。
-不過，他沒有繼續查太多攻略。
+山田看得眼睛都亮了。這種合作方式感覺很有意思。不過，他沒有繼續查太多攻略。
 
 ### prologue.kentaro.research/line-0251 | 旁白
 
-既然是第一次一起玩，還是留點驚喜比較好。
-而且奈津美似乎比他更認真地研究了遊戲。
+既然是第一次一起玩，還是留點驚喜比較好。而且奈津美似乎比他更認真地研究了遊戲。
 
 ### prologue.kentaro.research/line-0253 | 旁白
 
@@ -827,11 +819,10 @@
 ### prologue.kentaro.research/line-0254 | 旁白
 
 山田雖然聽得很有興趣，但不得不承認，他目前最想做的事情還是拿著劍衝出去打怪物。
-……哈哈。
 
-### prologue.kentaro.research/line-0256 | 旁白
+/### prologue.kentaro.research/line-0256 | 旁白/
 
-希望不要一開始就被打倒。
+/希望不要一開始就被打倒。/
 
 ## 一切準備好了 · 星期五晚上 · 共同時間 B
 
@@ -841,15 +832,15 @@
 
 ### prologue.kentaro.friday/line-0259 | 旁白
 
-他把桌上散落的教材疊好，將幾樣不常用的東西收進抽屜，又確認了一次遊戲是否安裝完成。
-電視前的空間很快便清了出來。
+他把桌上散落的教材疊好，將幾樣不常用的東西收進抽屜，又確認了一次遊戲是否安裝完成。電視前的空間很快便清了出來。
 
 ### prologue.kentaro.friday/line-0261 | 旁白
 
 兩支控制器放在桌上，一支平常自己用，另一支則準備留給奈津美。
+---
 他拿起其中一支，按了幾下按鈕。
-正常。
-很好。
+---
+正常。很好。
 
 ### prologue.kentaro.friday/line-0265 | 旁白
 
@@ -861,8 +852,7 @@
 
 ### prologue.kentaro.friday/line-0267 | 旁白
 
-最後帶回來的東西，比原本預計的多了一倍。
-山田把幾包零食攤在桌上，自己看了看。
+最後帶回來的東西，比原本預計的多了一倍。山田把幾包零食攤在桌上，自己看了看。
 
 ### prologue.kentaro.friday/line-0269 | 健太郎
 
@@ -871,22 +861,22 @@
 ### prologue.kentaro.friday/line-0270 | 旁白
 
 會不會買得有點多？
+---
 他拿起其中兩包一模一樣的洋芋片。
-不過這個真的很好吃。
-而且兩個人一起吃，應該很快就沒了吧。
+---
+不過這個真的很好吃。而且兩個人一起吃，應該很快就沒了吧。
 
 ### prologue.kentaro.friday/line-0274 | 健太郎
 
-「好！沒問題！」
+「好，沒問題。」
 
 ### prologue.kentaro.friday/line-0275 | 旁白
 
 他將零食整理好，又把飲料擺在旁邊，拿出手機拍了一張照片。
-這次倒是沒有拍進鞋尖。
 
 ### prologue.kentaro.friday/line-0277 | 健太郎 · 手機訊息
 
-「準備好了！」
+「準備好了。」
 
 ### prologue.kentaro.friday/line-0278 | 旁白
 
@@ -911,9 +901,10 @@
 ### prologue.kentaro.friday/line-0283 | 旁白
 
 山田笑著看了看桌上的零食。
+---
 嗯。
-果然是買多了。
-不過放著也不會怎樣。
+---
+果然是買多了。不過放著也不會怎樣。
 
 ### prologue.kentaro.friday/line-0287 | 奈津美 · 手機訊息
 
@@ -921,7 +912,7 @@
 
 ### prologue.kentaro.friday/line-0288 | 健太郎 · 手機訊息
 
-「那個好吃啊！」
+「那個好吃啊。」
 
 ### prologue.kentaro.friday/line-0289 | 奈津美 · 手機訊息
 
@@ -929,8 +920,8 @@
 
 ### prologue.kentaro.friday/line-0290 | 旁白
 
-山田笑得更開心了。
 他幾乎能想像出奈津美現在的表情。
+---
 大概是有點無奈地看著手機，然後忍不住笑出來吧。
 
 ### prologue.kentaro.friday/line-0293 | 旁白
@@ -940,6 +931,7 @@
 ### prologue.kentaro.friday/line-0294 | 旁白
 
 山田又低頭看了一眼遊戲畫面。
+---
 角色選擇介面還沒正式打開，他忽然想起一件重要的事情。
 
 ### prologue.kentaro.friday/line-0296 | 健太郎 · 手機訊息
@@ -960,12 +952,11 @@
 
 ### prologue.kentaro.friday/line-0300 | 健太郎 · 手機訊息
 
-「喔喔！」
+「喔喔。」
 
 ### prologue.kentaro.friday/line-0301 | 旁白
 
-山田想了想。
-果然很像奈津美會喜歡的角色。
+山田想了想。果然很像奈津美會喜歡的角色。
 
 ### prologue.kentaro.friday/line-0303 | 旁白
 
@@ -981,12 +972,11 @@
 
 ### prologue.kentaro.friday/line-0306 | 旁白
 
-奈津美問。
 山田幾乎沒有猶豫。
 
 ### prologue.kentaro.friday/line-0308 | 健太郎 · 手機訊息
 
-「勇者！」
+「勇者。」
 
 ### prologue.kentaro.friday/line-0309 | 奈津美 · 手機訊息
 
@@ -994,7 +984,7 @@
 
 ### prologue.kentaro.friday/line-0310 | 健太郎 · 手機訊息
 
-「欸！為什麼？！」
+「欸，為什麼？」
 
 ### prologue.kentaro.friday/line-0311 | 奈津美 · 手機訊息
 
@@ -1002,13 +992,11 @@
 
 ### prologue.kentaro.friday/line-0312 | 健太郎 · 手機訊息
 
-「哈哈哈哈因為很帥啊！」
+「哈哈哈哈因為很帥啊。」
 
 ### prologue.kentaro.friday/line-0313 | 旁白
 
-他看著螢幕裡的勇者宣傳圖。
-鎧甲、披風、長劍。
-怎麼看都很帥吧！
+他看著螢幕裡的勇者宣傳圖。怎麼看都很帥吧！
 
 ### prologue.kentaro.friday/line-0316 | 旁白
 
@@ -1017,12 +1005,13 @@
 ### prologue.kentaro.friday/line-0317 | 旁白
 
 如果她是魔女，自己是勇者，那兩個人就是一支真正的冒險隊伍了。
+---
 勇者在前面戰鬥，魔女在後面使用法術。
-嗯。
 
 ### prologue.kentaro.friday/line-0320 | 旁白
 
 聽起來就很厲害。
+---
 他順手傳了一句。
 
 ### prologue.kentaro.friday/line-0322 | 健太郎 · 手機訊息
@@ -1032,12 +1021,15 @@
 ### prologue.kentaro.friday/line-0323 | 旁白
 
 發送出去之後，他低頭笑了笑。
+---
 說起來，雖然只是遊戲，但能夠在危險的時候保護奈津美，感覺還不錯。
 
 ### prologue.kentaro.friday/line-0325 | 旁白
 
 不過他也知道，她不是那種只會站在旁邊等人幫忙的性格。
+---
 果然。
+---
 過了一會兒，奈津美回覆。
 
 ### prologue.kentaro.friday/line-0328 | 奈津美 · 手機訊息
@@ -1054,12 +1046,11 @@
 
 ### prologue.kentaro.friday/line-0331 | 旁白
 
-山田睜大了眼睛。
-欸？
-原來是這樣？
+欸？原來是這樣？
+---
 他又仔細看了看遊戲的職業介紹。
-……喔！
-好像真的挺強的！
+---
+……喔！好像真的挺強的！
 
 ### prologue.kentaro.friday/line-0337 | 旁白
 
@@ -1067,7 +1058,7 @@
 
 ### prologue.kentaro.friday/line-0338 | 健太郎 · 手機訊息
 
-「那不就換妳保護我了！」
+「那不就換妳保護我了。」
 
 ### prologue.kentaro.friday/line-0339 | 奈津美 · 手機訊息
 
@@ -1079,19 +1070,21 @@
 
 ### prologue.kentaro.friday/line-0341 | 健太郎 · 手機訊息
 
-「拜託了！魔女大人！」
+「拜託了，魔女大人。」
 
 ### prologue.kentaro.friday/line-0342 | 旁白
 
 訊息發送後，他想像了一下奈津美穿著魔女袍、戴著尖帽子，一本正經地拿著法杖施法的樣子。
+---
 ……哈哈哈哈。
 
 ### prologue.kentaro.friday/line-0344 | 旁白
 
 好像很適合她耶。
+---
 而且如果她真的在遊戲裡學會了很厲害的魔法，說不定自己還會經常需要她幫忙。
-嗯。
-那也挺好啊。
+---
+嗯。那也挺好啊。
 
 ### prologue.kentaro.friday/line-0348 | 旁白
 
@@ -1107,11 +1100,11 @@
 
 ### prologue.kentaro.friday/line-0351 | 健太郎 · 手機訊息
 
-「遵命！！」
+「遵命！」
 
 ### prologue.kentaro.friday/line-0352 | 旁白
 
-他還附上了一張狗狗翻滾的貼圖。
+他還附上了一張貓貓翻滾的貼圖。
 發送成功。
 ……好期待啊。
 
@@ -1120,11 +1113,13 @@
 ### prologue.kentaro.night/line-0356 | 旁白
 
 夜漸漸深了。
+---
 山田把兩支控制器重新放好，確認遊戲已經安裝完成，才關掉電視。
 
 ### prologue.kentaro.night/line-0358 | 旁白
 
 房間恢復安靜，只剩窗外偶爾傳來的汽車聲。
+---
 他拿起手機，打開與奈津美的聊天視窗。
 
 ### prologue.kentaro.night/line-0360 | 健太郎 · 手機訊息
@@ -1137,12 +1132,11 @@
 
 ### prologue.kentaro.night/line-0362 | 旁白
 
-山田忍不住笑了。
 考試剛結束，確實該好好睡一覺。
 
 ### prologue.kentaro.night/line-0364 | 健太郎 · 手機訊息
 
-「哈哈哈好！那我等妳！」
+「哈哈哈好，那我等妳。」
 
 ### prologue.kentaro.night/line-0365 | 奈津美 · 手機訊息
 
@@ -1150,7 +1144,7 @@
 
 ### prologue.kentaro.night/line-0366 | 健太郎 · 手機訊息
 
-「才不會啦！」
+「才不會啦。」
 
 ### prologue.kentaro.night/line-0367 | 奈津美 · 手機訊息
 
@@ -1158,11 +1152,12 @@
 
 ### prologue.kentaro.night/line-0368 | 健太郎 · 手機訊息
 
-「那次是意外！！」
+「那次是意外。」
 
 ### prologue.kentaro.night/line-0369 | 旁白
 
 他笑著把訊息送出去。
+---
 上次確實睡過頭了一次。
 
 ### prologue.kentaro.night/line-0371 | 旁白
@@ -1197,18 +1192,19 @@
 ### prologue.kentaro.night/line-0382 | 旁白
 
 明天奈津美來了之後，只要打開主機就可以開始。
+---
 ……不過，要先吃點東西嗎？
 
 ### prologue.kentaro.night/line-0384 | 旁白
 
 她說十一點左右到，那玩一會兒應該就差不多到午飯時間了。
-可以先問問她想吃什麼。
-如果想出去吃，他們就一起去。
+---
+可以先問問她想吃什麼。如果想出去吃，他們就一起去。
 
 ### prologue.kentaro.night/line-0387 | 旁白
 
-要是懶得出門，也可以叫外賣。
-反正沒有必要把時間排得太滿。
+要是懶得出門，也可以叫外賣。反正沒有必要把時間排得太滿。
+---
 這次又不像之前，每次吃飯都要算著她幾點回去趕報告。
 
 ### prologue.kentaro.night/line-0390 | 旁白
@@ -1221,9 +1217,7 @@
 
 ### prologue.kentaro.night/line-0392 | 旁白
 
-明明才剛剛見面，就又要分開了。
-當時他雖然覺得有點可惜，但也知道，等她忙完就好了。
-現在終於等到了。
+明明才剛剛見面，就又要分開了。當時他雖然覺得有點可惜，但也知道，等她忙完就好了。現在終於等到了。
 
 ### prologue.kentaro.night/line-0395 | 旁白
 
@@ -1235,10 +1229,9 @@
 
 ### prologue.kentaro.night/line-0397 | 旁白
 
-奈津美那句話還停留在上面。
-山田看著看著，忽然又笑了。
-……啊。
-真的好期待啊。
+奈津美那句話還停留在上面。山田看著看著，忽然又笑了。
+---
+……啊。真的好期待啊。
 
 ### prologue.kentaro.night/line-0401 | 旁白
 
@@ -1259,47 +1252,52 @@
 ### prologue.kentaro.night/line-0405 | 旁白
 
 山田覺得，奈津美真的很有趣。
+---
 不是那種故意說笑話、想讓大家開心的有趣。
 
 ### prologue.kentaro.night/line-0407 | 旁白
 
 而是和她待在一起，總會發現一些平常沒有留意到的小事情。
+---
 以前剛認識的時候，他就很喜歡她這一點。
+---
 現在也是。
 
 ### prologue.kentaro.night/line-0410 | 旁白
 
 而且交往越久，越覺得和她在一起很舒服。
+---
 不用想著要怎麼表現自己，也不用刻意安排每一件事。
 
 ### prologue.kentaro.night/line-0412 | 旁白
 
 他可以很自然地做自己喜歡的事，奈津美也可以按照自己的節奏享受。
+---
 兩個人待在一起，總能找到好玩的事情。
 
 ### prologue.kentaro.night/line-0414 | 旁白
 
 想到這裡，山田翻身躺到床上。
-……說起來。
-如果明天遊戲真的很好玩，他們搞不好會玩到晚上。
+---
+……說起來。如果明天遊戲真的很好玩，他們搞不好會玩到晚上。
 
 ### prologue.kentaro.night/line-0417 | 旁白
 
 要是一直卡關，那就再試一次。
+---
 如果奈津美累了，可以先休息，出去買點東西吃。
 
 ### prologue.kentaro.night/line-0419 | 旁白
 
 要是她突然發現什麼很厲害的魔法，他一定要讓她教自己看看。
-不對。
-自己是勇者。
-應該不能用魔法吧？
+---
+不對。自己是勇者。應該不能用魔法吧？
 
 ### prologue.kentaro.night/line-0423 | 健太郎
 
 「……哈哈哈哈。」
 
-### prologue.kentaro.night/line-0424 | 旁白
+/### prologue.kentaro.night/line-0424 | 旁白/
 
 他在黑暗中突然笑了出來。
 怎麼還沒開始玩，就已經想這麼多了。
@@ -1317,19 +1315,16 @@
 ### prologue.kentaro.night/line-0433 | 旁白
 
 這才終於放心地把手機放下。
+---
 他當然不知道，明天那款看似普通的遊戲，將會帶著兩人進入一個遠遠超出想像的世界。
 
 ### prologue.kentaro.night/line-0435 | 旁白
 
-此刻，他唯一在意的，是明天十一點左右，奈津美會帶著她買的零食來到自己家裡。
-然後他們可以一起玩遊戲。
-一起吃飯。
+此刻，他唯一在意的，是明天十一點左右，奈津美會帶著她買的零食來到自己家裡。然後他們可以一起玩遊戲一起吃飯。
 
 ### prologue.kentaro.night/line-0438 | 旁白
 
-一起聊天。
-不用因為報告或者考試而提早道別。
-想到這裡，山田又笑了。
+一起聊天。不用因為報告或者考試而提早道別。
 
 ### prologue.kentaro.night/line-0441 | 健太郎
 
@@ -1338,6 +1333,7 @@
 ### prologue.kentaro.night/line-0442 | 旁白
 
 他將臉埋進枕頭裡，終於心滿意足地閉上眼睛。
+---
 明天是一場普通的約會。
 
 ### prologue.kentaro.night/line-0444 | 旁白

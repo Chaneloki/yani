@@ -77,3 +77,219 @@
  .thread-header:after{font-size:9px}
  .dialogue[data-channel=message]{padding-bottom:22px}
 }
+/* Stickers float without the photo frame in story narration. */
+.stage-media .message-photo[data-kind=sticker]{width:min(28dvh,230px);margin-inline:auto;background:transparent;border:0;box-shadow:none}
+.stage-media .message-photo[data-kind=sticker] img{aspect-ratio:1;max-height:28dvh}
+.stage-media .message-photo[data-kind=sticker] span{color:#edf2eb;text-align:center;text-shadow:0 1px 4px #000}
+/* Phone presentation: correspondence has its own space beside the sender. */
+.phone-status{display:flex;justify-content:space-between;padding:11px 20px 7px;color:#34463f;font:600 10px/1.2 sans-serif;letter-spacing:1px}
+.phone-home{height:4px;width:70px;border-radius:9px;background:#52685b66;margin:10px auto}
+.message-thread,.phone-preview{border:5px solid #f7f9f7b8;border-radius:30px;background:#f2f7f1bb;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 18px 60px #0004,inset 0 0 0 1px #fff8;overflow:hidden}
+.thread-header{background:#ffffff69;padding:5px 17px 8px;border-bottom:1px solid #a6b7ae40}
+.thread-header:after{content:'上下滑動查看紀錄';font-size:10px}
+.message-scroll{height:min(47dvh,460px);padding:14px;scrollbar-color:#8fa79b transparent}
+.thread-bubble{max-width:94%;padding:11px 14px;background:#ffffffd9;border-color:#ffffff94}
+.thread-bubble[data-direction=sent]{background:#dceddfed;border-color:#b6d0bf}
+.thread-bubble p{font-size:clamp(16px,1.2vw,20px);line-height:1.75}
+.message-scroll .message-photo{width:min(100%,220px)}
+.message-scroll .message-photo img{max-height:18dvh}
+.novel[data-channel=message] .reading{padding:0 8% 95px 52%;background:linear-gradient(transparent,#03060b55);width:100%;margin-top:auto}
+.novel[data-channel=message] .reading-top{margin-bottom:12px}
+.novel[data-channel=message] .reading-top>span:last-child{display:none}
+.novel[data-channel=message] .dialogue{padding-bottom:35px;min-height:0}
+.novel[data-channel=message] .portraits{inset:18% 54% 12% 6%;z-index:2}
+.novel[data-channel=message] .portrait,.novel[data-channel=message] .portrait.center,.novel[data-channel=message] .portrait.left,.novel[data-channel=message] .portrait.right{left:0;right:0;bottom:0;width:100%;height:100%;transform:none}
+.novel[data-channel=message] .portrait.has-art img{object-fit:contain;object-position:center bottom;opacity:.94;filter:saturate(.85);mask-image:linear-gradient(#000 75%,transparent);-webkit-mask-image:linear-gradient(#000 75%,transparent)}
+.novel[data-channel=message] .portrait:after{top:auto;bottom:0;left:50%;transform:translateX(-50%);white-space:nowrap}
+.stage-media.phone-preview{left:auto;right:8%;top:17%;transform:none;width:min(32vw,380px);z-index:2}
+.phone-preview-heading{padding:7px 18px 12px;border-bottom:1px solid #a6b7ae40;color:#486354;font:12px sans-serif}
+.phone-media-content{padding:12px}
+.stage-media.phone-preview .message-photo{width:100%;border:0;border-radius:12px;background:#ffffffb3;box-shadow:none}
+.stage-media.phone-preview .message-photo img{max-height:32dvh;object-fit:contain}
+.stage-media.phone-preview .message-photo span{color:#466253;text-align:center}
+.stage-media.phone-preview .message-photo[data-kind=sticker]{width:min(22dvh,180px);margin:auto;background:transparent}
+.stage-media.phone-preview .message-photo[data-kind=sticker] img{max-height:22dvh}
+.media-viewer{width:min(960px,94vw);max-height:92dvh;padding:0;border-radius:18px;overflow:hidden;background:#f5f7f3f2;color:#2b4036;border:1px solid #ffffffb3;box-shadow:0 20px 80px #0007}
+.media-viewer .panel-header{position:relative;display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0;padding:14px 20px;border-bottom:1px solid #cad5cd;background:#fff8}
+.media-viewer .panel-header h2{color:#354c3e;font:16px/1.5 sans-serif;margin:0;letter-spacing:1px}
+.media-viewer .panel-header button{color:#354c3e;flex-shrink:0}
+.media-viewer .message-full-image{display:block;width:100%;height:auto;max-height:calc(92dvh - 88px);object-fit:contain;margin:0;padding:16px}
+@media(max-width:700px){
+ .novel[data-channel=message] .reading{padding:0 5% 85px 25%}
+ .novel[data-channel=message] .portraits{inset:24% 77% 24% 0}
+ .novel[data-channel=message] .portrait:after{display:none}
+ .novel[data-channel=message] .portrait.has-art img{mask-image:none;-webkit-mask-image:none}
+ .message-thread,.phone-preview{border-width:3px;border-radius:22px}
+ .message-scroll{height:45dvh;padding:10px}
+ .thread-header{padding:5px 10px}
+ .thread-bubble{padding:9px 11px;max-width:96%}
+ .thread-bubble p{font-size:15px}
+ .phone-status{padding:10px 14px 5px}
+ .stage-media.phone-preview{width:56vw;right:6%;top:18%}
+ .stage-media.phone-preview .message-photo img{max-height:25dvh}
+ .media-viewer .panel-header{padding:10px 14px}
+ .media-viewer .message-full-image{padding:10px}
+}
+@media(max-height:600px) and (min-width:701px){.message-scroll{height:40dvh}.novel[data-channel=message] .reading{padding-bottom:70px}.phone-status{padding-block:5px}.thread-header:after{display:none}}
+/* The correspondent is a translucent wallpaper inside the phone, never a separate layer over it. */
+.message-thread{position:relative;isolation:isolate;background:#f2f7f1c9}
+.phone-contact-art{position:absolute;inset:12% 0 0;width:100%;height:88%;object-fit:cover;object-position:50% 18%;opacity:.2;z-index:-1;pointer-events:none;filter:saturate(.7);mask-image:linear-gradient(transparent,#000 12%,#000 85%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 12%,#000 85%,transparent)}
+.message-thread>.phone-status,.message-thread>.thread-header,.message-thread>.message-scroll,.message-thread>.phone-home{position:relative}
+.novel[data-channel=message] .portraits{visibility:hidden}
+.novel[data-channel=message] .reading{padding-left:28%;padding-right:28%;background:linear-gradient(transparent,#03060b55)}
+@media(max-width:700px){.novel[data-channel=message] .reading{padding-left:7%;padding-right:7%}}
+/* Narrated phone photos sit on the same centre line as the conversation. */
+.stage-media.phone-preview,.stage-media.phone-preview[data-orientation=portrait]{left:28%;right:auto;top:17%;transform:none;width:44%;max-width:none}
+.stage-media.phone-preview .message-photo img{max-height:27dvh}
+@media(max-width:700px){
+ .stage-media.phone-preview,.stage-media.phone-preview[data-orientation=portrait]{left:7%;right:auto;width:86%;top:19%}
+ .stage-media.phone-preview .message-photo img{max-height:22dvh}
+}
+@media(max-height:600px){.stage-media.phone-preview,.stage-media.phone-preview[data-orientation=portrait]{top:16%}.stage-media.phone-preview .message-photo img{max-height:20dvh}.phone-preview-heading{padding-block:5px}.phone-media-content{padding:7px}}
+.novel[data-phone-photo=true] .stage-media.phone-preview{z-index:3}
+/* Title screen and shared menu system — warm paper, forest green, restrained gold. */
+.title-screen{--ink:#243e35;--muted:#6d7b70;position:relative;isolation:isolate;min-height:100dvh;overflow:hidden;color:var(--ink);background-image:var(--title-art,linear-gradient(118deg,#f4f0e7 0%,#e9ece1 58%,#d5e0d4 100%));background-size:cover;background-position:center;display:flex;flex-direction:column;padding:30px 5vw}
+.title-screen:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#f3efe7ee,#eef0e38c 60%,#dfe8db35)}
+.title-orbit{position:absolute;width:min(74vw,1000px);aspect-ratio:1;border:1px solid #718d6e24;border-radius:50%;right:-20%;top:4%;z-index:-1;box-shadow:0 0 0 65px #8ea28408,0 0 0 130px #8ea28406}
+.title-orbit:after{content:'山田 × 西';position:absolute;top:32%;left:12%;font-size:clamp(80px,13vw,200px);writing-mode:vertical-rl;letter-spacing:20px;color:#436c4810}
+.title-top,.title-bottom{display:flex;justify-content:space-between;gap:20px;font:10px/1.7 sans-serif;letter-spacing:3px;color:#66796b}
+.title-bottom{margin-top:auto;padding-top:40px;letter-spacing:1.5px}
+.title-bottom span:last-child{font-size:9px;letter-spacing:2px}
+.title-content{width:min(500px,100%);margin:auto 0 auto 11%;padding:70px 0 35px}
+.title-eyebrow{font:12px/1.6 sans-serif;letter-spacing:6px;color:#67836d;margin:0 0 23px}
+.title-content h1{font-size:clamp(48px,6.2vw,86px);font-weight:500;letter-spacing:12px;line-height:1.2;margin:0;outline:none}
+.title-content h1 span{font-size:.66em;color:#a49368;font-weight:300}
+.title-subtitle{font-size:15px;letter-spacing:5px;color:#657266;margin:25px 0 0}
+.title-rule{width:48px;height:1px;background:#a6946c;margin:32px 0}
+.title-actions{display:flex;flex-direction:column;gap:12px;max-width:350px}
+.title-action{display:flex;align-items:center;justify-content:space-between;gap:18px;border:1px solid #7d948047;color:#35513d;background:#ffffff5c;min-height:60px;padding:16px 22px;border-radius:10px;box-shadow:0 3px 15px #3a523605;letter-spacing:3px;text-align:left;transition:background .2s,transform .2s,box-shadow .2s}
+.title-action small{font:9px/1.5 sans-serif;letter-spacing:2px;color:#718574}
+.title-action:hover{background:#ffffffb8;border-color:#76917e;transform:translateX(4px);box-shadow:0 7px 22px #3a52360a}
+.title-action.title-primary{background:#304e3e;color:#f5f1e5;border-color:#304e3e;box-shadow:0 7px 20px #294b3724}
+.title-primary small{color:#c9d8c9}
+.title-action.title-primary:hover{background:#40664f}
+.title-note{font:11px/1.8 sans-serif;letter-spacing:1px;color:#7a8476;margin:22px 0 0}
+.title-note span{padding:0 8px;color:#a7b09e}
+/* All in-game menus share the title's paper and green button language. */
+dialog:not(.media-viewer){background:linear-gradient(145deg,#f7f5eefc,#edf1e9fc);color:#304236;border:1px solid #fff9;border-radius:20px;padding:28px;box-shadow:0 25px 100px #07170f66}
+dialog:not(.media-viewer) .panel-header{border-bottom-color:#8c9e852e}
+dialog:not(.media-viewer) .panel-header h2{font-size:23px;color:#304c3a;text-shadow:none;font-weight:500;letter-spacing:2px}
+#close-panel{color:#5b7060;border-radius:50%}
+#close-panel:hover{background:#3d624810}
+.panel-body .muted,.settings-intro{color:#718070}
+.panel-body button{background:#ffffff85;border:1px solid #8caa8f45;color:#3c5742;border-radius:10px;box-shadow:0 2px 8px #1e3c2004;transition:background .2s,box-shadow .2s}
+.panel-body button:hover{background:#dce8da;border-color:#8aa68c;box-shadow:0 4px 14px #26492a0a}
+.panel-body .primary{background:#35553f;color:#fff;border-color:#35553f}
+.panel-body .primary:hover{background:#456e50}
+.panel-body button:disabled{opacity:.4;box-shadow:none}
+.chapter-button,.menu-button{font-size:14px;letter-spacing:1px;padding:16px 18px;margin:10px 0;text-align:left}
+.chapter-button:after,.menu-button:after{content:'↗';float:right;color:#91a387}
+.scene-list summary{color:#64775f;padding:12px 0;font:12px/1.6 sans-serif;cursor:pointer}
+.slot,.history-entry{border-bottom-color:#8195792e}
+.slot strong,.history-entry strong{color:#4a6a4e}
+.history-entry small{color:#788870}
+.history-entry p{color:#364b39}
+.settings-section{border-bottom-color:#8195792e}
+.settings-section h3{color:#3d5c43}
+.volume-value,.current-track{color:#627e64}
+.volume-slider{accent-color:#557d59}
+.perspective-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0 6px}
+.panel-body .perspective-card{display:flex;flex-direction:column;align-items:flex-start;gap:14px;padding:24px 20px;min-height:200px;text-align:left;background:#ffffff8c}
+.perspective-card strong{font-size:23px;font-weight:500;letter-spacing:3px}
+.perspective-card>span{font-size:13px;line-height:1.6}
+.perspective-card .card-eyebrow{font:9px/1.5 sans-serif;letter-spacing:2px;color:#83927b}
+.perspective-card .card-arrow{margin-top:auto;padding-top:10px;color:#688b68;font-size:11px}
+.update-entry{padding:8px 0 20px;border-bottom:1px solid #8195792e;margin-bottom:20px}
+.update-entry time{font:11px sans-serif;letter-spacing:2px;color:#869477}
+.update-entry h3{font-size:20px;font-weight:500;letter-spacing:2px;color:#405f43;margin:12px 0}
+.update-entry ul{padding-left:20px;font:14px/2 sans-serif;color:#66795f}
+button:focus-visible,a:focus-visible{outline-color:#9db487}
+@media(max-width:700px){
+ .title-screen{padding:25px 7vw;min-height:100dvh}
+ .title-top{font-size:8px;letter-spacing:2px}
+ .title-content{margin:auto 0;padding:65px 0 30px;width:100%}
+ .title-content h1{font-size:clamp(43px,11vw,70px);letter-spacing:8px}
+ .title-subtitle{font-size:13px;letter-spacing:4px}
+ .title-actions{max-width:none}
+ .title-orbit{width:110vw;right:-60%;top:20%}
+ .title-bottom{font-size:9px;letter-spacing:1px}
+ .title-bottom span:last-child{display:none}
+ .perspective-cards{grid-template-columns:1fr;gap:12px}
+ .panel-body .perspective-card{min-height:150px;padding:20px;gap:10px}
+ dialog:not(.media-viewer){padding:22px}
+ .title-action:hover{transform:none}
+}
+@media(max-height:700px) and (min-width:701px){.title-screen{padding-block:22px}.title-content{padding:24px 0 16px}.title-eyebrow{margin-bottom:14px}.title-content h1{font-size:60px}.title-subtitle{margin-top:17px}.title-rule{margin-block:22px}.title-action{min-height:52px;padding-block:12px}.title-note{margin-top:16px}.title-bottom{padding-top:20px}}
+/* Keep the title artwork unobstructed: only the three entry actions remain. */
+.title-content{width:min(350px,100%);padding:30px 0;margin:auto 0 auto 11%}
+.title-screen:before{background:linear-gradient(90deg,#f3efe733,transparent 70%)}
+@media(max-width:700px){.title-content{margin:auto 0;width:100%;padding:25px 0}}
+@media(max-height:700px) and (min-width:701px){.title-content{padding:20px 0}}
+/* A quiet lower-edge dock leaves the cover's people, sunset and castle visible. */
+.title-screen.has-cover{background-color:#16251f;padding:0;background-position:center;background-size:contain;background-repeat:no-repeat}
+.title-video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;z-index:-1;pointer-events:none}
+.title-screen.has-cover:before{background:linear-gradient(transparent 70%,#07130d35 85%,#07130d8c);pointer-events:none}
+.has-cover .title-content{position:relative;width:auto;margin:auto auto 0;padding:0 24px max(26px,4dvh);z-index:1}
+.has-cover .title-actions{flex-direction:row;max-width:none;gap:14px}
+.has-cover .title-action{width:190px;min-height:54px;padding:14px 20px;background:#11241ed9;border:1px solid #edf1d566;color:#f1f0df;border-radius:9px;box-shadow:0 4px 20px #0003;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);letter-spacing:2px}
+.has-cover .title-action small{color:#d9dfc7}
+.has-cover .title-action.title-primary{background:#f3f0e1ed;border-color:#ffffffe0;color:#304a38}
+.has-cover .title-primary small{color:#617a57}
+.has-cover .title-action:hover{background:#324e3fe8;border-color:#fff9;transform:translateY(-3px)}
+.has-cover .title-action.title-primary:hover{background:#fffdf2}
+.has-cover .title-action:focus-visible{outline:2px solid #f1dfac;outline-offset:5px}
+@media(max-width:700px){
+ .title-screen.has-cover{background-position:center 25%;background-size:100% auto}
+ .title-video{height:65%;object-position:center}
+ .title-screen.has-cover:before{background:linear-gradient(transparent 45%,#16251f55 65%,#16251f 85%)}
+ .has-cover .title-content{width:min(360px,100%);margin:auto auto 0;padding:15px 24px max(28px,env(safe-area-inset-bottom));}
+ .has-cover .title-actions{flex-direction:column;gap:10px}
+ .has-cover .title-action{width:100%;min-height:50px;padding:13px 18px}
+}
+@media(max-height:500px) and (min-width:701px){.has-cover .title-content{padding-bottom:14px}.has-cover .title-action{min-height:44px;padding:10px 18px}}
+/* Soften the moving artwork with a translucent white veil and a right-hand menu. */
+.title-screen.has-cover:before{z-index:0;background:#fff7;pointer-events:none}
+.has-cover .title-content{width:min(310px,32vw);margin:auto 6vw auto auto;padding:25px 0}
+.has-cover .title-actions{flex-direction:column;gap:13px}
+.has-cover .title-action{width:100%;background:#f8faf3c9;color:#344c3a;border-color:#ffffffc7;box-shadow:0 5px 22px #263b2614}
+.has-cover .title-action small{color:#65806a}
+.has-cover .title-action.title-primary{background:#304f3ee6;color:#f6f4e9;border-color:#304f3e88}
+.has-cover .title-primary small{color:#d8e2cf}
+.has-cover .title-action:hover{background:#fffffff0;border-color:#fff;transform:translateX(-3px)}
+.has-cover .title-action.title-primary:hover{background:#41634ded}
+@media(max-width:700px){
+ .has-cover .title-content{width:min(280px,72vw);margin:auto 7vw max(30px,env(safe-area-inset-bottom)) auto;padding:0}
+ .has-cover .title-actions{gap:10px}
+ .has-cover .title-action:hover{transform:none}
+}
+.title-screen.has-cover:before{background:#ffffff40}
+/* Visual novel title rail: translucent glass, quiet type and fine rules. */
+.has-cover .title-content{position:absolute;top:0;bottom:0;right:5%;width:290px;margin:0;padding:42px 38px;display:flex;align-items:center;background:linear-gradient(90deg,#f8f8f462,#fff9 55%,#f5f6f17a);border-inline:1px solid #ffffff80;box-shadow:inset 5px 0 0 #ffffff15,inset -5px 0 0 #ffffff15;backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px)}
+.has-cover .title-content:before{content:'';position:absolute;inset:0;pointer-events:none;opacity:.3;background:repeating-linear-gradient(130deg,transparent 0 5px,#ffffff38 5px 6px);mask-image:linear-gradient(transparent,#000 40%,transparent)}
+.has-cover .title-actions{width:100%;gap:37px;position:relative}
+.has-cover .title-action,.has-cover .title-action.title-primary{position:relative;display:flex;justify-content:flex-start;align-items:center;gap:12px;min-height:58px;padding:10px 4px 12px 18px;border:0;border-radius:0;background:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;color:#48566c;font-size:24px;letter-spacing:4px;font-weight:400;text-shadow:0 1px 2px #ffffff8c;transition:color .2s,transform .2s}
+.has-cover .title-action:before{content:'';position:absolute;left:1px;bottom:14px;width:4px;height:4px;background:#6a7890;box-shadow:0 5px 5px #45536925}
+.has-cover .title-action:after{content:'';position:absolute;left:17px;right:4px;bottom:10px;height:1px;background:linear-gradient(90deg,#62718c99,#62718c24);transform-origin:left;transition:transform .2s}
+.has-cover .title-action small{display:none}
+.has-cover .title-action:hover,.has-cover .title-action.title-primary:hover{background:transparent;border:0;color:#243b56;transform:translateX(5px);box-shadow:none}
+.has-cover .title-action:hover:before{background:#324e70}
+.has-cover .title-action:focus-visible{outline:1px solid #647b9880;outline-offset:8px;background:#ffffff29}
+@media(max-width:700px){
+ .has-cover .title-content{right:3%;width:min(235px,53vw);padding:28px 22px;top:0;bottom:0;margin:0}
+ .has-cover .title-action,.has-cover .title-action.title-primary{font-size:20px;letter-spacing:2px;min-height:54px;padding-left:14px}
+ .has-cover .title-actions{gap:27px}
+ .has-cover .title-action:after{left:14px}
+}
+@media(max-height:500px) and (min-width:701px){.has-cover .title-content{padding-block:20px}.has-cover .title-actions{gap:20px}.has-cover .title-action,.has-cover .title-action.title-primary{font-size:21px;min-height:48px}}
+/* Full-colour artwork with a slimmer menu rail. */
+.title-screen.has-cover:before{background:transparent}
+.has-cover .title-content{right:4%;width:230px;padding-inline:25px}
+.has-cover .title-action,.has-cover .title-action.title-primary{font-size:22px;letter-spacing:3px}
+@media(max-width:700px){
+ .has-cover .title-content{right:3%;width:min(195px,46vw);padding-inline:18px}
+ .has-cover .title-action,.has-cover .title-action.title-primary{font-size:18px;letter-spacing:1px}
+}
+/* Fill the viewport on every aspect ratio; crop edges instead of letterboxing. */
+.title-screen.has-cover{background-size:cover;background-position:center}
+.title-video{height:100%;width:100%;object-fit:cover;object-position:center}
+@media(max-width:700px){.title-video{height:100%;object-fit:cover;object-position:40% center}.title-screen.has-cover{background-size:cover;background-position:40% center}}
