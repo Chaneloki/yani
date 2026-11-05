@@ -15,3 +15,6 @@
 
 部署副本位於 `../03yani-foundation/public/assets/audio/bgm/`；SE 另放 `audio/se/`。
 故事以穩定 ID 選曲，可於不同章節重用。類型與樂器描述依作者提供的介紹整理，未聲稱經音訊分析判定。
+
+
+第一章新增：`alex-morgan-fantasy-adventure-quest-537478.mp3` → `bgm-epic-fantasy-adventure.mp3`，資產 ID `epic-fantasy-adventure`（史詩冒險）。原檔名及作者線索保留在 assets.json。列車遇襲 `chapter01.skyrail/beat-028` 開始，離開山谷 `beat-096` 切回溫暖日常。首頁、重逢及慶典不使用這首。

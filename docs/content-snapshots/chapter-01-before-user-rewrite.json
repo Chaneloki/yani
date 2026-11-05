@@ -1,0 +1,2400 @@
+{
+  "scenes": [
+    {
+      "id": "chapter01.arrival",
+      "title": "見到你了",
+      "perspective": "natsumi",
+      "timeline": "星期六上午 · 健太郎家",
+      "stage": {
+        "background": "apartment-door-day",
+        "bgm": "heartwarming-romance",
+        "portraits": [],
+        "cg": null,
+        "media": null,
+        "gameAvatars": [],
+        "camera": null
+      },
+      "nodes": [
+        {
+          "id": "beat-001",
+          "type": "narration",
+          "text": "山田打開門的時候，西才剛把手從門鈴上收回。"
+        },
+        {
+          "id": "beat-002",
+          "type": "dialogue",
+          "text": "「奈津美！」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-003",
+          "type": "narration",
+          "text": "他像平時一樣叫她，聲音明亮，尾音微微上揚。她原本已經想好要說早安，可看見他站在門後，那句再普通不過的招呼，忽然就變得有點多餘了。"
+        },
+        {
+          "id": "beat-004",
+          "type": "dialogue",
+          "text": "「早安，健太郎。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-005",
+          "type": "narration",
+          "text": "她還是說了。"
+        },
+        {
+          "id": "beat-006",
+          "type": "narration",
+          "text": "山田笑著側過身，讓她進屋。"
+        },
+        {
+          "id": "beat-007",
+          "type": "dialogue",
+          "text": "「早安。外面熱嗎？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-008",
+          "type": "dialogue",
+          "text": "「還好，剛剛有點風。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-009",
+          "type": "dialogue",
+          "text": "「那就好。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-010",
+          "type": "narration",
+          "text": "他順手接過她的包，等她換好鞋，才帶她往房間走。"
+        },
+        {
+          "id": "beat-011",
+          "type": "narration",
+          "text": "一切都很熟悉。玄關通往房間的那段走道，房門推開時細微的聲響，甚至他走在前面時略微晃動的髮尾。西來過這裡很多次，熟悉到幾乎不需要抬頭，就知道轉過身會看見什麼。",
+          "stage": {
+            "background": "kentaro-room-day"
+          }
+        },
+        {
+          "id": "beat-012",
+          "type": "narration",
+          "text": "但她今天格外想看他。"
+        },
+        {
+          "id": "beat-013",
+          "type": "narration",
+          "text": "山田正說著昨晚研究遊戲時發現的一項功能，西一邊聽，一邊望著他的側臉。那頭蓬鬆的棕髮依然有幾撮不太聽話地翹著，說話時眉毛跟著動，眼睛偶爾會因為想到什麼有趣的事情而亮起來。"
+        },
+        {
+          "id": "beat-014",
+          "type": "narration",
+          "text": "她明明很熟悉這張臉。"
+        },
+        {
+          "id": "beat-015",
+          "type": "narration",
+          "text": "偏偏還是很喜歡看。"
+        },
+        {
+          "id": "beat-016",
+          "type": "narration",
+          "text": "走進房間後，山田將她的包放好，轉身正準備去拿控制器，衣袖忽然被輕輕拉住。"
+        },
+        {
+          "id": "beat-017",
+          "type": "dialogue",
+          "text": "「健太郎。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-018",
+          "type": "dialogue",
+          "text": "「嗯？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-019",
+          "type": "narration",
+          "text": "他回過頭。"
+        },
+        {
+          "id": "beat-020",
+          "type": "narration",
+          "text": "西沒有立即回答，只是往前走了一步，伸手環住他的腰，把臉靠向他的胸口。",
+          "stage": {
+            "cg": "saturday-reunion-hug"
+          }
+        },
+        {
+          "id": "beat-021",
+          "type": "narration",
+          "text": "山田愣了短短一瞬，隨即抬手抱住她。"
+        },
+        {
+          "id": "beat-022",
+          "type": "dialogue",
+          "text": "「怎麼啦？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-023",
+          "type": "dialogue",
+          "text": "「沒什麼。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-024",
+          "type": "narration",
+          "text": "她的聲音從他衣服上傳出來，有些悶悶的。"
+        },
+        {
+          "id": "beat-025",
+          "type": "dialogue",
+          "text": "「就是想抱一下。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-026",
+          "type": "dialogue",
+          "text": "「喔。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-027",
+          "type": "narration",
+          "text": "山田低下頭，笑了。"
+        },
+        {
+          "id": "beat-028",
+          "type": "dialogue",
+          "text": "「那就抱啊。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-029",
+          "type": "narration",
+          "text": "他的手臂自然地收攏了些。"
+        },
+        {
+          "id": "beat-030",
+          "type": "narration",
+          "text": "西閉上眼睛。"
+        },
+        {
+          "id": "beat-031",
+          "type": "narration",
+          "text": "隔著薄薄的衣料，能感覺到他的體溫。山田剛才還在說話，胸口的起伏因為笑意而輕輕震動。她聞到他身上很淡的洗衣精味道，混著一點熟悉的、說不上來的氣息。"
+        },
+        {
+          "id": "beat-032",
+          "type": "narration",
+          "text": "這些東西在手機裡是沒有的。"
+        },
+        {
+          "id": "beat-033",
+          "type": "narration",
+          "text": "訊息可以隨時傳，電話也能聽見他的聲音。可她最喜歡的，始終是這種伸出手就能碰到他的距離。"
+        },
+        {
+          "id": "beat-034",
+          "type": "narration",
+          "text": "山田輕輕撫了撫她的背。"
+        },
+        {
+          "id": "beat-035",
+          "type": "dialogue",
+          "text": "「奈津美。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-036",
+          "type": "dialogue",
+          "text": "「嗯？」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-037",
+          "type": "dialogue",
+          "text": "「我也很想見妳。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-038",
+          "type": "narration",
+          "text": "西沒有抬頭，只是笑了。"
+        },
+        {
+          "id": "beat-039",
+          "type": "dialogue",
+          "text": "「我又還沒說什麼。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-040",
+          "type": "dialogue",
+          "text": "「可是妳抱過來了嘛。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-041",
+          "type": "dialogue",
+          "text": "「那就不能只是想抱你嗎？」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-042",
+          "type": "dialogue",
+          "text": "「可以啊。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-043",
+          "type": "narration",
+          "text": "山田回答得很快，又把她抱近了一點。"
+        },
+        {
+          "id": "beat-044",
+          "type": "narration",
+          "text": "她終於抬起臉。",
+          "stage": {
+            "cg": null
+          }
+        },
+        {
+          "id": "beat-045",
+          "type": "narration",
+          "text": "山田正低頭望著她，嘴角帶著一點自然而然的笑意。"
+        },
+        {
+          "id": "beat-046",
+          "type": "narration",
+          "text": "西伸手碰了碰他的臉頰，順勢靠近，在他唇上輕輕親了一下。"
+        },
+        {
+          "id": "beat-047",
+          "type": "narration",
+          "text": "她原本只是想親一下。"
+        },
+        {
+          "id": "beat-048",
+          "type": "narration",
+          "text": "但分開的時候，山田並沒有立即鬆手。他低下頭，又回吻了她一次。"
+        },
+        {
+          "id": "beat-049",
+          "type": "narration",
+          "text": "那個吻比第一下稍微長了些。"
+        },
+        {
+          "id": "beat-050",
+          "type": "narration",
+          "text": "西的手仍然搭在他的肩上。窗外傳來一陣很輕的風聲，房間裡卻安靜得只剩下彼此挪動時細微的衣料摩擦聲。"
+        },
+        {
+          "id": "beat-051",
+          "type": "narration",
+          "text": "分開後，山田望著她，臉上還帶著笑意。"
+        },
+        {
+          "id": "beat-052",
+          "type": "dialogue",
+          "text": "「奈津美，妳今天好可愛。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-053",
+          "type": "narration",
+          "text": "西忍不住笑了。"
+        },
+        {
+          "id": "beat-054",
+          "type": "dialogue",
+          "text": "「怎麼突然說這個？」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-055",
+          "type": "dialogue",
+          "text": "「因為真的覺得很可愛啊。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-056",
+          "type": "dialogue",
+          "text": "「……真是的。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-057",
+          "type": "narration",
+          "text": "她笑著伸手替他整理了一下額前翹起的頭髮。"
+        },
+        {
+          "id": "beat-058",
+          "type": "narration",
+          "text": "山田任由她擺弄，等她收回手，才輕輕握住她的指尖。"
+        },
+        {
+          "id": "beat-059",
+          "type": "dialogue",
+          "text": "「那我們開始玩？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-060",
+          "type": "dialogue",
+          "text": "「嗯。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-061",
+          "type": "narration",
+          "text": "西答應了，卻沒有立即鬆開他的手。"
+        },
+        {
+          "id": "beat-062",
+          "type": "narration",
+          "text": "她望了一眼電視，又靠近他一些。"
+        },
+        {
+          "id": "beat-063",
+          "type": "dialogue",
+          "text": "「不過，再抱一下。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-064",
+          "type": "dialogue",
+          "text": "「好啊。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-065",
+          "type": "narration",
+          "text": "山田笑著張開手臂。"
+        },
+        {
+          "id": "beat-066",
+          "type": "narration",
+          "text": "西很自然地靠進他懷裡。兩個人安靜地抱了一會兒，直到山田輕輕碰了碰她的頭髮，她才滿足地抬起頭。"
+        },
+        {
+          "id": "beat-067",
+          "type": "dialogue",
+          "text": "「好了。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-068",
+          "type": "dialogue",
+          "text": "「真的好了？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-069",
+          "type": "dialogue",
+          "text": "「嗯，開始吧。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-070",
+          "type": "narration",
+          "text": "山田笑著拿起控制器，順手將另一支遞給她。",
+          "stage": {
+            "background": "kentaro-gaming-room-day",
+            "gameAvatars": []
+          },
+          "next": "chapter01.skyrail"
+        }
+      ]
+    },
+    {
+      "id": "chapter01.skyrail",
+      "title": "前往星燈之城",
+      "perspective": "natsumi",
+      "timeline": "星期六 · 電視中的遊戲",
+      "stage": {
+        "background": "skyrail-train-day",
+        "bgm": "happy-anticipation",
+        "portraits": [],
+        "cg": null,
+        "media": null,
+        "gameAvatars": [
+          {
+            "character": "kentaro",
+            "variant": "hero-back",
+            "expression": "neutral",
+            "position": "left"
+          },
+          {
+            "character": "natsumi",
+            "variant": "witch-back",
+            "expression": "neutral",
+            "position": "right"
+          }
+        ],
+        "camera": "pan-right"
+      },
+      "nodes": [
+        {
+          "id": "beat-001",
+          "type": "narration",
+          "text": "遊戲開始時，首先響起的是列車的汽笛聲。"
+        },
+        {
+          "id": "beat-002",
+          "type": "narration",
+          "text": "一輛深藍色的列車正駛過山谷。"
+        },
+        {
+          "id": "beat-003",
+          "type": "narration",
+          "text": "與普通列車不同，它的車輪並沒有貼著地面，而是沿著一道懸浮在半空中的金色軌道疾馳。車身兩側鑲嵌著發光的魔法石，每當列車經過彎道，石頭便會依次亮起，帶動整列車廂向前傾斜。"
+        },
+        {
+          "id": "beat-004",
+          "type": "narration",
+          "text": "下方是大片翠綠的森林。",
+          "stage": {
+            "background": "forest-waterfall-day",
+            "camera": "push-in"
+          }
+        },
+        {
+          "id": "beat-005",
+          "type": "narration",
+          "text": "瀑布從陡峭的山壁落下，水霧在陽光裡形成淡淡的彩虹。遠處的城鎮被層層山脈環繞，無數彩色旗幟沿著街道延伸，鐘樓上方飄浮著一顆巨大的金色星燈。"
+        },
+        {
+          "id": "beat-006",
+          "type": "dialogue",
+          "text": "「哇——！」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ],
+            "camera": null
+          }
+        },
+        {
+          "id": "beat-007",
+          "type": "narration",
+          "text": "山田一下子坐直了。"
+        },
+        {
+          "id": "beat-008",
+          "type": "dialogue",
+          "text": "「欸，這個可以坐嗎？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-009",
+          "type": "narration",
+          "text": "西望著畫面裡的軌道。"
+        },
+        {
+          "id": "beat-010",
+          "type": "dialogue",
+          "text": "「它竟然在天上跑。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-011",
+          "type": "dialogue",
+          "text": "「妳看，它轉過去了。」",
+          "speaker": "kentaro",
+          "stage": {
+            "background": "skyrail-train-day",
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-012",
+          "type": "narration",
+          "text": "列車沿著山壁劃出一道漂亮的弧線，窗外的風景跟著傾斜。"
+        },
+        {
+          "id": "beat-013",
+          "type": "narration",
+          "text": "畫面切入車廂。",
+          "stage": {
+            "background": "skyrail-carriage-day"
+          }
+        },
+        {
+          "id": "beat-014",
+          "type": "narration",
+          "text": "金髮的勇者和黑髮的魔女並肩坐在靠窗的位置。對面，一名穿著工作制服的年輕列車員正抱著一只厚重的木箱，額頭上冒著汗。",
+          "showGameAvatars": true
+        },
+        {
+          "id": "beat-015",
+          "type": "dialogue",
+          "text": "「兩位冒險者，真的非常感謝你們願意幫忙護送！」",
+          "speaker": "train_attendant",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-016",
+          "type": "narration",
+          "text": "列車員把木箱放在桌上。"
+        },
+        {
+          "id": "beat-017",
+          "type": "narration",
+          "text": "箱蓋的縫隙裡透出柔和的金光。"
+        },
+        {
+          "id": "beat-018",
+          "type": "dialogue",
+          "text": "「今年的星火總算趕上了！只要在日落前送到鐘樓，今晚的星燈祭就能如期舉行！」",
+          "speaker": "train_attendant",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-019",
+          "type": "narration",
+          "text": "西看著對話框，輕輕念了一遍。"
+        },
+        {
+          "id": "beat-020",
+          "type": "dialogue",
+          "text": "「星燈祭……」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-021",
+          "type": "narration",
+          "text": "山田指著窗外。"
+        },
+        {
+          "id": "beat-022",
+          "type": "dialogue",
+          "text": "「就是剛剛那個很多旗子的城鎮吧？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-023",
+          "type": "narration",
+          "text": "兩人還沒來得及繼續討論，列車忽然劇烈一震。"
+        },
+        {
+          "id": "beat-024",
+          "type": "narration",
+          "text": "咣！"
+        },
+        {
+          "id": "beat-025",
+          "type": "narration",
+          "text": "桌上的木箱猛地向旁邊滑去。"
+        },
+        {
+          "id": "beat-026",
+          "type": "narration",
+          "text": "列車員嚇得伸手去抓，卻差一點連人帶箱摔到地上。"
+        },
+        {
+          "id": "beat-027",
+          "type": "narration",
+          "text": "畫面瞬間轉入操作模式。"
+        },
+        {
+          "id": "beat-028",
+          "type": "dialogue",
+          "text": "「突發事件：星軌列車遭到襲擊！」",
+          "speaker": "game_system",
+          "showPortrait": false,
+          "stage": {
+            "bgm": "epic-fantasy-adventure"
+          }
+        },
+        {
+          "id": "beat-029",
+          "type": "dialogue",
+          "text": "「欸，已經能動了？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-030",
+          "type": "narration",
+          "text": "山田立刻握好控制器。"
+        },
+        {
+          "id": "beat-031",
+          "type": "narration",
+          "text": "窗外，一團漆黑的霧氣正沿著車身快速蔓延。幾隻像鳥一樣的魔物從雲層中衝出，撞向支撐軌道的魔法石。"
+        },
+        {
+          "id": "beat-032",
+          "type": "narration",
+          "text": "一道金色光線突然熄滅。"
+        },
+        {
+          "id": "beat-033",
+          "type": "narration",
+          "text": "列車猛地傾斜。"
+        },
+        {
+          "id": "beat-034",
+          "type": "narration",
+          "text": "車廂裡的乘客驚叫起來。"
+        },
+        {
+          "id": "beat-035",
+          "type": "dialogue",
+          "text": "「健太郎，箱子要掉了！」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-036",
+          "type": "narration",
+          "text": "畫面在木箱旁亮起「固定貨物」的提示，西照著引導選中冰霧，將即將滑落的木箱暫時固定在原地。"
+        },
+        {
+          "id": "beat-037",
+          "type": "narration",
+          "text": "山田則控制勇者奔向車廂另一端，抓住被撞開的安全門。"
+        },
+        {
+          "id": "beat-038",
+          "type": "dialogue",
+          "text": "「我去前面看看。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-039",
+          "type": "dialogue",
+          "text": "「嗯，我先把箱子固定好。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-040",
+          "type": "narration",
+          "text": "兩人的畫面在這時分成左右兩半。"
+        },
+        {
+          "id": "beat-041",
+          "type": "narration",
+          "text": "勇者沿著搖晃的車廂往前跑，魔女則留在後方，幫忙固定貨物和保護乘客。"
+        },
+        {
+          "id": "beat-042",
+          "type": "narration",
+          "text": "列車員急得大喊："
+        },
+        {
+          "id": "beat-043",
+          "type": "dialogue",
+          "text": "「前面的魔力軌道快要斷了！必須有人去重新啟動連接裝置！」",
+          "speaker": "train_attendant",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-044",
+          "type": "dialogue",
+          "text": "「喔，這邊。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-045",
+          "type": "narration",
+          "text": "山田讓勇者跑上車頂。"
+        },
+        {
+          "id": "beat-046",
+          "type": "narration",
+          "text": "迎面而來的狂風幾乎吹得角色站不穩。披風被扯向身後，幾隻黑色魔物在半空盤旋，偶爾猛地俯衝，逼得他不得不一邊閃避，一邊向前移動。",
+          "stage": {
+            "background": "skyrail-train-derailment-day"
+          }
+        },
+        {
+          "id": "beat-047",
+          "type": "dialogue",
+          "text": "「哇，這裡好難走。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-048",
+          "type": "narration",
+          "text": "山田笑著操縱角色翻過一段斷裂的欄杆。"
+        },
+        {
+          "id": "beat-049",
+          "type": "narration",
+          "text": "就在他抵達連接裝置時，前方車廂突然脫離軌道。"
+        },
+        {
+          "id": "beat-050",
+          "type": "narration",
+          "text": "整節車廂向山谷外傾斜。"
+        },
+        {
+          "id": "beat-051",
+          "type": "dialogue",
+          "text": "「啊——！」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-052",
+          "type": "narration",
+          "text": "山田下意識叫了一聲。"
+        },
+        {
+          "id": "beat-053",
+          "type": "narration",
+          "text": "西也立刻看向他的畫面。"
+        },
+        {
+          "id": "beat-054",
+          "type": "dialogue",
+          "text": "「怎麼了？」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-055",
+          "type": "dialogue",
+          "text": "「前面掉下去了！」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-056",
+          "type": "narration",
+          "text": "她讓魔女跑到車窗旁。"
+        },
+        {
+          "id": "beat-057",
+          "type": "narration",
+          "text": "下方的山谷深得看不見底，而那節車廂正被最後一條金屬鏈勉強拉住。"
+        },
+        {
+          "id": "beat-058",
+          "type": "narration",
+          "text": "遊戲提示跳出。"
+        },
+        {
+          "id": "beat-059",
+          "type": "dialogue",
+          "text": "「勇者：固定車廂連接裝置。」",
+          "speaker": "game_system",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-060",
+          "type": "dialogue",
+          "text": "「魔女：利用魔法恢復軌道。」",
+          "speaker": "game_system",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-061",
+          "type": "dialogue",
+          "text": "「健太郎，你先把它拉住！」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-062",
+          "type": "dialogue",
+          "text": "「好。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-063",
+          "type": "narration",
+          "text": "勇者把劍插入機關旁的縫隙，用力扳動卡住的制動桿。"
+        },
+        {
+          "id": "beat-064",
+          "type": "narration",
+          "text": "整節車廂稍微停住。"
+        },
+        {
+          "id": "beat-065",
+          "type": "narration",
+          "text": "與此同時，魔女從車窗躍到外側的平台，法杖頂端亮起一道藍光。"
+        },
+        {
+          "id": "beat-066",
+          "type": "narration",
+          "text": "西仔細看著軌道上浮現的幾個魔法圓環。"
+        },
+        {
+          "id": "beat-067",
+          "type": "dialogue",
+          "text": "「這個要連起來……」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-068",
+          "type": "narration",
+          "text": "她先將第一道光線接上第二個圓環，再讓魔力沿著斷裂的軌道延伸。"
+        },
+        {
+          "id": "beat-069",
+          "type": "narration",
+          "text": "半空中，一段透明的藍色軌道漸漸成形。"
+        },
+        {
+          "id": "beat-070",
+          "type": "dialogue",
+          "text": "「健太郎，可以了！放開那個開關！」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-071",
+          "type": "dialogue",
+          "text": "「好。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-072",
+          "type": "narration",
+          "text": "山田按下按鈕。"
+        },
+        {
+          "id": "beat-073",
+          "type": "narration",
+          "text": "金屬鏈條猛地收緊，脫軌的車廂重新向前滑動。"
+        },
+        {
+          "id": "beat-074",
+          "type": "narration",
+          "text": "車輪壓上藍色軌道，發出一連串清脆的聲響。"
+        },
+        {
+          "id": "beat-075",
+          "type": "narration",
+          "text": "最後，伴隨著一聲沉重的碰撞，整節車廂終於回到原本的軌道上。"
+        },
+        {
+          "id": "beat-076",
+          "type": "dialogue",
+          "text": "「協力成功！」",
+          "speaker": "game_system",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-077",
+          "type": "narration",
+          "text": "山田高興地笑出聲。"
+        },
+        {
+          "id": "beat-078",
+          "type": "dialogue",
+          "text": "「成功了！」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-079",
+          "type": "narration",
+          "text": "西也忍不住笑。"
+        },
+        {
+          "id": "beat-080",
+          "type": "dialogue",
+          "text": "「剛剛那個好刺激！」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-081",
+          "type": "narration",
+          "text": "她話音未落，一隻黑色魔物突然從列車後方飛了過來，直直衝向裝著星火的木箱。",
+          "stage": {
+            "background": "skyrail-carriage-day"
+          }
+        },
+        {
+          "id": "beat-082",
+          "type": "dialogue",
+          "text": "「欸，還有！」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-083",
+          "type": "narration",
+          "text": "山田立即讓勇者折返回去。"
+        },
+        {
+          "id": "beat-084",
+          "type": "narration",
+          "text": "但西已經看見那隻魔物的動作。"
+        },
+        {
+          "id": "beat-085",
+          "type": "dialogue",
+          "text": "「這個交給我！」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-086",
+          "type": "narration",
+          "text": "她操縱魔女站到車廂中央，迅速施放一道火焰。"
+        },
+        {
+          "id": "beat-087",
+          "type": "narration",
+          "text": "火球從法杖前端飛出，正好擊中迎面衝來的魔物。黑影在半空炸成細碎的光點，隨即消失。"
+        },
+        {
+          "id": "beat-088",
+          "type": "dialogue",
+          "text": "「喔——！」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-089",
+          "type": "narration",
+          "text": "山田看著她的畫面。"
+        },
+        {
+          "id": "beat-090",
+          "type": "dialogue",
+          "text": "「奈津美，帥耶。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-091",
+          "type": "dialogue",
+          "text": "「嘿嘿。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-092",
+          "type": "narration",
+          "text": "西笑著揚了揚下巴。"
+        },
+        {
+          "id": "beat-093",
+          "type": "dialogue",
+          "text": "「魔女也是很厲害的。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-094",
+          "type": "dialogue",
+          "text": "「真的。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-095",
+          "type": "narration",
+          "text": "兩人重新控制角色站到一起。",
+          "showGameAvatars": true
+        },
+        {
+          "id": "beat-096",
+          "type": "narration",
+          "text": "列車正逐漸駛離山谷。",
+          "stage": {
+            "background": "skyrail-train-day",
+            "bgm": "warm-daily-life",
+            "camera": "pull-back"
+          }
+        },
+        {
+          "id": "beat-097",
+          "type": "narration",
+          "text": "遠處，城鎮的鐘樓已經清楚可見。"
+        },
+        {
+          "id": "beat-098",
+          "type": "narration",
+          "text": "而剛才被襲擊的車廂裡，乘客們正陸續站起來，有人鼓掌，有人開心地向兩位冒險者揮手。",
+          "stage": {
+            "background": "skyrail-carriage-day",
+            "camera": null
+          }
+        },
+        {
+          "id": "beat-099",
+          "type": "narration",
+          "text": "那名年輕列車員抱著星火木箱，幾乎感動得要哭出來。"
+        },
+        {
+          "id": "beat-100",
+          "type": "dialogue",
+          "text": "「謝謝！真的謝謝你們！如果沒有你們，今晚的星燈祭就完蛋了！」",
+          "speaker": "train_attendant",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-101",
+          "type": "narration",
+          "text": "山田望著畫面，笑得很開心。"
+        },
+        {
+          "id": "beat-102",
+          "type": "dialogue",
+          "text": "「這遊戲也太有趣了吧。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-103",
+          "type": "narration",
+          "text": "西也笑了。"
+        },
+        {
+          "id": "beat-104",
+          "type": "dialogue",
+          "text": "「是啊，剛剛差點以為真的要掉下去。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-105",
+          "type": "narration",
+          "text": "她低頭看了看控制器。"
+        },
+        {
+          "id": "beat-106",
+          "type": "dialogue",
+          "text": "「而且我們剛剛配合得挺好的。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-107",
+          "type": "dialogue",
+          "text": "「當然啊。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-108",
+          "type": "narration",
+          "text": "山田伸出手掌。"
+        },
+        {
+          "id": "beat-109",
+          "type": "narration",
+          "text": "西自然地和他擊了一下掌。"
+        },
+        {
+          "id": "beat-110",
+          "type": "narration",
+          "text": "電視裡，列車再次響起悠長的汽笛聲。",
+          "stage": {
+            "background": "skyrail-station-dusk",
+            "camera": "pan-right"
+          }
+        },
+        {
+          "id": "beat-111",
+          "type": "narration",
+          "text": "金色軌道沿著山坡向下延伸，穿過一片開滿白色小花的草地，最終駛入燈火初上的城鎮。",
+          "next": "chapter01.festival"
+        }
+      ]
+    },
+    {
+      "id": "chapter01.festival",
+      "title": "星燈祭",
+      "perspective": "natsumi",
+      "timeline": "星期六 · 電視中的星燈祭",
+      "stage": {
+        "background": "skyrail-station-dusk",
+        "bgm": "heartwarming-romance",
+        "portraits": [],
+        "cg": null,
+        "media": null,
+        "gameAvatars": [
+          {
+            "character": "kentaro",
+            "variant": "hero-back",
+            "expression": "neutral",
+            "position": "left"
+          },
+          {
+            "character": "natsumi",
+            "variant": "witch-back",
+            "expression": "neutral",
+            "position": "right"
+          }
+        ],
+        "camera": null
+      },
+      "nodes": [
+        {
+          "id": "beat-001",
+          "type": "narration",
+          "text": "列車終於抵達終點站時，天色已經接近黃昏。"
+        },
+        {
+          "id": "beat-002",
+          "type": "narration",
+          "text": "兩人控制角色走出車站。"
+        },
+        {
+          "id": "beat-003",
+          "type": "narration",
+          "text": "首先映入眼簾的，是一條被彩色燈籠照亮的街道。商店門前掛著小小的星形裝飾，路邊的攤販正忙著準備食物，穿著節日服裝的孩子在人群間跑來跑去。",
+          "stage": {
+            "background": "clocktower-plaza-dusk",
+            "camera": "rise"
+          }
+        },
+        {
+          "id": "beat-004",
+          "type": "narration",
+          "text": "沿著街道往前看，整座城鎮的房屋依山而建，屋頂上交錯著一道道細長的繩索，上面掛滿尚未點亮的燈。"
+        },
+        {
+          "id": "beat-005",
+          "type": "dialogue",
+          "text": "「哇，這裡好漂亮！」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ],
+            "camera": null
+          }
+        },
+        {
+          "id": "beat-006",
+          "type": "narration",
+          "text": "西看著畫面裡熱鬧的街道。"
+        },
+        {
+          "id": "beat-007",
+          "type": "narration",
+          "text": "山田移動勇者，在一個小攤前停下來。"
+        },
+        {
+          "id": "beat-008",
+          "type": "dialogue",
+          "text": "「欸，這個可以買東西耶。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-009",
+          "type": "dialogue",
+          "text": "「什麼？」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-010",
+          "type": "dialogue",
+          "text": "「星星形狀的麵包。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-011",
+          "type": "narration",
+          "text": "西湊近螢幕。"
+        },
+        {
+          "id": "beat-012",
+          "type": "narration",
+          "text": "遊戲畫面上的麵包確實做成了五角星的形狀，邊緣烤得金黃，表面還灑著一層細細的糖粉。"
+        },
+        {
+          "id": "beat-013",
+          "type": "dialogue",
+          "text": "「看起來很好吃。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-014",
+          "type": "dialogue",
+          "text": "「買兩個？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-015",
+          "type": "dialogue",
+          "text": "「好啊。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-016",
+          "type": "narration",
+          "text": "山田按下購買鍵。"
+        },
+        {
+          "id": "beat-017",
+          "type": "narration",
+          "text": "畫面中的店主將兩份麵包裝好，遞給勇者與魔女。"
+        },
+        {
+          "id": "beat-018",
+          "type": "narration",
+          "text": "兩個角色拿起麵包時，竟然還有各自不同的進食動作。"
+        },
+        {
+          "id": "beat-019",
+          "type": "narration",
+          "text": "山田看著勇者一口咬下大半個麵包，笑了出來。"
+        },
+        {
+          "id": "beat-020",
+          "type": "dialogue",
+          "text": "「他吃得好快。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-021",
+          "type": "narration",
+          "text": "西的魔女則是拿著麵包慢慢咬了一小口。"
+        },
+        {
+          "id": "beat-022",
+          "type": "dialogue",
+          "text": "「怎麼連這個都做得不一樣。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-023",
+          "type": "narration",
+          "text": "兩人笑著繼續往前走。"
+        },
+        {
+          "id": "beat-024",
+          "type": "narration",
+          "text": "鐘樓前的廣場已經聚滿了人。"
+        },
+        {
+          "id": "beat-025",
+          "type": "narration",
+          "text": "那名列車員正抱著星火木箱，和幾位工匠一起登上鐘樓。隨著木箱打開，一團溫暖的金色光芒緩緩升起，最後融入塔頂那顆巨大的星燈。"
+        },
+        {
+          "id": "beat-026",
+          "type": "narration",
+          "text": "鐘聲響起。"
+        },
+        {
+          "id": "beat-027",
+          "type": "narration",
+          "text": "整座城鎮的燈籠，從廣場開始，一盞接著一盞亮起。",
+          "stage": {
+            "background": "mountain-lakeside-town-night",
+            "camera": "rise"
+          }
+        },
+        {
+          "id": "beat-028",
+          "type": "narration",
+          "text": "金色的光沿著街道向遠方蔓延，穿過橋樑、房屋與山坡。數不清的小燈緩緩升上天空，像一群剛剛甦醒的螢火蟲。"
+        },
+        {
+          "id": "beat-029",
+          "type": "narration",
+          "text": "人群歡呼起來。"
+        },
+        {
+          "id": "beat-030",
+          "type": "narration",
+          "text": "就在這時，一道龐大的影子從城鎮上方掠過。",
+          "stage": {
+            "background": "starlight-plaza-night",
+            "camera": "push-in"
+          }
+        },
+        {
+          "id": "beat-031",
+          "type": "narration",
+          "text": "西抬起眼。"
+        },
+        {
+          "id": "beat-032",
+          "type": "narration",
+          "text": "螢幕裡，一頭半透明的巨大星鯨正緩緩游過夜空。",
+          "stage": {
+            "cg": "starlight-festival-whale"
+          }
+        },
+        {
+          "id": "beat-033",
+          "type": "narration",
+          "text": "牠的身體像由夜色與星光構成，悠長的鰭在雲層間舒展，每一次擺動，都有細小的光點沿著身後散落。"
+        },
+        {
+          "id": "beat-034",
+          "type": "dialogue",
+          "text": "「……哇。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ],
+            "camera": null
+          }
+        },
+        {
+          "id": "beat-035",
+          "type": "narration",
+          "text": "西輕聲說。"
+        },
+        {
+          "id": "beat-036",
+          "type": "narration",
+          "text": "山田也安靜下來。"
+        },
+        {
+          "id": "beat-037",
+          "type": "narration",
+          "text": "兩人都沒有再操作角色。"
+        },
+        {
+          "id": "beat-038",
+          "type": "narration",
+          "text": "遊戲裡的勇者與魔女正站在廣場中央，和鎮上的居民一起仰望天空。",
+          "showGameAvatars": true
+        },
+        {
+          "id": "beat-039",
+          "type": "narration",
+          "text": "那頭星鯨慢慢游向遠方。"
+        },
+        {
+          "id": "beat-040",
+          "type": "narration",
+          "text": "金色燈籠隨風上升，鐘樓的鐘聲融入夜色。"
+        },
+        {
+          "id": "beat-041",
+          "type": "narration",
+          "text": "直到星鯨消失在雲層後，山田才開口：",
+          "stage": {
+            "cg": null
+          }
+        },
+        {
+          "id": "beat-042",
+          "type": "dialogue",
+          "text": "「這個真的好漂亮。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-043",
+          "type": "dialogue",
+          "text": "「嗯。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-044",
+          "type": "narration",
+          "text": "西看著螢幕裡的夜空，臉上帶著笑意。"
+        },
+        {
+          "id": "beat-045",
+          "type": "dialogue",
+          "text": "「……難怪她一直叫我玩。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          },
+          "next": "chapter01.gate"
+        }
+      ]
+    },
+    {
+      "id": "chapter01.gate",
+      "title": "冒險才剛開始",
+      "perspective": "natsumi",
+      "timeline": "星期六 · 電視中的星門",
+      "stage": {
+        "background": "lakeside-star-gate-night",
+        "bgm": "peaceful-night",
+        "portraits": [],
+        "cg": null,
+        "media": null,
+        "gameAvatars": [
+          {
+            "character": "kentaro",
+            "variant": "hero-back",
+            "expression": "neutral",
+            "position": "left"
+          },
+          {
+            "character": "natsumi",
+            "variant": "witch-back",
+            "expression": "neutral",
+            "position": "right"
+          }
+        ],
+        "camera": "push-in"
+      },
+      "nodes": [
+        {
+          "id": "beat-001",
+          "type": "narration",
+          "text": "慶典結束後，遊戲畫面跳出新的任務通知。"
+        },
+        {
+          "id": "beat-002",
+          "type": "dialogue",
+          "text": "「序章完成：星火的護送者」",
+          "speaker": "game_system",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-003",
+          "type": "dialogue",
+          "text": "「主要任務已更新：前往三座聖所，取得古代徽印。」",
+          "speaker": "game_system",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-004",
+          "type": "narration",
+          "text": "廣場另一端，一道原本緊閉的古老石門緩緩開啟。"
+        },
+        {
+          "id": "beat-005",
+          "type": "narration",
+          "text": "門框上浮現出三枚不同顏色的徽記，分別指向山脈、森林與海岸。"
+        },
+        {
+          "id": "beat-006",
+          "type": "narration",
+          "text": "山田移動勇者走近。"
+        },
+        {
+          "id": "beat-007",
+          "type": "dialogue",
+          "text": "「喔，這個應該就是正式地圖了。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ],
+            "camera": null
+          }
+        },
+        {
+          "id": "beat-008",
+          "type": "narration",
+          "text": "西跟著操作魔女。"
+        },
+        {
+          "id": "beat-009",
+          "type": "dialogue",
+          "text": "「終於可以選去哪裡了。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-010",
+          "type": "narration",
+          "text": "石門中央，淡藍色的光芒緩緩流動。"
+        },
+        {
+          "id": "beat-011",
+          "type": "narration",
+          "text": "畫面出現確認訊息。"
+        },
+        {
+          "id": "beat-012",
+          "type": "dialogue",
+          "text": "「雙人冒險模式已啟動。」",
+          "speaker": "game_system",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-013",
+          "type": "dialogue",
+          "text": "「請兩名玩家同時確認。」",
+          "speaker": "game_system",
+          "showPortrait": false
+        },
+        {
+          "id": "beat-014",
+          "type": "dialogue",
+          "text": "「奈津美，準備好了？」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-015",
+          "type": "dialogue",
+          "text": "「嗯。」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-016",
+          "type": "dialogue",
+          "text": "「那一起按吧。」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-017",
+          "type": "narration",
+          "text": "兩人同時按下按鈕。"
+        },
+        {
+          "id": "beat-018",
+          "type": "narration",
+          "text": "石門上的徽記依次亮起。"
+        },
+        {
+          "id": "beat-019",
+          "type": "narration",
+          "text": "原本平靜的光芒忽然向外擴散，螢幕裡的背景音樂也逐漸變得模糊。"
+        },
+        {
+          "id": "beat-020",
+          "type": "narration",
+          "text": "西原本正望著畫面，忽然感覺到一陣風吹過臉頰。",
+          "stage": {
+            "background": "kentaro-gaming-room-day",
+            "gameAvatars": [],
+            "camera": null
+          }
+        },
+        {
+          "id": "beat-021",
+          "type": "narration",
+          "text": "她愣了一下。"
+        },
+        {
+          "id": "beat-022",
+          "type": "narration",
+          "text": "那陣風帶著草木的氣味。"
+        },
+        {
+          "id": "beat-023",
+          "type": "narration",
+          "text": "而下一秒，山田房間裡的窗簾猛地揚起。"
+        },
+        {
+          "id": "beat-024",
+          "type": "dialogue",
+          "text": "「……健太郎？」",
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-025",
+          "type": "narration",
+          "text": "她還沒來得及說完，電視裡的光便向四周擴散。"
+        },
+        {
+          "id": "beat-026",
+          "type": "narration",
+          "text": "山田幾乎同時轉過頭。"
+        },
+        {
+          "id": "beat-027",
+          "type": "dialogue",
+          "text": "「奈津美！」",
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "beat-028",
+          "type": "narration",
+          "text": "他伸手握住她。"
+        },
+        {
+          "id": "beat-029",
+          "type": "narration",
+          "text": "緊接著，整個房間被耀眼的白光吞沒。"
+        }
+      ],
+      "endLabel": "第一章讀畢 · 待續"
+    }
+  ]
+}

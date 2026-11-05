@@ -858,26 +858,24 @@
 
 「哈哈哈好，那我等妳。」
 
-### prologue.natsumi.night/line-0218 | 奈津美 · 手機訊息
+/### prologue.natsumi.night/line-0218 | 奈津美 · 手機訊息/
 
 「不要睡過頭喔。」
 
-### prologue.natsumi.night/line-0219 | 健太郎 · 手機訊息
+/### prologue.natsumi.night/line-0219 | 健太郎 · 手機訊息/
 
 「才不會啦。」
 
-### prologue.natsumi.night/line-0220 | 奈津美 · 手機訊息
+/### prologue.natsumi.night/line-0220 | 奈津美 · 手機訊息/
 
 「上次是誰睡過頭的？」
 
-### prologue.natsumi.night/line-0221 | 健太郎 · 手機訊息
+/### prologue.natsumi.night/line-0221 | 健太郎 · 手機訊息/
 
 「那次是意外。」
 
 ### prologue.natsumi.night/line-0222 | 旁白
 
-西笑著回了一張故意表示懷疑的貼圖。
----
 她把手機放到床頭，拉開窗簾，看了一眼外面的夜色。
 
 ### prologue.natsumi.night/line-0224 | 旁白

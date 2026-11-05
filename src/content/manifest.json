@@ -25,6 +25,28 @@
       ]
     },
     {
+      "id": "chapter-01",
+      "title": "第一章 · 普通的星期六",
+      "file": "chapters/chapter-01.json",
+      "textFiles": [
+        "scripts/chapter-01.md"
+      ],
+      "entries": [
+        {
+          "scene": "chapter01.arrival",
+          "title": "普通的星期六",
+          "perspective": "natsumi"
+        }
+      ],
+      "activities": [
+        {
+          "title": "列車協力救援",
+          "scene": "chapter01.skyrail",
+          "node": "author-0181"
+        }
+      ]
+    },
+    {
       "id": "demo",
       "title": "引擎功能示範",
       "file": "chapters/demo.json",

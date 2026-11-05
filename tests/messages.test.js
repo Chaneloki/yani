@@ -73,12 +73,11 @@ test('gaming date photo appears in both Friday message threads and clears from t
  const e=new NovelEngine(story);e.go('prologue.natsumi.friday');assert.equal(e.stage.media,'gaming-date-ready');
 });
 
-test('Natsumi skeptical sticker is shared across both night POVs and clears after its narration',()=>{
- for(const [scene,start,end] of [['prologue.natsumi.night','line-0222','line-0224'],['prologue.kentaro.night','line-0372','line-0375']]){
-  const e=new NovelEngine(story);e.go(scene);
-  while(e.node.id!==start)assert.equal(e.advance(),true);
-  assert.equal(e.stage.media,'skeptical-tabby-cat');assert.equal(e.node.type,'narration');
-  while(e.node.id!==end)assert.equal(e.advance(),true);
-  assert.equal(e.stage.media,null);
+test('retired oversleeping conversation and its skeptical sticker are absent from both night POVs',()=>{
+ for(const id of ['prologue.natsumi.night','prologue.kentaro.night']){
+  const scene=story.scenes[id];
+  assert.ok(!scene.nodes.some(n=>/睡過頭|約定的時間|鬧鐘/.test(n.text)));
+  assert.ok(!scene.nodes.some(n=>n.stage?.media==='skeptical-tabby-cat'));
  }
+ assert.ok(story.assets.messageImages['skeptical-tabby-cat']); // Available for future scenes.
 });

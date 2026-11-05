@@ -1,0 +1,57 @@
+[
+  {
+    "original": "train.png",
+    "renamed": "bg-skyrail-train-day.png",
+    "runtime": "public/assets/backgrounds/bg-skyrail-train-day.webp"
+  },
+  {
+    "original": "waterfall.png",
+    "renamed": "bg-forest-waterfall-day.png",
+    "runtime": "public/assets/backgrounds/bg-forest-waterfall-day.webp"
+  },
+  {
+    "original": "yamada home door.png",
+    "renamed": "bg-apartment-door-day.png",
+    "runtime": "public/assets/backgrounds/bg-apartment-door-day.webp"
+  },
+  {
+    "original": "星燈映照的奇幻古城廣場.png",
+    "renamed": "bg-starlight-plaza-night.png",
+    "runtime": "public/assets/backgrounds/bg-starlight-plaza-night.webp"
+  },
+  {
+    "original": "星燈映照的山城水都.png",
+    "renamed": "bg-mountain-lakeside-town-night.png",
+    "runtime": "public/assets/backgrounds/bg-mountain-lakeside-town-night.webp"
+  },
+  {
+    "original": "星辰慶典鐘樓廣場.png",
+    "renamed": "bg-clocktower-plaza-dusk.png",
+    "runtime": "public/assets/backgrounds/bg-clocktower-plaza-dusk.webp"
+  },
+  {
+    "original": "月下星門與湖畔幻城.png",
+    "renamed": "bg-lakeside-star-gate-night.png",
+    "runtime": "public/assets/backgrounds/bg-lakeside-star-gate-night.webp"
+  },
+  {
+    "original": "湖畔小鎮的山間石路.png",
+    "renamed": "bg-lakeside-mountain-path-day.png",
+    "runtime": "public/assets/backgrounds/bg-lakeside-mountain-path-day.webp"
+  },
+  {
+    "original": "破橋上的藍金花式列車.png",
+    "renamed": "bg-skyrail-train-derailment-day.png",
+    "runtime": "public/assets/backgrounds/bg-skyrail-train-derailment-day.webp"
+  },
+  {
+    "original": "黃昏星輪車站與夢幻古城.png",
+    "renamed": "bg-skyrail-station-dusk.png",
+    "runtime": "public/assets/backgrounds/bg-skyrail-station-dusk.webp"
+  },
+  {
+    "original": "奢華星穹幻境列車客艙.png",
+    "renamed": "bg-skyrail-carriage-day.png",
+    "runtime": "public/assets/backgrounds/bg-skyrail-carriage-day.webp"
+  }
+]

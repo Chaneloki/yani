@@ -99,9 +99,81 @@
       "label": "車站大堂 · 黃昏",
       "theme": "evening",
       "src": "./assets/backgrounds/bg-station-sunset.webp"
+    },
+    "skyrail-train-day": {
+      "label": "魔法列車 · 日間外景",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-skyrail-train-day.webp"
+    },
+    "forest-waterfall-day": {
+      "label": "森林瀑布 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-forest-waterfall-day.webp"
+    },
+    "apartment-door-day": {
+      "label": "公寓門口 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-apartment-door-day.webp"
+    },
+    "starlight-plaza-night": {
+      "label": "星燈廣場 · 夜晚",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-starlight-plaza-night.webp"
+    },
+    "mountain-lakeside-town-night": {
+      "label": "山城水都 · 夜晚全景",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-mountain-lakeside-town-night.webp"
+    },
+    "clocktower-plaza-dusk": {
+      "label": "鐘樓廣場 · 黃昏",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-clocktower-plaza-dusk.webp"
+    },
+    "lakeside-star-gate-night": {
+      "label": "湖畔星門 · 夜晚",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-lakeside-star-gate-night.webp"
+    },
+    "lakeside-mountain-path-day": {
+      "label": "湖畔山路 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-lakeside-mountain-path-day.webp"
+    },
+    "skyrail-train-derailment-day": {
+      "label": "魔法列車 · 脫軌事故",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-skyrail-train-derailment-day.webp"
+    },
+    "skyrail-station-dusk": {
+      "label": "魔法列車車站 · 黃昏",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-skyrail-station-dusk.webp"
+    },
+    "skyrail-carriage-day": {
+      "label": "魔法列車 · 車廂內景",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-skyrail-carriage-day.webp"
     }
   },
-  "cg": {},
+  "cg": {
+    "starlight-festival-whale": {
+      "label": "星燈之夜",
+      "type": "image",
+      "src": "./assets/cg/cg-starlight-festival-whale.webp",
+      "position": "50% 45%",
+      "camera": "push-in",
+      "cameraOrigin": "50% 42%"
+    },
+    "saturday-reunion-hug": {
+      "label": "重逢擁抱",
+      "type": "image",
+      "src": "./assets/cg/cg-saturday-reunion-hug.webp",
+      "position": "50% 30%",
+      "camera": "push-in",
+      "cameraOrigin": "48% 30%"
+    }
+  },
   "bgm": {
     "warm-daily-life": {
       "label": "溫暖日常",
@@ -155,6 +227,13 @@
       "label": "遠山之聲",
       "src": "./assets/audio/bgm/bgm-sound-from-far-mountain.mp3",
       "loop": true
+    },
+    "epic-fantasy-adventure": {
+      "label": "史詩冒險",
+      "src": "./assets/audio/bgm/bgm-epic-fantasy-adventure.mp3",
+      "loop": true,
+      "sourceFile": "alex-morgan-fantasy-adventure-quest-537478.mp3",
+      "credit": "Alex Morgan（來源檔名標示）"
     }
   },
   "se": {},

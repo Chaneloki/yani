@@ -1138,43 +1138,43 @@
 
 「哈哈哈好，那我等妳。」
 
-### prologue.kentaro.night/line-0365 | 奈津美 · 手機訊息
+/### prologue.kentaro.night/line-0365 | 奈津美 · 手機訊息/
 
 「不要睡過頭喔。」
 
-### prologue.kentaro.night/line-0366 | 健太郎 · 手機訊息
+/### prologue.kentaro.night/line-0366 | 健太郎 · 手機訊息/
 
 「才不會啦。」
 
-### prologue.kentaro.night/line-0367 | 奈津美 · 手機訊息
+/### prologue.kentaro.night/line-0367 | 奈津美 · 手機訊息/
 
 「上次是誰睡過頭的？」
 
-### prologue.kentaro.night/line-0368 | 健太郎 · 手機訊息
+/### prologue.kentaro.night/line-0368 | 健太郎 · 手機訊息/
 
 「那次是意外。」
 
-### prologue.kentaro.night/line-0369 | 旁白
+/### prologue.kentaro.night/line-0369 | 旁白/
 
 他笑著把訊息送出去。
 ---
 上次確實睡過頭了一次。
 
-### prologue.kentaro.night/line-0371 | 旁白
+/### prologue.kentaro.night/line-0371 | 旁白/
 
 不過那天前一晚實在太累，鬧鐘響的時候也不知道怎麼回事，明明記得自己伸手按掉了，結果再次睜開眼睛已經過了約定的時間。
 
-### prologue.kentaro.night/line-0372 | 旁白
+/### prologue.kentaro.night/line-0372 | 旁白/
 
 幸好奈津美沒有生氣。
 倒是後來每次約會，她都會拿這件事來笑他。
 山田看著她傳來的貼圖，笑著搖了搖頭。
 
-### prologue.kentaro.night/line-0375 | 健太郎
+/### prologue.kentaro.night/line-0375 | 健太郎/
 
 「真是的……」
 
-### prologue.kentaro.night/line-0376 | 旁白
+/### prologue.kentaro.night/line-0376 | 旁白/
 
 他打開鬧鐘，設定好明天早上的時間。
 想了一下，又多設了一個。
@@ -1308,14 +1308,9 @@
 ### prologue.kentaro.night/line-0429 | 旁白
 
 山田拉起被子，閉上眼睛。
-過了一會兒，又忍不住伸手拿起手機，確認了一次鬧鐘。
-設定好了。
-沒有問題。
 
 ### prologue.kentaro.night/line-0433 | 旁白
 
-這才終於放心地把手機放下。
----
 他當然不知道，明天那款看似普通的遊戲，將會帶著兩人進入一個遠遠超出想像的世界。
 
 ### prologue.kentaro.night/line-0435 | 旁白

@@ -4,6 +4,7 @@ export function validateStory(story) {
   assert(story.id && story.revision && story.scenes[story.start], '故事起點不存在');
   if (story.titleBgm) assert(story.assets.bgm?.[story.titleBgm]?.src, `未知首頁音樂：${story.titleBgm}`);
   const seen = new Set();
+  for (const c of story.chapters) for (const a of c.activities || []) assert(c.scenes.some(s => s.id === a.scene && s.nodes.some(n => n.id === a.node && n.minigame)), '未知活動入口');
   for (const chapter of story.chapters) for (const entry of chapter.entries || []) assert(chapter.scenes.some(s => s.id === entry.scene) && story.characters[entry.perspective], `未知章節入口：${entry.scene}`);
   for (const chapter of story.chapters) for (const s of chapter.scenes) {
     assert(!seen.has(s.id), `重複場景：${s.id}`); seen.add(s.id);
@@ -18,6 +19,11 @@ export function validateStory(story) {
         assert(Array.isArray(n.attachments), `圖片附件格式錯誤：${n.id}`);
         for (const id of n.attachments) assert(story.assets.messageImages?.[id]?.src, `未知訊息圖片：${id}`);
       }
+      if (n.minigame) {
+        assert(n.minigame.id === 'skyrail-rescue' && s.nodes.some(other => other.id === n.minigame.resume), `無效小遊戲：${n.id}`);
+        if (n.minigame.guide) assert(n.minigame.guide.id === n.minigame.id && Number.isInteger(n.minigame.guide.version) && n.minigame.guide.version > 0, '無效玩法說明版本');
+        if (n.minigame.rules) { assert(plain(n.minigame.rules), '無效關卡參數'); for(const value of Object.values(n.minigame.rules)) assert(typeof value === 'number' && Number.isFinite(value) && value > 0, '關卡參數必須為正數'); }
+      }
       if (n.next) assert(story.scenes[n.next], `未知目標：${n.next}`);
       if (n.type === 'choice') {
         assert(n.options?.length, '選項不可為空'); const options = new Set();
@@ -28,11 +34,12 @@ export function validateStory(story) {
       }
     }
     for (const stage of [s.stage, ...s.nodes.map(n => n.stage).filter(Boolean)]) {
+      if (stage.camera != null) assert(['push-in','pan-right','rise','pull-back'].includes(stage.camera), `未知鏡頭效果：${stage.camera}`);
       if (stage.media) assert(story.assets.messageImages?.[stage.media]?.src, `未知展示圖片：${stage.media}`);
       if (stage.background) assert(story.assets.backgrounds[stage.background], `未知背景：${stage.background}`);
       if (stage.bgm) assert(story.assets.bgm?.[stage.bgm], `未知背景音樂：${stage.bgm}`);
       if (stage.cg) assert(story.assets.cg[stage.cg], `未知 CG：${stage.cg}`);
-      for (const p of stage.portraits || []) {
+      for (const p of [...(stage.portraits || []), ...(stage.gameAvatars || [])]) {
         assert(['left','center','right'].includes(p.position), '未知立繪位置');
         assert(Object.hasOwn(story.characters[p.character]?.variants?.[p.variant] || {}, p.expression), '未知角色版本／表情');
       }

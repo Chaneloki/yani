@@ -293,3 +293,17 @@ button:focus-visible,a:focus-visible{outline-color:#9db487}
 .title-screen.has-cover{background-size:cover;background-position:center}
 .title-video{height:100%;width:100%;object-fit:cover;object-position:center}
 @media(max-width:700px){.title-video{height:100%;object-fit:cover;object-position:40% center}.title-screen.has-cover{background-size:cover;background-position:40% center}}
+/* While still playing, avatars are rear-view game illustrations; front designs remain unrevealed. */
+.game-avatars{position:absolute;z-index:1;left:28%;right:28%;top:20%;height:28dvh;display:flex;justify-content:center;gap:12px;pointer-events:none}
+.game-avatars img{display:block;width:calc(50% - 6px);height:100%;object-fit:contain;object-position:center;background:#fffffff0;border:1px solid #ddcea47a;border-radius:8px;box-shadow:0 8px 25px #0003}
+@media(max-width:700px){.game-avatars{left:16%;right:16%;top:21%;height:24dvh;gap:8px}.game-avatars img{width:calc(50% - 4px)}}
+/* Upper-body sprites meet the lower edge rather than floating in illustration cards. */
+.game-avatars{inset:auto 8% 0;top:auto;height:73dvh;align-items:flex-end;justify-content:space-between;gap:0}
+.game-avatars img{width:43%;height:100%;object-fit:contain;object-position:center bottom;background:transparent;border:0;border-radius:0;box-shadow:none}
+.portrait.has-art{bottom:0}
+@media(max-width:700px){.game-avatars{inset:auto 0 0;top:auto;height:60dvh;gap:0}.game-avatars img{width:50%}}
+/* Camera movement affects scenery alone; dialogue and sprites remain still. */
+.background{transform-origin:50% 45%;will-change:transform}
+@media(prefers-reduced-motion:reduce){.background{transform:none!important;will-change:auto}}
+.cg-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;pointer-events:none}
+.novel[data-has-cg=true] .portraits,.novel[data-has-cg=true] .game-avatars{visibility:hidden}

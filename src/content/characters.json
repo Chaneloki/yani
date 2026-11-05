@@ -11,6 +11,9 @@
       "hero": {
         "neutral": "./assets/characters/ROLE_HERO.png",
         "smile": "./assets/characters/ROLE_HERO.png"
+      },
+      "hero-back": {
+        "neutral": "./assets/characters/ROLE_HERO_BACK_CUTOUT.png"
       }
     }
   },
@@ -26,6 +29,9 @@
       "witch": {
         "neutral": "./assets/characters/ROLE_WITCH.png",
         "smile": "./assets/characters/ROLE_WITCH.png"
+      },
+      "witch-back": {
+        "neutral": "./assets/characters/ROLE_WITCH_BACK_CUTOUT.png"
       }
     }
   },
@@ -39,6 +45,24 @@
     "name": "實習同學",
     "shortName": "實習同學",
     "color": "#b9c7cb",
+    "variants": {}
+  },
+  "train_attendant": {
+    "name": "列車員",
+    "shortName": "列車員",
+    "color": "#c4a86d",
+    "variants": {}
+  },
+  "game_system": {
+    "name": "遊戲系統",
+    "shortName": "遊戲系統",
+    "color": "#aac5d2",
+    "variants": {}
+  },
+  "couple": {
+    "name": "兩人",
+    "shortName": "兩人",
+    "color": "#b8ccb8",
     "variants": {}
   }
 }

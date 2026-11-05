@@ -1,0 +1,5741 @@
+{
+  "scenes": [
+    {
+      "id": "chapter01.arrival",
+      "title": "見到你了",
+      "perspective": "natsumi",
+      "timeline": "星期六上午 · 健太郎家",
+      "stage": {
+        "background": "apartment-door-day",
+        "bgm": "heartwarming-romance",
+        "camera": null,
+        "cg": null,
+        "media": null,
+        "portraits": [],
+        "gameAvatars": []
+      },
+      "nodes": [
+        {
+          "id": "author-0002",
+          "type": "narration",
+          "text": "門鈴響起時，山田正在房間裡確認遊戲的設定。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 2
+          }
+        },
+        {
+          "id": "author-0003",
+          "type": "narration",
+          "text": "西站在公寓的走廊上，聽見裡面傳來急促的腳步聲，接著是門鎖轉動的輕響。門才打開一半，她便看見健太郎探出頭來，棕色的頭髮有些蓬亂，身上穿著那件熟悉的條紋襯衫。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 3
+          }
+        },
+        {
+          "id": "author-0004",
+          "type": "dialogue",
+          "text": "「奈津美！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 4
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0005",
+          "type": "narration",
+          "text": "明明昨天晚上才通過電話，真正見到他時，心裡仍然像有什麼輕輕跳了一下。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 5
+          }
+        },
+        {
+          "id": "author-0006",
+          "type": "dialogue",
+          "text": "「早安，健太郎。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 6
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0007",
+          "type": "narration",
+          "text": "山田接過她手裡的紙袋，順口問她從車站走過來熱不熱。西一面換鞋，一面感受著室內迎面而來的冷氣，後頸那層薄薄的汗終於慢慢退去。走廊裡很安靜，只有健太郎說話的聲音和紙袋偶爾摩擦的窸窣聲。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 7
+          }
+        },
+        {
+          "id": "author-0008",
+          "type": "narration",
+          "text": "他已經把遊戲安裝好了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 8
+          }
+        },
+        {
+          "id": "author-0009",
+          "type": "narration",
+          "text": "這件事西昨晚就知道。山田甚至還特地拍了一張照片給她，畫面裡是兩支控制器、幾包零食，還有停在遊戲開始介面的電視。現在真正走進他的房間，才發現照片裡那些東西仍然擺在原來的位置，只是矮桌旁多了一瓶剛從冰箱拿出來的飲料，瓶身沾滿了細小的水珠。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 9
+          },
+          "stage": {
+            "background": "kentaro-room-day"
+          }
+        },
+        {
+          "id": "author-0010",
+          "type": "narration",
+          "text": "兩包口味一模一樣的洋芋片也還在。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 10
+          }
+        },
+        {
+          "id": "author-0011",
+          "type": "narration",
+          "text": "她看著那兩個並排的包裝袋，想起昨晚自己隔著手機問他是不是買太多，健太郎卻回答得理直氣壯，說反正可以慢慢吃。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 11
+          }
+        },
+        {
+          "id": "author-0012",
+          "type": "narration",
+          "text": "結果今天，她自己又帶來了一袋餅乾。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 12
+          }
+        },
+        {
+          "id": "author-0013",
+          "type": "dialogue",
+          "text": "「我們是不是準備太多了？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 13
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0014",
+          "type": "narration",
+          "text": "山田將袋子放在桌旁，看了看那些零食。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 14
+          }
+        },
+        {
+          "id": "author-0015",
+          "type": "dialogue",
+          "text": "「應該吃得完吧？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 15
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0016",
+          "type": "narration",
+          "text": "西覺得很有可能。以前兩人一起玩遊戲時，明明都說好要留到下午，結果往往還沒到三點，桌上的東西便已經少了一大半。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 16
+          }
+        },
+        {
+          "id": "author-0017",
+          "type": "narration",
+          "text": "她跟著山田坐到矮桌旁。電視上的開始畫面正播放著一段輕快的音樂，遠處的城堡在薄霧裡若隱若現，兩支控制器整齊地放在桌上，連充電線都被他仔細收好了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 17
+          }
+        },
+        {
+          "id": "author-0018",
+          "type": "narration",
+          "text": "健太郎又開始說起遊戲的設定。似乎有一個選項可以調整兩名玩家的畫面配置，他昨晚研究了一陣子，最後決定等她來再一起選。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 18
+          }
+        },
+        {
+          "id": "author-0019",
+          "type": "narration",
+          "text": "西聽著，視線卻漸漸落在他的側臉上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 19
+          }
+        },
+        {
+          "id": "author-0020",
+          "type": "narration",
+          "text": "上一次這樣坐在一起，是什麼時候呢？",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 20
+          }
+        },
+        {
+          "id": "author-0021",
+          "type": "narration",
+          "text": "其實也沒有過去很久。只不過前陣子兩人的時間總是湊不齊，偶爾見面，也得惦記著之後的安排。她還記得上次一起吃拉麵，健太郎坐在對面說起學校裡發生的事，自己卻因為一則接一則傳來的訊息，不得不把注意力分出去。後來他們走到車站，剩下的時間短得連一杯飲料都來不及買。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 21
+          }
+        },
+        {
+          "id": "author-0022",
+          "type": "narration",
+          "text": "今天一整天都可以待在這裡。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 22
+          }
+        },
+        {
+          "id": "author-0023",
+          "type": "narration",
+          "text": "電視裡的音樂又重新播到了開頭。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 23
+          }
+        },
+        {
+          "id": "author-0024",
+          "type": "dialogue",
+          "text": "「奈津美？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 24
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0025",
+          "type": "narration",
+          "text": "西回過神。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 25
+          }
+        },
+        {
+          "id": "author-0026",
+          "type": "narration",
+          "text": "山田正將一支控制器遞給她。她伸手接過，指尖卻在碰到他的手背時停了一下。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 26
+          }
+        },
+        {
+          "id": "author-0027",
+          "type": "narration",
+          "text": "好想抱他。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 27
+          }
+        },
+        {
+          "id": "author-0028",
+          "type": "narration",
+          "text": "那個念頭來得很直接，連她自己都覺得有些突然。畢竟他們才剛坐下，健太郎還興致勃勃地準備著遊戲，手裡的控制器甚至還沒放穩。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 28
+          }
+        },
+        {
+          "id": "author-0029",
+          "type": "narration",
+          "text": "可他就在身旁。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 29
+          }
+        },
+        {
+          "id": "author-0030",
+          "type": "narration",
+          "text": "西把控制器擱回桌面，伸手拉住他的衣袖。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 30
+          }
+        },
+        {
+          "id": "author-0031",
+          "type": "narration",
+          "text": "山田轉過頭來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 31
+          }
+        },
+        {
+          "id": "author-0032",
+          "type": "dialogue",
+          "text": "「嗯？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 32
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0033",
+          "type": "narration",
+          "text": "她朝他靠近，將額頭輕輕抵在他肩上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 33
+          }
+        },
+        {
+          "id": "author-0034",
+          "type": "narration",
+          "text": "山田伸手環住她的腰，把她帶進懷裡。熟悉的體溫隔著襯衫傳過來，西聞見他身上淡淡的洗衣皂香氣，忍不住將手臂收得更緊了些。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 34
+          },
+          "stage": {
+            "cg": "saturday-reunion-hug"
+          }
+        },
+        {
+          "id": "author-0035",
+          "type": "dialogue",
+          "text": "「奈津美。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 35
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0036",
+          "type": "dialogue",
+          "text": "「嗯。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 36
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0037",
+          "type": "dialogue",
+          "text": "「今天終於可以一起玩了。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 37
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0038",
+          "type": "narration",
+          "text": "他的聲音裡帶著藏不住的期待。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 38
+          }
+        },
+        {
+          "id": "author-0039",
+          "type": "narration",
+          "text": "西將臉抬起來，正好看見他低下頭。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 39
+          }
+        },
+        {
+          "id": "author-0040",
+          "type": "narration",
+          "text": "兩人靠得很近。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 40
+          },
+          "stage": {
+            "cg": null
+          }
+        },
+        {
+          "id": "author-0041",
+          "type": "narration",
+          "text": "健太郎的頭髮垂在額前，眼睛裡映著窗邊的日光。西望著他，忽然想起昨天晚上自己躺在床上翻看兩人的訊息，明明已經很睏，卻還是忍不住想像今天會怎樣度過。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 41
+          }
+        },
+        {
+          "id": "author-0042",
+          "type": "narration",
+          "text": "她伸手碰了碰他的臉頰。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 42
+          }
+        },
+        {
+          "id": "author-0043",
+          "type": "narration",
+          "text": "山田握住她的手，俯身吻了下來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 43
+          }
+        },
+        {
+          "id": "author-0044",
+          "type": "narration",
+          "text": "西閉上眼睛，手指慢慢抓住他肩上的衣料。吻很輕，分開時，她仍然靠在他懷裡，感覺到健太郎的手掌正貼著自己的背。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 44
+          }
+        },
+        {
+          "id": "author-0045",
+          "type": "narration",
+          "text": "她抬頭看他。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 45
+          }
+        },
+        {
+          "id": "author-0046",
+          "type": "narration",
+          "text": "山田也望著她。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 46
+          }
+        },
+        {
+          "id": "author-0047",
+          "type": "narration",
+          "text": "西輕輕拉了一下他的衣領。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 47
+          }
+        },
+        {
+          "id": "author-0048",
+          "type": "narration",
+          "text": "他便又低下頭來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 48
+          }
+        },
+        {
+          "id": "author-0049",
+          "type": "narration",
+          "text": "第二次親吻時，她的手已經繞到了他的頸後。山田扶著她的腰，往自己身邊帶近一些，兩人的膝蓋碰在一起，連原本夾在中間的控制器都被擠到了桌沿。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 49
+          }
+        },
+        {
+          "id": "author-0050",
+          "type": "narration",
+          "text": "直到衣袖碰到那包尚未拆開的洋芋片，發出一聲窸窣的輕響，西才鬆開手，低頭看了眼桌面。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 50
+          }
+        },
+        {
+          "id": "author-0051",
+          "type": "dialogue",
+          "text": "「……遊戲。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 51
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0052",
+          "type": "narration",
+          "text": "山田順著她的視線望去。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 52
+          }
+        },
+        {
+          "id": "author-0053",
+          "type": "dialogue",
+          "text": "「啊。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 53
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0054",
+          "type": "narration",
+          "text": "他將差點滑下桌子的控制器拿回來，重新放好。西替他把壓在衣領裡的一撮頭髮撥出來，指尖順勢沿著髮尾輕輕梳過。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 54
+          }
+        },
+        {
+          "id": "author-0055",
+          "type": "narration",
+          "text": "山田摸了摸後頸。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 55
+          }
+        },
+        {
+          "id": "author-0056",
+          "type": "dialogue",
+          "text": "「又翹起來了？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 56
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0057",
+          "type": "dialogue",
+          "text": "「嗯。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 57
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0058",
+          "type": "dialogue",
+          "text": "「早上明明有弄好的。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 58
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0059",
+          "type": "narration",
+          "text": "她看著那幾根仍然不太聽話的頭髮，想起剛才他開門時的模樣。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 59
+          }
+        },
+        {
+          "id": "author-0060",
+          "type": "narration",
+          "text": "就算再整理一次，大概很快又會亂掉吧。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 60
+          }
+        },
+        {
+          "id": "author-0061",
+          "type": "narration",
+          "text": "不過她很喜歡。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 61
+          }
+        },
+        {
+          "id": "author-0062",
+          "type": "narration",
+          "text": "西收回手，將控制器拿到膝上。山田也坐好，兩人一起望向電視。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 62
+          }
+        },
+        {
+          "id": "author-0063",
+          "type": "dialogue",
+          "text": "「準備好了？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 63
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0064",
+          "type": "dialogue",
+          "text": "「嗯。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 64
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0065",
+          "type": "narration",
+          "text": "他按下開始鍵。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 65
+          }
+        },
+        {
+          "id": "author-0066",
+          "type": "narration",
+          "text": "螢幕上的城堡漸漸隱入薄霧，一道金色的光芒沿著畫面中央緩緩延伸。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 66
+          }
+        },
+        {
+          "id": "author-0067",
+          "type": "narration",
+          "text": "窗外的日光仍然停留在榻榻米上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 67
+          },
+          "stage": {
+            "background": "kentaro-gaming-room-day"
+          }
+        },
+        {
+          "id": "author-0068",
+          "type": "narration",
+          "text": "而屬於他們的冒險，終於開始了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 68
+          },
+          "next": "chapter01.skyrail"
+        }
+      ],
+      "nodeAliases": {
+        "beat-001": "author-0002",
+        "beat-002": "author-0004",
+        "beat-003": "author-0002",
+        "beat-004": "author-0006",
+        "beat-005": "author-0002",
+        "beat-006": "author-0046",
+        "beat-007": "author-0006",
+        "beat-008": "author-0006",
+        "beat-009": "author-0036",
+        "beat-010": "author-0002",
+        "beat-011": "author-0002",
+        "beat-012": "author-0045",
+        "beat-013": "author-0002",
+        "beat-014": "author-0002",
+        "beat-015": "author-0061",
+        "beat-016": "author-0002",
+        "beat-017": "author-0006",
+        "beat-018": "author-0032",
+        "beat-019": "author-0025",
+        "beat-020": "author-0002",
+        "beat-021": "author-0002",
+        "beat-022": "author-0032",
+        "beat-023": "author-0036",
+        "beat-024": "author-0002",
+        "beat-025": "author-0036",
+        "beat-026": "author-0036",
+        "beat-027": "author-0031",
+        "beat-028": "author-0053",
+        "beat-029": "author-0002",
+        "beat-030": "author-0002",
+        "beat-031": "author-0002",
+        "beat-032": "author-0002",
+        "beat-033": "author-0002",
+        "beat-034": "author-0052",
+        "beat-035": "author-0035",
+        "beat-036": "author-0032",
+        "beat-037": "author-0036",
+        "beat-038": "author-0002",
+        "beat-039": "author-0036",
+        "beat-040": "author-0056",
+        "beat-041": "author-0002",
+        "beat-042": "author-0053",
+        "beat-043": "author-0002",
+        "beat-044": "author-0045",
+        "beat-045": "author-0046",
+        "beat-046": "author-0042",
+        "beat-047": "author-0002",
+        "beat-048": "author-0002",
+        "beat-049": "author-0002",
+        "beat-050": "author-0002",
+        "beat-051": "author-0046",
+        "beat-052": "author-0035",
+        "beat-053": "author-0002",
+        "beat-054": "author-0032",
+        "beat-055": "author-0053",
+        "beat-056": "author-0051",
+        "beat-057": "author-0002",
+        "beat-058": "author-0002",
+        "beat-059": "author-0032",
+        "beat-060": "author-0036",
+        "beat-061": "author-0002",
+        "beat-062": "author-0002",
+        "beat-063": "author-0036",
+        "beat-064": "author-0053",
+        "beat-065": "author-0046",
+        "beat-066": "author-0002",
+        "beat-067": "author-0036",
+        "beat-068": "author-0063",
+        "beat-069": "author-0036",
+        "beat-070": "author-0002"
+      }
+    },
+    {
+      "id": "chapter01.skyrail",
+      "title": "前往星燈之城",
+      "perspective": "kentaro",
+      "timeline": "星期六 · 電視中的遊戲",
+      "stage": {
+        "background": "skyrail-train-day",
+        "bgm": "happy-anticipation",
+        "camera": null,
+        "cg": null,
+        "media": null,
+        "portraits": [],
+        "gameAvatars": [
+          {
+            "character": "kentaro",
+            "variant": "hero-back",
+            "expression": "neutral",
+            "position": "left"
+          },
+          {
+            "character": "natsumi",
+            "variant": "witch-back",
+            "expression": "neutral",
+            "position": "right"
+          }
+        ]
+      },
+      "nodes": [
+        {
+          "id": "author-0071",
+          "type": "narration",
+          "text": "列車的汽笛聲從山谷深處傳來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 71
+          }
+        },
+        {
+          "id": "author-0072",
+          "type": "narration",
+          "text": "山田原本正在研究勇者的裝備，聽見聲音，便抬頭望向電視。雲霧在畫面裡緩緩散開，一道金色的軌道沿著陡峭的山壁蜿蜒而上，深藍色的列車從隧道裡衝出，車輪掠過懸浮的光軌，在半空留下一串短暫的火花。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 72
+          }
+        },
+        {
+          "id": "author-0073",
+          "type": "dialogue",
+          "text": "「喔，好厲害！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 73
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0074",
+          "type": "narration",
+          "text": "鏡頭跟著列車轉過山腰，大片森林從腳下掠過，遠處的瀑布掛在岩壁間，水霧被陽光照出一道淡淡的彩虹。前方的車廂已經駛進另一座山峰，長長的車尾卻還在峽谷上方，隨著彎道緩緩擺動。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 74
+          },
+          "stage": {
+            "background": "forest-waterfall-day",
+            "camera": "pan-right"
+          }
+        },
+        {
+          "id": "author-0075",
+          "type": "narration",
+          "text": "山田看著車廂之間的連接處，稍微往前坐了一點。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 75
+          }
+        },
+        {
+          "id": "author-0076",
+          "type": "narration",
+          "text": "那個彎道也太急了吧。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 76
+          }
+        },
+        {
+          "id": "author-0077",
+          "type": "narration",
+          "text": "他在學校見過不少車輛的連接裝置，卻還是第一次看見一列火車能以這種方式懸在空中。尤其當最後一節車廂從岩壁旁掠過時，那條細長的金色軌道幾乎像是隨時會從半空中斷開。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 77
+          },
+          "stage": {
+            "camera": null
+          }
+        },
+        {
+          "id": "author-0078",
+          "type": "dialogue",
+          "text": "「奈津美，妳看那裡！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 78
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0079",
+          "type": "narration",
+          "text": "他指向窗外。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 79
+          }
+        },
+        {
+          "id": "author-0080",
+          "type": "narration",
+          "text": "西卻正望著更遠的地方。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 80
+          }
+        },
+        {
+          "id": "author-0081",
+          "type": "narration",
+          "text": "一座城鎮沿著山坡層層鋪開，屋頂之間懸著細長的旗幟，中央的鐘樓高高聳立，塔尖上有一顆尚未點亮的金色星星。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 81
+          }
+        },
+        {
+          "id": "author-0082",
+          "type": "dialogue",
+          "text": "「健太郎，那個城鎮可以去嗎？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 82
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0083",
+          "type": "dialogue",
+          "text": "「應該就是要去那裡吧。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 83
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0084",
+          "type": "narration",
+          "text": "列車員正好抱著一只木箱走進車廂。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 84
+          },
+          "stage": {
+            "background": "skyrail-carriage-day"
+          }
+        },
+        {
+          "id": "author-0085",
+          "type": "narration",
+          "text": "木箱用金屬扣環仔細鎖著，縫隙裡透出溫暖的光。據說裡面裝著一年一度星燈祭所需的星火，只要在日落前送到鐘樓，整座城鎮便能迎來最熱鬧的夜晚。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 85
+          }
+        },
+        {
+          "id": "author-0086",
+          "type": "narration",
+          "text": "西操縱魔女走近木箱。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 86
+          }
+        },
+        {
+          "id": "author-0087",
+          "type": "narration",
+          "text": "她按下互動鍵，箱蓋上的紋路隨即亮起，幾粒金色的光點從縫隙中緩緩升起。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 87
+          }
+        },
+        {
+          "id": "author-0088",
+          "type": "dialogue",
+          "text": "「好漂亮。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 88
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0089",
+          "type": "narration",
+          "text": "山田也讓勇者湊過來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 89
+          }
+        },
+        {
+          "id": "author-0090",
+          "type": "dialogue",
+          "text": "「這個能打開嗎？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 90
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0091",
+          "type": "dialogue",
+          "text": "「應該不行吧？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 91
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0092",
+          "type": "narration",
+          "text": "他按了一下互動鍵。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 92
+          }
+        },
+        {
+          "id": "author-0093",
+          "type": "narration",
+          "text": "木箱紋絲不動，倒是旁邊的列車員立刻跳出一句警告，請他們小心保管。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 93
+          }
+        },
+        {
+          "id": "author-0094",
+          "type": "narration",
+          "text": "山田看著那張一本正經的臉，正想再試一次，整節車廂突然猛地向旁邊一傾。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 94
+          }
+        },
+        {
+          "id": "author-0095",
+          "type": "narration",
+          "text": "桌上的杯子接連滑落。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 95
+          }
+        },
+        {
+          "id": "author-0096",
+          "type": "dialogue",
+          "text": "「欸？！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 96
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0097",
+          "type": "narration",
+          "text": "窗外，一群黑色的鳥形魔物正朝著列車俯衝。牠們尖銳的爪子撞上沿途的魔法石，金色軌道被扯出一道道裂痕，整列火車開始劇烈搖晃。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 97
+          },
+          "stage": {
+            "bgm": "epic-fantasy-adventure"
+          }
+        },
+        {
+          "id": "author-0098",
+          "type": "narration",
+          "text": "木箱沿著傾斜的地板往車門滑去。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 98
+          }
+        },
+        {
+          "id": "author-0099",
+          "type": "narration",
+          "text": "西立刻讓魔女衝上前，抬起法杖。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 99
+          }
+        },
+        {
+          "id": "author-0100",
+          "type": "narration",
+          "text": "一道冰霜沿著地板蔓延，將木箱連同旁邊幾件行李一起凍在原處。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 100
+          }
+        },
+        {
+          "id": "author-0101",
+          "type": "dialogue",
+          "text": "「健太郎，前面！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 101
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0102",
+          "type": "narration",
+          "text": "山田早已將勇者跑到車廂前端。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 102
+          }
+        },
+        {
+          "id": "author-0103",
+          "type": "narration",
+          "text": "安全門被狂風吹開，畫面隨即切到車頂。前方一節車廂正向外側傾斜，連接處的鐵鏈被拉得筆直，下面是深得看不見底的山谷。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 103
+          }
+        },
+        {
+          "id": "author-0104",
+          "type": "narration",
+          "text": "他握著控制器的手緊了一下。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 104
+          },
+          "stage": {
+            "background": "skyrail-train-derailment-day"
+          }
+        },
+        {
+          "id": "author-0105",
+          "type": "dialogue",
+          "text": "「哇，真的要掉下去了！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 105
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0106",
+          "type": "narration",
+          "text": "勇者沿著車頂衝向前方，剛踩上連接平台，一隻魔物便從頭頂撲了過來。山田立即翻身躲開，揮劍將牠擊退，腳下的鐵板卻在這時突然晃動，整個角色差點滑出邊緣。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 106
+          }
+        },
+        {
+          "id": "author-0107",
+          "type": "dialogue",
+          "text": "「危險！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 107
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0108",
+          "type": "narration",
+          "text": "西的聲音剛響起，山田便讓勇者抓住欄杆，翻回平台。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 108
+          }
+        },
+        {
+          "id": "author-0109",
+          "type": "dialogue",
+          "text": "「好險！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 109
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0110",
+          "type": "narration",
+          "text": "兩人操縱的畫面已經分成左右兩半。山田負責前方的機械裝置，西則帶著魔女尋找斷裂軌道附近的魔法符文。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 110
+          }
+        },
+        {
+          "id": "author-0111",
+          "type": "narration",
+          "text": "他們很快找到第一個可以互動的機關。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 111
+          }
+        },
+        {
+          "id": "author-0112",
+          "type": "narration",
+          "text": "車廂旁有一根沉重的制動桿，只要勇者將它扳下，就能暫時阻止懸空的車廂繼續下墜。與此同時，魔女必須沿著斷裂處重新畫出一段魔法軌道，讓車輪能夠回到原來的位置。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 112
+          }
+        },
+        {
+          "id": "author-0113",
+          "type": "narration",
+          "text": "聽起來不算太難。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 113
+          }
+        },
+        {
+          "id": "author-0114",
+          "type": "dialogue",
+          "text": "「我拉住這個，奈津美去接軌道。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 114
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0115",
+          "type": "dialogue",
+          "text": "「好。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 115
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0116",
+          "type": "narration",
+          "text": "山田按住按鍵，讓勇者將制動桿扳到底。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 116
+          }
+        },
+        {
+          "id": "author-0117",
+          "type": "narration",
+          "text": "沉重的金屬裝置發出一聲悶響，車廂終於停止晃動。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 117
+          }
+        },
+        {
+          "id": "author-0118",
+          "type": "narration",
+          "text": "西立即讓魔女跳上外側平台，將法杖對準空中的符文。藍色光線沿著斷裂的軌跡向前延伸，很快便形成了一小段透明的軌道。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 118
+          }
+        },
+        {
+          "id": "author-0119",
+          "type": "dialogue",
+          "text": "「好了！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 119
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0120",
+          "type": "dialogue",
+          "text": "「那我放囉！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 120
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0121",
+          "type": "narration",
+          "text": "山田鬆開按鍵。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 121
+          }
+        },
+        {
+          "id": "author-0122",
+          "type": "narration",
+          "text": "下一瞬，懸在半空的車廂猛地向下一沉。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 122
+          }
+        },
+        {
+          "id": "author-0123",
+          "type": "narration",
+          "text": "剛剛接好的藍色軌道被車輪撞得粉碎，整節車廂向外甩去，連接鐵鏈發出令人牙酸的摩擦聲。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 123
+          }
+        },
+        {
+          "id": "author-0124",
+          "type": "dialogue",
+          "text": "「啊啊啊！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 124
+          },
+          "speaker": "couple",
+          "showPortrait": false
+        },
+        {
+          "id": "author-0125",
+          "type": "narration",
+          "text": "兩個人幾乎同時叫了出來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 125
+          }
+        },
+        {
+          "id": "author-0126",
+          "type": "narration",
+          "text": "山田連忙重新抓住制動桿，勇者整個人被反作用力扯得向前一滑，差點連同機關一起飛出去。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 126
+          }
+        },
+        {
+          "id": "author-0127",
+          "type": "narration",
+          "text": "西睜大了眼睛。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 127
+          }
+        },
+        {
+          "id": "author-0128",
+          "type": "dialogue",
+          "text": "「等一下！為什麼會這樣？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 128
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0129",
+          "type": "dialogue",
+          "text": "「它掉得太快了！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 129
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0130",
+          "type": "narration",
+          "text": "螢幕上的列車員也開始慌張地跑來跑去，頭頂冒出一串誇張的驚嘆號。原本看起來十分可靠的老先生，現在正抱著帽子在車廂裡打轉。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 130
+          }
+        },
+        {
+          "id": "author-0131",
+          "type": "narration",
+          "text": "山田看著他，忍不住笑了一聲。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 131
+          }
+        },
+        {
+          "id": "author-0132",
+          "type": "dialogue",
+          "text": "「這個人也太慌張了吧！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 132
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0133",
+          "type": "dialogue",
+          "text": "「你先顧好你的車廂啦！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 133
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0134",
+          "type": "dialogue",
+          "text": "「有啦有啦！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 134
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0135",
+          "type": "narration",
+          "text": "他重新壓住制動桿。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 135
+          }
+        },
+        {
+          "id": "author-0136",
+          "type": "narration",
+          "text": "車廂停在半空，仍然以很小的幅度來回擺動。西盯著那些斷裂的符文，發現它們每次亮起時，位置都會隨著車廂的移動稍微改變。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 136
+          }
+        },
+        {
+          "id": "author-0137",
+          "type": "narration",
+          "text": "她將鏡頭轉到側面。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 137
+          }
+        },
+        {
+          "id": "author-0138",
+          "type": "narration",
+          "text": "原來剛才的軌道一直太高了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 138
+          }
+        },
+        {
+          "id": "author-0139",
+          "type": "narration",
+          "text": "懸空的車廂傾斜得厲害，車輪根本碰不到原本的位置。即使她把軌道接好，只要車廂仍然掛在下面，放開制動桿時便只會再次撞上去。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 139
+          }
+        },
+        {
+          "id": "author-0140",
+          "type": "narration",
+          "text": "她望向山田的畫面。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 140
+          }
+        },
+        {
+          "id": "author-0141",
+          "type": "narration",
+          "text": "勇者正用肩膀抵住機關，腳下的金屬板不斷震動。制動桿旁有一個小小的方向輪，剛才他們一直沒有碰過。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 141
+          }
+        },
+        {
+          "id": "author-0142",
+          "type": "dialogue",
+          "text": "「健太郎，你那邊可以轉方向嗎？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 142
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0143",
+          "type": "dialogue",
+          "text": "「方向？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 143
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0144",
+          "type": "narration",
+          "text": "山田低頭看了看操作提示，試著推動另一個按鍵。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 144
+          }
+        },
+        {
+          "id": "author-0145",
+          "type": "narration",
+          "text": "車廂旁邊的連接臂隨即緩緩轉動，將懸在空中的車身往內側拉近了一點。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 145
+          }
+        },
+        {
+          "id": "author-0146",
+          "type": "dialogue",
+          "text": "「喔！可以耶！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 146
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0147",
+          "type": "narration",
+          "text": "西立刻看向自己的畫面。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 147
+          }
+        },
+        {
+          "id": "author-0148",
+          "type": "narration",
+          "text": "幾枚符文跟著移動，剛好落進她魔法陣能夠覆蓋的範圍。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 148
+          }
+        },
+        {
+          "id": "author-0149",
+          "type": "dialogue",
+          "text": "「對！就是這個！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 149
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0150",
+          "type": "narration",
+          "text": "山田試著再轉一些，車廂卻突然往另一邊晃去。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 150
+          }
+        },
+        {
+          "id": "author-0151",
+          "type": "dialogue",
+          "text": "「欸？！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 151
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0152",
+          "type": "dialogue",
+          "text": "「太多了太多了！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 152
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0153",
+          "type": "dialogue",
+          "text": "「這樣？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 153
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0154",
+          "type": "dialogue",
+          "text": "「反方向！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 154
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0155",
+          "type": "dialogue",
+          "text": "「喔喔！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 155
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0156",
+          "type": "narration",
+          "text": "他迅速把連接臂拉回來，車廂在半空晃了一大圈，連帶讓原本攀在平台上的勇者差點站不穩。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 156
+          }
+        },
+        {
+          "id": "author-0157",
+          "type": "narration",
+          "text": "西盯著螢幕，忍著笑，重新對準魔法陣。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 157
+          }
+        },
+        {
+          "id": "author-0158",
+          "type": "dialogue",
+          "text": "「健太郎，等一下我數三下，你就慢慢放開。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 158
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0159",
+          "type": "dialogue",
+          "text": "「好！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 159
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0160",
+          "type": "dialogue",
+          "text": "「一、二——」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 160
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0161",
+          "type": "narration",
+          "text": "她還沒數到三，山田便發現一隻魔物正朝平台衝過來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 161
+          }
+        },
+        {
+          "id": "author-0162",
+          "type": "dialogue",
+          "text": "「奈津美，上面！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 162
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0163",
+          "type": "narration",
+          "text": "西立刻轉動鏡頭。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 163
+          }
+        },
+        {
+          "id": "author-0164",
+          "type": "narration",
+          "text": "黑色的翅膀幾乎遮住了整個畫面。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 164
+          }
+        },
+        {
+          "id": "author-0165",
+          "type": "narration",
+          "text": "山田一隻手仍然按住制動桿，另一隻手操縱勇者拔劍，卻因為站位不對，劍刃只削到了魔物的翅膀。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 165
+          }
+        },
+        {
+          "id": "author-0166",
+          "type": "dialogue",
+          "text": "「啊，沒打中！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 166
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0167",
+          "type": "dialogue",
+          "text": "「我來！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 167
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0168",
+          "type": "narration",
+          "text": "魔女抬起法杖，一道火焰從平台邊緣向上衝去，正好將那隻魔物擊退。牠撞上旁邊的鐵板，化作一串黑色的煙霧。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 168
+          }
+        },
+        {
+          "id": "author-0169",
+          "type": "narration",
+          "text": "可是火焰的餘波也掃過了勇者。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 169
+          }
+        },
+        {
+          "id": "author-0170",
+          "type": "narration",
+          "text": "山田的角色被震得向後一仰，整個人趴在了平台上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 170
+          }
+        },
+        {
+          "id": "author-0171",
+          "type": "dialogue",
+          "text": "「奈津美！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 171
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0172",
+          "type": "dialogue",
+          "text": "「對不起！哈哈哈！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 172
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0173",
+          "type": "dialogue",
+          "text": "「差點被妳一起打下去了！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 173
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0174",
+          "type": "narration",
+          "text": "西一面笑，一面替他施放防護魔法。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 174
+          }
+        },
+        {
+          "id": "author-0175",
+          "type": "narration",
+          "text": "勇者終於重新站起來，頭髮卻被燒得亂七八糟，連披風的一角都冒著煙。山田盯著角色看了兩秒，忽然將畫面轉向奈津美。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 175
+          }
+        },
+        {
+          "id": "author-0176",
+          "type": "dialogue",
+          "text": "「妳看他！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 176
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0177",
+          "type": "narration",
+          "text": "西看見那張被煙燻得灰黑的臉，差點連控制器都握不穩。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 177
+          }
+        },
+        {
+          "id": "author-0178",
+          "type": "dialogue",
+          "text": "「怎麼會變這樣啦！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 178
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0179",
+          "type": "narration",
+          "text": "兩人笑得幾乎停不下來，直到列車再度發出一聲刺耳的警報，才急忙重新坐好。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 179
+          }
+        },
+        {
+          "id": "author-0180",
+          "type": "narration",
+          "text": "車廂仍然懸在山谷上方。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 180
+          }
+        },
+        {
+          "id": "author-0181",
+          "type": "dialogue",
+          "text": "「好，這次真的要成功了。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 181
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          },
+          "minigame": {
+            "id": "skyrail-rescue",
+            "resume": "author-0200",
+            "guide": {
+              "id": "skyrail-rescue",
+              "version": 1
+            }
+          }
+        },
+        {
+          "id": "author-0182",
+          "type": "narration",
+          "text": "山田重新抓住制動桿。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 182
+          }
+        },
+        {
+          "id": "author-0183",
+          "type": "narration",
+          "text": "西將魔女移到外側平台，讓藍色的魔法陣沿著斷裂的軌道展開。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 183
+          }
+        },
+        {
+          "id": "author-0184",
+          "type": "dialogue",
+          "text": "「健太郎，慢慢往左。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 184
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0185",
+          "type": "narration",
+          "text": "車廂隨著連接臂向內移動。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 185
+          }
+        },
+        {
+          "id": "author-0186",
+          "type": "dialogue",
+          "text": "「再一點。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 186
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0187",
+          "type": "narration",
+          "text": "幾枚符文逐漸靠近。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 187
+          }
+        },
+        {
+          "id": "author-0188",
+          "type": "dialogue",
+          "text": "「好，停！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 188
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0189",
+          "type": "narration",
+          "text": "山田立即停住。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 189
+          }
+        },
+        {
+          "id": "author-0190",
+          "type": "narration",
+          "text": "西看著藍色的光線一點點連接起來。最後一枚符文亮起時，她迅速將法杖指向車輪下方，讓整段魔法軌道沿著車廂傾斜的角度向前延伸。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 190
+          }
+        },
+        {
+          "id": "author-0191",
+          "type": "dialogue",
+          "text": "「可以了！現在慢慢放！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 191
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0192",
+          "type": "narration",
+          "text": "山田鬆開制動桿。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 192
+          }
+        },
+        {
+          "id": "author-0193",
+          "type": "narration",
+          "text": "車廂向前滑動。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 193
+          }
+        },
+        {
+          "id": "author-0194",
+          "type": "narration",
+          "text": "金屬鏈條收緊，輪緣擦過藍色的光軌，發出一長串明亮的火花。原本傾斜的車身逐漸被拉正，前面的車輪終於重新踏上金色軌道。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 194
+          }
+        },
+        {
+          "id": "author-0195",
+          "type": "dialogue",
+          "text": "「上去了！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 195
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0196",
+          "type": "narration",
+          "text": "西握著控制器，眼睛緊緊盯著剩下的車輪。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 196
+          }
+        },
+        {
+          "id": "author-0197",
+          "type": "narration",
+          "text": "還差一點。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 197
+          }
+        },
+        {
+          "id": "author-0198",
+          "type": "narration",
+          "text": "最後一節車廂猛地一晃。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 198
+          }
+        },
+        {
+          "id": "author-0199",
+          "type": "narration",
+          "text": "山田立即轉動連接臂，將車身往內側帶回。西同時加強魔法陣，藍色的光芒沿著車輪下方迅速延伸，終於將最後一處缺口填滿。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 199
+          }
+        },
+        {
+          "id": "author-0200",
+          "type": "narration",
+          "text": "整列火車重新回到軌道上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 200
+          }
+        },
+        {
+          "id": "author-0201",
+          "type": "narration",
+          "text": "警報聲戛然而止。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 201
+          },
+          "stage": {
+            "bgm": "warm-daily-life",
+            "background": "skyrail-carriage-day"
+          }
+        },
+        {
+          "id": "author-0202",
+          "type": "dialogue",
+          "text": "「成功了！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 202
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0203",
+          "type": "narration",
+          "text": "山田舉起手，西立刻與他擊掌。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 203
+          }
+        },
+        {
+          "id": "author-0204",
+          "type": "narration",
+          "text": "可是兩人還沒來得及慶祝，螢幕裡的勇者便因為剛才一直抓著制動桿，被突然恢復速度的列車向前甩了出去。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 204
+          }
+        },
+        {
+          "id": "author-0205",
+          "type": "narration",
+          "text": "他整個人貼在車廂外側的窗戶上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 205
+          }
+        },
+        {
+          "id": "author-0206",
+          "type": "narration",
+          "text": "西愣了一下。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 206
+          }
+        },
+        {
+          "id": "author-0207",
+          "type": "dialogue",
+          "text": "「……健太郎。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 207
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0208",
+          "type": "dialogue",
+          "text": "「嗯？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 208
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0209",
+          "type": "dialogue",
+          "text": "「你的角色。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 209
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0210",
+          "type": "narration",
+          "text": "山田看向螢幕。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 210
+          }
+        },
+        {
+          "id": "author-0211",
+          "type": "narration",
+          "text": "金髮勇者正四肢張開，像一隻被拍扁的海星，牢牢黏在車窗上。旁邊的列車員還隔著玻璃朝他揮手，一臉感激地豎起大拇指。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 211
+          }
+        },
+        {
+          "id": "author-0212",
+          "type": "narration",
+          "text": "山田盯著那個畫面。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 212
+          }
+        },
+        {
+          "id": "author-0213",
+          "type": "dialogue",
+          "text": "「……這樣也算救援成功嗎？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 213
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0214",
+          "type": "narration",
+          "text": "西終於忍不住笑得彎下了腰。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 214
+          }
+        },
+        {
+          "id": "author-0215",
+          "type": "dialogue",
+          "text": "「哈哈哈哈！你明明剛才超帥的！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 215
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0216",
+          "type": "dialogue",
+          "text": "「現在也很帥吧！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 216
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0217",
+          "type": "dialogue",
+          "text": "「這樣哪裡帥啦！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 217
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0218",
+          "type": "narration",
+          "text": "山田也笑了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 218
+          }
+        },
+        {
+          "id": "author-0219",
+          "type": "narration",
+          "text": "遊戲裡，列車員終於打開窗戶，將狼狽不堪的勇者拖回車廂。魔女站在旁邊，身上的披風仍然完好無損，甚至還獲得了一個新的成就。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 219
+          }
+        },
+        {
+          "id": "author-0220",
+          "type": "narration",
+          "text": "協力成功：完美的搭檔。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 220
+          }
+        },
+        {
+          "id": "author-0221",
+          "type": "narration",
+          "text": "山田望著那行字，再看了看自己滿身灰塵的角色。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 221
+          }
+        },
+        {
+          "id": "author-0222",
+          "type": "dialogue",
+          "text": "「……完美？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 222
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0223",
+          "type": "narration",
+          "text": "西又笑了起來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 223
+          }
+        },
+        {
+          "id": "author-0224",
+          "type": "narration",
+          "text": "他將控制器放到膝上，側過頭看她。奈津美正用手背擦著眼角，剛才因為緊張而繃緊的肩膀終於放鬆下來，身體卻還微微向前傾著。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 224
+          }
+        },
+        {
+          "id": "author-0225",
+          "type": "narration",
+          "text": "山田伸手碰了碰她的手臂。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 225
+          }
+        },
+        {
+          "id": "author-0226",
+          "type": "dialogue",
+          "text": "「奈津美，剛才那個方向是妳想到的吧？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 226
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0227",
+          "type": "dialogue",
+          "text": "「嗯。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 227
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0228",
+          "type": "dialogue",
+          "text": "「超厲害！我一直以為只要把軌道接好就行了。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 228
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0229",
+          "type": "narration",
+          "text": "西抬起頭。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 229
+          }
+        },
+        {
+          "id": "author-0230",
+          "type": "dialogue",
+          "text": "「可是你也很快就找到那個機關了啊。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 230
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0231",
+          "type": "narration",
+          "text": "山田看了一眼螢幕。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 231
+          }
+        },
+        {
+          "id": "author-0232",
+          "type": "narration",
+          "text": "勇者已經重新站起來，披風的一角仍然有些焦黑。魔女則站在旁邊，安靜地望向車窗外。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 232
+          },
+          "showGameAvatars": true
+        },
+        {
+          "id": "author-0233",
+          "type": "narration",
+          "text": "他忽然覺得，剛才那段真的很好玩。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 233
+          }
+        },
+        {
+          "id": "author-0234",
+          "type": "narration",
+          "text": "尤其是兩個人終於找到方法的時候。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 234
+          }
+        },
+        {
+          "id": "author-0235",
+          "type": "dialogue",
+          "text": "「奈津美，下次再遇到這種關卡，我們也一起試試看。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 235
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0236",
+          "type": "narration",
+          "text": "西握住他的手。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 236
+          }
+        },
+        {
+          "id": "author-0237",
+          "type": "dialogue",
+          "text": "「好啊。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 237
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0238",
+          "type": "narration",
+          "text": "列車重新駛入山谷，窗外的景色漸漸變得開闊。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 238
+          }
+        },
+        {
+          "id": "author-0239",
+          "type": "narration",
+          "text": "遠處的城鎮已經近了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 239
+          },
+          "stage": {
+            "background": "skyrail-train-day",
+            "camera": "pan-right"
+          },
+          "next": "chapter01.festival"
+        }
+      ],
+      "nodeAliases": {
+        "beat-001": "author-0071",
+        "beat-002": "author-0071",
+        "beat-003": "author-0071",
+        "beat-004": "author-0071",
+        "beat-005": "author-0071",
+        "beat-006": "author-0160",
+        "beat-007": "author-0218",
+        "beat-008": "author-0082",
+        "beat-009": "author-0080",
+        "beat-010": "author-0115",
+        "beat-011": "author-0176",
+        "beat-012": "author-0071",
+        "beat-013": "author-0193",
+        "beat-014": "author-0071",
+        "beat-015": "author-0071",
+        "beat-016": "author-0084",
+        "beat-017": "author-0071",
+        "beat-018": "author-0071",
+        "beat-019": "author-0131",
+        "beat-020": "author-0222",
+        "beat-021": "author-0079",
+        "beat-022": "author-0226",
+        "beat-023": "author-0071",
+        "beat-024": "author-0071",
+        "beat-025": "author-0095",
+        "beat-026": "author-0071",
+        "beat-027": "author-0071",
+        "beat-028": "author-0071",
+        "beat-029": "author-0096",
+        "beat-030": "author-0189",
+        "beat-031": "author-0071",
+        "beat-032": "author-0071",
+        "beat-033": "author-0198",
+        "beat-034": "author-0071",
+        "beat-035": "author-0101",
+        "beat-036": "author-0071",
+        "beat-037": "author-0102",
+        "beat-038": "author-0115",
+        "beat-039": "author-0115",
+        "beat-040": "author-0071",
+        "beat-041": "author-0071",
+        "beat-042": "author-0071",
+        "beat-043": "author-0071",
+        "beat-044": "author-0115",
+        "beat-045": "author-0089",
+        "beat-046": "author-0071",
+        "beat-047": "author-0115",
+        "beat-048": "author-0071",
+        "beat-049": "author-0071",
+        "beat-050": "author-0180",
+        "beat-051": "author-0124",
+        "beat-052": "author-0231",
+        "beat-053": "author-0147",
+        "beat-054": "author-0208",
+        "beat-055": "author-0105",
+        "beat-056": "author-0071",
+        "beat-057": "author-0071",
+        "beat-058": "author-0071",
+        "beat-059": "author-0071",
+        "beat-060": "author-0071",
+        "beat-061": "author-0101",
+        "beat-062": "author-0115",
+        "beat-063": "author-0071",
+        "beat-064": "author-0198",
+        "beat-065": "author-0071",
+        "beat-066": "author-0071",
+        "beat-067": "author-0222",
+        "beat-068": "author-0183",
+        "beat-069": "author-0071",
+        "beat-070": "author-0191",
+        "beat-071": "author-0115",
+        "beat-072": "author-0121",
+        "beat-073": "author-0193",
+        "beat-074": "author-0071",
+        "beat-075": "author-0071",
+        "beat-076": "author-0202",
+        "beat-077": "author-0218",
+        "beat-078": "author-0202",
+        "beat-079": "author-0214",
+        "beat-080": "author-0159",
+        "beat-081": "author-0071",
+        "beat-082": "author-0096",
+        "beat-083": "author-0089",
+        "beat-084": "author-0071",
+        "beat-085": "author-0167",
+        "beat-086": "author-0071",
+        "beat-087": "author-0071",
+        "beat-088": "author-0155",
+        "beat-089": "author-0140",
+        "beat-090": "author-0162",
+        "beat-091": "author-0115",
+        "beat-092": "author-0206",
+        "beat-093": "author-0209",
+        "beat-094": "author-0115",
+        "beat-095": "author-0071",
+        "beat-096": "author-0071",
+        "beat-097": "author-0239",
+        "beat-098": "author-0071",
+        "beat-099": "author-0084",
+        "beat-100": "author-0071",
+        "beat-101": "author-0212",
+        "beat-102": "author-0132",
+        "beat-103": "author-0218",
+        "beat-104": "author-0105",
+        "beat-105": "author-0071",
+        "beat-106": "author-0115",
+        "beat-107": "author-0237",
+        "beat-108": "author-0225",
+        "beat-109": "author-0206",
+        "beat-110": "author-0071",
+        "beat-111": "author-0071"
+      }
+    },
+    {
+      "id": "chapter01.festival",
+      "title": "星燈祭",
+      "perspective": "natsumi",
+      "timeline": "星期六午後 · 電視中的星燈祭",
+      "stage": {
+        "background": "clocktower-plaza-dusk",
+        "bgm": "heartwarming-romance",
+        "camera": null,
+        "cg": null,
+        "media": null,
+        "portraits": [],
+        "gameAvatars": [
+          {
+            "character": "kentaro",
+            "variant": "hero-back",
+            "expression": "neutral",
+            "position": "left"
+          },
+          {
+            "character": "natsumi",
+            "variant": "witch-back",
+            "expression": "neutral",
+            "position": "right"
+          }
+        ]
+      },
+      "nodes": [
+        {
+          "id": "author-0242",
+          "type": "narration",
+          "text": "西原本只是想沿著街道走到鐘樓。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 242
+          }
+        },
+        {
+          "id": "author-0243",
+          "type": "narration",
+          "text": "可是剛踏出車站，她便被一間小小的麵包店吸引了目光。櫥窗裡擺著金黃色的星形麵包，旁邊掛著手寫的木牌，說那是星燈祭期間才會出售的點心。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 243
+          }
+        },
+        {
+          "id": "author-0244",
+          "type": "dialogue",
+          "text": "「健太郎，這個可以買耶。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 244
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0245",
+          "type": "narration",
+          "text": "山田把勇者移了過來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 245
+          }
+        },
+        {
+          "id": "author-0246",
+          "type": "dialogue",
+          "text": "「喔！還能吃！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 246
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0247",
+          "type": "narration",
+          "text": "他買了兩份，勇者捧著麵包，一口便咬去大半。魔女則小心翼翼地拿在手裡，先咬下一個小角，直到西再次按下按鍵，才慢慢吃完剩下的部分。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 247
+          }
+        },
+        {
+          "id": "author-0248",
+          "type": "narration",
+          "text": "山田看著兩個角色截然不同的吃法，又按了一次。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 248
+          }
+        },
+        {
+          "id": "author-0249",
+          "type": "narration",
+          "text": "勇者手裡的麵包立刻消失了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 249
+          }
+        },
+        {
+          "id": "author-0250",
+          "type": "dialogue",
+          "text": "「欸，已經吃完了？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 250
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0251",
+          "type": "narration",
+          "text": "西望著他的畫面，想起剛才那列火車上的狼狽模樣，忍不住笑出了聲。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 251
+          }
+        },
+        {
+          "id": "author-0252",
+          "type": "dialogue",
+          "text": "「健太郎，你真的吃得好快。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 252
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0253",
+          "type": "dialogue",
+          "text": "「遊戲裡也是耶。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 253
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0254",
+          "type": "narration",
+          "text": "他說著，伸手拆開桌上的餅乾，將其中一片遞給她。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 254
+          }
+        },
+        {
+          "id": "author-0255",
+          "type": "narration",
+          "text": "西接過餅乾，目光卻仍然停在螢幕上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 255
+          }
+        },
+        {
+          "id": "author-0256",
+          "type": "narration",
+          "text": "她很想知道那種星形麵包究竟是什麼味道。看起來有點像加了蜂蜜的奶油麵包，外面應該還撒著薄薄的糖粉。光是想像剛出爐時的香味，便覺得有些餓了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 256
+          }
+        },
+        {
+          "id": "author-0257",
+          "type": "narration",
+          "text": "兩人沿著石板路繼續往前走。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 257
+          }
+        },
+        {
+          "id": "author-0258",
+          "type": "narration",
+          "text": "城鎮比她從列車上看見的還要大，街道沿著山坡層層延伸，屋簷下懸著尚未點亮的星形燈籠。居民們正忙著準備晚上的祭典，有人在門前掛起旗幟，有人在窗邊擺上鮮花，幾個孩子抱著紙燈籠跑過廣場，遠遠傳來清脆的笑聲。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 258
+          }
+        },
+        {
+          "id": "author-0259",
+          "type": "narration",
+          "text": "西讓魔女沿著一條小巷往裡走。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 259
+          }
+        },
+        {
+          "id": "author-0260",
+          "type": "narration",
+          "text": "山田跟在後面。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 260
+          }
+        },
+        {
+          "id": "author-0261",
+          "type": "narration",
+          "text": "偶爾她停在某個攤位前，勇者便也停下來，湊到旁邊看看；有時山田先發現有趣的東西，便會讓角色跑到前面，回頭等她跟上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 261
+          }
+        },
+        {
+          "id": "author-0262",
+          "type": "narration",
+          "text": "西望著那個藍白色的背影，忽然想起自己和健太郎平時一起逛街的模樣。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 262
+          }
+        },
+        {
+          "id": "author-0263",
+          "type": "narration",
+          "text": "只是這次，他穿著披風，腰間還掛著一把劍。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 263
+          }
+        },
+        {
+          "id": "author-0264",
+          "type": "narration",
+          "text": "她看著那把劍，又想起剛才他在列車外面被甩得貼上窗戶的樣子。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 264
+          }
+        },
+        {
+          "id": "author-0265",
+          "type": "narration",
+          "text": "想著想著，嘴角便有些控制不住。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 265
+          }
+        },
+        {
+          "id": "author-0266",
+          "type": "dialogue",
+          "text": "「奈津美？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 266
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0267",
+          "type": "narration",
+          "text": "山田轉過頭來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 267
+          }
+        },
+        {
+          "id": "author-0268",
+          "type": "dialogue",
+          "text": "「怎麼了？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 268
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0269",
+          "type": "dialogue",
+          "text": "「沒什麼。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 269
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0270",
+          "type": "narration",
+          "text": "她望著螢幕裡的勇者。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 270
+          }
+        },
+        {
+          "id": "author-0271",
+          "type": "narration",
+          "text": "現在他正好端端站在街道上，身後的短披風隨著風輕輕擺動。那件焦黑的披風已經恢復了原來的樣子，金色的頭髮也重新變得整整齊齊。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 271
+          }
+        },
+        {
+          "id": "author-0272",
+          "type": "narration",
+          "text": "……果然還是剛才比較好笑。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 272
+          }
+        },
+        {
+          "id": "author-0273",
+          "type": "narration",
+          "text": "西忍不住又笑了一聲。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 273
+          }
+        },
+        {
+          "id": "author-0274",
+          "type": "narration",
+          "text": "山田看了她一眼，隨即也想起了剛才的事。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 274
+          }
+        },
+        {
+          "id": "author-0275",
+          "type": "dialogue",
+          "text": "「妳還在想那個嗎？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 275
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0276",
+          "type": "dialogue",
+          "text": "「因為真的很好笑嘛。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 276
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0277",
+          "type": "dialogue",
+          "text": "「我可是很努力在救車廂耶！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 277
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0278",
+          "type": "dialogue",
+          "text": "「我知道啊。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 278
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0279",
+          "type": "narration",
+          "text": "西將魔女移到勇者旁邊。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 279
+          }
+        },
+        {
+          "id": "author-0280",
+          "type": "dialogue",
+          "text": "「所以才很好笑。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 280
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0281",
+          "type": "narration",
+          "text": "兩人一邊說著，一邊沿著街道往前走。遠處的鐘樓已經越來越近，塔頂那顆巨大的星形燈飾仍然黯淡，等待著今年的星火。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 281
+          }
+        },
+        {
+          "id": "author-0282",
+          "type": "narration",
+          "text": "當勇者與魔女終於走上祭壇時，天色已經完全暗了下來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 282
+          },
+          "stage": {
+            "background": "clocktower-plaza-dusk"
+          }
+        },
+        {
+          "id": "author-0283",
+          "type": "narration",
+          "text": "山田將控制器握好。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 283
+          }
+        },
+        {
+          "id": "author-0284",
+          "type": "dialogue",
+          "text": "「這次應該不會再有怪物吧？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 284
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0285",
+          "type": "dialogue",
+          "text": "「不要亂講啦。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 285
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0286",
+          "type": "narration",
+          "text": "西想起剛才那節差點掉下去的車廂，仍然覺得有些心有餘悸。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 286
+          }
+        },
+        {
+          "id": "author-0287",
+          "type": "narration",
+          "text": "兩個角色一起按下確認鍵。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 287
+          }
+        },
+        {
+          "id": "author-0288",
+          "type": "narration",
+          "text": "木箱上的金屬扣環依次鬆開，金色的光芒從裡面緩緩升起，沿著鐘樓古老的刻紋向上流動，最後匯入塔頂那顆巨大的星燈。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 288
+          }
+        },
+        {
+          "id": "author-0289",
+          "type": "narration",
+          "text": "鐘聲響了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 289
+          }
+        },
+        {
+          "id": "author-0290",
+          "type": "narration",
+          "text": "第一盞燈籠在廣場中央亮起。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 290
+          },
+          "stage": {
+            "background": "mountain-lakeside-town-night",
+            "camera": "rise"
+          }
+        },
+        {
+          "id": "author-0291",
+          "type": "narration",
+          "text": "緊接著是第二盞、第三盞。金色的光沿著屋簷向外延伸，越過石橋與河道，順著交錯的街道爬上山坡。那些先前隱沒在暮色裡的屋頂逐漸顯露出輪廓，整座城鎮彷彿被一點點喚醒，連遠處湖面上的倒影也跟著亮了起來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 291
+          }
+        },
+        {
+          "id": "author-0292",
+          "type": "narration",
+          "text": "西認出了剛才經過的石橋。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 292
+          }
+        },
+        {
+          "id": "author-0293",
+          "type": "narration",
+          "text": "橋旁的麵包店也亮著燈，幾個小小的人影正圍在櫃檯前。再遠一些，是她曾經停下腳步看過的花店，窗邊那些白色的花朵被燈光映得格外明亮。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 293
+          }
+        },
+        {
+          "id": "author-0294",
+          "type": "narration",
+          "text": "原來它們都在這裡。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 294
+          }
+        },
+        {
+          "id": "author-0295",
+          "type": "narration",
+          "text": "她望著那片逐漸亮起的城鎮，忽然想起早些時候在列車上看見的風景。那時候，這座城只是遠處山坡上的一片屋頂，連街道都看不清楚。如今她已經走過了其中幾條小路，買過麵包，也記得哪一間店的窗邊擺著鮮花。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 295
+          }
+        },
+        {
+          "id": "author-0296",
+          "type": "narration",
+          "text": "好像真的來過這個地方一樣。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 296
+          }
+        },
+        {
+          "id": "author-0297",
+          "type": "narration",
+          "text": "就在這時，廣場上的鐘聲慢慢停了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 297
+          }
+        },
+        {
+          "id": "author-0298",
+          "type": "narration",
+          "text": "一片巨大的影子從鐘樓上方掠過，遮住了剛剛亮起的星燈。西隨著鏡頭抬起視線，首先看見的，是深藍色夜空裡一條緩緩移動的弧線。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 298
+          },
+          "stage": {
+            "background": "starlight-plaza-night",
+            "camera": null
+          }
+        },
+        {
+          "id": "author-0299",
+          "type": "narration",
+          "text": "然後是鰭。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 299
+          }
+        },
+        {
+          "id": "author-0300",
+          "type": "narration",
+          "text": "很長、很寬，幾乎橫跨整片天空。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 300
+          }
+        },
+        {
+          "id": "author-0301",
+          "type": "narration",
+          "text": "星鯨正從城鎮上方游過。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 301
+          },
+          "stage": {
+            "cg": "starlight-festival-whale"
+          }
+        },
+        {
+          "id": "author-0302",
+          "type": "narration",
+          "text": "牠的身體呈現出半透明的深藍色，腹部映著下方的燈火，幾道淡淡的星紋隨著呼吸般的起伏，在皮膚深處流動。當牠舒展長鰭，整座鐘樓都被籠罩在陰影裡，只有金色的燈籠仍然靜靜亮著。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 302
+          }
+        },
+        {
+          "id": "author-0303",
+          "type": "narration",
+          "text": "西屏住了呼吸。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 303
+          },
+          "stage": {
+            "cg": "starlight-festival-whale"
+          }
+        },
+        {
+          "id": "author-0304",
+          "type": "narration",
+          "text": "那些原本坐落在山坡上的房屋，如今小得像一片片玩具。鐘樓上的星燈還在發光，可與星鯨相比，也只剩下一粒細小的亮點。幾盞居民放飛的燈籠正緩緩升空，穿過牠身旁時，渺小得幾乎看不清楚。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 304
+          }
+        },
+        {
+          "id": "author-0305",
+          "type": "narration",
+          "text": "直到其中一盞燈飄近鯨尾，她才發現，那片看似遙遠的藍色光影，竟然還在不斷向後延伸。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 305
+          }
+        },
+        {
+          "id": "author-0306",
+          "type": "dialogue",
+          "text": "「……哇。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 306
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0307",
+          "type": "narration",
+          "text": "她聽見自己的聲音。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 307
+          }
+        },
+        {
+          "id": "author-0308",
+          "type": "narration",
+          "text": "山田也停下了操作。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 308
+          }
+        },
+        {
+          "id": "author-0309",
+          "type": "narration",
+          "text": "螢幕裡，勇者與魔女並肩站在廣場中央，和周圍的人群一起仰望著天空。兩人的披風被夜風吹起，星鯨身上流動的藍光緩緩落在他們肩上，沿著衣袖流淌，最後消失在腳下的石板路裡。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 309
+          },
+          "showGameAvatars": true
+        },
+        {
+          "id": "author-0310",
+          "type": "narration",
+          "text": "西看著牠游過鐘樓。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 310
+          }
+        },
+        {
+          "id": "author-0311",
+          "type": "narration",
+          "text": "她忽然覺得，剛才在列車上發生的事情，好像已經過去了很久。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 311
+          }
+        },
+        {
+          "id": "author-0312",
+          "type": "narration",
+          "text": "明明只是一個下午。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 312
+          }
+        },
+        {
+          "id": "author-0313",
+          "type": "narration",
+          "text": "她想起車廂懸在山谷上方時，自己緊緊握著控制器的模樣。還有健太郎在旁邊喊著讓她小心，後來卻被她的火焰炸得差點飛出去。那些畫面現在想起來，仍然生動得彷彿剛剛發生。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 313
+          }
+        },
+        {
+          "id": "author-0314",
+          "type": "narration",
+          "text": "西轉過頭。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 314
+          }
+        },
+        {
+          "id": "author-0315",
+          "type": "narration",
+          "text": "山田正望著螢幕，身體稍稍向前傾，手裡的控制器已經放在膝上。星鯨游過時，他的眼睛跟著畫面緩緩移動，直到那條巨大的尾鰭從鐘樓後方升起，才忍不住發出一聲低低的驚嘆。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 315
+          }
+        },
+        {
+          "id": "author-0316",
+          "type": "narration",
+          "text": "西看著他的側臉。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 316
+          }
+        },
+        {
+          "id": "author-0317",
+          "type": "narration",
+          "text": "她今天進門時，只想快點靠近他。真正坐到一起以後，卻又被他指過的列車彎道、自己來不及看清的街道，一點點帶到了這裡。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 317
+          }
+        },
+        {
+          "id": "author-0318",
+          "type": "narration",
+          "text": "剛才一起救援時，她甚至忘了自己正坐在他的房間裡。只顧著聽他的聲音，照著他的提示操作，又在他突然被魔物撞出去時，忍不住跟著緊張起來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 318
+          }
+        },
+        {
+          "id": "author-0319",
+          "type": "narration",
+          "text": "想到這裡，她忽然很想再玩一次那段關卡。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 319
+          }
+        },
+        {
+          "id": "author-0320",
+          "type": "narration",
+          "text": "下次一定會接得更快。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 320
+          }
+        },
+        {
+          "id": "author-0321",
+          "type": "narration",
+          "text": "也不知道健太郎會不會想再試。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 321
+          }
+        },
+        {
+          "id": "author-0322",
+          "type": "narration",
+          "text": "西往他身邊挪了挪，肩膀輕輕碰到他的手臂。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 322
+          }
+        },
+        {
+          "id": "author-0323",
+          "type": "dialogue",
+          "text": "「健太郎。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 323
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0324",
+          "type": "dialogue",
+          "text": "「嗯？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 324
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0325",
+          "type": "narration",
+          "text": "他轉過頭來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 325
+          }
+        },
+        {
+          "id": "author-0326",
+          "type": "narration",
+          "text": "西望著他，原本想說的那句好漂亮，卻忽然被另一件事取代。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 326
+          }
+        },
+        {
+          "id": "author-0327",
+          "type": "dialogue",
+          "text": "「剛才那個車廂，真的好危險喔。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 327
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0328",
+          "type": "dialogue",
+          "text": "「對啊！我差點拉不住！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 328
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0329",
+          "type": "narration",
+          "text": "山田伸手比了一下剛才的操作，說到連接臂突然轉動的地方，還模仿了勇者被扯得向前滑動的樣子。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 329
+          }
+        },
+        {
+          "id": "author-0330",
+          "type": "narration",
+          "text": "西想起他當時整個人跟著遊戲畫面往旁邊傾，終於忍不住笑出聲。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 330
+          }
+        },
+        {
+          "id": "author-0331",
+          "type": "dialogue",
+          "text": "「健太郎剛才整個人都在動。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 331
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0332",
+          "type": "dialogue",
+          "text": "「奈津美也是啊！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 332
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0333",
+          "type": "dialogue",
+          "text": "「我哪有？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 333
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0334",
+          "type": "dialogue",
+          "text": "「有！妳還一直往前靠！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 334
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0335",
+          "type": "narration",
+          "text": "她低頭看了看自己現在的位置，才發現膝蓋幾乎碰到了桌沿。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 335
+          }
+        },
+        {
+          "id": "author-0336",
+          "type": "narration",
+          "text": "山田伸手拿起桌上的飲料，順便把她那瓶也遞過來。西接過時，指尖碰到他的手背，便順勢靠在了他肩上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 336
+          }
+        },
+        {
+          "id": "author-0337",
+          "type": "narration",
+          "text": "星鯨仍然緩慢地游過夜空。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 337
+          }
+        },
+        {
+          "id": "author-0338",
+          "type": "narration",
+          "text": "她握著瓶子，感覺到身旁的人稍微調整了坐姿，讓她能更舒服地倚著。那份熟悉的體溫隔著兩層薄薄的衣服傳過來，和遊戲裡的燈火、遠處的鐘聲一起，慢慢融進了這個午後。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 338
+          }
+        },
+        {
+          "id": "author-0339",
+          "type": "narration",
+          "text": "螢幕裡的城鎮正迎來夜晚。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 339
+          }
+        },
+        {
+          "id": "author-0340",
+          "type": "narration",
+          "text": "窗外的日光卻還停留在山田房間的窗簾上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 340
+          }
+        },
+        {
+          "id": "author-0341",
+          "type": "narration",
+          "text": "西看了看那兩個並肩站在廣場中央的角色，又低頭望向自己手裡的控制器，忽然覺得這個星期六過得比想像中快了許多。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 341
+          }
+        },
+        {
+          "id": "author-0342",
+          "type": "narration",
+          "text": "明明才剛開始。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 342
+          }
+        },
+        {
+          "id": "author-0343",
+          "type": "narration",
+          "text": "她還想和健太郎去看看那座城堡，想知道森林裡會有什麼，也想試試剛才地圖上那條通往湖邊的小路。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 343
+          }
+        },
+        {
+          "id": "author-0344",
+          "type": "narration",
+          "text": "還有好多地方。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 344
+          }
+        },
+        {
+          "id": "author-0345",
+          "type": "dialogue",
+          "text": "「健太郎，等一下我們先去哪裡？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 345
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0346",
+          "type": "narration",
+          "text": "山田看了看地圖，指向城鎮外一條通往山坡的小徑。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 346
+          }
+        },
+        {
+          "id": "author-0347",
+          "type": "dialogue",
+          "text": "「這邊好像有個新地方。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 347
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0348",
+          "type": "narration",
+          "text": "西順著望去。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 348
+          }
+        },
+        {
+          "id": "author-0349",
+          "type": "narration",
+          "text": "一座古老的石門正靜靜立在地圖邊緣。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 349
+          },
+          "next": "chapter01.gate"
+        }
+      ],
+      "nodeAliases": {
+        "beat-001": "author-0282",
+        "beat-002": "author-0242",
+        "beat-003": "author-0242",
+        "beat-004": "author-0242",
+        "beat-005": "author-0242",
+        "beat-006": "author-0316",
+        "beat-007": "author-0245",
+        "beat-008": "author-0244",
+        "beat-009": "author-0268",
+        "beat-010": "author-0242",
+        "beat-011": "author-0242",
+        "beat-012": "author-0242",
+        "beat-013": "author-0280",
+        "beat-014": "author-0324",
+        "beat-015": "author-0278",
+        "beat-016": "author-0308",
+        "beat-017": "author-0242",
+        "beat-018": "author-0242",
+        "beat-019": "author-0245",
+        "beat-020": "author-0252",
+        "beat-021": "author-0259",
+        "beat-022": "author-0268",
+        "beat-023": "author-0257",
+        "beat-024": "author-0242",
+        "beat-025": "author-0288",
+        "beat-026": "author-0289",
+        "beat-027": "author-0242",
+        "beat-028": "author-0242",
+        "beat-029": "author-0242",
+        "beat-030": "author-0301",
+        "beat-031": "author-0314",
+        "beat-032": "author-0337",
+        "beat-033": "author-0242",
+        "beat-034": "author-0306",
+        "beat-035": "author-0273",
+        "beat-036": "author-0308",
+        "beat-037": "author-0242",
+        "beat-038": "author-0242",
+        "beat-039": "author-0337",
+        "beat-040": "author-0242",
+        "beat-041": "author-0242",
+        "beat-042": "author-0276",
+        "beat-043": "author-0324",
+        "beat-044": "author-0316",
+        "beat-045": "author-0306"
+      }
+    },
+    {
+      "id": "chapter01.gate",
+      "title": "冒險才剛開始",
+      "perspective": "kentaro",
+      "timeline": "星期六午後 · 旅途之門",
+      "stage": {
+        "background": "starlight-plaza-night",
+        "bgm": "peaceful-night",
+        "camera": null,
+        "cg": null,
+        "media": null,
+        "portraits": [],
+        "gameAvatars": [
+          {
+            "character": "kentaro",
+            "variant": "hero-back",
+            "expression": "neutral",
+            "position": "left"
+          },
+          {
+            "character": "natsumi",
+            "variant": "witch-back",
+            "expression": "neutral",
+            "position": "right"
+          }
+        ]
+      },
+      "nodes": [
+        {
+          "id": "author-0352",
+          "type": "narration",
+          "text": "星鯨消失在山谷另一端後，廣場上的音樂漸漸恢復了原本的節奏。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 352
+          },
+          "stage": {
+            "cg": null
+          }
+        },
+        {
+          "id": "author-0353",
+          "type": "narration",
+          "text": "新的任務提示浮上畫面。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 353
+          }
+        },
+        {
+          "id": "author-0354",
+          "type": "narration",
+          "text": "序章完成：星火的護送者。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 354
+          }
+        },
+        {
+          "id": "author-0355",
+          "type": "narration",
+          "text": "山田看著那行字，忍不住又瞥了一眼旁邊的進度。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 355
+          }
+        },
+        {
+          "id": "author-0356",
+          "type": "dialogue",
+          "text": "「欸？這樣才是序章？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 356
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0357",
+          "type": "narration",
+          "text": "西也湊過來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 357
+          }
+        },
+        {
+          "id": "author-0358",
+          "type": "dialogue",
+          "text": "「感覺已經玩了很久耶。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 358
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0359",
+          "type": "dialogue",
+          "text": "「後面應該還有好多地方可以去。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 359
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0360",
+          "type": "narration",
+          "text": "他打開地圖，發現原本被雲霧遮住的區域已經亮起。從城鎮向外延伸的道路分成好幾條，一條通往北方的山脈，一條深入森林，另一條則沿著河流走向海岸。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 360
+          }
+        },
+        {
+          "id": "author-0361",
+          "type": "narration",
+          "text": "地圖中央，剛剛出現的石門圖示正微微發光。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 361
+          }
+        },
+        {
+          "id": "author-0362",
+          "type": "narration",
+          "text": "山田將勇者移到那條小徑前，等奈津美的魔女跟上來，才一起往城外走去。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 362
+          }
+        },
+        {
+          "id": "author-0363",
+          "type": "narration",
+          "text": "星燈祭的音樂逐漸被拋在身後。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 363
+          }
+        },
+        {
+          "id": "author-0364",
+          "type": "narration",
+          "text": "石板路穿過一片低矮的草坡，兩旁的樹木隨著夜風輕輕搖動。遠處仍能看見城鎮的燈火，鐘樓上的星燈高高亮著，像一顆被留在人間的小星星。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 364
+          }
+        },
+        {
+          "id": "author-0365",
+          "type": "narration",
+          "text": "古老的石門立在山坡盡頭，兩側刻著褪色的星形紋路。門的中央是一面深色的圓形鏡子，表面映不出周圍的景物，只有幾道淡藍色的光芒在裡面緩緩流動。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 365
+          },
+          "stage": {
+            "background": "lakeside-star-gate-night",
+            "camera": "push-in"
+          }
+        },
+        {
+          "id": "author-0366",
+          "type": "narration",
+          "text": "當勇者與魔女走近時，門前的石板突然亮起。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 366
+          },
+          "stage": {
+            "background": "lakeside-star-gate-night",
+            "camera": "push-in"
+          }
+        },
+        {
+          "id": "author-0367",
+          "type": "narration",
+          "text": "兩個圓形符文分別浮現在他們腳下。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 367
+          }
+        },
+        {
+          "id": "author-0368",
+          "type": "narration",
+          "text": "畫面中央出現提示。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 368
+          }
+        },
+        {
+          "id": "author-0369",
+          "type": "narration",
+          "text": "旅途之門已開啟。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 369
+          }
+        },
+        {
+          "id": "author-0370",
+          "type": "narration",
+          "text": "需要兩名玩家同時確認。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 370
+          }
+        },
+        {
+          "id": "author-0371",
+          "type": "narration",
+          "text": "山田將勇者移到其中一枚符文上，回頭看了一眼奈津美的角色。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 371
+          }
+        },
+        {
+          "id": "author-0372",
+          "type": "dialogue",
+          "text": "「好了？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 372
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0373",
+          "type": "dialogue",
+          "text": "「嗯。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 373
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0374",
+          "type": "dialogue",
+          "text": "「那就進去囉。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 374
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0375",
+          "type": "narration",
+          "text": "西將魔女帶到另一邊，與他一起按下按鍵。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 375
+          }
+        },
+        {
+          "id": "author-0376",
+          "type": "narration",
+          "text": "藍色的光芒從石門中央擴散，沿著那些古老的刻紋迅速蔓延。兩個角色的身影被一點點吞沒，畫面裡的音樂也逐漸變得低沉，像是從很遠的地方傳來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 376
+          }
+        },
+        {
+          "id": "author-0377",
+          "type": "narration",
+          "text": "山田原本還在等下一段過場動畫。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 377
+          }
+        },
+        {
+          "id": "author-0378",
+          "type": "narration",
+          "text": "忽然，一陣風掠過他的臉。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 378
+          }
+        },
+        {
+          "id": "author-0379",
+          "type": "narration",
+          "text": "他愣了一下。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 379
+          }
+        },
+        {
+          "id": "author-0380",
+          "type": "narration",
+          "text": "房間裡的窗簾正猛烈地向上揚起，桌上的餅乾包裝被吹得翻動起來，原本擺在角落的小紙袋也滑到了榻榻米上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 380
+          },
+          "stage": {
+            "background": "kentaro-gaming-room-day",
+            "camera": null,
+            "gameAvatars": []
+          }
+        },
+        {
+          "id": "author-0381",
+          "type": "narration",
+          "text": "山田抬起頭。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 381
+          }
+        },
+        {
+          "id": "author-0382",
+          "type": "narration",
+          "text": "窗戶明明關著。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 382
+          }
+        },
+        {
+          "id": "author-0383",
+          "type": "narration",
+          "text": "電視裡的光正變得越來越亮，藍白色的光線穿過螢幕，落在桌沿、地板，甚至他的手背上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 383
+          }
+        },
+        {
+          "id": "author-0384",
+          "type": "narration",
+          "text": "他伸手去碰，指尖卻傳來一陣奇異的涼意。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 384
+          }
+        },
+        {
+          "id": "author-0385",
+          "type": "dialogue",
+          "text": "「……奈津美？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 385
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0386",
+          "type": "narration",
+          "text": "身旁的人也發現了異樣。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 386
+          }
+        },
+        {
+          "id": "author-0387",
+          "type": "narration",
+          "text": "西正望著自己手裡的控制器。那道光像細小的水流一樣沿著她的手指蔓延，轉眼便爬上手腕。她下意識鬆開手，控制器掉在榻榻米上，發出一聲沉悶的輕響。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 387
+          }
+        },
+        {
+          "id": "author-0388",
+          "type": "narration",
+          "text": "山田立刻轉過身。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 388
+          }
+        },
+        {
+          "id": "author-0389",
+          "type": "narration",
+          "text": "光線已經漫過兩人之間的矮桌。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 389
+          }
+        },
+        {
+          "id": "author-0390",
+          "type": "narration",
+          "text": "他伸手抓住她。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 390
+          }
+        },
+        {
+          "id": "author-0391",
+          "type": "dialogue",
+          "text": "「奈津美！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 391
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "real",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0392",
+          "type": "narration",
+          "text": "西緊緊握住他的手。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 392
+          }
+        },
+        {
+          "id": "author-0393",
+          "type": "narration",
+          "text": "下一瞬，整個房間都被白光吞沒。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 393
+          }
+        },
+        {
+          "id": "author-0394",
+          "type": "narration",
+          "text": "她聽見耳邊傳來一陣很長的風聲，像是列車穿過山谷時呼嘯而過的氣流。腳下的地面忽然消失了，身體隨之失去重量，連方向都變得難以分辨。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 394
+          }
+        },
+        {
+          "id": "author-0395",
+          "type": "narration",
+          "text": "西本能地抓緊身旁的人。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 395
+          }
+        },
+        {
+          "id": "author-0396",
+          "type": "narration",
+          "text": "她能感覺到健太郎的手仍然握著自己。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 396
+          }
+        },
+        {
+          "id": "author-0397",
+          "type": "narration",
+          "text": "那份力量穩穩地拉住她，直到四周的光芒漸漸暗下來，耳邊重新傳來細碎的聲響。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 397
+          }
+        },
+        {
+          "id": "author-0398",
+          "type": "narration",
+          "text": "風。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 398
+          }
+        },
+        {
+          "id": "author-0399",
+          "type": "narration",
+          "text": "草葉摩擦的聲音。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 399
+          }
+        },
+        {
+          "id": "author-0400",
+          "type": "narration",
+          "text": "還有很遠、很遠的地方，一聲悠長的鳥鳴。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 400
+          },
+          "next": "chapter01.new-world"
+        }
+      ],
+      "nodeAliases": {
+        "beat-001": "author-0352",
+        "beat-002": "author-0354",
+        "beat-003": "author-0352",
+        "beat-004": "author-0352",
+        "beat-005": "author-0352",
+        "beat-006": "author-0381",
+        "beat-007": "author-0352",
+        "beat-008": "author-0352",
+        "beat-009": "author-0359",
+        "beat-010": "author-0352",
+        "beat-011": "author-0368",
+        "beat-012": "author-0352",
+        "beat-013": "author-0370",
+        "beat-014": "author-0385",
+        "beat-015": "author-0373",
+        "beat-016": "author-0373",
+        "beat-017": "author-0370",
+        "beat-018": "author-0352",
+        "beat-019": "author-0352",
+        "beat-020": "author-0378",
+        "beat-021": "author-0379",
+        "beat-022": "author-0352",
+        "beat-023": "author-0352",
+        "beat-024": "author-0385",
+        "beat-025": "author-0352",
+        "beat-026": "author-0388",
+        "beat-027": "author-0391",
+        "beat-028": "author-0390",
+        "beat-029": "author-0393"
+      }
+    },
+    {
+      "id": "chapter01.new-world",
+      "title": "冒險才剛開始 · 醒來",
+      "perspective": "natsumi",
+      "timeline": "異世界 · 山谷草坡",
+      "stage": {
+        "background": "lakeside-mountain-path-day",
+        "bgm": "warm-daily-life",
+        "camera": "push-in",
+        "cg": null,
+        "media": null,
+        "portraits": [],
+        "gameAvatars": []
+      },
+      "nodes": [
+        {
+          "id": "author-0401",
+          "type": "narration",
+          "text": "西慢慢睜開眼睛。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 401
+          }
+        },
+        {
+          "id": "author-0402",
+          "type": "narration",
+          "text": "眼前是一片陌生的天空。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 402
+          }
+        },
+        {
+          "id": "author-0403",
+          "type": "narration",
+          "text": "白雲沿著湛藍色的天際緩緩移動，遠處的山坡覆滿翠綠的草地，幾條小徑穿過起伏的地勢，通向山谷深處。空氣裡帶著潮濕的泥土與青草氣味，陽光落在皮膚上，暖得令人有些發暈。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 403
+          }
+        },
+        {
+          "id": "author-0404",
+          "type": "narration",
+          "text": "她怔怔地望著四周。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 404
+          }
+        },
+        {
+          "id": "author-0405",
+          "type": "narration",
+          "text": "剛才的房間、電視、桌上的餅乾，全都不見了。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 405
+          }
+        },
+        {
+          "id": "author-0406",
+          "type": "narration",
+          "text": "身下是柔軟的草地。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 406
+          }
+        },
+        {
+          "id": "author-0407",
+          "type": "narration",
+          "text": "她低頭看見自己身上那件深藍與白色交織的長袍，袖口繡著細緻的金色紋路，幾縷陌生的長髮沿著肩膀滑落，垂到膝邊。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 407
+          }
+        },
+        {
+          "id": "author-0408",
+          "type": "narration",
+          "text": "這是……",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 408
+          }
+        },
+        {
+          "id": "author-0409",
+          "type": "narration",
+          "text": "她抬起手。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 409
+          }
+        },
+        {
+          "id": "author-0410",
+          "type": "narration",
+          "text": "指尖下方，一枚淡藍色的魔法符文正緩緩消散。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 410
+          }
+        },
+        {
+          "id": "author-0411",
+          "type": "dialogue",
+          "text": "「奈津美！」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 411
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "hero",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0412",
+          "type": "narration",
+          "text": "熟悉的聲音從旁邊傳來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 412
+          }
+        },
+        {
+          "id": "author-0413",
+          "type": "narration",
+          "text": "西猛地轉過頭。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 413
+          }
+        },
+        {
+          "id": "author-0414",
+          "type": "narration",
+          "text": "山田正半跪在草地上，一隻手仍然握著她，另一隻手扶著她的肩膀。他穿著遊戲裡那套藍白相間的勇者服，短披風被風掀起，腰間還掛著一把長劍。原本棕色的頭髮變成了明亮的金色，兩側露出稍深的髮根。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 414
+          },
+          "showPortrait": true,
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "hero",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0415",
+          "type": "narration",
+          "text": "他低頭看著她。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 415
+          }
+        },
+        {
+          "id": "author-0416",
+          "type": "dialogue",
+          "text": "「妳沒事吧？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 416
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "hero",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0417",
+          "type": "narration",
+          "text": "西望著他，喉嚨裡一時發不出聲音。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 417
+          }
+        },
+        {
+          "id": "author-0418",
+          "type": "narration",
+          "text": "眼前的臉明明與剛才不同，可那雙眼睛、說話時的語氣，還有握著自己時熟悉的力度，都讓她立刻認出了他。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 418
+          }
+        },
+        {
+          "id": "author-0419",
+          "type": "dialogue",
+          "text": "「……健太郎？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 419
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "witch",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0420",
+          "type": "dialogue",
+          "text": "「嗯。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 420
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "hero",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0421",
+          "type": "narration",
+          "text": "山田將她從草地上扶起來。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 421
+          }
+        },
+        {
+          "id": "author-0422",
+          "type": "narration",
+          "text": "西站穩後，才發現遠處的山谷裡，一道金色的軌道正沿著山壁蜿蜒而上。幾縷雲霧從軌道下方緩緩飄過，遠處隱約傳來列車的汽笛聲。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 422
+          }
+        },
+        {
+          "id": "author-0423",
+          "type": "narration",
+          "text": "她望著那個方向。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 423
+          }
+        },
+        {
+          "id": "author-0424",
+          "type": "narration",
+          "text": "不久之前，他們還坐在房間裡，看著同樣的風景出現在電視螢幕上。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 424
+          }
+        },
+        {
+          "id": "author-0425",
+          "type": "narration",
+          "text": "如今風正從山谷裡吹來，拂過她的長髮，將衣袖上的金色飾物吹得輕輕作響。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 425
+          }
+        },
+        {
+          "id": "author-0426",
+          "type": "narration",
+          "text": "山田也順著她的目光望去。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 426
+          }
+        },
+        {
+          "id": "author-0427",
+          "type": "dialogue",
+          "text": "「……這裡是剛才的遊戲吧？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 427
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "hero",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0428",
+          "type": "narration",
+          "text": "西轉頭看向他。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 428
+          }
+        },
+        {
+          "id": "author-0429",
+          "type": "narration",
+          "text": "兩人站在草地中央，手仍然緊緊握著。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 429
+          }
+        },
+        {
+          "id": "author-0430",
+          "type": "narration",
+          "text": "遠方又傳來一聲汽笛。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 430
+          }
+        },
+        {
+          "id": "author-0431",
+          "type": "narration",
+          "text": "那列深藍色的魔法火車正沿著金色軌道駛出山谷，車輪掠過雲霧，將一大片明亮的日光帶到他們眼前。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 431
+          }
+        },
+        {
+          "id": "author-0432",
+          "type": "narration",
+          "text": "山田抬起頭，目光跟著列車移動。西望著他身上的勇者服，又看了看自己的長袍，終於忍不住伸出另一隻手，輕輕碰了碰他的披風。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 432
+          }
+        },
+        {
+          "id": "author-0433",
+          "type": "narration",
+          "text": "布料真實地滑過指尖。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 433
+          }
+        },
+        {
+          "id": "author-0434",
+          "type": "narration",
+          "text": "山田低下頭。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 434
+          }
+        },
+        {
+          "id": "author-0435",
+          "type": "dialogue",
+          "text": "「怎麼了？」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 435
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "hero",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0436",
+          "type": "narration",
+          "text": "西抬起眼睛，望著那張熟悉又陌生的臉。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 436
+          }
+        },
+        {
+          "id": "author-0437",
+          "type": "dialogue",
+          "text": "「健太郎……你的頭髮。」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 437
+          },
+          "speaker": "natsumi",
+          "stage": {
+            "portraits": [
+              {
+                "character": "natsumi",
+                "variant": "witch",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0438",
+          "type": "narration",
+          "text": "他伸手摸了摸頭頂。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 438
+          }
+        },
+        {
+          "id": "author-0439",
+          "type": "narration",
+          "text": "金色的髮絲被揉得更亂了一些。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 439
+          }
+        },
+        {
+          "id": "author-0440",
+          "type": "narration",
+          "text": "山田看了看她，又低頭看向自己的衣服，這才像是終於發現眼前這件事究竟有多麼不可思議。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 440
+          }
+        },
+        {
+          "id": "author-0441",
+          "type": "dialogue",
+          "text": "「變成勇者了……」",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 441
+          },
+          "speaker": "kentaro",
+          "stage": {
+            "portraits": [
+              {
+                "character": "kentaro",
+                "variant": "hero",
+                "expression": "neutral",
+                "position": "center"
+              }
+            ]
+          }
+        },
+        {
+          "id": "author-0442",
+          "type": "narration",
+          "text": "西握著他的手，望向遠處逐漸消失在雲層後的列車。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 442
+          }
+        },
+        {
+          "id": "author-0443",
+          "type": "narration",
+          "text": "他們原本約好，要在房間裡一起玩上一整天。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 443
+          }
+        },
+        {
+          "id": "author-0444",
+          "type": "narration",
+          "text": "而現在，星期六才剛剛開始。",
+          "source": {
+            "file": "chapter-01-user-2026-11-05.md",
+            "paragraph": 444
+          }
+        }
+      ],
+      "endLabel": "第一章讀畢 · 待續"
+    }
+  ]
+}

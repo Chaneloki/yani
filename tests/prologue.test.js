@@ -13,7 +13,7 @@ const imported=JSON.parse(await read('../src/content/chapters/prologue.json'));
 test('full story validates and the complete prologue ends before the gaming date',()=>{
  validateStory(story);
  const e=new NovelEngine(story);const seen=new Set();let count=0;
- while(true){assert.ok(count++<600,'cycle or unexpected additions');seen.add(e.scene.id);if(!e.advance())break;}
+ while(true){assert.ok(count++<600,'cycle or unexpected additions');seen.add(e.scene.id);if(e.node.next && story.scenes[e.node.next].chapterId!=='prologue')break;if(!e.advance())break;}
  assert.equal(seen.size,14);assert.equal(count,story.chapters.find(c=>c.id==='prologue').scenes.reduce((sum,s)=>sum+s.nodes.length,0));assert.equal(e.scene.id,'prologue.kentaro.night');assert.match(e.node.text,/非常值得高興的事/);
  assert.equal(e.state.history.length,count);assert.equal(e.state.flags.preview,undefined);
 });
@@ -82,7 +82,7 @@ test('every prologue page retains an image background and BGM across both perspe
  const e=new NovelEngine(story);
  let count=0;
  do {
-  assert.ok(count++<600);
+  assert.ok(count++<story.chapters.reduce((sum,c)=>sum+c.scenes.reduce((n,s)=>n+s.nodes.length,0),0));
   const stage=e.stage;
   assert.ok(story.assets.backgrounds[stage.background]?.src,`${e.scene.id}/${e.node.id}: background`);
   assert.ok(story.assets.bgm[stage.bgm]?.src,`${e.scene.id}/${e.node.id}: BGM`);

@@ -21,10 +21,22 @@ export class NovelEngine {
     this.state.sceneId = sceneId; this.state.nodeId = this.scene.nodes[0].id; this.record();
   }
   advance() {
-    if (this.node.type === 'choice' || this.ended) return false;
+    if ((this.node.minigame && !this.state.flags[`activity:${this.node.minigame.id}:${this.scene.id}/${this.node.id}`]) || this.node.type === 'choice' || this.ended) return false;
     if (this.node.next) this.go(this.node.next);
     else { this.state.nodeId = this.scene.nodes[this.scene.nodes.indexOf(this.node) + 1].id; this.record(); }
     return true;
+  }
+  jumpToNode(sceneId, nodeId) {
+    assert(this.story.scenes[sceneId]?.nodes.some(n => n.id === nodeId), '未知段落');
+    this.state.sceneId = sceneId; this.state.nodeId = nodeId; this.record();
+  }
+  completeMinigame(role) {
+    const activity = this.node.minigame;
+    assert(activity && ['kentaro','natsumi','read'].includes(role), '目前沒有可完成的活動');
+    this.state.flags[`activity:${activity.id}`] = role;
+    this.state.flags[`activity:${activity.id}:${this.scene.id}/${this.node.id}`] = role;
+    if (role === 'read') this.advance();
+    else this.jumpToNode(this.scene.id, activity.resume);
   }
   choose(id) {
     assert(this.node.type === 'choice', '目前沒有選項');

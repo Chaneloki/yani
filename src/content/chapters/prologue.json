@@ -4548,8 +4548,7 @@
                 "expression": "neutral",
                 "position": "center"
               }
-            ],
-            "media": "skeptical-tabby-cat"
+            ]
           }
         },
         {
@@ -4570,8 +4569,7 @@
                 "expression": "neutral",
                 "position": "center"
               }
-            ],
-            "media": null
+            ]
           }
         },
         {
@@ -10844,8 +10842,7 @@
                 "expression": "neutral",
                 "position": "center"
               }
-            ],
-            "media": "skeptical-tabby-cat"
+            ]
           }
         },
         {
@@ -10868,8 +10865,7 @@
                 "expression": "neutral",
                 "position": "center"
               }
-            ],
-            "media": null
+            ]
           }
         },
         {
@@ -11585,7 +11581,9 @@
                 "position": "center"
               }
             ]
-          }
+          },
+          "next": "chapter01.arrival",
+          "advanceLabel": "開始第一章 ↗"
         }
       ],
       "endLabel": "序章讀畢 · 下一章準備中"

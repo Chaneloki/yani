@@ -1,0 +1,6 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { BackgroundCamera } from '../src/ui/background-camera.js';
+function fixture(reduced=false){const calls=[];const element={animate(frames,options){const a={cancelled:false,paused:false,cancel(){this.cancelled=true;},pause(){this.paused=true;}};calls.push({frames,options,a});return a;}};return {calls,camera:new BackgroundCamera(element,{reduced:()=>reduced,transform:()=> 'matrix(1.04,0,0,1.04,0,0)'})};}
+test('same scenic cue continues across pages; dialogue pauses without resetting the view',()=>{const {camera,calls}=fixture();camera.update('valley','push-in');camera.update('valley','push-in');assert.equal(calls.length,1);camera.update('valley',null);assert.equal(calls[0].a.paused,true);assert.equal(calls[0].a.cancelled,false);camera.update('room',null);assert.equal(calls[0].a.cancelled,true);});
+test('new scenic image starts a new movement; reduced motion and return home cancel it',()=>{const {camera,calls}=fixture();camera.update('city','rise');camera.update('gate','push-in');assert.equal(calls[0].a.cancelled,true);assert.equal(calls[1].frames[0].transform,'none');camera.reset();assert.equal(calls[1].a.cancelled,true);const quiet=fixture(true);quiet.camera.update('city','rise');assert.equal(quiet.calls.length,0);});

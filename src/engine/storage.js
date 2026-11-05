@@ -13,6 +13,15 @@ export class SaveStore {
     const data = JSON.parse(raw);
     assert(data?.version === SAVE_VERSION && data.storyId === this.story.id && data.revision === this.story.revision, '這份存檔與目前故事版本不相容；原存檔已保留');
     assert(typeof data.savedAt === 'string' && Number.isFinite(Date.parse(data.savedAt)), '存檔時間無效');
-    validateState(this.story, data.state); return data;
+    let migrated = false;
+    for (const ref of [data.state, ...(data.state?.history || [])]) {
+      const sceneId = ref.sceneId;
+      const scene = this.story.scenes[sceneId];
+      if (scene && !scene.nodes.some(n => n.id === ref.nodeId)) {
+        const alias = scene.nodeAliases?.[ref.nodeId] || scene.nodeAliases?.[ref.nodeId?.replace(/--page-\d+$/, '')];
+        if (alias) { ref.nodeId = alias; migrated = true; }
+      }
+    }
+    validateState(this.story, data.state); return {...data, migrated};
   }
 }
