@@ -3,6 +3,10 @@ export function assert(ok, message) { if (!ok) throw new Error(message); }
 export function validateStory(story) {
   assert(story.id && story.revision && story.scenes[story.start], '故事起點不存在');
   if (story.titleBgm) assert(story.assets.bgm?.[story.titleBgm]?.src, `未知首頁音樂：${story.titleBgm}`);
+  for(const cg of Object.values(story.assets.cg||{})){
+    if(cg.atmosphere)assert(['starlight','moonlit','breeze','warm'].includes(cg.atmosphere),'未知 CG 環境效果');
+    if(cg.cameraSequence){if(cg.cameraSequence.mobileFit)assert(cg.cameraSequence.mobileFit==='framed','未知手機 CG 構圖模式');assert(Number.isFinite(cg.cameraSequence.duration)&&cg.cameraSequence.duration>0,'無效 CG 鏡頭時間');for(const viewport of ['desktop','mobile']){const frames=cg.cameraSequence[viewport];assert(Array.isArray(frames)&&frames.length>=2&&frames[0].offset===0&&frames.at(-1).offset===1,'CG 鏡頭缺少完整構圖');let previous=-1;for(const f of frames){assert(Number.isFinite(f.scale)&&f.scale>=1&&Number.isFinite(f.offset)&&f.offset>previous&&typeof f.position==='string'&&typeof f.origin==='string','無效 CG 鏡頭關鍵影格');previous=f.offset;}}}
+  }
   const seen = new Set();
   for (const c of story.chapters) for (const a of c.activities || []) assert(c.scenes.some(s => s.id === a.scene && s.nodes.some(n => n.id === a.node && n.minigame)), '未知活動入口');
   for (const chapter of story.chapters) for (const entry of chapter.entries || []) assert(chapter.scenes.some(s => s.id === entry.scene) && story.characters[entry.perspective], `未知章節入口：${entry.scene}`);
@@ -15,6 +19,10 @@ export function validateStory(story) {
       assert(n.id && !ids.has(n.id), `重複或空白段落：${s.id}`); ids.add(n.id);
       assert(['narration','dialogue','thought','choice'].includes(n.type) && typeof n.text === 'string' && n.text.length, `無效段落：${n.id}`);
       if (['dialogue','thought'].includes(n.type)) assert(story.characters[n.speaker], `未知說話者：${n.id}`);
+      if (n.portraitMotion) assert(['nod','startle','laugh','lean'].includes(n.portraitMotion), `未知人物動作：${n.portraitMotion}`);
+      if (n.effect) assert(['shake','impact','soft-flash','whiteout'].includes(n.effect), `未知事件效果：${n.effect}`);
+      if (n.se !== undefined) assert(typeof n.se==='string' && story.assets.se?.[n.se]?.src, `未知段落音效：${n.id}`);
+      if (n.portraitExpression !== undefined) assert(typeof n.portraitExpression==='string' && Object.values(story.characters[n.speaker]?.variants || {}).some(v=>Object.hasOwn(v,n.portraitExpression)), `未知人物表情：${n.id}`);
       if (n.attachments !== undefined) {
         assert(Array.isArray(n.attachments), `圖片附件格式錯誤：${n.id}`);
         for (const id of n.attachments) assert(story.assets.messageImages?.[id]?.src, `未知訊息圖片：${id}`);

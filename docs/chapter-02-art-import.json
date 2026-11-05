@@ -1,0 +1,71 @@
+[
+  {
+    "original": "山坡初到背景.png",
+    "renamed": "bg-estrala-hillside-day.png",
+    "runtime": "public/assets/backgrounds/bg-estrala-hillside-day.webp",
+    "sha256": "8076c15f8e401bb1edfd4034082f2f7ff74befad6f12a1767705d7a95a79f8d4"
+  },
+  {
+    "original": "BG_村外岔路口_白天.png",
+    "renamed": "bg-estrala-crossroads-day.png",
+    "runtime": "public/assets/backgrounds/bg-estrala-crossroads-day.webp",
+    "sha256": "5d3dc8f2a1baca464d2acf4f1796c733037e7407757c59703fcbb3b27258067e"
+  },
+  {
+    "original": "BG_村中小廣場與公告板_白天.png",
+    "renamed": "bg-estrala-village-square-day.png",
+    "runtime": "public/assets/backgrounds/bg-estrala-village-square-day.webp",
+    "sha256": "663b818644d08edb00d4f90f6c23c2d960845a623156ce8de6db042bd59bb78b"
+  },
+  {
+    "original": "BG_埃斯特拉村口_白天.png",
+    "renamed": "bg-estrala-village-entrance-day.png",
+    "runtime": "public/assets/backgrounds/bg-estrala-village-entrance-day.webp",
+    "sha256": "6795bc2bee0f9a82f540e5ff7e8c2af40d4cdb446e58386273b9431b8d536b93"
+  },
+  {
+    "original": "埃斯特拉主街背景.png",
+    "renamed": "bg-estrala-village-street-day.png",
+    "runtime": "public/assets/backgrounds/bg-estrala-village-street-day.webp",
+    "sha256": "cb8a9fbec22a179c5e5bf91d600f2d6fcecc83554b4bc1038dacc87cc04228eb"
+  },
+  {
+    "original": "旅舍大廳背景_日.png",
+    "renamed": "bg-estrala-inn-lobby-day.png",
+    "runtime": "public/assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+    "sha256": "3495b77c485dab5e5f2caf3cb59e68117d09ece028246a8757b5217a5edbd304"
+  },
+  {
+    "original": "旅舍房間夜景背景.png",
+    "renamed": "bg-estrala-inn-room-night.png",
+    "runtime": "public/assets/backgrounds/bg-estrala-inn-room-night.webp",
+    "sha256": "012b4a5b634508b096d7aa46050b8b8a566a79c9b90a1600ec4370fe5466247a"
+  },
+  {
+    "original": "莉妲.png",
+    "renamed": "npc-lida.png",
+    "runtime": "public/assets/characters/npc-lida.png",
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "original": "多恩.png",
+    "renamed": "npc-dorn.png",
+    "runtime": "public/assets/characters/npc-dorn.png",
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  {
+    "original": "長者型 NPC_man.png",
+    "renamed": "npc-herbalist-elder.png",
+    "runtime": "public/assets/characters/npc-herbalist-elder.png",
+    "alpha": [
+      0,
+      255
+    ]
+  }
+]

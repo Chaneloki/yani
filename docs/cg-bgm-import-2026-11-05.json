@@ -1,0 +1,38 @@
+[
+  {
+    "source": "cg-saturday-reunion-hug.png",
+    "runtime": "public/assets/cg/cg-saturday-reunion-hug.webp",
+    "updated": true,
+    "sourceSha256": "eb18fd55004af62be0b8f40a95dbcb16fbcdff7b5e95bebdee9462b3456dbc8a"
+  },
+  {
+    "source": "cg-starlight-festival-whale.png",
+    "runtime": "public/assets/cg/cg-starlight-festival-whale.webp",
+    "updated": true,
+    "sourceSha256": "5f9d46c02aeaa00a219a5193affe61a77928455678d375a35773978d4b2a62b0"
+  },
+  {
+    "original": "異世界初見：星輝山丘上的牽手.png",
+    "renamed": "cg-estrala-hillside-handhold.png",
+    "runtime": "public/assets/cg/cg-estrala-hillside-handhold.webp",
+    "sourceSha256": "31f971f634d25d6d9eef8fbaccf8e6f98497518afb9221a1306a3efcf08b1b98"
+  },
+  {
+    "original": "月光下的星辰地图戀歌.png",
+    "renamed": "cg-estrala-inn-moonlit-map.png",
+    "runtime": "public/assets/cg/cg-estrala-inn-moonlit-map.webp",
+    "sourceSha256": "b024018662b6e385ec6dc340d1ff9e6bc2a23830bf83326ca5bad8de7c9690c1"
+  },
+  {
+    "original": "《阴阳师》因幡辉夜姬角色印象曲 · 辉夜与月 p01 辉夜与月 · 映心.mp3",
+    "renamed": "bgm-kaguya-moon-reflection.mp3",
+    "runtime": "public/assets/audio/bgm/bgm-kaguya-moon-reflection.mp3",
+    "sourceSha256": "f34b6435cdc7807a925ae7e65ebf5f1937c4689cc483046a4495b7577b30143d"
+  },
+  {
+    "original": "Garbage - The World Is Not Enough | Adelina Piano synthesia tutorial - (320 Kbps).mp3",
+    "renamed": "bgm-the-world-is-not-enough-piano.mp3",
+    "runtime": "public/assets/audio/bgm/bgm-the-world-is-not-enough-piano.mp3",
+    "sourceSha256": "88e25a794f3fcb8a1200d26f76bf8b27c6d4f2d601b8211f662dadfbbfc018a4"
+  }
+]

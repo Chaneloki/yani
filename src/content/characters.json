@@ -10,7 +10,10 @@
       },
       "hero": {
         "neutral": "./assets/characters/ROLE_HERO.png",
-        "smile": "./assets/characters/ROLE_HERO.png"
+        "smile": "./assets/characters/ROLE_HERO.png",
+        "concerned": "./assets/characters/kentaro-hero-concerned.webp",
+        "happy": "./assets/characters/kentaro-hero-happy.webp",
+        "surprised": "./assets/characters/kentaro-hero-surprised.webp"
       },
       "hero-back": {
         "neutral": "./assets/characters/ROLE_HERO_BACK_CUTOUT.png"
@@ -28,7 +31,10 @@
       },
       "witch": {
         "neutral": "./assets/characters/ROLE_WITCH.png",
-        "smile": "./assets/characters/ROLE_WITCH.png"
+        "smile": "./assets/characters/ROLE_WITCH.png",
+        "thoughtful": "./assets/characters/natsumi-witch-thoughtful.webp",
+        "amused": "./assets/characters/natsumi-witch-amused.webp",
+        "puzzled": "./assets/characters/natsumi-witch-puzzled.webp"
       },
       "witch-back": {
         "neutral": "./assets/characters/ROLE_WITCH_BACK_CUTOUT.png"
@@ -64,5 +70,66 @@
     "shortName": "兩人",
     "color": "#b8ccb8",
     "variants": {}
+  },
+  "village_woman": {
+    "name": "村口的女人",
+    "shortName": "村口的女人",
+    "color": "#b9c7b0",
+    "variants": {
+      "fantasy": {
+        "neutral": "./assets/characters/npc-lida.png"
+      }
+    },
+    "portraitLayout": "bust"
+  },
+  "lida": {
+    "name": "莉妲",
+    "shortName": "莉妲",
+    "color": "#b9c7b0",
+    "variants": {
+      "fantasy": {
+        "neutral": "./assets/characters/npc-lida.png"
+      }
+    },
+    "portraitLayout": "bust"
+  },
+  "village_boy": {
+    "name": "男孩",
+    "shortName": "男孩",
+    "color": "#b9c7b0",
+    "variants": {}
+  },
+  "herbalist": {
+    "name": "曬草藥的老人",
+    "shortName": "曬草藥的老人",
+    "color": "#b9c7b0",
+    "variants": {
+      "fantasy": {
+        "neutral": "./assets/characters/npc-herbalist-elder.png"
+      }
+    },
+    "portraitLayout": "bust"
+  },
+  "innkeeper": {
+    "name": "旅舍主人",
+    "shortName": "旅舍主人",
+    "color": "#b9c7b0",
+    "variants": {
+      "fantasy": {
+        "neutral": "./assets/characters/npc-dorn.png"
+      }
+    },
+    "portraitLayout": "bust"
+  },
+  "dorn": {
+    "name": "多恩",
+    "shortName": "多恩",
+    "color": "#b9c7b0",
+    "variants": {
+      "fantasy": {
+        "neutral": "./assets/characters/npc-dorn.png"
+      }
+    },
+    "portraitLayout": "bust"
   }
 }

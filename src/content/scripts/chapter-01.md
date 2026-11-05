@@ -26,7 +26,12 @@
 
 ### chapter01.arrival/author-0007 | 旁白
 
-山田接過她手裡的紙袋，順口問她從車站走過來熱不熱。西一面換鞋，一面感受著室內迎面而來的冷氣，後頸那層薄薄的汗終於慢慢退去。走廊裡很安靜，只有健太郎說話的聲音和紙袋偶爾摩擦的窸窣聲。
+山田接過她手裡的紙袋，順口問她從車站走過來熱不熱。西一面換鞋，一面感受著室內迎面而來的冷氣，後頸那層薄薄的汗終於慢慢退去。
+
+---
+
+走廊裡很安靜，只有健太郎說話的聲音和紙袋偶爾摩擦的窸窣聲。
+
 
 ### chapter01.arrival/author-0008 | 旁白
 
@@ -34,7 +39,12 @@
 
 ### chapter01.arrival/author-0009 | 旁白
 
-這件事西昨晚就知道。山田甚至還特地拍了一張照片給她，畫面裡是兩支控制器、幾包零食，還有停在遊戲開始介面的電視。現在真正走進他的房間，才發現照片裡那些東西仍然擺在原來的位置，只是矮桌旁多了一瓶剛從冰箱拿出來的飲料，瓶身沾滿了細小的水珠。
+這件事西昨晚就知道。山田甚至還特地拍了一張照片給她，畫面裡是兩支控制器、幾包零食，還有停在遊戲開始介面的電視。
+
+---
+
+現在真正走進他的房間，才發現照片裡那些東西仍然擺在原來的位置，只是矮桌旁多了一瓶剛從冰箱拿出來的飲料，瓶身沾滿了細小的水珠。
+
 
 ### chapter01.arrival/author-0010 | 旁白
 
@@ -82,7 +92,12 @@
 
 ### chapter01.arrival/author-0021 | 旁白
 
-其實也沒有過去很久。只不過前陣子兩人的時間總是湊不齊，偶爾見面，也得惦記著之後的安排。她還記得上次一起吃拉麵，健太郎坐在對面說起學校裡發生的事，自己卻因為一則接一則傳來的訊息，不得不把注意力分出去。後來他們走到車站，剩下的時間短得連一杯飲料都來不及買。
+其實也沒有過去很久。只不過前陣子兩人的時間總是湊不齊，偶爾見面，也得惦記著之後的安排。
+
+---
+
+她還記得上次一起吃拉麵，健太郎坐在對面說起學校裡發生的事，自己卻因為一則接一則傳來的訊息，不得不把注意力分出去。後來他們走到車站，剩下的時間短得連一杯飲料都來不及買。
+
 
 ### chapter01.arrival/author-0022 | 旁白
 
@@ -280,7 +295,12 @@
 
 ### chapter01.skyrail/author-0072 | 旁白
 
-山田原本正在研究勇者的裝備，聽見聲音，便抬頭望向電視。雲霧在畫面裡緩緩散開，一道金色的軌道沿著陡峭的山壁蜿蜒而上，深藍色的列車從隧道裡衝出，車輪掠過懸浮的光軌，在半空留下一串短暫的火花。
+山田原本正在研究勇者的裝備，聽見聲音，便抬頭望向電視。
+
+---
+
+雲霧在畫面裡緩緩散開，一道金色的軌道沿著陡峭的山壁蜿蜒而上，深藍色的列車從隧道裡衝出，車輪掠過懸浮的光軌，在半空留下一串短暫的火花。
+
 
 ### chapter01.skyrail/author-0073 | 健太郎
 
@@ -434,15 +454,15 @@
 
 兩人操縱的畫面已經分成左右兩半。山田負責前方的機械裝置，西則帶著魔女尋找斷裂軌道附近的魔法符文。
 
-### chapter01.skyrail/author-0111 | 旁白
+/### chapter01.skyrail/author-0111 | 旁白/
 
 他們很快找到第一個可以互動的機關。
 
-### chapter01.skyrail/author-0112 | 旁白
+/### chapter01.skyrail/author-0112 | 旁白/
 
 車廂旁有一根沉重的制動桿，只要勇者將它扳下，就能暫時阻止懸空的車廂繼續下墜。與此同時，魔女必須沿著斷裂處重新畫出一段魔法軌道，讓車輪能夠回到原來的位置。
 
-### chapter01.skyrail/author-0113 | 旁白
+/### chapter01.skyrail/author-0113 | 旁白/
 
 聽起來不算太難。
 
@@ -454,189 +474,189 @@
 
 「好。」
 
-### chapter01.skyrail/author-0116 | 旁白
+/### chapter01.skyrail/author-0116 | 旁白/
 
 山田按住按鍵，讓勇者將制動桿扳到底。
 
-### chapter01.skyrail/author-0117 | 旁白
+/### chapter01.skyrail/author-0117 | 旁白/
 
 沉重的金屬裝置發出一聲悶響，車廂終於停止晃動。
 
-### chapter01.skyrail/author-0118 | 旁白
+/### chapter01.skyrail/author-0118 | 旁白/
 
 西立即讓魔女跳上外側平台，將法杖對準空中的符文。藍色光線沿著斷裂的軌跡向前延伸，很快便形成了一小段透明的軌道。
 
-### chapter01.skyrail/author-0119 | 奈津美
+/### chapter01.skyrail/author-0119 | 奈津美/
 
 「好了！」
 
-### chapter01.skyrail/author-0120 | 健太郎
+/### chapter01.skyrail/author-0120 | 健太郎/
 
 「那我放囉！」
 
-### chapter01.skyrail/author-0121 | 旁白
+/### chapter01.skyrail/author-0121 | 旁白/
 
 山田鬆開按鍵。
 
-### chapter01.skyrail/author-0122 | 旁白
+/### chapter01.skyrail/author-0122 | 旁白/
 
 下一瞬，懸在半空的車廂猛地向下一沉。
 
-### chapter01.skyrail/author-0123 | 旁白
+/### chapter01.skyrail/author-0123 | 旁白/
 
 剛剛接好的藍色軌道被車輪撞得粉碎，整節車廂向外甩去，連接鐵鏈發出令人牙酸的摩擦聲。
 
-### chapter01.skyrail/author-0124 | 兩人
+/### chapter01.skyrail/author-0124 | 兩人/
 
 「啊啊啊！」
 
-### chapter01.skyrail/author-0125 | 旁白
+/### chapter01.skyrail/author-0125 | 旁白/
 
 兩個人幾乎同時叫了出來。
 
-### chapter01.skyrail/author-0126 | 旁白
+/### chapter01.skyrail/author-0126 | 旁白/
 
 山田連忙重新抓住制動桿，勇者整個人被反作用力扯得向前一滑，差點連同機關一起飛出去。
 
-### chapter01.skyrail/author-0127 | 旁白
+/### chapter01.skyrail/author-0127 | 旁白/
 
 西睜大了眼睛。
 
-### chapter01.skyrail/author-0128 | 奈津美
+/### chapter01.skyrail/author-0128 | 奈津美/
 
 「等一下！為什麼會這樣？」
 
-### chapter01.skyrail/author-0129 | 健太郎
+/### chapter01.skyrail/author-0129 | 健太郎/
 
 「它掉得太快了！」
 
-### chapter01.skyrail/author-0130 | 旁白
+/### chapter01.skyrail/author-0130 | 旁白/
 
 螢幕上的列車員也開始慌張地跑來跑去，頭頂冒出一串誇張的驚嘆號。原本看起來十分可靠的老先生，現在正抱著帽子在車廂裡打轉。
 
-### chapter01.skyrail/author-0131 | 旁白
+/### chapter01.skyrail/author-0131 | 旁白/
 
 山田看著他，忍不住笑了一聲。
 
-### chapter01.skyrail/author-0132 | 健太郎
+/### chapter01.skyrail/author-0132 | 健太郎/
 
 「這個人也太慌張了吧！」
 
-### chapter01.skyrail/author-0133 | 奈津美
+/### chapter01.skyrail/author-0133 | 奈津美/
 
 「你先顧好你的車廂啦！」
 
-### chapter01.skyrail/author-0134 | 健太郎
+/### chapter01.skyrail/author-0134 | 健太郎/
 
 「有啦有啦！」
 
-### chapter01.skyrail/author-0135 | 旁白
+/### chapter01.skyrail/author-0135 | 旁白/
 
 他重新壓住制動桿。
 
-### chapter01.skyrail/author-0136 | 旁白
+/### chapter01.skyrail/author-0136 | 旁白/
 
 車廂停在半空，仍然以很小的幅度來回擺動。西盯著那些斷裂的符文，發現它們每次亮起時，位置都會隨著車廂的移動稍微改變。
 
-### chapter01.skyrail/author-0137 | 旁白
+/### chapter01.skyrail/author-0137 | 旁白/
 
 她將鏡頭轉到側面。
 
-### chapter01.skyrail/author-0138 | 旁白
+/### chapter01.skyrail/author-0138 | 旁白/
 
 原來剛才的軌道一直太高了。
 
-### chapter01.skyrail/author-0139 | 旁白
+/### chapter01.skyrail/author-0139 | 旁白/
 
 懸空的車廂傾斜得厲害，車輪根本碰不到原本的位置。即使她把軌道接好，只要車廂仍然掛在下面，放開制動桿時便只會再次撞上去。
 
-### chapter01.skyrail/author-0140 | 旁白
+/### chapter01.skyrail/author-0140 | 旁白/
 
 她望向山田的畫面。
 
-### chapter01.skyrail/author-0141 | 旁白
+/### chapter01.skyrail/author-0141 | 旁白/
 
 勇者正用肩膀抵住機關，腳下的金屬板不斷震動。制動桿旁有一個小小的方向輪，剛才他們一直沒有碰過。
 
-### chapter01.skyrail/author-0142 | 奈津美
+/### chapter01.skyrail/author-0142 | 奈津美/
 
 「健太郎，你那邊可以轉方向嗎？」
 
-### chapter01.skyrail/author-0143 | 健太郎
+/### chapter01.skyrail/author-0143 | 健太郎/
 
 「方向？」
 
-### chapter01.skyrail/author-0144 | 旁白
+/### chapter01.skyrail/author-0144 | 旁白/
 
 山田低頭看了看操作提示，試著推動另一個按鍵。
 
-### chapter01.skyrail/author-0145 | 旁白
+/### chapter01.skyrail/author-0145 | 旁白/
 
 車廂旁邊的連接臂隨即緩緩轉動，將懸在空中的車身往內側拉近了一點。
 
-### chapter01.skyrail/author-0146 | 健太郎
+/### chapter01.skyrail/author-0146 | 健太郎/
 
 「喔！可以耶！」
 
-### chapter01.skyrail/author-0147 | 旁白
+/### chapter01.skyrail/author-0147 | 旁白/
 
 西立刻看向自己的畫面。
 
-### chapter01.skyrail/author-0148 | 旁白
+/### chapter01.skyrail/author-0148 | 旁白/
 
 幾枚符文跟著移動，剛好落進她魔法陣能夠覆蓋的範圍。
 
-### chapter01.skyrail/author-0149 | 奈津美
+/### chapter01.skyrail/author-0149 | 奈津美/
 
 「對！就是這個！」
 
-### chapter01.skyrail/author-0150 | 旁白
+/### chapter01.skyrail/author-0150 | 旁白/
 
 山田試著再轉一些，車廂卻突然往另一邊晃去。
 
-### chapter01.skyrail/author-0151 | 健太郎
+/### chapter01.skyrail/author-0151 | 健太郎/
 
 「欸？！」
 
-### chapter01.skyrail/author-0152 | 奈津美
+/### chapter01.skyrail/author-0152 | 奈津美/
 
 「太多了太多了！」
 
-### chapter01.skyrail/author-0153 | 健太郎
+/### chapter01.skyrail/author-0153 | 健太郎/
 
 「這樣？」
 
-### chapter01.skyrail/author-0154 | 奈津美
+/### chapter01.skyrail/author-0154 | 奈津美/
 
 「反方向！」
 
-### chapter01.skyrail/author-0155 | 健太郎
+/### chapter01.skyrail/author-0155 | 健太郎/
 
 「喔喔！」
 
-### chapter01.skyrail/author-0156 | 旁白
+/### chapter01.skyrail/author-0156 | 旁白/
 
 他迅速把連接臂拉回來，車廂在半空晃了一大圈，連帶讓原本攀在平台上的勇者差點站不穩。
 
-### chapter01.skyrail/author-0157 | 旁白
+/### chapter01.skyrail/author-0157 | 旁白/
 
 西盯著螢幕，忍著笑，重新對準魔法陣。
 
-### chapter01.skyrail/author-0158 | 奈津美
+/### chapter01.skyrail/author-0158 | 奈津美/
 
 「健太郎，等一下我數三下，你就慢慢放開。」
 
-### chapter01.skyrail/author-0159 | 健太郎
+/### chapter01.skyrail/author-0159 | 健太郎/
 
 「好！」
 
-### chapter01.skyrail/author-0160 | 奈津美
+/### chapter01.skyrail/author-0160 | 奈津美/
 
 「一、二——」
 
 ### chapter01.skyrail/author-0161 | 旁白
 
-她還沒數到三，山田便發現一隻魔物正朝平台衝過來。
+就在兩人準備動手機關時，一隻魔物正朝平台衝過來。
 
 ### chapter01.skyrail/author-0162 | 健太郎
 
@@ -716,7 +736,7 @@
 
 ### chapter01.skyrail/author-0181 | 健太郎
 
-「好，這次真的要成功了。」
+「好，來吧。」
 
 ### chapter01.skyrail/author-0182 | 旁白
 
@@ -896,7 +916,7 @@
 
 ### chapter01.skyrail/author-0226 | 健太郎
 
-「奈津美，剛才那個方向是妳想到的吧？」
+「奈津美，剛才配合得挺好的吧？」
 
 ### chapter01.skyrail/author-0227 | 奈津美
 
@@ -904,7 +924,7 @@
 
 ### chapter01.skyrail/author-0228 | 健太郎
 
-「超厲害！我一直以為只要把軌道接好就行了。」
+「我拉住車廂的時候，妳就把軌道接上了。」
 
 ### chapter01.skyrail/author-0229 | 旁白
 
@@ -912,7 +932,7 @@
 
 ### chapter01.skyrail/author-0230 | 奈津美
 
-「可是你也很快就找到那個機關了啊。」
+「你也一直拉得很穩啊。」
 
 ### chapter01.skyrail/author-0231 | 旁白
 
@@ -1010,7 +1030,11 @@
 
 ### chapter01.festival/author-0256 | 旁白
 
-她很想知道那種星形麵包究竟是什麼味道。看起來有點像加了蜂蜜的奶油麵包，外面應該還撒著薄薄的糖粉。光是想像剛出爐時的香味，便覺得有些餓了。
+她很想知道那種星形麵包究竟是什麼味道。看起來有點像加了蜂蜜的奶油麵包，外面應該還撒著薄薄的糖粉。
+
+---
+
+光是想像剛出爐時的香味，便覺得有些餓了。
 
 ### chapter01.festival/author-0257 | 旁白
 
@@ -1018,7 +1042,12 @@
 
 ### chapter01.festival/author-0258 | 旁白
 
-城鎮比她從列車上看見的還要大，街道沿著山坡層層延伸，屋簷下懸著尚未點亮的星形燈籠。居民們正忙著準備晚上的祭典，有人在門前掛起旗幟，有人在窗邊擺上鮮花，幾個孩子抱著紙燈籠跑過廣場，遠遠傳來清脆的笑聲。
+城鎮比她從列車上看見的還要大，街道沿著山坡層層延伸，屋簷下懸著尚未點亮的星形燈籠。
+
+---
+
+居民們正忙著準備晚上的祭典，有人在門前掛起旗幟，有人在窗邊擺上鮮花，幾個孩子抱著紙燈籠跑過廣場，遠遠傳來清脆的笑聲。
+
 
 ### chapter01.festival/author-0259 | 旁白
 
@@ -1150,7 +1179,12 @@
 
 ### chapter01.festival/author-0291 | 旁白
 
-緊接著是第二盞、第三盞。金色的光沿著屋簷向外延伸，越過石橋與河道，順著交錯的街道爬上山坡。那些先前隱沒在暮色裡的屋頂逐漸顯露出輪廓，整座城鎮彷彿被一點點喚醒，連遠處湖面上的倒影也跟著亮了起來。
+緊接著是第二盞、第三盞。金色的光沿著屋簷向外延伸，越過石橋與河道，順著交錯的街道爬上山坡。
+
+---
+
+那些先前隱沒在暮色裡的屋頂逐漸顯露出輪廓，整座城鎮彷彿被一點點喚醒，連遠處湖面上的倒影也跟著亮了起來。
+
 
 ### chapter01.festival/author-0292 | 旁白
 
@@ -1166,7 +1200,12 @@
 
 ### chapter01.festival/author-0295 | 旁白
 
-她望著那片逐漸亮起的城鎮，忽然想起早些時候在列車上看見的風景。那時候，這座城只是遠處山坡上的一片屋頂，連街道都看不清楚。如今她已經走過了其中幾條小路，買過麵包，也記得哪一間店的窗邊擺著鮮花。
+她望著那片逐漸亮起的城鎮，忽然想起早些時候在列車上看見的風景。那時候，這座城只是遠處山坡上的一片屋頂，連街道都看不清楚。
+
+---
+
+如今她已經走過了其中幾條小路，買過麵包，也記得哪一間店的窗邊擺著鮮花。
+
 
 ### chapter01.festival/author-0296 | 旁白
 
@@ -1202,7 +1241,12 @@
 
 ### chapter01.festival/author-0304 | 旁白
 
-那些原本坐落在山坡上的房屋，如今小得像一片片玩具。鐘樓上的星燈還在發光，可與星鯨相比，也只剩下一粒細小的亮點。幾盞居民放飛的燈籠正緩緩升空，穿過牠身旁時，渺小得幾乎看不清楚。
+那些原本坐落在山坡上的房屋，如今小得像一片片玩具。鐘樓上的星燈還在發光，可與星鯨相比，也只剩下一粒細小的亮點。
+
+---
+
+幾盞居民放飛的燈籠正緩緩升空，穿過牠身旁時，渺小得幾乎看不清楚。
+
 
 ### chapter01.festival/author-0305 | 旁白
 
@@ -1238,7 +1282,11 @@
 
 ### chapter01.festival/author-0313 | 旁白
 
-她想起車廂懸在山谷上方時，自己緊緊握著控制器的模樣。還有健太郎在旁邊喊著讓她小心，後來卻被她的火焰炸得差點飛出去。那些畫面現在想起來，仍然生動得彷彿剛剛發生。
+她想起車廂懸在山谷上方時，自己緊緊握著控制器的模樣。還有健太郎在旁邊喊著讓她小心，後來卻被她的火焰炸得差點飛出去。
+
+---
+
+那些畫面現在想起來，仍然生動得彷彿剛剛發生。
 
 ### chapter01.festival/author-0314 | 旁白
 
@@ -1528,7 +1576,11 @@
 
 ### chapter01.gate/author-0387 | 旁白
 
-西正望著自己手裡的控制器。那道光像細小的水流一樣沿著她的手指蔓延，轉眼便爬上手腕。她下意識鬆開手，控制器掉在榻榻米上，發出一聲沉悶的輕響。
+西正望著自己手裡的控制器。那道光像細小的水流一樣沿著她的手指蔓延，轉眼便爬上手腕。
+
+---
+
+她下意識鬆開手，控制器掉在榻榻米上，發出一聲沉悶的輕響。
 
 ### chapter01.gate/author-0388 | 旁白
 
@@ -1638,7 +1690,12 @@
 
 ### chapter01.new-world/author-0414 | 旁白
 
-山田正半跪在草地上，一隻手仍然握著她，另一隻手扶著她的肩膀。他穿著遊戲裡那套藍白相間的勇者服，短披風被風掀起，腰間還掛著一把長劍。原本棕色的頭髮變成了明亮的金色，兩側露出稍深的髮根。
+山田正半跪在草地上，一隻手仍然握著她，另一隻手扶著她的肩膀。他穿著遊戲裡那套藍白相間的勇者服，短披風被風掀起，腰間還掛著一把長劍。
+
+---
+
+原本棕色的頭髮變成了明亮的金色，兩側露出稍深的髮根。
+
 
 ### chapter01.new-world/author-0415 | 旁白
 

@@ -15,7 +15,11 @@ export function openAudioSettings({ panel, audio, el, button, modal }) {
   const current = el('p', 'current-track'); const playback = button('', async () => { await audio.setEnabled(!audio.settings.bgmEnabled || audio.status !== 'playing'); });
   const status = el('p', 'muted'); status.setAttribute('role', 'status');
   bgm.append(current, playback, status);
-  slider('se', '音效 SE', '音效素材尚未加入；可先調整及保存，日後會直接套用。');
+  const se=slider('se', '音效 SE', '開門、腳步、紙張與魔法等劇情音效。快進及讀檔不重播；0% 為靜音。');
+  const previews=el('div','se-previews');previews.setAttribute('aria-label','音效試聽');
+  const seStatus=el('p','muted');seStatus.setAttribute('role','status');
+  for(const [id,clip] of Object.entries(audio.assets.se || {}))previews.append(button(`▷ ${clip.label}`,async()=>{await audio.unlock();audio.stopSE();const ok=await audio.playSE(id);seStatus.textContent=ok?`試聽：${clip.label}`:audio.settings.seVolume===0?'音效目前為靜音，請先調高音量。':'音效未能播放，請再試一次。';},'menu-button'));
+  se.append(previews,seStatus);
   const update = () => {
     current.textContent = `目前曲目：${audio.assets.bgm?.[audio.currentId]?.label || '此場景沒有背景音樂'}`;
     playback.textContent = audio.status === 'playing' ? '暫停背景音樂' : '播放背景音樂';

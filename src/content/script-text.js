@@ -39,7 +39,7 @@ export function applyScriptText(chapter, documents) {
         const page = structuredClone(node);
         page.id = index === 0 ? node.id : `${node.id}--page-${index + 1}`;
         page.text = text;
-        if (index > 0) delete page.stage; // Apply scene cues once, on the original page.
+        if (index > 0) { delete page.stage; delete page.effect; delete page.portraitMotion; delete page.se; } // Apply scene cues once, on the original page.
         if (index < texts.length - 1) {
           delete page.next; delete page.advanceLabel; delete page.attachments; delete page.options;
           if (page.type === 'choice') page.type = 'narration';

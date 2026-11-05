@@ -1,0 +1,50 @@
+[
+  {
+    "id": "door-open",
+    "original": "door open.mp3",
+    "runtime": "public/assets/audio/se/se-door-open.mp3",
+    "sha256": "0f23fb1caa745fed3dfd9e1e6075d67facc1c87f323ebed7dcedc6b88045010a"
+  },
+  {
+    "id": "footsteps",
+    "original": "walk.mp3",
+    "runtime": "public/assets/audio/se/se-footsteps.mp3",
+    "sha256": "4e4e9e2751a323b540d4057d0df6fc3838798cc41b950afcfc027c5d9fa96887"
+  },
+  {
+    "id": "book-page",
+    "original": "book.mp3",
+    "runtime": "public/assets/audio/se/se-book-page.mp3",
+    "sha256": "60fe944218d0bdb82caa6e0b123df47ef5077ad78e1944ae4f03fe599646b0ee"
+  },
+  {
+    "id": "paper-set-down",
+    "original": "paper down.mp3",
+    "runtime": "public/assets/audio/se/se-paper-set-down.mp3",
+    "sha256": "7c296019cc763124515cc6d322118ac4b991f57d4bcd14bf7643d980e3d9740e"
+  },
+  {
+    "id": "impact",
+    "original": "boom.mp3",
+    "runtime": "public/assets/audio/se/se-impact.mp3",
+    "sha256": "0deb3d5652b4a8622625674daa4f76a482195eec27dadb81b8b71bfce8ec32d4"
+  },
+  {
+    "id": "magic-flash",
+    "original": "flash.mp3",
+    "runtime": "public/assets/audio/se/se-magic-flash.mp3",
+    "sha256": "29e1cb44cba8fb604c520447880b6d1d5ca0a0ba21a4976080a669894a3c8667"
+  },
+  {
+    "id": "magic-transition",
+    "original": "trans.mp3",
+    "runtime": "public/assets/audio/se/se-magic-transition.mp3",
+    "sha256": "e7b6dd98ea555b3056755396f06cc84f12ce378fd76470200ff84d956a06b944"
+  },
+  {
+    "id": "object-set-down",
+    "original": "put down.mp3",
+    "runtime": "public/assets/audio/se/se-object-set-down.mp3",
+    "sha256": "292d5fc2dac57dfd094decffd61fbb7152440ed4478ebdeabac56d7319d857dd"
+  }
+]

@@ -5,6 +5,8 @@ import {SkyrailRescue,RUNES} from '../minigames/skyrail.js';
 export function mountSkyrailGame({app,assets,characters,onComplete,onSkip}){
  const dialog=document.createElement('dialog');dialog.id='skyrail-game';dialog.tabIndex=-1;dialog.setAttribute('aria-labelledby','skyrail-title');
  dialog.innerHTML=`<header class="rescue-header"><div><span class="rescue-eyebrow">星軌列車 · 協力救援</span><h2 id="skyrail-title">這次，換你來操作。</h2></div><button class="rescue-close" aria-label="關閉列車小遊戲">✕</button></header><div class="rescue-content"></div>`;
+ dialog.addEventListener('selectstart',event=>event.preventDefault());
+ dialog.addEventListener('dragstart',event=>event.preventDefault());
  app.append(dialog);const content=dialog.querySelector('.rescue-content');let game=null,frame=null,last=0,input={},lastMessage='',successShown=false,tracePoint=null,companion=null,lastReaction=0,stageOptions={},guideFlashTimer=null;
  let localStorage=null;try{localStorage=window.localStorage;}catch{}
  const instructionPreferences=new InstructionPreferences(localStorage);
@@ -59,7 +61,7 @@ export function mountSkyrailGame({app,assets,characters,onComplete,onSkip}){
   if(role==='kentaro'){latch.hidden=false;latch.onclick=()=>{input.brake=!input.brake;latch.textContent=input.brake?'鬆開制動桿':'鎖定制動桿（點按模式）';};}
   const board=content.querySelector('.rescue-board');
   const point=e=>{const r=board.getBoundingClientRect();return {x:(e.clientX-r.left)/r.width*100,y:(e.clientY-r.top)/r.height*100};};
-  board.onpointerdown=e=>{if(role!=='natsumi')return;const p=point(e);const rune=e.target.closest('[data-rune]');if(rune && Number(rune.dataset.rune)!==game.route[game.connected-1])game.connect(Number(rune.dataset.rune));else if(game.beginTrace(p.x,p.y))board.setPointerCapture(e.pointerId);};
+  board.onpointerdown=e=>{if(role!=='natsumi')return;e.preventDefault();const p=point(e);const rune=e.target.closest('[data-rune]');if(rune && Number(rune.dataset.rune)!==game.route[game.connected-1])game.connect(Number(rune.dataset.rune));else if(game.beginTrace(p.x,p.y))board.setPointerCapture(e.pointerId);};
   board.onpointermove=e=>{if(role==='natsumi'){const p=point(e);tracePoint=p;game.trace(p.x,p.y);}};
   board.onpointerup=board.onpointercancel=()=>game.endTrace();
   for(const r of content.querySelectorAll('[data-rune]'))r.onkeydown=e=>{if(role==='natsumi' && ['Enter',' '].includes(e.key)){e.preventDefault();game.connect(Number(r.dataset.rune));}};

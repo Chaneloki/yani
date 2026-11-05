@@ -19,3 +19,14 @@ dialog#skyrail-game{width:min(1040px,96vw);max-width:96vw;max-height:96dvh;paddi
 @media(max-width:650px){.rescue-live-cue{font-size:11px;min-width:200px;padding:6px 12px}.rescue-segments>div{gap:4px;font-size:10px}.rescue-segments b{font-size:8px}.rescue-partner{padding:8px 10px;min-height:60px}.rescue-scene-label{font-size:12px}.rescue-partner img{width:32px;height:38px}.rescue-beat{display:none}.rescue-result-dialogue p{font-size:12px;gap:8px}.rescue-result-dialogue{margin-bottom:20px}.rescue-status{font-size:12px}.rescue-help{font-size:10px}}
 @media(max-height:700px){.rescue-live-cue{margin-top:7px;padding-block:5px;font-size:11px}.rescue-segments{margin-bottom:7px}.rescue-segments>div{padding-block:4px}.rescue-partner{min-height:49px;padding-block:6px;margin-bottom:7px}.rescue-partner img{height:31px;width:29px}.rescue-scene-label{font-size:12px}.rescue-beat{display:none}.rescue-board{width:min(100%,290px)}.rescue-success>strong{font-size:30px}.rescue-result-dialogue{margin-bottom:15px;padding-block:8px}.rescue-success>small{margin-bottom:10px}.rescue-success>p{margin-block:10px}}
 @media(prefers-reduced-motion:reduce){#skyrail-game *{animation:none!important}}
+/* Keep touch gestures dedicated to gameplay instead of native text/image selection. */
+#skyrail-game,
+#skyrail-game * {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+#skyrail-game img,
+#skyrail-game svg {
+  -webkit-user-drag: none;
+}

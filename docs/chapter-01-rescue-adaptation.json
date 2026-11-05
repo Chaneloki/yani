@@ -1,0 +1,83 @@
+{
+  "omittedParagraphs": [
+    111,
+    112,
+    113,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160
+  ],
+  "replacements": {
+    "161": "就在兩人準備動手機關時，一隻魔物正朝平台衝過來。",
+    "181": "「好，來吧。」",
+    "226": "「奈津美，剛才配合得挺好的吧？」",
+    "228": "「我拉住車廂的時候，妳就把軌道接上了。」",
+    "230": "「你也一直拉得很穩啊。」"
+  },
+  "retainedReadingFallback": [
+    182,
+    199
+  ],
+  "playableGate": "author-0181",
+  "resume": "author-0200",
+  "reason": "User requested removing scripted rescue operation and transferring appropriate dialogue to reactive gameplay. Original manuscript and omitted blocks remain archived.",
+  "reactiveDialogue": [
+    {
+      "source": "author-0184",
+      "event": "車廂偏離中心",
+      "adaptation": "按實際偏移選擇「慢慢往左／右」，不固定要求同一方向。"
+    },
+    {
+      "source": "author-0149 / author-0188",
+      "event": "首次穩定對準",
+      "adaptation": "對，就是這裡。先保持住，我來接。"
+    },
+    {
+      "source": "author-0191",
+      "event": "軌道完成，可放手",
+      "adaptation": "可以了！現在慢慢放！"
+    }
+  ]
+}

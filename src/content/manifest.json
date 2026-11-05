@@ -47,6 +47,21 @@
       ]
     },
     {
+      "id": "chapter-02",
+      "title": "第二章 · 離家很遠的地方",
+      "file": "chapters/chapter-02.json",
+      "textFiles": [
+        "scripts/chapter-02.md"
+      ],
+      "entries": [
+        {
+          "scene": "chapter02.hillside",
+          "title": "離家很遠的地方",
+          "perspective": "natsumi"
+        }
+      ]
+    },
+    {
       "id": "demo",
       "title": "引擎功能示範",
       "file": "chapters/demo.json",

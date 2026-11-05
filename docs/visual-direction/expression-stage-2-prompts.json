@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-05",
+  "specs": [
+    {
+      "id": "kentaro-hero-happy",
+      "reference": "/Users/loki/Desktop/Loki/YaNi/01char/01pic/ROLE_HERO.png",
+      "prompt": "Use case: identity-preserve. Asset type: transparent visual novel facial-expression swap. Input is the edit target, the user's original character portrait. Change ONLY facial features requested below. Keep exactly the same person, head angle, head size and placement, hair silhouette, body pose, hand positions, upper body crop, costume, ornaments, lighting, color palette and drawing style. Do not redesign or beautify the face. Genuine transparent background, no text, scenery, symbols or extra objects. Preserve full original silhouette. Expression: natural bright friendly happiness, as if enthusiastically agreeing to a plan with a longtime girlfriend. Keep his distinctive fully OPEN wide white eyes with small round dark pupils, identical shape and gaze. Keep eyebrows relaxed. Only open the smile a little, a small cheerful conversational mouth, NOT a big grin or laughing face. NO squinting, half-lidded eyes, added blush, cheek lines, seductive or dreamy expression. Keep blond short messy hair with dark undercut and blue white red gold hero clothes unchanged.",
+      "generatedPath": "/Users/loki/.codex/generated_images/01a180a6-995e-7603-a3e2-4db3398e5f94/exec-653f8a53-303a-47ed-954c-d0baf22adb38.png"
+    },
+    {
+      "id": "kentaro-hero-surprised",
+      "reference": "/Users/loki/Desktop/Loki/YaNi/01char/01pic/ROLE_HERO.png",
+      "prompt": "Use case: identity-preserve. Asset type: transparent visual novel facial-expression swap. Input is the edit target, the user's original character portrait. Change ONLY facial features requested below. Keep exactly the same person, head angle, head size and placement, hair silhouette, body pose, hand positions, upper body crop, costume, ornaments, lighting, color palette and drawing style. Do not redesign or beautify the face. Genuine transparent background, no text, scenery, symbols or extra objects. Preserve full original silhouette. Expression: a brief honest 'huh, really?' surprise. Preserve distinctive wide white eyes and small round dark pupils, opening eyelids only very slightly; eyebrows lift a little, mouth is a small gently open oval. Curious rather than terrified, no dramatic screaming, no tears, sweat drops, added blush or sparkling anime eyes. Keep blond short messy hair with dark undercut and blue white red gold hero clothes unchanged.",
+      "generatedPath": "/Users/loki/.codex/generated_images/01a180a6-995e-7603-a3e2-4db3398e5f94/exec-14ed906e-1509-4e2e-a8be-90af12867f87.png"
+    },
+    {
+      "id": "natsumi-witch-amused",
+      "reference": "/Users/loki/Desktop/Loki/YaNi/01char/01pic/ROLE_WITCH.png",
+      "prompt": "Use case: identity-preserve. Asset type: transparent visual novel facial-expression swap. Input is the edit target, the user's original character portrait. Change ONLY facial features requested below. Keep exactly the same person, head angle, head size and placement, hair silhouette, body pose, hand positions, upper body crop, costume, ornaments, lighting, color palette and drawing style. Do not redesign or beautify the face. Genuine transparent background, no text, scenery, symbols or extra objects. Preserve full original silhouette. Expression: holding back a little laugh at a familiar amusing remark from her longtime boyfriend. A small closed smile with corners gently lifted, cheeks slightly raised, eyes still OPEN with original grey irises and recognizable eye shape, only a slight relaxed lower-lid lift. Warm and easily amused, NOT seductive, sleepy, coy, smug or blushing shyly. No added blush, no shut eyes, no tears. Preserve long straight black hair, blue white gold hat and clothes, grimoire and tiny magic star unchanged.",
+      "generatedPath": "/Users/loki/.codex/generated_images/01a180a6-995e-7603-a3e2-4db3398e5f94/exec-ab965820-c745-4e52-8dcc-76f5503c69de.png"
+    },
+    {
+      "id": "natsumi-witch-puzzled",
+      "reference": "/Users/loki/Desktop/Loki/YaNi/01char/01pic/ROLE_WITCH.png",
+      "prompt": "Use case: identity-preserve. Asset type: transparent visual novel facial-expression swap. Input is the edit target, the user's original character portrait. Change ONLY facial features requested below. Keep exactly the same person, head angle, head size and placement, hair silhouette, body pose, hand positions, upper body crop, costume, ornaments, lighting, color palette and drawing style. Do not redesign or beautify the face. Genuine transparent background, no text, scenery, symbols or extra objects. Preserve full original silhouette. Expression: mild curious puzzlement while checking unfamiliar directions, one eyebrow only a little raised and the other relaxed, small lips slightly parted as if asking a practical question. Keep original grey eyes OPEN and observant, original gaze and face proportions. NOT fear, shyness, sorrow, angry glare, pout, exaggerated frown or seductive half-lidded eyes; no added blush or symbols. Preserve long straight black hair, blue white gold hat and clothes, grimoire and tiny magic star unchanged.",
+      "generatedPath": "/Users/loki/.codex/generated_images/01a180a6-995e-7603-a3e2-4db3398e5f94/exec-06aee18e-6ae7-4cb0-8b21-6d8be55e284a.png"
+    }
+  ]
+}

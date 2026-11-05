@@ -46,3 +46,18 @@ test('scene and node music restore deterministically from story position',async(
  assert.equal(e.stage.bgm,'playful-comedy');assert.equal(new NovelEngine(story,e.snapshot()).stage.bgm,'playful-comedy');
  e.go('prologue.kentaro.night');assert.equal(e.stage.bgm,'peaceful-night');
 });
+function fadeClock(){let time=0,id=0;const jobs=new Map();return {now:()=>time,schedule:fn=>{jobs.set(++id,fn);return id;},unschedule:id=>jobs.delete(id),tick(ms){time+=ms;const pending=[...jobs.values()];jobs.clear();for(const fn of pending)fn();},jobs};}
+test('BGM crossfade blends two tracks, respects volume changes and releases outgoing audio',async()=>{
+ const clock=fadeClock(),a=new AudioManager(assets,memory(),()=>new FakeAudio(),{duration:900,...clock});a.sync('warm');await a.unlock();const old=a.bgm;old.currentTime=12;a.sync('night');await Promise.resolve();await Promise.resolve();assert.equal(old.paused,false);assert.equal(a.bgm.volume,0);clock.tick(450);assert.equal(old.volume,.25);assert.equal(a.bgm.volume,.25);a.setVolume('bgm',.2);assert.equal(old.volume,.1);assert.equal(a.bgm.volume,.1);clock.tick(450);assert.equal(old.paused,true);assert.equal(a.outgoing,null);assert.equal(a.bgm.volume,.2);a.bgm.currentTime=7;a.sync('night');assert.equal(a.bgm.currentTime,7);
+});
+test('instant skipping and muting cancel pending fades without stale callbacks restarting sound',async()=>{
+ const clock=fadeClock(),a=new AudioManager(assets,memory(),()=>new FakeAudio(),{duration:900,...clock});a.sync('warm');await a.unlock();const original=a.bgm;a.sync('night');await Promise.resolve();await Promise.resolve();clock.tick(200);a.sync('warm',{instant:true});await Promise.resolve();assert.equal(original.paused,true);assert.equal(a.outgoing,null);assert.equal(a.bgm.volume,.5);assert.equal(clock.jobs.size,0);a.sync('night');await Promise.resolve();await Promise.resolve();await a.setEnabled(false);clock.tick(1000);assert.equal(a.bgm.paused,true);assert.equal(a.outgoing,null);assert.equal(a.status,'paused');await a.setEnabled(true);assert.equal(a.bgm.paused,false);
+});
+test('SE waits for gesture, obeys mute, cleans up, and stops pending playback safely',async()=>{
+ const a=new AudioManager(assets,memory(),()=>new FakeAudio());
+ assert.equal(await a.playSE('tap'),false);await a.unlock();
+ assert.equal(await a.playSE('unknown'),false);a.setVolume('se',0);assert.equal(await a.playSE('tap'),false);
+ a.setVolume('se',.4);assert.equal(await a.playSE('tap'),true);const clip=[...a.effects][0];clip.events.ended();assert.equal(a.effects.size,0);
+ let resolve;const late=new FakeAudio();late.play=()=>new Promise(r=>{resolve=()=>{late.paused=false;r();};});a.createAudio=()=>late;
+ const pending=a.playSE('tap');a.stopSE();resolve();assert.equal(await pending,false);assert.equal(late.paused,true);assert.equal(a.effects.size,0);
+});

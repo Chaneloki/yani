@@ -154,6 +154,59 @@
       "label": "魔法列車 · 車廂內景",
       "theme": "evening",
       "src": "./assets/backgrounds/bg-skyrail-carriage-day.webp"
+    },
+    "estrala-village-entrance-day": {
+      "label": "埃斯特拉村口 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+    },
+    "estrala-village-street-dusk": {
+      "label": "埃斯特拉主街 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+      "sharedWith": "estrala-village-street-day"
+    },
+    "estrala-inn-exterior-dusk": {
+      "label": "埃斯特拉主街 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+      "sharedWith": "estrala-village-street-day"
+    },
+    "estrala-inn-lobby-dusk": {
+      "label": "旅舍大廳 · 日間暖光",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+      "sharedWith": "estrala-inn-lobby-day"
+    },
+    "estrala-inn-room-night": {
+      "label": "旅舍雙床房 · 夜晚",
+      "theme": "blue",
+      "src": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+    },
+    "estrala-hillside-day": {
+      "label": "埃斯特拉山坡 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-estrala-hillside-day.webp"
+    },
+    "estrala-crossroads-day": {
+      "label": "村外岔路 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-estrala-crossroads-day.webp"
+    },
+    "estrala-village-square-day": {
+      "label": "村中廣場與公告板 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+    },
+    "estrala-village-street-day": {
+      "label": "埃斯特拉主街 · 日間",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-estrala-village-street-day.webp"
+    },
+    "estrala-inn-lobby-day": {
+      "label": "旅舍大廳 · 日間暖光",
+      "theme": "evening",
+      "src": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp"
     }
   },
   "cg": {
@@ -163,7 +216,52 @@
       "src": "./assets/cg/cg-starlight-festival-whale.webp",
       "position": "50% 45%",
       "camera": "push-in",
-      "cameraOrigin": "50% 42%"
+      "cameraOrigin": "50% 42%",
+      "atmosphere": "starlight",
+      "cameraSequence": {
+        "duration": 28000,
+        "desktop": [
+          {
+            "scale": 1,
+            "position": "50% 45%",
+            "origin": "50% 42%",
+            "offset": 0
+          },
+          {
+            "scale": 1.035,
+            "position": "50% 40%",
+            "origin": "55% 28%",
+            "offset": 0.55
+          },
+          {
+            "scale": 1.055,
+            "position": "50% 45%",
+            "origin": "42% 55%",
+            "offset": 1
+          }
+        ],
+        "mobile": [
+          {
+            "scale": 1,
+            "position": "30% 45%",
+            "origin": "50% 45%",
+            "offset": 0
+          },
+          {
+            "scale": 1.018,
+            "position": "32% 45%",
+            "origin": "52% 32%",
+            "offset": 0.55
+          },
+          {
+            "scale": 1.035,
+            "position": "33% 45%",
+            "origin": "42% 55%",
+            "offset": 1
+          }
+        ],
+        "mobileFit": "framed"
+      }
     },
     "saturday-reunion-hug": {
       "label": "重逢擁抱",
@@ -171,7 +269,156 @@
       "src": "./assets/cg/cg-saturday-reunion-hug.webp",
       "position": "50% 30%",
       "camera": "push-in",
-      "cameraOrigin": "48% 30%"
+      "cameraOrigin": "48% 30%",
+      "atmosphere": "warm",
+      "cameraSequence": {
+        "duration": 24000,
+        "desktop": [
+          {
+            "scale": 1,
+            "position": "50% 30%",
+            "origin": "48% 40%",
+            "offset": 0
+          },
+          {
+            "scale": 1.04,
+            "position": "50% 30%",
+            "origin": "48% 32%",
+            "offset": 0.55
+          },
+          {
+            "scale": 1.055,
+            "position": "50% 30%",
+            "origin": "48% 32%",
+            "offset": 1
+          }
+        ],
+        "mobile": [
+          {
+            "scale": 1,
+            "position": "48% 30%",
+            "origin": "50% 40%",
+            "offset": 0
+          },
+          {
+            "scale": 1.018,
+            "position": "48% 30%",
+            "origin": "50% 35%",
+            "offset": 0.55
+          },
+          {
+            "scale": 1.03,
+            "position": "48% 30%",
+            "origin": "50% 35%",
+            "offset": 1
+          }
+        ]
+      }
+    },
+    "estrala-hillside-handhold": {
+      "label": "山路上的牽手",
+      "type": "image",
+      "src": "./assets/cg/cg-estrala-hillside-handhold.webp",
+      "position": "50% 48%",
+      "camera": "push-in",
+      "cameraOrigin": "48% 48%",
+      "atmosphere": "breeze",
+      "cameraSequence": {
+        "duration": 28000,
+        "desktop": [
+          {
+            "scale": 1,
+            "position": "50% 48%",
+            "origin": "50% 50%",
+            "offset": 0
+          },
+          {
+            "scale": 1.04,
+            "position": "48% 48%",
+            "origin": "47% 70%",
+            "offset": 0.55
+          },
+          {
+            "scale": 1.055,
+            "position": "48% 43%",
+            "origin": "45% 38%",
+            "offset": 1
+          }
+        ],
+        "mobile": [
+          {
+            "scale": 1,
+            "position": "35% 48%",
+            "origin": "50% 50%",
+            "offset": 0
+          },
+          {
+            "scale": 1.02,
+            "position": "36% 48%",
+            "origin": "45% 70%",
+            "offset": 0.55
+          },
+          {
+            "scale": 1.035,
+            "position": "36% 43%",
+            "origin": "45% 38%",
+            "offset": 1
+          }
+        ],
+        "mobileFit": "framed"
+      }
+    },
+    "estrala-inn-moonlit-map": {
+      "label": "月光下的地圖",
+      "type": "image",
+      "src": "./assets/cg/cg-estrala-inn-moonlit-map.webp",
+      "position": "50% 42%",
+      "camera": "push-in",
+      "cameraOrigin": "46% 42%",
+      "atmosphere": "moonlit",
+      "cameraSequence": {
+        "duration": 30000,
+        "desktop": [
+          {
+            "scale": 1,
+            "position": "50% 42%",
+            "origin": "48% 58%",
+            "offset": 0
+          },
+          {
+            "scale": 1.065,
+            "position": "48% 48%",
+            "origin": "45% 78%",
+            "offset": 0.55
+          },
+          {
+            "scale": 1.045,
+            "position": "48% 38%",
+            "origin": "46% 35%",
+            "offset": 1
+          }
+        ],
+        "mobile": [
+          {
+            "scale": 1,
+            "position": "42% 42%",
+            "origin": "48% 58%",
+            "offset": 0
+          },
+          {
+            "scale": 1.04,
+            "position": "42% 48%",
+            "origin": "45% 78%",
+            "offset": 0.55
+          },
+          {
+            "scale": 1.025,
+            "position": "43% 38%",
+            "origin": "46% 35%",
+            "offset": 1
+          }
+        ]
+      }
     }
   },
   "bgm": {
@@ -234,9 +481,89 @@
       "loop": true,
       "sourceFile": "alex-morgan-fantasy-adventure-quest-537478.mp3",
       "credit": "Alex Morgan（來源檔名標示）"
+    },
+    "uplifting-orchestral-adventure": {
+      "label": "昂揚啟程",
+      "src": "./assets/audio/bgm/bgm-uplifting-orchestral-adventure.mp3",
+      "loop": true,
+      "sourceFile": "grand_project-toward-the-dream-uplifting-orchestral-adventure-full-2m52s-628698.mp3",
+      "credit": "Grand_Project（來源檔名標示）"
+    },
+    "rising-tension": {
+      "label": "緊張升勢",
+      "src": "./assets/audio/bgm/bgm-rising-tension.mp3",
+      "loop": true,
+      "sourceFile": "1.紧张上升音势.mp3"
+    },
+    "dance-in-the-rain": {
+      "label": "雨中舞",
+      "src": "./assets/audio/bgm/bgm-dance-in-the-rain.mp3",
+      "loop": true,
+      "sourceFile": "“既然躲不过这场雨，干脆就翩翩起舞吧” ｜《雨中舞》.mp3"
+    },
+    "kaguya-moon-reflection": {
+      "label": "輝夜與月・映心",
+      "src": "./assets/audio/bgm/bgm-kaguya-moon-reflection.mp3",
+      "sourceFile": "《阴阳师》因幡辉夜姬角色印象曲 · 辉夜与月 p01 辉夜与月 · 映心.mp3",
+      "loop": true
+    },
+    "the-world-is-not-enough-piano": {
+      "label": "The World Is Not Enough · Piano",
+      "src": "./assets/audio/bgm/bgm-the-world-is-not-enough-piano.mp3",
+      "sourceFile": "Garbage - The World Is Not Enough | Adelina Piano synthesia tutorial - (320 Kbps).mp3",
+      "loop": true
     }
   },
-  "se": {},
+  "se": {
+    "door-open": {
+      "label": "開門",
+      "src": "./assets/audio/se/se-door-open.mp3",
+      "category": "environment",
+      "sourceFile": "door open.mp3"
+    },
+    "footsteps": {
+      "label": "腳步",
+      "src": "./assets/audio/se/se-footsteps.mp3",
+      "category": "environment",
+      "sourceFile": "walk.mp3"
+    },
+    "book-page": {
+      "label": "翻頁",
+      "src": "./assets/audio/se/se-book-page.mp3",
+      "category": "foley",
+      "sourceFile": "book.mp3"
+    },
+    "paper-set-down": {
+      "label": "攤開紙張",
+      "src": "./assets/audio/se/se-paper-set-down.mp3",
+      "category": "foley",
+      "sourceFile": "paper down.mp3"
+    },
+    "impact": {
+      "label": "碰撞",
+      "src": "./assets/audio/se/se-impact.mp3",
+      "category": "action",
+      "sourceFile": "boom.mp3"
+    },
+    "magic-flash": {
+      "label": "魔法閃光",
+      "src": "./assets/audio/se/se-magic-flash.mp3",
+      "category": "magic",
+      "sourceFile": "flash.mp3"
+    },
+    "magic-transition": {
+      "label": "魔法轉移",
+      "src": "./assets/audio/se/se-magic-transition.mp3",
+      "category": "magic",
+      "sourceFile": "trans.mp3"
+    },
+    "object-set-down": {
+      "label": "放下物件",
+      "src": "./assets/audio/se/se-object-set-down.mp3",
+      "category": "foley",
+      "sourceFile": "put down.mp3"
+    }
+  },
   "messageImages": {
     "workshop-bumper-photo": {
       "label": "健太郎的實習照片",

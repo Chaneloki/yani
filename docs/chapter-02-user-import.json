@@ -1,0 +1,18 @@
+{
+  "source": "docs/manuscripts/chapter-02-user-2026-11-05.md",
+  "sha256": "12cf4a115c968361f15e8bfabea83f330069c81472f85ffe8159db6ad412f1ba",
+  "nodes": 284,
+  "scenes": [
+    "chapter02.hillside",
+    "chapter02.estrala",
+    "chapter02.paper-road"
+  ],
+  "policy": "Exact source prose, paragraph order and punctuation retained. Speaker/stage cues only.",
+  "proofreadingNotes": [
+    {
+      "paragraph": 209,
+      "text": "她們只知道",
+      "note": "疑似應為「他們只知道」，待作者確認；遊戲保留原文。"
+    }
+  ]
+}

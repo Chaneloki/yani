@@ -31,7 +31,8 @@
           "source": {
             "file": "chapter-01-user-2026-11-05.md",
             "paragraph": 3
-          }
+          },
+          "se": "door-open"
         },
         {
           "id": "author-0004",
@@ -51,7 +52,8 @@
                 "position": "center"
               }
             ]
-          }
+          },
+          "portraitMotion": "lean"
         },
         {
           "id": "author-0005",
@@ -649,7 +651,8 @@
                 "position": "center"
               }
             ]
-          }
+          },
+          "portraitMotion": "nod"
         },
         {
           "id": "author-0057",
@@ -888,7 +891,7 @@
       "timeline": "星期六 · 電視中的遊戲",
       "stage": {
         "background": "skyrail-train-day",
-        "bgm": "happy-anticipation",
+        "bgm": "uplifting-orchestral-adventure",
         "camera": null,
         "cg": null,
         "media": null,
@@ -945,7 +948,8 @@
                 "position": "center"
               }
             ]
-          }
+          },
+          "portraitMotion": "startle"
         },
         {
           "id": "author-0074",
@@ -1210,7 +1214,9 @@
           "source": {
             "file": "chapter-01-user-2026-11-05.md",
             "paragraph": 94
-          }
+          },
+          "effect": "shake",
+          "se": "impact"
         },
         {
           "id": "author-0095",
@@ -1357,7 +1363,8 @@
           "source": {
             "file": "chapter-01-user-2026-11-05.md",
             "paragraph": 106
-          }
+          },
+          "effect": "shake"
         },
         {
           "id": "author-0107",
@@ -2174,7 +2181,8 @@
                 "position": "center"
               }
             ]
-          }
+          },
+          "portraitMotion": "startle"
         },
         {
           "id": "author-0167",
@@ -2203,7 +2211,9 @@
           "source": {
             "file": "chapter-01-user-2026-11-05.md",
             "paragraph": 168
-          }
+          },
+          "effect": "impact",
+          "se": "magic-flash"
         },
         {
           "id": "author-0169",
@@ -2261,7 +2271,8 @@
                 "position": "center"
               }
             ]
-          }
+          },
+          "portraitMotion": "laugh"
         },
         {
           "id": "author-0173",
@@ -2357,7 +2368,8 @@
           "source": {
             "file": "chapter-01-user-2026-11-05.md",
             "paragraph": 179
-          }
+          },
+          "effect": "shake"
         },
         {
           "id": "author-0180",
@@ -2555,7 +2567,9 @@
           "source": {
             "file": "chapter-01-user-2026-11-05.md",
             "paragraph": 194
-          }
+          },
+          "effect": "shake",
+          "se": "impact"
         },
         {
           "id": "author-0195",
@@ -2825,7 +2839,8 @@
                 "position": "center"
               }
             ]
-          }
+          },
+          "portraitMotion": "laugh"
         },
         {
           "id": "author-0216",
@@ -3155,7 +3170,7 @@
         "beat-003": "author-0071",
         "beat-004": "author-0071",
         "beat-005": "author-0071",
-        "beat-006": "author-0160",
+        "beat-006": "author-0181",
         "beat-007": "author-0218",
         "beat-008": "author-0082",
         "beat-009": "author-0080",
@@ -3168,7 +3183,7 @@
         "beat-016": "author-0084",
         "beat-017": "author-0071",
         "beat-018": "author-0071",
-        "beat-019": "author-0131",
+        "beat-019": "author-0181",
         "beat-020": "author-0222",
         "beat-021": "author-0079",
         "beat-022": "author-0226",
@@ -3200,9 +3215,9 @@
         "beat-048": "author-0071",
         "beat-049": "author-0071",
         "beat-050": "author-0180",
-        "beat-051": "author-0124",
+        "beat-051": "author-0181",
         "beat-052": "author-0231",
-        "beat-053": "author-0147",
+        "beat-053": "author-0181",
         "beat-054": "author-0208",
         "beat-055": "author-0105",
         "beat-056": "author-0071",
@@ -3221,7 +3236,7 @@
         "beat-069": "author-0071",
         "beat-070": "author-0191",
         "beat-071": "author-0115",
-        "beat-072": "author-0121",
+        "beat-072": "author-0181",
         "beat-073": "author-0193",
         "beat-074": "author-0071",
         "beat-075": "author-0071",
@@ -3229,7 +3244,7 @@
         "beat-077": "author-0218",
         "beat-078": "author-0202",
         "beat-079": "author-0214",
-        "beat-080": "author-0159",
+        "beat-080": "author-0181",
         "beat-081": "author-0071",
         "beat-082": "author-0096",
         "beat-083": "author-0089",
@@ -3237,8 +3252,8 @@
         "beat-085": "author-0167",
         "beat-086": "author-0071",
         "beat-087": "author-0071",
-        "beat-088": "author-0155",
-        "beat-089": "author-0140",
+        "beat-088": "author-0181",
+        "beat-089": "author-0181",
         "beat-090": "author-0162",
         "beat-091": "author-0115",
         "beat-092": "author-0206",
@@ -3251,7 +3266,7 @@
         "beat-099": "author-0084",
         "beat-100": "author-0071",
         "beat-101": "author-0212",
-        "beat-102": "author-0132",
+        "beat-102": "author-0181",
         "beat-103": "author-0218",
         "beat-104": "author-0105",
         "beat-105": "author-0071",
@@ -3260,7 +3275,55 @@
         "beat-108": "author-0225",
         "beat-109": "author-0206",
         "beat-110": "author-0071",
-        "beat-111": "author-0071"
+        "beat-111": "author-0071",
+        "author-0111": "author-0114",
+        "author-0112": "author-0114",
+        "author-0113": "author-0114",
+        "author-0116": "author-0181",
+        "author-0117": "author-0181",
+        "author-0118": "author-0181",
+        "author-0119": "author-0181",
+        "author-0120": "author-0181",
+        "author-0121": "author-0181",
+        "author-0122": "author-0181",
+        "author-0123": "author-0181",
+        "author-0124": "author-0181",
+        "author-0125": "author-0181",
+        "author-0126": "author-0181",
+        "author-0127": "author-0181",
+        "author-0128": "author-0181",
+        "author-0129": "author-0181",
+        "author-0130": "author-0181",
+        "author-0131": "author-0181",
+        "author-0132": "author-0181",
+        "author-0133": "author-0181",
+        "author-0134": "author-0181",
+        "author-0135": "author-0181",
+        "author-0136": "author-0181",
+        "author-0137": "author-0181",
+        "author-0138": "author-0181",
+        "author-0139": "author-0181",
+        "author-0140": "author-0181",
+        "author-0141": "author-0181",
+        "author-0142": "author-0181",
+        "author-0143": "author-0181",
+        "author-0144": "author-0181",
+        "author-0145": "author-0181",
+        "author-0146": "author-0181",
+        "author-0147": "author-0181",
+        "author-0148": "author-0181",
+        "author-0149": "author-0181",
+        "author-0150": "author-0181",
+        "author-0151": "author-0181",
+        "author-0152": "author-0181",
+        "author-0153": "author-0181",
+        "author-0154": "author-0181",
+        "author-0155": "author-0181",
+        "author-0156": "author-0181",
+        "author-0157": "author-0181",
+        "author-0158": "author-0181",
+        "author-0159": "author-0181",
+        "author-0160": "author-0181"
       }
     },
     {
@@ -4007,7 +4070,8 @@
             "paragraph": 301
           },
           "stage": {
-            "cg": "starlight-festival-whale"
+            "cg": "starlight-festival-whale",
+            "bgm": "dance-in-the-rain"
           }
         },
         {
@@ -4945,7 +5009,12 @@
           "source": {
             "file": "chapter-01-user-2026-11-05.md",
             "paragraph": 376
-          }
+          },
+          "stage": {
+            "bgm": "rising-tension"
+          },
+          "effect": "soft-flash",
+          "se": "magic-transition"
         },
         {
           "id": "author-0377",
@@ -4986,7 +5055,8 @@
             "background": "kentaro-gaming-room-day",
             "camera": null,
             "gameAvatars": []
-          }
+          },
+          "effect": "shake"
         },
         {
           "id": "author-0381",
@@ -5125,7 +5195,9 @@
           "source": {
             "file": "chapter-01-user-2026-11-05.md",
             "paragraph": 393
-          }
+          },
+          "effect": "whiteout",
+          "se": "magic-flash"
         },
         {
           "id": "author-0394",
@@ -5230,7 +5302,7 @@
       "perspective": "natsumi",
       "timeline": "異世界 · 山谷草坡",
       "stage": {
-        "background": "lakeside-mountain-path-day",
+        "background": "estrala-hillside-day",
         "bgm": "warm-daily-life",
         "camera": "push-in",
         "cg": null,
@@ -5732,7 +5804,8 @@
           "source": {
             "file": "chapter-01-user-2026-11-05.md",
             "paragraph": 444
-          }
+          },
+          "next": "chapter02.hillside"
         }
       ],
       "endLabel": "第一章讀畢 · 待續"

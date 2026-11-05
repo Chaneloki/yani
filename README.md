@@ -203,7 +203,7 @@ docs/                     架構、創作約束與 GitHub 檢視報告
 
 ### 第一章作者重寫與列車救援（2026-11-05）
 
-第一章以作者提供的新稿為準；原稿備份：`docs/manuscripts/chapter-01-user-2026-11-05.md`。日常改句子請編輯 `src/content/scripts/chapter-01.md`，保留 `### scene/node | speaker` 標記，內容與演出設定分開。
+第一章以作者提供的新稿為準；列車操作段落另依作者要求進行互動改編（見下方記錄）；原稿備份：`docs/manuscripts/chapter-01-user-2026-11-05.md`。日常改句子請編輯 `src/content/scripts/chapter-01.md`，保留 `### scene/node | speaker` 標記，內容與演出設定分開。
 
 列車最後一次救援提供單人操作選角，另一人自動配合：
 
@@ -225,3 +225,62 @@ docs/                     架構、創作約束與 GitHub 檢視報告
 - `SKYRAIL_RULES` 集中風向變化、預警時間、修復速度、對準容許值、符文輪數及共鳴範圍。各節點可用 `minigame.rules` 覆寫參數。之後可逐關提高難度；若更改輪數等操作規則，亦須同步修改相應說明文字及提升版本。
 - `src/minigames/rescue-companion.js`：遊戲專用短反應，涵蓋分段完成、失誤補救、風向提醒及成功對話，有事件去重和停留時間。這些新對話獨立於作者小說原稿，便於再改語氣。
 - 技能、消耗資源及新機關仍屬後續功能；新增時應提供相應說明段落、版本與關卡設定，無需重新加入首次詢問。
+
+### 第二章（2026-11-05）
+
+第二章《離家很遠的地方》已接在第一章之後，保留作者三節共 284 個原稿段落。改句子使用 `src/content/scripts/chapter-02.md`；舞台、角色及場景跳轉設定位於 `src/content/chapters/chapter-02.json`。原稿備份在 `docs/manuscripts/chapter-02-user-2026-11-05.md`，並有 SHA-256 匯入紀錄。
+
+山坡沿用既有背景。埃斯特拉村口、村街、櫃檯及房間已使用作者新供圖，旅舍外觀共用村街；素材細節、建議檔名與兩個可選 CG 落點見 `docs/chapter-02-art-plan.md`。沒有自行補寫劇情、增加選項或新小遊戲。人物稱呼、標點及疑似筆誤仍依原稿保留。
+
+### 列車段落與實際操作分工
+
+依作者要求，劇本略過救援入口前 48 段固定機關教學／失敗演出，避免玩家先看完整操作、再玩一次。火球誤傷及救援後的喜劇保留；兩處前置銜接與三句事後對話已調整，避免引用被刪去的倒數或解法發現。
+
+原稿不改；劇本以既有 `/### .../` 標記略過相關段落，刪減前版本存於 `docs/content-snapshots/chapter-01-before-rescue-streamline.*`。改編清單與融入遊戲的對白對照見 `docs/chapter-01-rescue-adaptation.json`。舊段落 ID 透過 `nodeAliases` 對應至救援入口。完成操作後直接接回列車恢復與事後互動；「只閱讀劇情」仍保留最後一次成功救援的完整小說文字。
+
+### 長按快進、章節交接與長段落分頁
+
+閱讀介面左下方「長按快進」按住約 450ms 開始，每 160ms 前進一頁並顯示全文，放手即停。鍵盤聚焦按鈕後亦可按住空白鍵或 Enter。切換視窗、開啟選單、遇到選項、小遊戲入口、章末或全文結束都會停下。控制器位於 `src/ui/hold-to-advance.js`。
+
+跨正式章節前會顯示本章完、下一章名稱與「繼續下一章」按鈕；沒有按下前保留在章末，存檔不提前跳章。同一章內的場景／視角切換不會彈出。判斷位於 `src/ui/chapter-transition.js`。
+
+所有正式章節已按每頁最多兩句加入明確 `---` 分頁，另以約 85 字為一頁目標，在完整句子標點後切開，不改原文字句，亦不以逗號斷頁。第一頁維持原 ID，後續使用既有 `--page-N`；舞台提示只在第一頁、場景跳轉在最後一頁。可自行挪動劇本中的 `---` 調整節奏。`node scripts/paginate-story.mjs` 可處理後續新長段落，原有手動分頁界線會保留，其中仍超過兩句的頁面會再細分；單句過長時不硬切逗號。
+
+### 事件演出與第二章新素材
+
+事件效果放在節點 `effect`（不持續到下一句）：`shake` 為短震動、`impact` 結合震動及暖色亮光、`soft-flash` 為緩光、`whiteout` 為穿越白光。實作在 `src/ui/scene-effects.js`，只帶動背景與立繪，文字不震動；分頁只在第一頁播放。快進及系統 reduced-motion 設定會略過效果。一般第二章對話不加無緣由的閃光／震動。
+
+新背景／NPC 的舊名、新名、網站副本及雜湊記錄位於 `docs/chapter-02-art-import.json`。背景採無損 WebP，人物保留原透明 PNG。莉妲及多恩在尚未確認身分時繼續使用原姓名標示規則，但共用對應立繪。公告板廣場只登記素材，不新增故事事件。
+
+### CG 配樂與視角標示
+
+第二章新增山坡牽手及旅舍月光地圖兩張 CG，分別於 `chapter02.hillside/author-0040` 與 `chapter02.paper-road/author-0272` 開始，同步使用指定的新配樂。第一張於進村結束，第二張維持至章末；兩張皆有緩慢鏡頭運動，CG 顯示時隱藏另疊的立繪。第一章兩張原有 CG 已更新。素材名稱及雜湊記錄位於 `docs/cg-bgm-import-2026-11-05.json`。
+
+玩家介面的視角標示只出現於序章：第一章起，正文、章節目錄與閱讀紀錄不顯示 POV 名稱。內部場景資料維持相容，避免影響存檔與訊息方向判斷。
+
+### 第一批視覺小說演出（研究後實作）
+
+- BGM 使用約 900ms 的雙音軌交疊淡換。新曲開始播放後才淡出舊曲；換音量即時作用於兩軌，暫停會停止淡換與舊曲。快進及 reduced-motion 使用直接換曲，避免堆積背景播放。
+- `src/ui/scene-direction.js`：背景／CG 換圖時約 500ms 淡化，保留上一張圖片當時的鏡頭構圖。同一畫面逐句閱讀不重新轉場。
+- 節點 `portraitMotion` 可指定 `nod`、`startle`、`laugh`、`lean`，僅指定人物作單次輕微反應；只在第一頁播放。CG、快進、reduced-motion 期間略過。
+- 有 CG 時右上角出現欣賞按鈕，或按 H 隱藏閱讀介面。點畫面、返回按鈕、H、Esc、空白鍵可還原；該次操作不翻頁。欣賞模式不改進度，也不新增歷史項目。
+
+沒有加入需要新素材的眼睛／口型動畫、環境 SE 或 Live2D。原有每頁兩句、章末停快進及存檔功能保留。
+
+### 第二批 CG 演出
+
+四張靜態 CG 的 `cameraSequence` 分別提供 desktop／mobile 關鍵構圖（scale、position、origin、offset、duration），24–30 秒完成一條慢鏡頭路徑後停住，同圖閱讀不逐句重播。實作位於 `src/ui/cg-direction.js`，視窗方向改變時重新採用適合的構圖。
+
+`atmosphere` 可選 `starlight`、`moonlit`、`breeze`、`warm`，分別提供星燈冷暖光、旅舍月光及燈光、山谷薄霧、重逢暖光。粒子僅 0–10 個，位置跨分頁維持固定，低不透明度、慢速漂移，不新增圖片依賴。樣式位於 `src/ui/cg-direction.css`。
+
+直向手機上的星鯨及山路 CG 使用 `mobileFit: framed` 保留完整橫向構圖，同圖柔化填滿周圍；旅舍及重逢近景維持全螢幕。快進或 reduced-motion 不播放鏡頭、粒子、霧及燈光動畫，保留靜態構圖與柔光。CG 欣賞模式仍可顯示這些環境層，返回不翻頁。
+
+山路牽手 CG 的起點對齊 `chapter02.hillside/author-0040` 實際伸手握住的第一頁，配樂同步開始。原文及每頁最多兩句的規則不變。
+
+### SE 與幻想版表情差分
+
+音效已接入第一、二章的指定動作，在設定可逐款試聽及調整 SE 音量。`assets.se` 登記穩定 ID，段落頂層 `"se":"door-open"` 只在正常閱讀前進時播放；分頁、讀檔、章節跳轉及長按快進不重播。`public/assets/audio/se/` 與 BGM 分類分開，素材與來源對照見 `docs/se-import-2026-11-05.json`。
+
+勇者新增 `concerned`、魔女新增 `thoughtful`：段落頂層加 `"portraitExpression":"concerned"`（或 `thoughtful`）只覆蓋該段說話者的表情；下一段自動恢復原舞台表情。它不會令旁白／心聲多顯示立繪。Q 版目前為候選，未放進正文。原圖均保留；研究、生成提示與指定對白清單見 `docs/visual-direction/expressions-and-se-2026-11-05.md`。
+
+幻想版第二批表情：健太郎 `hero.happy`／`hero.surprised`，奈津美 `witch.amused`／`witch.puzzled`。前三個已選用的表情（happy、surprised、puzzled）在第二章指定對白出現；amused 登記備用。使用方式同 `portraitExpression`；原圖及完整提示詞、逐句套用位置見 `docs/visual-direction/expressions-and-se-2026-11-05.md`。
