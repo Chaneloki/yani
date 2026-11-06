@@ -562,6 +562,12 @@
       "src": "./assets/audio/se/se-object-set-down.mp3",
       "category": "foley",
       "sourceFile": "put down.mp3"
+    },
+    "repair-aligned": {
+      "label": "輪軸對位提示",
+      "src": "./assets/audio/se/se-repair-aligned.mp3",
+      "sourceFile": "coin2.mp3",
+      "category": "interface"
     }
   },
   "messageImages": {

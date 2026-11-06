@@ -1,0 +1,108 @@
+{
+  "theme": "即使世界變得陌生，我仍然會不斷發現喜歡你的理由。",
+  "quests": [
+    {
+      "id": "first-wages",
+      "number": 1,
+      "title": "第一份工錢",
+      "npc": "莉妲",
+      "roles": "together",
+      "required": true,
+      "workRepeatable": true,
+      "status": "implemented"
+    },
+    {
+      "id": "busy-inn-night",
+      "number": 2,
+      "title": "旅舍忙碌的一晚",
+      "npc": "多恩",
+      "roles": "either",
+      "required": false,
+      "workRepeatable": true,
+      "status": "implemented"
+    },
+    {
+      "id": "windowsill-herbs",
+      "number": 3,
+      "title": "曬在窗邊的草藥",
+      "npc": "艾梅",
+      "roles": "natsumi",
+      "required": false,
+      "workRepeatable": true,
+      "status": "planned"
+    },
+    {
+      "id": "carpenter-workbench",
+      "number": 4,
+      "title": "木匠的工作台",
+      "npc": "卡爾",
+      "roles": "kentaro",
+      "required": false,
+      "workRepeatable": true,
+      "status": "planned"
+    },
+    {
+      "id": "keep-the-promise",
+      "number": 5,
+      "title": "說好了要保密",
+      "npc": "村中孩子",
+      "roles": "either",
+      "required": false,
+      "workRepeatable": false,
+      "status": "planned"
+    },
+    {
+      "id": "unreachable-north-road",
+      "number": 6,
+      "title": "走不到的北路",
+      "npc": "村民／奧倫的熟人",
+      "roles": "either",
+      "required": true,
+      "workRepeatable": false,
+      "status": "planned"
+    },
+    {
+      "id": "two-delivery-lists",
+      "number": 7,
+      "title": "兩張不一樣的貨單",
+      "npc": "莉妲、多恩",
+      "roles": "together",
+      "required": false,
+      "workRepeatable": false,
+      "status": "planned",
+      "familiarityRule": "與莉妲、多恩已有交流，正式門檻待定"
+    }
+  ],
+  "coupleEvents": [
+    {
+      "id": "separate-days",
+      "title": "各自的一天",
+      "status": "planned",
+      "trigger": "完成新手委託後，首次分開行動的夜晚",
+      "requiredRoles": "either"
+    },
+    {
+      "id": "beyond-the-map",
+      "title": "地圖以外的事情",
+      "status": "planned",
+      "trigger": "完成北路探索與奧倫商道情報，出發前夜",
+      "requiredRoles": "either"
+    }
+  ],
+  "chapter3Requirements": [
+    "first-wages",
+    "unreachable-north-road",
+    "oren-verified-route",
+    "travel-funds-and-supplies"
+  ],
+  "policies": {
+    "storyOneShot": true,
+    "workSeparateFromStory": true,
+    "exclusiveQuestsNeverGateMainline": true,
+    "aiNeverConsumesOneShotStory": true,
+    "missableOnDeparture": false,
+    "independentAffectionScore": false,
+    "inviteCompanionFromMap": true,
+    "repeatDifficultyCapped": true
+  }
+}

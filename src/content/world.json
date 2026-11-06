@@ -1,0 +1,215 @@
+{
+  "prototype": true,
+  "map": {
+    "src": "./assets/backgrounds/bg-estrala-village-aerial-prototype.webp",
+    "label": "埃斯特拉村 · 地圖試作"
+  },
+  "balance": {
+    "startingCoins": 0,
+    "rent": 10,
+    "travelGoal": 60,
+    "companionWage": 8
+  },
+  "locations": [
+    {
+      "id": "inn",
+      "label": "旅舍",
+      "icon": "⌂",
+      "x": 25,
+      "y": 68,
+      "description": "住宿、付款、休息，以及委託操作測試。",
+      "npcs": [
+        "多恩"
+      ]
+    },
+    {
+      "id": "square",
+      "label": "村中廣場",
+      "icon": "◇",
+      "x": 53,
+      "y": 49,
+      "description": "村中唯一委託處：統一接取工作，接取後按指示前往目的地。",
+      "npcs": [
+        "村民（佔位）"
+      ]
+    },
+    {
+      "id": "street",
+      "label": "村路",
+      "icon": "⋯",
+      "x": 70,
+      "y": 65,
+      "description": "探索村內路線；正式交談內容待補。",
+      "npcs": [
+        "莉妲"
+      ]
+    },
+    {
+      "id": "garden",
+      "label": "莉妲的菜圃",
+      "icon": "♧",
+      "x": 37,
+      "y": 25,
+      "description": "莉妲照料幼苗的地方；已接取送菜委託後到這裡領貨，交貨後回來領取報酬。",
+      "npcs": [
+        "莉妲"
+      ]
+    },
+    {
+      "id": "entrance",
+      "label": "村口",
+      "icon": "↗",
+      "x": 83,
+      "y": 30,
+      "description": "調查外出方向與已知路線。",
+      "npcs": []
+    },
+    {
+      "id": "route-preview",
+      "label": "待確認路線",
+      "icon": "⌁",
+      "x": 91,
+      "y": 12,
+      "description": "局部地圖解鎖示範，並非正式第三章目的地。",
+      "requires": [
+        "route-a",
+        "route-b"
+      ],
+      "npcs": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "first-wages",
+      "location": "garden",
+      "title": "第一份工錢 · 運送蔬菜",
+      "kind": "work",
+      "description": "替莉妲將兩筐蔬菜送到多恩的旅舍。中午前送達，取得簽名後回菜圃領取報酬。",
+      "slots": [
+        "morning"
+      ],
+      "coins": 24,
+      "repairBonus": 6,
+      "xp": 3,
+      "info": "oren-return",
+      "together": true,
+      "activity": "first-wages",
+      "repeatable": false
+    },
+    {
+      "id": "busy-inn-night",
+      "location": "inn",
+      "title": "旅舍忙碌的一晚",
+      "kind": "work",
+      "description": "傍晚協助多恩接待旅客、整理客房與提供服務；預訂常客的房間必須保留。首次劇情按單人／同行狀態展開。",
+      "slots": [
+        "evening"
+      ],
+      "coins": 24,
+      "xp": 3,
+      "activity": "inn-shift",
+      "repeatable": false
+    },
+    {
+      "id": "sort",
+      "location": "inn",
+      "title": "旅舍值班",
+      "kind": "work",
+      "description": "可重複的旅舍工作；不會重演首次人物故事。",
+      "slots": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "coins": 18,
+      "xp": 2,
+      "repeatable": true,
+      "hidden": false,
+      "activity": "inn-shift",
+      "requiresCompleted": "busy-inn-night"
+    },
+    {
+      "id": "carry",
+      "location": "street",
+      "title": "搬運練習（玩法佔位）",
+      "kind": "work",
+      "description": "玩法佔位：雙人委託，另一人會同行，不另領外出報酬。",
+      "slots": [
+        "morning",
+        "afternoon"
+      ],
+      "coins": 24,
+      "xp": 2,
+      "together": true,
+      "repeatable": true
+    },
+    {
+      "id": "route-a",
+      "location": "street",
+      "title": "調查村內路線",
+      "kind": "explore",
+      "description": "情報測試 A；正式線索與事件待作者補寫。",
+      "slots": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "info": "route-a",
+      "xp": 1
+    },
+    {
+      "id": "route-b",
+      "location": "entrance",
+      "title": "辨認外出方向",
+      "kind": "explore",
+      "description": "情報測試 B；取得兩項情報後開放一條測試路線。",
+      "slots": [
+        "morning",
+        "afternoon"
+      ],
+      "info": "route-b",
+      "xp": 1
+    }
+  ],
+  "items": {
+    "sample-material": {
+      "label": "材料樣本（佔位）",
+      "description": "任務道具管線測試，暫未加入使用或裝備效果。"
+    },
+    "delivery-crates": {
+      "label": "待送蔬菜",
+      "description": "送往旅舍的兩筐蔬菜，交付後移出背包。"
+    },
+    "delivery-receipt": {
+      "label": "多恩簽收的清單",
+      "description": "將簽收清單交回莉妲，領取第一份工錢。"
+    },
+    "travel-supplies": {
+      "label": "旅途物資（佔位）",
+      "description": "正式內容與準備方式待後續主線一併確認。"
+    }
+  },
+  "chapterGate": {
+    "infos": [
+      "route-a",
+      "route-b"
+    ],
+    "rentPayments": 1,
+    "mode": "estrala-4",
+    "supplies": 1
+  },
+  "questBoard": "square",
+  "tutorialTask": "first-wages",
+  "questAssets": {
+    "garden": "./assets/backgrounds/bg-estrala-vegetable-garden-day.webp",
+    "inn": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+    "street": "./assets/backgrounds/bg-estrala-village-street-day.webp"
+  },
+  "onboarding": {
+    "required": true
+  },
+  "rpgSprites": {
+    "kentaro": "./assets/characters/rpg/kentaro-hero-walk.png",
+    "natsumi": "./assets/characters/rpg/natsumi-witch-walk.png"
+  }
+}

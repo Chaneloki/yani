@@ -284,3 +284,13 @@ docs/                     架構、創作約束與 GitHub 檢視報告
 勇者新增 `concerned`、魔女新增 `thoughtful`：段落頂層加 `"portraitExpression":"concerned"`（或 `thoughtful`）只覆蓋該段說話者的表情；下一段自動恢復原舞台表情。它不會令旁白／心聲多顯示立繪。Q 版目前為候選，未放進正文。原圖均保留；研究、生成提示與指定對白清單見 `docs/visual-direction/expressions-and-se-2026-11-05.md`。
 
 幻想版第二批表情：健太郎 `hero.happy`／`hero.surprised`，奈津美 `witch.amused`／`witch.puzzled`。前三個已選用的表情（happy、surprised、puzzled）在第二章指定對白出現；amused 登記備用。使用方式同 `portraitExpression`；原圖及完整提示詞、逐句套用位置見 `docs/visual-direction/expressions-and-se-2026-11-05.md`。
+
+### 踩地圖玩法試作
+
+開始畫面新增「踩地圖 · 玩法試玩」，與故事存檔分開保存，可重設；首次提供可跳過的實際操作教程。正式讀完第二章後亦可解鎖村莊主頁，開始按存檔回到地圖／進行中的故事。
+
+已提供早午晚、切換控制角色、同伴隨機安排、廣場唯一委託處、前往目的地完成簡單操作、收入／住宿欠款、背包、熟練度、情報與局部路線解鎖。劇情、經濟數值及第三章目的地均為佔位，技能效果與進階難度稍後開發。資料編輯 `src/content/world.json`，完整規則及存檔說明見 `docs/world/README.md`。
+
+### 支線 02：旅舍即時玩法
+
+《旅舍忙碌的一晚》已加入山田單獨、西單獨、雙人同行三版原稿，以及可走動、整理客房、兩格攜物、送物、修門鎖與 AI 分工的第一版玩法。完成首次故事後開放獨立的重複工作《旅舍值班》。開始畫面的「旅舍 · 獨立試玩」可直接測試各版本，進度獨立保存。操作、內容檔、存檔與擴充說明見 [旅舍玩法文件](docs/world/busy-inn-night.md)。其餘五條支線仍為計劃內容。

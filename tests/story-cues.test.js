@@ -10,7 +10,7 @@ test('splitting prose plays an SE once but preserves facial expression through i
 });
 test('authored sound and expression cues are valid and invalid references are rejected',async()=>{
  const story=await readStory();validateStory(story);
- assert.equal(Object.keys(story.assets.se).length,8);
+ assert.equal(Object.keys(story.assets.se).length,9);
  const node=story.scenes['chapter02.hillside'].nodes.find(n=>n.id==='author-0036');assert.equal(node.portraitExpression,'concerned');
  node.se='missing';assert.throws(()=>validateStory(story),/未知段落音效/);delete node.se;
  node.portraitExpression='missing';assert.throws(()=>validateStory(story),/未知人物表情/);

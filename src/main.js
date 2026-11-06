@@ -1,3 +1,4 @@
+import {mountVillage} from './world/village-ui.js';
 import {CgDirection} from './ui/cg-direction.js';
 import {SceneDissolve,PortraitReaction} from './ui/scene-direction.js';
 import {SceneEffects} from './ui/scene-effects.js';
@@ -19,6 +20,7 @@ try {
  const updates=await (await fetch(new URL('./content/changelog.json',import.meta.url))).json();
  const story=await loadStory(); let engine=new NovelEngine(story); const store=new SaveStore(story,window.localStorage);
  app.innerHTML=`<main class="shell"><header><a class="brand" href="./">山田 <span>×</span> 西<small>YAMADA & NISHI</small></a><div class="edition">INTERACTIVE STORY <span>／ FOUNDATION 01</span></div><div class="system-controls"><button id="immersive" aria-label="切換全螢幕">⛶</button><button id="system-menu" aria-label="系統選單">⚙</button></div></header><section class="novel" aria-label="視覺小說舞台"><div class="background" aria-hidden="true"></div><div class="scenery" aria-hidden="true"><div class="window"></div><div class="sun"></div><div class="horizon"></div><div class="vignette"></div></div><img class="cg" alt="場景插圖" hidden><video class="cg-video" aria-label="動態場景插圖" playsinline preload="metadata" hidden></video><div class="scene-meta"><span id="chapter"></span><span id="timeline"></span></div><div class="scene-title"><small>兩人的故事，從這裡開始</small><h1></h1><p>VISUAL NOVEL · ENGINE PREVIEW</p></div><div class="portraits"></div><div class="game-avatars" aria-label="遊戲角色背面" hidden></div><aside class="stage-media phone-preview" aria-label="手機圖片" hidden><div class="phone-status" aria-hidden="true">9:41 <span>● ▰</span></div><div class="phone-preview-heading">手機相簿</div><div class="phone-media-content"></div><div class="phone-home" aria-hidden="true"></div></aside><div class="reading"><div class="reading-top"><span id="perspective"></span><span id="content-status"></span></div><article class="dialogue"><div class="speaker"></div><div class="line-body"><div class="message-meta" hidden><span aria-hidden="true">✉</span><span id="message-label"></span></div><p id="text" aria-live="polite"></p></div><section class="message-thread" aria-label="本章手機訊息" hidden><img class="phone-contact-art" alt="" aria-hidden="true"><div class="phone-status" aria-hidden="true">9:41 <span>● ▰</span></div><div class="thread-header"><span id="phone-contact">✉ 本章聊天紀錄</span><button id="latest-message">最新訊息 ↓</button></div><div class="message-scroll" role="log" aria-label="已讀訊息，由舊至新" tabindex="0"></div><div class="phone-home" aria-hidden="true"></div></section><div class="choices"></div><button id="advance" class="advance">點擊繼續 <span>↗</span></button></article></div></section><footer><div class="footer-note"><i></i> 把時間留給彼此 <span>／ 開發試映</span></div><nav aria-label="故事功能"></nav></footer><div class="status" role="status" aria-live="polite"></div></main><dialog aria-labelledby="panel-title"><div class="panel-header"><h2 id="panel-title"></h2><button id="close-panel" aria-label="關閉">✕</button></div><div class="panel-body"></div></dialog>`;
+ let village;
  const audio=new AudioManager(story.assets,window.localStorage);
  audio.bgm.id='bgm-player';audio.bgm.hidden=true;audio.bgm.setAttribute('aria-hidden','true');app.append(audio.bgm);
  document.addEventListener('pointerdown',()=>{void audio.unlock();},{passive:true});
@@ -155,8 +157,8 @@ try {
     revealTarget.removeAttribute('aria-label');
     revealAttachments.forEach(a=>{a.hidden=false;});
     $('.choices').hidden=false;
-    $('#advance').hidden=n.type==='choice';$('#advance').disabled=engine.ended;
-    $('#advance').textContent=engine.ended?(s.endLabel || '本段讀畢 · 可從章節選單重看'):(nextChapter(story,s,n)?`下一章 · ${nextChapter(story,s,n).next.title.split(' · ')[0]} ↗`:(n.minigame?'開始列車救援 ↗':(n.advanceLabel || '點擊繼續 ↗')));
+    $('#advance').hidden=n.type==='choice';$('#advance').disabled=engine.ended && s.chapterId!=='chapter-02';
+    $('#advance').textContent=engine.ended?(s.chapterId==='chapter-02'?'進入村莊 · 解鎖踩地圖 ↗':(s.endLabel || '本段讀畢 · 可從章節選單重看')):(nextChapter(story,s,n)?`下一章 · ${nextChapter(story,s,n).next.title.split(' · ')[0]} ↗`:(n.minigame?'開始列車救援 ↗':(n.advanceLabel || '點擊繼續 ↗')));
     $('.novel').dataset.typing='false';
     const log=$('.message-scroll');if(n.channel==='message' && log.dataset.followBottom==='true')log.scrollTop=log.scrollHeight;
   };
@@ -207,7 +209,7 @@ try {
   const body=panel('章節交接');body.classList.add('chapter-transition');
   const card=el('section','chapter-transition-card');card.append(el('small','chapter-complete',`${transition.current.title.split(' · ')[0]} · 完`),el('p','chapter-finished-title',transition.current.title.split(' · ').slice(1).join(' · ')),el('div','chapter-divider','◇'),el('small','chapter-next-label','NEXT CHAPTER · 下一章'),el('h3','chapter-next-title',transition.next.title.split(' · ')[0]),el('p','chapter-next-subtitle',transition.next.title.split(' · ').slice(1).join(' · ')),button('繼續下一章 ↗',()=>{modal.close();engine.advance();autosave();render({sound:true});$('#advance').focus({preventScroll:true});},'chapter-continue'),button('留在本章',()=>modal.close(),'chapter-stay'));body.append(card);
  }
- function next(){if(cgViewing){setCgViewing(false);return;}if(atHome || modal.open || imageViewer.open || rescue.dialog.open)return;if(typewriter.typing){typewriter.finish();return;}if(engine.node.minigame){rescue.open(engine.node.minigame);return;}const transition=nextChapter(story,engine.scene,engine.node);if(transition){showChapterTransition(transition);return;}if(engine.advance()){autosave();render({sound:true});}}
+ function next(){if(cgViewing){setCgViewing(false);return;}if(atHome || modal.open || imageViewer.open || rescue.dialog.open)return;if(typewriter.typing){typewriter.finish();return;}if(engine.ended&&engine.scene.chapterId==='chapter-02'){enterVillage();return;}if(engine.node.minigame){rescue.open(engine.node.minigame);return;}const transition=nextChapter(story,engine.scene,engine.node);if(transition){showChapterTransition(transition);return;}if(engine.advance()){autosave();render({sound:true});}}
  $('#advance').onclick=next;
  $('.novel').onclick=e=>{if(cgViewing){setCgViewing(false);return;}if(!e.target.closest('button,.message-thread'))next();};
  document.addEventListener('keydown',e=>{if(!e.repeat && !atHome && !modal.open && !imageViewer.open && !rescue.dialog.open && ['Space','ArrowRight'].includes(e.code) && (!e.target.closest('button,a,input,select,.message-thread') || e.target.id==='advance')){e.preventDefault();next();}});
@@ -223,7 +225,7 @@ try {
     const card=el('div','slot'),label=slot==='auto'?'自動存檔':`手動存檔 ${slot}`;
     card.append(el('strong','',label),el('p','muted',error || (data?`${story.scenes[data.state.sceneId].title} · ${new Date(data.savedAt).toLocaleString('zh-Hant')}`:'尚未存檔')));
     const b=button(mode==='save'?'儲存':'讀取',()=>{
-      const action=()=>{if(mode==='save'){store.save(slot,engine.snapshot());notify('進度已儲存');}else{const fresh=store.load(slot);if(!fresh)throw Error('沒有存檔');engine=new NovelEngine(story,fresh.state);showGame();notify(fresh.migrated?'已將舊進度對應至新版章節；原存檔仍保留':'已還原閱讀進度與舞台');}if(modal.open)modal.close();};
+      const action=()=>{if(mode==='save'){store.save(slot,engine.snapshot());notify('進度已儲存');}else{const fresh=store.load(slot);if(!fresh)throw Error('沒有存檔');engine=new NovelEngine(story,fresh.state);if(fresh.state.mode==='world')enterVillage(fresh.state.world);else showGame();notify(fresh.migrated?'已將舊進度對應至新版章節；原存檔仍保留':'已還原閱讀進度與舞台');}if(modal.open)modal.close();};
       if(mode==='save'&&(data||error)) {modal.close();confirmPanel('覆蓋這個存檔槽的現有內容？',action);}
       else if(mode==='load'){modal.close();confirmPanel('讀取這份存檔，取代目前閱讀進度？',action);}
       else safe(action);
@@ -261,8 +263,8 @@ try {
    reducedMotion.addEventListener('change',()=>{if(reducedMotion.matches)coverVideo.pause();else if(atHome)void coverVideo.play().catch(()=>{});});
  }
  app.append(home);
- function showGame(){atHome=false;coverVideo?.pause();home.hidden=true;$('.shell').hidden=false;render();$('#advance').focus({preventScroll:true});}
- function showHome(){audio.stopSE();cgDirection.reset();setCgViewing(false);sceneDissolve.reset();portraitReaction.reset();fastForward.stop();sceneEffects.reset();if(rescue.dialog.open)rescue.close();typewriter.cancel();camera.reset();cgCamera.reset();cgVideo.pause();currentCgVideo=null;atHome=true;if(coverVideo && !reducedMotion.matches)void coverVideo.play().catch(()=>{});$('.shell').hidden=true;home.hidden=false;audio.sync(story.titleBgm ?? null);home.querySelector('.title-primary').focus({preventScroll:true});notify('');}
+ function showGame(){village?.hide();engine.state.mode='story';atHome=false;coverVideo?.pause();home.hidden=true;$('.shell').hidden=false;render();$('#advance').focus({preventScroll:true});}
+ function showHome(){village?.hide();audio.stopSE();cgDirection.reset();setCgViewing(false);sceneDissolve.reset();portraitReaction.reset();fastForward.stop();sceneEffects.reset();if(rescue.dialog.open)rescue.close();typewriter.cancel();camera.reset();cgCamera.reset();cgVideo.pause();currentCgVideo=null;atHome=true;if(coverVideo && !reducedMotion.matches)void coverVideo.play().catch(()=>{});$('.shell').hidden=true;home.hidden=false;audio.sync(story.titleBgm ?? null);home.querySelector('.title-primary').focus({preventScroll:true});notify('');}
  function choosePerspective(){
    const body=panel('從誰的視角開始？');
    body.append(el('p','muted','同一段約會前夕，兩份不同的心情。選擇一個視角，開始閱讀序章。'));
@@ -280,10 +282,15 @@ try {
    body.append(cards);
  }
  const actions=home.querySelector('.title-actions');
- const start=button('',choosePerspective,'title-action title-primary');start.append(el('span','','開始故事'),el('small','','↗'));
+ const start=button('',()=>{let data=null;try{data=store.load('auto');}catch{}if(data?.state.world){engine=new NovelEngine(story,data.state);if(data.state.mode==='world')enterVillage(data.state.world);else showGame();}else choosePerspective();},'title-action title-primary');start.append(el('span','','開始故事'),el('small','','↗'));
  const load=button('',()=>slots('load'),'title-action');load.append(el('span','','讀取存檔'),el('small','','↗'));
  const log=button('',()=>{const body=panel('更新日誌');for(const update of updates){const item=el('article','update-entry');item.append(el('time','',update.date),el('h3','',update.title));const list=el('ul','');for(const line of update.items)list.append(el('li','',line));item.append(list);body.append(item);}},'title-action');log.append(el('span','','更新日誌'),el('small','','↗'));
- actions.append(start,load,log);
+ const preview=button('踩地圖 · 玩法試玩',()=>{let state=null;try{state=JSON.parse(localStorage.getItem('yamada-nishi:world-preview'));}catch{}try{enterVillage(state || village.create({preview:true}));}catch{enterVillage(village.create({preview:true}));}},'title-action');
+ const innPreview=button('旅舍 · 獨立試玩',()=>{const body=panel('旅舍小遊戲 · 選擇試玩版本');body.append(el('p','','獨立試玩不影響故事或踩地圖進度。'));try{const saved=JSON.parse(localStorage.getItem('yamada-nishi:inn-preview'));if(saved?.pending&&saved.previewKind==='inn')body.append(button('繼續上次旅舍試玩',()=>{modal.close();enterVillage(saved);village.resume();}));}catch{}for(const [label,actor,together]of [['山田單獨','kentaro',false],['西單獨','natsumi',false],['兩人同行 · 控制山田','kentaro',true],['兩人同行 · 控制西','natsumi',true]])body.append(button(label,()=>{modal.close();enterVillage(village.createInnPreview(actor,together));village.resume();}));},'title-action');
+ actions.append(start,load,log,preview,innPreview);
+ village=mountVillage({app,config:story.world,characters:story.characters,onSave:state=>{if(state.preview){try{localStorage.setItem(state.previewKind==='inn'?'yamada-nishi:inn-preview':'yamada-nishi:world-preview',JSON.stringify(state));}catch{notify('試玩進度未能保存。');}}else{engine.state.world=state;engine.state.mode='world';autosave();}},onTitle:showHome,onSettings:()=>openAudioSettings({panel,audio,el,button,modal}),onSaves:()=>{const body=panel('生活存讀檔');body.append(button('存檔',()=>{modal.close();slots('save');}),button('讀檔',()=>{modal.close();slots('load');}));},onStory:showGame,onCue:id=>void audio.playSE(id)});
+ function enterVillage(state=engine.state.world){fastForward.stop();typewriter.cancel();setCgViewing(false);cgDirection.reset();sceneEffects.reset();cgVideo.pause();coverVideo?.pause();audio.stopSE();atHome=true;home.hidden=true;$('.shell').hidden=true;const next=state || village.create();village.show(next);audio.sync('warm-daily-life');if(!next.preview){engine.state.world=next;engine.state.mode='world';autosave();}}
+ $('nav').append(button('踩地圖',()=>{if(engine.state.world)enterVillage();else notify('完成第二章後開放；開始畫面有獨立玩法試玩。');}));
  $('.brand').onclick=e=>{e.preventDefault();showHome();};
  showHome();
  // Do not overwrite an earlier autosave before the player has chosen to continue or load it.

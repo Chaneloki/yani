@@ -1,0 +1,402 @@
+{
+  "id": "first-wages",
+  "title": "支線 01｜第一份工錢",
+  "scenes": {
+    "board": [
+      {
+        "id": "board-001",
+        "speaker": null,
+        "text": "公告板前，山田已經將幾張委託從頭到尾看了一遍。"
+      },
+      {
+        "id": "board-002",
+        "speaker": "kentaro",
+        "text": "「奈津美，這個怎麼樣？」"
+      },
+      {
+        "id": "board-003",
+        "speaker": null,
+        "text": "西順著他的手指望去，紙上寫著徵求修繕北路木橋的幫手，報酬相當不錯。"
+      },
+      {
+        "id": "board-004",
+        "speaker": "natsumi",
+        "text": "「你想修橋？」"
+      },
+      {
+        "id": "board-005",
+        "speaker": "kentaro",
+        "text": "「有點想試試看。」"
+      },
+      {
+        "id": "board-006",
+        "speaker": "natsumi",
+        "text": "「……我們才剛來第二天耶。」"
+      },
+      {
+        "id": "board-007",
+        "speaker": "kentaro",
+        "text": "「也是。」"
+      },
+      {
+        "id": "board-008",
+        "speaker": null,
+        "text": "山田看了看旁邊那張尋找走失山羊的委託，又望向下方。"
+      },
+      {
+        "id": "board-009",
+        "speaker": "kentaro",
+        "text": "「啊，這個是莉妲小姐的！」"
+      },
+      {
+        "id": "board-010",
+        "speaker": null,
+        "text": "西湊過去。原來她正在找人把兩筐蔬菜送到多恩的旅舍，中午前送達即可。"
+      },
+      {
+        "id": "board-011",
+        "speaker": "natsumi",
+        "text": "「這個應該比較適合我們。」西說。"
+      },
+      {
+        "id": "board-012",
+        "speaker": "kentaro",
+        "text": "「嗯！而且剛好是送到多恩先生那裡。」"
+      }
+    ],
+    "pickup": [
+      {
+        "id": "pickup-001",
+        "speaker": null,
+        "text": "兩人來到村邊的菜圃時，莉妲正在整理新移栽的幼苗。聽見有人叫她，她直起腰，發現是昨天問路的兩個年輕人。"
+      },
+      {
+        "id": "pickup-002",
+        "speaker": "lida",
+        "text": "「怎麼，又迷路了？」"
+      },
+      {
+        "id": "pickup-003",
+        "speaker": "kentaro",
+        "text": "「不是啦！」山田舉起委託紙，「我們是來幫忙的！」"
+      },
+      {
+        "id": "pickup-004",
+        "speaker": "lida",
+        "text": "「你們昨天不是急著去找什麼石門嗎？」"
+      },
+      {
+        "id": "pickup-005",
+        "speaker": "natsumi",
+        "text": "「還在找。」西回答，「不過我們也得先賺點生活費。」"
+      },
+      {
+        "id": "pickup-006",
+        "speaker": null,
+        "text": "莉妲看了看兩人身上的裝備。"
+      },
+      {
+        "id": "pickup-007",
+        "speaker": "lida",
+        "text": "「也是。總不能靠這些漂亮衣服付房錢。」"
+      },
+      {
+        "id": "pickup-008",
+        "speaker": null,
+        "text": "西低頭看了一眼自己的魔女長袍，山田則摸了摸腰間那把劍。"
+      },
+      {
+        "id": "pickup-009",
+        "speaker": "kentaro",
+        "text": "「真的不能拿這個換嗎？」他問。"
+      },
+      {
+        "id": "pickup-010",
+        "speaker": "lida",
+        "text": "「你想把劍賣了？」"
+      },
+      {
+        "id": "pickup-011",
+        "speaker": "kentaro",
+        "text": "「沒有沒有，開玩笑的！」"
+      },
+      {
+        "id": "pickup-012",
+        "speaker": null,
+        "text": "西碰了碰他的手臂。"
+      },
+      {
+        "id": "pickup-013",
+        "speaker": "natsumi",
+        "text": "「健太郎，那個還是留著比較好。」"
+      },
+      {
+        "id": "pickup-014",
+        "speaker": null,
+        "text": "莉妲已經領著他們走向棚邊的手推車。"
+      },
+      {
+        "id": "pickup-015",
+        "speaker": "lida",
+        "text": "「兩筐蔬菜，送去旅舍。記得讓多恩簽名，別壓壞那些香草。」"
+      },
+      {
+        "id": "pickup-016",
+        "speaker": null,
+        "text": "她將清單交給西，又提醒兩人車輪有些老舊，路上要留神。"
+      },
+      {
+        "id": "pickup-017",
+        "speaker": null,
+        "text": "山田蹲下身查看了一眼。"
+      },
+      {
+        "id": "pickup-018",
+        "speaker": "kentaro",
+        "text": "「輪軸好像有點鬆。」"
+      },
+      {
+        "id": "pickup-019",
+        "speaker": "lida",
+        "text": "「早就知道了。」莉妲嘆氣，「我已經催過卡爾三次，他說後天一定幫我換。」"
+      },
+      {
+        "id": "pickup-020",
+        "speaker": "kentaro",
+        "text": "「那不是還有兩天嗎？」"
+      },
+      {
+        "id": "pickup-021",
+        "speaker": "lida",
+        "text": "「所以才叫你們小心。」"
+      },
+      {
+        "id": "pickup-022",
+        "speaker": null,
+        "text": "西看著兩人一本正經地研究那個車輪，忽然覺得健太郎大概很快就會跟這位村民熟起來。"
+      },
+      {
+        "id": "pickup-023",
+        "speaker": null,
+        "text": "她輕輕拉了拉他的披風。"
+      },
+      {
+        "id": "pickup-024",
+        "speaker": "natsumi",
+        "text": "「健太郎，先送貨吧。」"
+      },
+      {
+        "id": "pickup-025",
+        "speaker": "kentaro",
+        "text": "「啊，對！」"
+      },
+      {
+        "id": "pickup-026",
+        "speaker": null,
+        "text": "莉妲將最後一筐菜放好，朝兩人點頭。"
+      },
+      {
+        "id": "pickup-027",
+        "speaker": "lida",
+        "text": "「那就拜託你們了。」"
+      }
+    ],
+    "ending": [
+      {
+        "id": "ending-001",
+        "speaker": "lida",
+        "text": "「回來啦？」"
+      },
+      {
+        "id": "ending-002",
+        "speaker": null,
+        "text": "莉妲接過簽好的清單，確認多恩已經收貨，便從腰間的小錢袋裡數出幾枚錢幣。"
+      },
+      {
+        "id": "ending-003",
+        "speaker": null,
+        "text": "山田向她說明車輪途中發生的問題。"
+      },
+      {
+        "id": "ending-004",
+        "speaker": "lida",
+        "text": "「又是那個輪軸？」她走到車旁試了試，「……你們修好了？」"
+      },
+      {
+        "id": "ending-005",
+        "speaker": "kentaro",
+        "text": "「暫時固定住了，不過還是得換新的。」"
+      },
+      {
+        "id": "ending-006",
+        "speaker": null,
+        "text": "莉妲打量了山田一眼。"
+      },
+      {
+        "id": "ending-007",
+        "speaker": "lida",
+        "text": "「你真的是旅行者？我看你倒更像卡爾的同行。」"
+      },
+      {
+        "id": "ending-008",
+        "speaker": "kentaro",
+        "text": "「我有學過修車。」"
+      },
+      {
+        "id": "ending-009",
+        "speaker": "lida",
+        "text": "「那正好。下次卡爾再拖延，我就把你叫過來。」"
+      },
+      {
+        "id": "ending-010",
+        "speaker": "natsumi",
+        "text": "西在旁邊聽著，見莉妲說得煞有其事，便接了一句：「健太郎應該會很樂意。」"
+      },
+      {
+        "id": "ending-011",
+        "speaker": "kentaro",
+        "text": "「奈津美！」"
+      },
+      {
+        "id": "ending-012",
+        "speaker": "natsumi",
+        "text": "「你剛剛不是還想接修橋的委託嗎？」"
+      },
+      {
+        "id": "ending-013",
+        "speaker": null,
+        "text": "莉妲終於忍不住笑了。"
+      },
+      {
+        "id": "ending-014",
+        "speaker": "lida",
+        "text": "「先別把村裡的橋也拆了。這是你們的報酬，修車的事另外加一點。」"
+      },
+      {
+        "id": "ending-015",
+        "speaker": null,
+        "text": "她將錢幣交到兩人手裡，又轉身回去照料菜圃。臨走前，還特地提醒他們，如果之後要問商道的消息，可以等奧倫回村再來找她。"
+      },
+      {
+        "id": "ending-016",
+        "speaker": null,
+        "text": "回程時，西將幾枚錢幣攤在掌心，仔細看了看。金屬邊緣磨得光滑，中央刻著她還不熟悉的徽記。"
+      },
+      {
+        "id": "ending-017",
+        "speaker": "natsumi",
+        "text": "「終於賺到錢了。」"
+      },
+      {
+        "id": "ending-018",
+        "speaker": "kentaro",
+        "text": "「嗯！」"
+      },
+      {
+        "id": "ending-019",
+        "speaker": null,
+        "text": "山田湊過來看了一眼。"
+      },
+      {
+        "id": "ending-020",
+        "speaker": "kentaro",
+        "text": "「奈津美，妳覺得夠不夠買剛才那間店的麵包？」"
+      },
+      {
+        "id": "ending-021",
+        "speaker": null,
+        "text": "西抬起頭。"
+      },
+      {
+        "id": "ending-022",
+        "speaker": "natsumi",
+        "text": "「你還記得啊？」"
+      },
+      {
+        "id": "ending-023",
+        "speaker": "kentaro",
+        "text": "「那個看起來真的很好吃。」"
+      },
+      {
+        "id": "ending-024",
+        "speaker": null,
+        "text": "她望著他，又看了看手裡的錢。"
+      },
+      {
+        "id": "ending-025",
+        "speaker": null,
+        "text": "明明昨天還在為住宿費發愁，如今卻開始認真考慮要不要買麵包。這種感覺有點奇怪，卻也讓她想起以前兩人出去約會時，常常為了吃什麼而討論半天。"
+      },
+      {
+        "id": "ending-026",
+        "speaker": "natsumi",
+        "text": "「先還多恩先生的房錢。」"
+      },
+      {
+        "id": "ending-027",
+        "speaker": "kentaro",
+        "text": "「嗯。」"
+      },
+      {
+        "id": "ending-028",
+        "speaker": "natsumi",
+        "text": "「如果還有剩的話……」"
+      },
+      {
+        "id": "ending-029",
+        "speaker": null,
+        "text": "山田立即望向她。"
+      },
+      {
+        "id": "ending-030",
+        "speaker": "kentaro",
+        "text": "「可以買？」"
+      },
+      {
+        "id": "ending-031",
+        "speaker": "natsumi",
+        "text": "「買一個吧。」"
+      },
+      {
+        "id": "ending-032",
+        "speaker": "kentaro",
+        "text": "「好！那我們分著吃。」"
+      },
+      {
+        "id": "ending-033",
+        "speaker": null,
+        "text": "西將錢幣收好，伸手牽住他。"
+      },
+      {
+        "id": "ending-034",
+        "speaker": "natsumi",
+        "text": "「健太郎，下次也一起接委託吧。」"
+      },
+      {
+        "id": "ending-035",
+        "speaker": "kentaro",
+        "text": "「嗯！不過下次可以看看那座橋嗎？」"
+      },
+      {
+        "id": "ending-036",
+        "speaker": "natsumi",
+        "text": "「……你真的很在意那座橋耶。」"
+      },
+      {
+        "id": "ending-037",
+        "speaker": null,
+        "text": "兩人沿著石路往旅舍走去。路過廣場時，西又回頭望了一眼公告板。上面還貼著不少委託，昨天看起來陌生的村莊，似乎漸漸多了幾件他們能夠參與的事情。"
+      },
+      {
+        "id": "ending-038",
+        "speaker": null,
+        "text": "至於回家的路，明天仍然要繼續尋找。"
+      },
+      {
+        "id": "ending-039",
+        "speaker": null,
+        "text": "但今天，他們至少完成了來到這裡的第一份工作。"
+      }
+    ]
+  }
+}

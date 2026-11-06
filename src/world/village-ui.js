@@ -1,0 +1,93 @@
+import {createInn} from './inn-game.js';
+import {mountInn} from './inn-ui.js';
+import {mountFirstWages} from './first-wages-ui.js';
+import {VillageLife,createWorld,PERIOD_LABELS} from './world-engine.js';
+const names={kentaro:'健太郎',natsumi:'奈津美'};
+const e=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;};
+const b=(text,fn,cls='')=>{const n=e('button',cls,text);n.type='button';n.onclick=fn;return n;};
+export function mountVillage({app,config,characters,onSave,onTitle,onSettings,onSaves,onStory,onCue=()=>{}}){
+ const root=e('section','village-hub');root.hidden=true;root.setAttribute('aria-label','踩地圖');app.append(root);
+ let quest,inn;let life,tab='place',message='',timer=null,returnFocus=null;
+ const dialogue=e('dialog','village-dialog');dialogue.setAttribute('aria-label','委託操作挑戰');app.append(dialogue);
+ const save=()=>onSave(life.snapshot());
+ const act=fn=>{try{fn();message='';save();render();}catch(error){message=error.message;render();}};
+ const closeGame=()=>{if(quest?.active)quest.close();if(inn?.active)inn.close();if(timer!==null)cancelAnimationFrame(timer);timer=null;if(dialogue.open)dialogue.close();render();returnFocus?.focus({preventScroll:true});};
+ dialogue.addEventListener('cancel',()=>{if(life?.state.tutorial.status==='offer'){life.skipTutorial();save();}if(timer!==null)cancelAnimationFrame(timer);timer=null;render();});
+ inn=mountInn({app,config,characters,onCue,getLife:()=>life,onSave:save,onChange:()=>render()});
+ quest=mountFirstWages({app,config,characters,onCue,getLife:()=>life,onSave:save,onChange:()=>render()});
+ function detail(title){const c=e('section','village-card');c.append(e('h3','',title));return c;}
+ function render(){
+  if(!life)return;const w=life.state,period=life.period,location=config.locations.find(l=>l.id===w.location);
+  root.dataset.period=period;root.replaceChildren();
+  const header=e('header','village-header');const branding=e('div');branding.append(e('small','','生活玩法試作 · 支線 01／02 已加入'),e('h1','','埃斯特拉'));
+  const metrics=e('div','village-metrics');metrics.append(e('span','',`第 ${w.day} 日 · ${PERIOD_LABELS[period]}`),e('strong','',life.freePlay?`${w.coins} 金幣`:'首份工錢後開放'),e('span','',`住宿待付 ${w.rentDebt}`));
+  const actions=e('div','village-tools');actions.append(b('設定',onSettings),b(w.preview?'試玩會自動保存':'存讀檔',()=>{if(!w.preview)onSaves();else{message='試玩進度獨立保存，不會覆寫故事存檔。';render();}}),b('開始畫面',()=>{closeGame();root.hidden=true;onTitle();}));if(w.preview)actions.append(b('重新試玩',()=>confirmAction('只重設踩地圖試玩進度；故事存檔保留。',()=>{life=new VillageLife(config,createWorld(config,{preview:true}));tab='place';save();render();offerTutorial();})));header.append(branding,metrics,actions);root.append(header);
+  const toolbar=e('div','village-toolbar'),roles=e('div','village-roles');roles.setAttribute('role','group');roles.setAttribute('aria-label','選擇控制角色');
+  for(const id of ['kentaro','natsumi']){const btn=b(`控制${names[id]}`,()=>act(()=>life.select(id)));btn.setAttribute('aria-pressed',String(w.controlled===id));btn.disabled=!!w.pending;roles.append(btn);}
+  const companion=e('p','village-companion');companion.textContent=w.pending?`${names[life.companion]}：${{together:'與你同行',work:'外出工作',practice:'自行練習'}[w.pending.companion]}`:!life.freePlay?`${names[life.companion]}會與你同行完成第一份委託。`:w.inviteCompanion?`${names[life.companion]}已約定下次同行。`:`${names[life.companion]}會同行、工作或自行練習；開始活動時決定。`;
+  toolbar.append(roles,companion);const invite=b(w.inviteCompanion?'下次已約定同行':'邀請同行 · 下一次活動',()=>act(()=>life.invite()));invite.disabled=!life.freePlay||!!w.pending;invite.setAttribute('aria-pressed',String(!!w.inviteCompanion));toolbar.append(invite);root.append(toolbar);
+  const main=e('div','village-layout'),mapPane=e('div','village-map-pane');mapPane.append(e('p','village-map-hint','點地點踩圖 · 移動、查看資料不消耗時段'));
+  const scroll=e('div','village-map-scroll'),map=e('div','village-map');const img=e('img');img.src=new URL(config.map.src,document.baseURI).href;img.alt='埃斯特拉村斜俯瞰地圖試作：旅舍、廣場、村路與村口。';img.draggable=false;map.append(img);
+  for(const loc of config.locations){const open=life.unlocked(loc),hasTask=loc.id===config.questBoard?config.tasks.some(t=>t.kind==='work'&&life.available(t)&&!w.accepted.includes(t.id)):config.tasks.some(t=>t.location===loc.id&&life.available(t)&&(t.kind!=='work'||w.accepted.includes(t.id)));const pin=b('',()=>{tab='place';act(()=>life.visit(loc.id));},'village-pin');pin.style.left=`${loc.x}%`;pin.style.top=`${loc.y}%`;pin.dataset.place=loc.id;pin.dataset.active=String(loc.id===w.location);pin.dataset.locked=String(!open);pin.setAttribute('aria-label',`${loc.label}${open?'':' · 尚待情報解鎖'}`);pin.disabled=!!w.pending&&!(w.pending.task==='first-wages'&&w.delivery?.phase==='return'&&loc.id==='garden');if(w.pending?.task==='first-wages'&&w.delivery?.phase==='return'&&loc.id==='garden')pin.classList.add('quest-travel');pin.append(e('span','pin-icon',open?loc.icon:'◇'),e('strong','',loc.label));if(open&&hasTask)pin.append(e('small','',loc.id===config.questBoard?'委託處':'有活動'));if(!open)pin.append(e('small','','待解鎖'));map.append(pin);}
+  scroll.append(map);mapPane.append(scroll,e('p','village-mobile-hint','窄螢幕可左右滑動地圖，亦可用下方地點清單。'));
+  const destinations=e('div','village-destinations');for(const loc of config.locations){const btn=b(loc.label,()=>{tab='place';act(()=>life.visit(loc.id));});btn.dataset.place=loc.id;btn.disabled=(!!w.pending&&!(w.pending.task==='first-wages'&&w.delivery?.phase==='return'&&loc.id==='garden'))||!life.unlocked(loc);if(w.pending?.task==='first-wages'&&w.delivery?.phase==='return'&&loc.id==='garden')btn.classList.add('quest-travel');destinations.append(btn);}mapPane.append(destinations);
+  const side=e('aside','village-side');side.setAttribute('aria-label','地點與活動');const tabs=e('nav','village-tabs');tabs.setAttribute('aria-label','生活功能');
+  for(const [id,label] of [['place','地點'],['tasks','委託'],['bag','背包'],['skills','技能'],['catalog','村莊支線'],['goal','主線準備']]){const btn=b(label,()=>{tab=id;render();});btn.setAttribute('aria-pressed',String(tab===id));btn.disabled=!life.freePlay&&['bag','skills','catalog'].includes(id);tabs.append(btn);}side.append(tabs);
+  const content=e('div','village-content');
+  if(w.pending){const card=detail(w.pending.task==='first-wages'?'第一份工錢 · 進行中':'進行中的活動');card.append(e('p','',config.tasks.find(t=>t.id===w.pending.task).title),e('p','',w.pending.task==='first-wages'?({packing:'整理好貨物後出發。','transport-first':'運送途中：兩人協力穩住貨箱。',wheel:'車輪晃動了，檢查輪軸。','transport-final':'固定好輪軸後繼續送貨。',handoff:'已到旅舍，核對貨物並請多恩簽收。',return:'帶著簽收清單回莉妲的菜圃領錢。','ending-story':'把清單交回莉妲，領取第一份工錢。'}[w.delivery.phase]||'兩人同行；整條委託只消耗一個時段。'):'本時段已預留；重試或讀檔不重抽同伴行動。'),b(w.pending.task==='first-wages'&&w.delivery.phase==='ending-story'?'交回清單 · 與莉妲交談':'繼續活動',openChallenge,'village-primary pending-resume'),b(!life.freePlay&&w.pending.task==='first-wages'?'重新嘗試教學委託':'結束活動 · 消耗本時段',()=>confirmAbandon()));content.append(card);}
+  if(tab==='place'){
+   const card=detail(location.label);card.append(e('p','',location.description),e('small','',location.npcs.length?`目前人物：${location.npcs.join('、')}（交談待補）`:'目前沒有交談事件。'));
+   if(location.id===config.questBoard){card.append(e('h4','','委託處 · 唯一接取點'));for(const t of config.tasks.filter(t=>t.kind==='work'&&!t.hidden))card.append(taskCard(t,'board'));}
+   for(const t of config.tasks.filter(t=>t.location===location.id&&(t.kind!=='work'||w.accepted.includes(t.id))))card.append(taskCard(t,'local'));
+   if(config.tasks.some(t=>t.kind==='work'&&t.location===location.id&&!w.accepted.includes(t.id)&&life.available(t)))card.append(e('small','','工作任務請先到村中廣場委託處接取；此處只進行已接任務。'));
+   if(location.id==='inn'){
+    const pay=b(`付清住宿費 · ${w.rentDebt} 金幣`,()=>act(()=>life.payRent()));pay.disabled=!!w.pending||!w.rentDebt;card.append(pay);
+    const sleep=b('睡覺 → 翌日早上',()=>{message='確認休息後，本日住宿費會記帳。';confirmAction('結束今日並睡覺？未做的活動不會自動完成。',()=>act(()=>life.sleep()));},'village-primary');sleep.disabled=!life.freePlay||!!w.pending||period!=='evening';card.append(sleep,e('small','',`每晚住宿費 ${config.balance.rent} 金幣；不足時記帳，不會卡死。`));
+   }
+   if(location.id==='route-preview')card.append(e('p','','局部路線已解鎖。正式地圖名稱、調查事件與第三章正文待補。'));
+   content.append(card);
+  }
+  if(tab==='tasks'){const card=detail('委託紀錄');card.append(e('p','','每個活動消耗一個時段。接取、移動、查看均不耗時。'));const records=config.tasks.filter(t=>t.kind==='work'&&(w.accepted.includes(t.id)||w.completed[t.id]));for(const t of records)card.append(taskCard(t,'record'));if(!records.length)card.append(e('p','','尚未接取委託，請到村中廣場委託處查看。'));card.append(b('前往委託處',()=>{tab='place';act(()=>life.visit(config.questBoard));}));content.append(card);}
+  if(tab==='bag'){const card=detail('背包');let count=0;for(const [id,n] of Object.entries(w.inventory)){if(n){count++;const item=e('article','village-task');item.append(e('h4','',`${config.items[id].label} × ${n}`),e('p','',config.items[id].description));card.append(item);}}if(!count)card.append(e('p','','背包暫時沒有物品。委託貨物與簽收清單會在送貨期間顯示在這裡。'));content.append(card);}
+  if(tab==='skills'){const card=detail('技能成長');for(const id of ['kentaro','natsumi'])card.append(e('p','',`${names[id]} · 熟練度 ${w.xp[id]}`));card.append(e('p','','本階段只記錄成長。主動技能、難度階段與協力招式待基礎玩法確認後加入。'));content.append(card);}
+  if(tab==='catalog'){const card=detail('埃斯特拉 · 七條支線');for(const q of config.catalog.quests){const item=e('article','village-task');item.append(e('h4','',`${String(q.number).padStart(2,'0')} · ${q.title}`),e('p','',`${q.npc} · ${{together:'雙人限定',either:'山田／西皆可',kentaro:'山田專屬',natsumi:'西專屬'}[q.roles]} · ${q.required?'必做':'選做'}`),e('small','',q.status==='implemented'?(w.completed[q.id]?'已完成一次性故事':'已開放'): '人物故事及玩法準備中'));card.append(item);}card.append(e('p','','角色專屬故事不會成為離村條件；日常重複工作另計，不會重演或消耗一次性人物支線。'));content.append(card);}
+  if(tab==='goal'){const card=detail(`第三章準備 · ${life.gate.filter(g=>g.done).length} / ${life.gate.length}`);for(const goal of life.gate)card.append(e('p',goal.done?'goal-done':'',`${goal.done?'✓':'○'} ${goal.label}`));card.append(e('small','','門檻與地點均為玩法測試值；正式故事尚未加入。'));const btn=b(life.ready?'條件已達成 · 查看章節佔位':'準備尚未完成',()=>confirmAction('第三章解鎖條件已達成。正文與正式目的地尚待作者提供；目前留在地圖，不扣款、不跳入未完成章節。',()=>{}),'village-primary');btn.disabled=!life.ready||!!w.pending;card.append(btn);content.append(card);}
+  const journal=detail('最近動態');for(const entry of w.journal.slice(-3).reverse())journal.append(e('p','',`第 ${entry.day} 日 ${PERIOD_LABELS[entry.period]} · ${entry.text}`));if(!w.journal.length)journal.append(e('p','','選擇地點與活動，開始新一天。'));content.append(journal);side.append(content);main.append(mapPane,side);root.append(main);
+  const footer=e('div','village-footer');footer.append(e('p','',`住宿 ${config.balance.rent} ／ 出發目標 ${config.balance.travelGoal} 金幣：均為可調整測試值。`));
+  const wait=b('等待至下一時段',()=>confirmAction('略過這個時段？不會獲得工作或同伴報酬。',()=>act(()=>life.wait())));wait.disabled=!life.freePlay||!!w.pending||period==='evening';footer.append(wait);if(!w.preview)footer.append(b('返回故事／回顧',onStory));root.append(footer);
+  const status=e('p','village-status',message);status.setAttribute('role','status');root.append(status);renderTutorial();
+ }
+ function taskCard(t,context='local'){const w=life.state,done=!!w.completed[t.id],available=life.available(t),accepted=w.accepted.includes(t.id),isQuest=t.kind==='work',destination=config.locations.find(l=>l.id===t.location),card=e('article','village-task');card.append(e('h4','',`${t.title}${t.together?' · 雙人':''}`),e('p','',t.description),e('small','',`目的地：${destination.label} · 1 時段${t.coins?` · ${t.coins} 金幣${t.repairBonus?' + 修繕加給 '+t.repairBonus:''}`:''}${t.info?' · 情報':''} · ${t.slots.map(p=>PERIOD_LABELS[p]).join('／')}${t.repeatable?' · 每日一次':''}`));
+  const boardStory=t.id==='first-wages'&&w.delivery?.phase==='board-story';
+  let label=t.requiresCompleted&&!w.completed[t.requiresCompleted]?'完成《旅舍忙碌的一晚》後開放':boardStory?'閱讀委託故事':!life.freePlay&&t.id!=='first-wages'?'完成首份工錢後開放':!available?(done?'本日／本次已完成':'目前時段不開放'):isQuest&&!accepted?'接取委託':w.location!==t.location?'前往目的地':isQuest?'進行已接委託':'開始調查';
+  const btn=b(label,()=>{if(boardStory){quest.open();return;}if(isQuest&&!accepted){if(w.location===config.questBoard&&context==='board'){act(()=>life.accept(t.id));if(t.id==='first-wages'&&life.state.accepted.includes(t.id))quest.open();}else{tab='place';act(()=>life.visit(config.questBoard));}}else if(w.location!==t.location){tab='place';act(()=>life.visit(t.location));}else confirmAction(`開始「${t.title}」？完成或放棄會消耗一個時段；重試不額外耗時。`,()=>{act(()=>life.begin(t.id));if(life.state.pending)openChallenge();});},accepted||!isQuest?'village-primary':'');btn.dataset.task=t.id;btn.disabled=!!w.pending||!available;card.append(btn);return card;
+ }
+ function renderTutorial(){
+  const t=life.state.tutorial;if(t.status==='done'&&!t.celebrated){const bar=e('div','village-tutorial-bar');bar.append(e('strong','','完成第一次踩地圖！'),e('p','','你已經親自接取委託、前往目的地、完成挑戰並結算。現在可以自由安排早、午、晚；住宿、情報與存款目標可到「主線準備」查看。'),b('開始自由探索',()=>{life.state.tutorial.celebrated=true;save();render();},'village-primary'));root.insertBefore(bar,root.children[1]);return;}
+  if(t.status!=='active')return;
+  const training=config.tasks.find(t=>t.id===life.tutorialTask);
+  const steps=[['先選擇控制角色','選健太郎或奈津美。另一人的行動會在活動開始時決定。','.village-roles'],['去村中廣場','村中只有一個委託處。點地圖上嘅村中廣場，移動不耗時間。','[data-place="square"]'],['在委託處接任務',`接取「${training.title}」。先看目的地與報酬；接任務不耗時間。`,`[data-task="${training.id}"]`],['跟任務指示去菜圃','讀完公告板前的故事，前往莉妲的菜圃領貨。','[data-place="garden"]'],['開始已接委託','按「進行已接委託」，與莉妲交談後開始整理、運送。整條委託只用一個時段。',`[data-task="${training.id}"]`],['完成送貨，再回菜圃領錢','按活動面板繼續。運送到旅舍後先簽收，再回菜圃找莉妲。','.pending-resume,.quest-travel']];
+  let [title,text,selector]=steps[Math.min(t.step,5)];if(t.step===3&&life.state.delivery?.phase==='board-story'){title='先讀委託開始';text='點「閱讀委託故事」繼續，讀完後再前往莉妲的菜圃。';selector='[data-task="first-wages"]';}const bar=e('div','village-tutorial-bar');bar.append(e('small','',`實際操作教學 ${t.step+1} / 6`),e('strong','',title),e('p','',text),b('跳過教學',()=>act(()=>life.skipTutorial()),'tutorial-skip'));
+  root.insertBefore(bar,root.children[1]);root.querySelectorAll(selector).forEach(n=>n.classList.add('tutorial-focus'));
+  for(const btn of root.querySelectorAll('button'))if(!btn.closest('.tutorial-focus,.village-tutorial-bar,.village-tools'))btn.disabled=true;
+  if(!dialogue.open){const target=root.querySelector(selector);if(target)requestAnimationFrame(()=>{target.scrollIntoView({block:'nearest',inline:'nearest',behavior:'instant'});});}
+ }
+ function offerTutorial(){
+  dialogue.setAttribute('aria-label','踩地圖新手教程');dialogue.replaceChildren(e('small','','可隨時跳過 · 使用真實玩法，不額外扣時間'),e('h2','','一齊踩一次地圖？'),e('p','','跟住指示，親手試一次接任務、去目的地、完成挑戰同領報酬。唔需要先讀一大段說明。'),b('帶我試一次',()=>{dialogue.close();act(()=>life.startTutorial());},'village-primary'),b('跳過，我想自己探索',()=>{dialogue.close();act(()=>life.skipTutorial());}));dialogue.showModal();
+ }
+ function confirmAction(text,fn){dialogue.setAttribute('aria-label','確認安排');if(timer!==null)cancelAnimationFrame(timer);timer=null;dialogue.replaceChildren(e('h2','','確認安排'),e('p','',text),b('確定',()=>{dialogue.close();fn();}),b('取消',()=>dialogue.close()));dialogue.showModal();}
+ function confirmAbandon(){confirmAction(!life.freePlay&&life.state.pending?.task==='first-wages'?'重新嘗試新手委託？操作會重設，教學時段保留。':'結束目前活動？不領委託報酬，但本時段仍會過去，同伴行動亦會結算。',()=>act(()=>life.complete({success:false})));}
+ function openChallenge(){
+  if(!life.state.pending)return;if(config.tasks.find(t=>t.id===life.state.pending.task)?.activity==='inn-shift'){inn.open();return;}if(life.state.pending.task==='first-wages'){quest.open();return;}dialogue.setAttribute('aria-label','委託操作挑戰');returnFocus=document.activeElement;const t=config.tasks.find(t=>t.id===life.state.pending.task);dialogue.replaceChildren(e('small','','玩法試作 · 正式劇情佔位'),e('h2','',t.title));
+  const desc=e('p');desc.textContent=t.kind==='work'?'在指針進入金色區域時按下。成功三次完成；位置每輪改變，失誤可以繼續。':'本階段以調查確認測試情報流程；正式調查玩法會稍後加入。';dialogue.append(desc);
+  const intent=e('p','',`操作${names[life.state.controlled]} · ${names[life.companion]}：${{together:'與你同行',work:'外出工作',practice:'自行練習'}[life.state.pending.companion]}`);dialogue.append(intent);
+  if(t.kind!=='work'){dialogue.append(b('完成調查 · 取得佔位情報',()=>finish(),'village-primary'),b('稍後繼續',closeGame));dialogue.showModal();return;}
+  let hits=0,position=0,target=.3+Math.random()*.4,origin=performance.now(),lastPress=0;
+  const progress=e('p','',`成功 ${hits} / 3`),track=e('div','village-timing'),zone=e('div','timing-zone'),needle=e('div','timing-needle'),feedback=e('p','village-feedback','按鈕支援滑鼠、觸控及鍵盤。');feedback.setAttribute('role','status');track.setAttribute('aria-hidden','true');track.append(zone,needle);
+  const input=b('抓準時機',()=>{const now=performance.now();if(now-lastPress<180)return;lastPress=now;if(Math.abs(position-target)<.13){hits++;progress.textContent=`成功 ${hits} / 3`;feedback.textContent=hits<3?'成功，準備下一次。':'委託操作完成。';target=.2+Math.random()*.6;zone.style.left=`${(target-.12)*100}%`;if(hits===3){cancelAnimationFrame(timer);timer=null;input.disabled=true;dialogue.append(b('領取報酬並結束時段',finish,'village-primary'));}}else feedback.textContent='差一點，再試一次；不額外消耗時間。';},'village-primary timing-input');
+  input.onkeydown=ev=>{if(ev.repeat&&['Space','Enter'].includes(ev.code))ev.preventDefault();};
+  dialogue.append(progress,track,input,feedback,b('稍後繼續',closeGame));zone.style.left=`${(target-.12)*100}%`;const tick=now=>{position=(Math.sin((now-origin)/650)+1)/2;needle.style.left=`${position*100}%`;timer=requestAnimationFrame(tick);};timer=requestAnimationFrame(tick);dialogue.showModal();input.focus();
+ }
+ function finish(){if(timer!==null)cancelAnimationFrame(timer);timer=null;dialogue.close();act(()=>life.complete());}
+ return {root,resume:openChallenge,createInnPreview(actor,together){const w=createWorld(config,{preview:true});w.previewKind='inn';w.tutorial.status='skipped';w.completed['first-wages']=2;w.period=2;w.controlled=actor;w.accepted=['busy-inn-night'];const l=new VillageLife(config,w);l.begin('busy-inn-night');l.state.pending.companion=together?'together':'practice';l.state.innShift=createInn(actor,together,{seed:l.state.seed});return l.snapshot();},show(state){life=new VillageLife(config,state);root.hidden=false;tab='place';message='';render();if(life.state.tutorial.status==='offer')offerTutorial();},hide(){closeGame();root.hidden=true;},create(options){return createWorld(config,options);},get state(){return life?.snapshot();},get active(){return !root.hidden;}};
+}

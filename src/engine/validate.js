@@ -1,6 +1,8 @@
+import {validateWorld,validateWorldConfig} from '../world/world-engine.js';
 const plain = v => v && typeof v === 'object' && !Array.isArray(v);
 export function assert(ok, message) { if (!ok) throw new Error(message); }
 export function validateStory(story) {
+  if(story.world)validateWorldConfig(story.world);
   assert(story.id && story.revision && story.scenes[story.start], '故事起點不存在');
   if (story.titleBgm) assert(story.assets.bgm?.[story.titleBgm]?.src, `未知首頁音樂：${story.titleBgm}`);
   for(const cg of Object.values(story.assets.cg||{})){
@@ -60,6 +62,8 @@ export function validateFlags(flags) {
 }
 export function validateState(story, state) {
   assert(plain(state), '存檔格式錯誤');
+  if(state.world!==undefined){validateWorld(state.world,story.world);assert(!state.world.preview,'試玩進度不能寫入故事存檔');}
+  if(state.mode!==undefined)assert(['story','world'].includes(state.mode)&&(state.mode!=='world'||state.world),'無效遊戲模式');
   const scene = story.scenes[state.sceneId];
   assert(scene?.nodes.some(n => n.id === state.nodeId), '存檔段落已不存在，請使用相符的故事版本');
   validateFlags(state.flags);

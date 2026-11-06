@@ -1,0 +1,15 @@
+export const ROPE_POINTS=[{x:10,y:26},{x:41,y:18},{x:76,y:23},{x:89,y:70},{x:55,y:82},{x:18,y:74}];
+export class RopeSequence {
+ constructor(random=Math.random){this.random=random;this.model='rope-sequence';this.role='natsumi';this.points=structuredClone(ROPE_POINTS);this.phase='playing';this.round=1;this.rounds=3;this.progress=0;this.alignment=0;this.ready=false;this.elapsed=0;this.mistakes=0;this.feedback='';this.tracing=false;this.lastEntered=null;this.route=[];this.setupRoute();}
+ setupRoute(){const last=this.route.join(',');this.route=this.points.map((_,i)=>i);for(let i=this.route.length-1;i>0;i--){const j=Math.floor(this.random()*(i+1));[this.route[i],this.route[j]]=[this.route[j],this.route[i]];}if(this.route.join(',')===last)[this.route[0],this.route[1]]=[this.route[1],this.route[0]];this.connected=0;this.roundPause=.7;this.pulseActive=false;this.pulseRemaining=.35+this.random()*.3;this.tracing=false;this.lastEntered=null;this.progress=(this.round-1)/this.rounds;}
+ get nextRune(){return this.route[this.connected];}
+ get pulseOpen(){return this.roundPause<=0&&this.pulseActive&&!this.ready;}
+ get litRunes(){return this.route.slice(0,this.connected);}
+ resetSet(reason){this.mistakes++;this.setupRoute();this.feedback=`${reason}，當組重新排列；已完成的整組保留。`;}
+ update(dt){if(this.phase!=='playing'||this.ready)return;dt=Math.max(0,Math.min(dt,.05));this.elapsed+=dt;if(this.roundPause>0){this.roundPause=Math.max(0,this.roundPause-dt);return;}this.pulseRemaining-=dt;if(this.pulseRemaining<=0){if(this.pulseActive&&this.connected>0){this.resetSet('錯過下一個繩結的時機');return;}this.pulseActive=!this.pulseActive;this.pulseRemaining=this.pulseActive?1.05-(this.round-1)*.08+this.random()*.25:.3+this.random()*.35;}}
+ connect(index){if(this.phase!=='playing'||this.ready||this.roundPause>0||index===this.route[this.connected-1])return false;if(index!==this.nextRune){this.resetSet('繩結次序接錯了');return false;}if(!this.pulseOpen){this.resetSet('還沒拉緊就鬆開了');return false;}this.connected++;this.progress=((this.round-1)+this.connected/this.route.length)/this.rounds;this.feedback=`接好 ${this.connected} / ${this.route.length} 個繩結。`;if(this.connected===this.route.length){if(this.round===this.rounds){this.ready=true;this.progress=1;this.feedback='三組繩結都拉穩了。';}else{this.round++;this.setupRoute();this.feedback=`第 ${this.round-1} 組完成，下一組換一個次序。`;}}else{this.pulseActive=false;this.pulseRemaining=.3+this.random()*.3;}return true;}
+ beginTrace(x,y){if(this.ready)return false;const previous=this.points[this.route[Math.max(0,this.connected-1)]];this.tracing=Math.hypot(x-previous.x,y-previous.y)<12;this.lastEntered=this.route[Math.max(0,this.connected-1)];return this.tracing;}
+ trace(x,y){if(!this.tracing)return false;const index=this.points.findIndex(p=>Math.hypot(x-p.x,y-p.y)<10);if(index<0){this.lastEntered=null;return false;}if(index===this.lastEntered)return false;this.lastEntered=index;return this.connect(index);}
+ endTrace(){this.tracing=false;this.lastEntered=null;}
+ cast(){if(!this.ready||this.phase!=='playing')return false;this.phase='success';return true;}
+}

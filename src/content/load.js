@@ -6,7 +6,8 @@ export async function loadStory() {
     if (!response.ok) throw new Error(`無法載入內容：${path}`);
     return response.json();
   };
-  const [manifest, characters, assets] = await Promise.all(['manifest.json', 'characters.json', 'assets.json'].map(read));
+  const [manifest, characters, assets, world] = await Promise.all(['manifest.json', 'characters.json', 'assets.json', 'world.json'].map(read));
+  world.questStories={'first-wages':await read('quests/first-wages.json'),'busy-inn-night':await read('quests/busy-inn-night.json')};world.catalog=await read('quests/estrala-catalog.json');
   const chapters = await Promise.all(manifest.chapters.map(async c => {
     const chapter = { ...c, ...await read(c.file) };
     if (c.textFiles) applyScriptText(chapter, await Promise.all(c.textFiles.map(async path => {
@@ -16,7 +17,7 @@ export async function loadStory() {
     })));
     return chapter;
   }));
-  const story = { ...manifest, characters, assets, chapters, scenes: Object.fromEntries(chapters.flatMap(c => c.scenes.map(s => [s.id, { ...s, chapterId: c.id }]))) };
+  const story = { ...manifest, characters, assets, world, chapters, scenes: Object.fromEntries(chapters.flatMap(c => c.scenes.map(s => [s.id, { ...s, chapterId: c.id }]))) };
   validateStory(story);
   return story;
 }
