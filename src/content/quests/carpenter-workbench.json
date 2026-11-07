@@ -1,0 +1,2232 @@
+{
+  "id": "carpenter-workbench",
+  "title": "支線 04｜木匠的工作台",
+  "scenes": [
+    {
+      "id": "intro",
+      "title": "木匠工作坊",
+      "lines": [
+        {
+          "id": "carpenter-0002",
+          "speaker": null,
+          "text": "山田按照委託書上的地址，來到村子東側的一間木工作坊。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0003",
+          "speaker": null,
+          "text": "門口堆放著幾塊尚未加工的木料，從半開的窗戶可以看見裡面擺著鋸子、刨刀，以及各式各樣的工具。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0004",
+          "speaker": "kentaro",
+          "text": "「不好意思！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0005",
+          "speaker": null,
+          "text": "他站在門口，朝裡面喊了一聲。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0006",
+          "speaker": "kentaro",
+          "text": "「我是看了委託板過來的！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0007",
+          "speaker": null,
+          "text": "工作台後方傳來一道聲音。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0008",
+          "speaker": "karl",
+          "text": "「啊，來了！稍等一下！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0009",
+          "speaker": null,
+          "text": "不一會兒，一名年輕木匠從堆滿木屑的工作台旁站起來。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0010",
+          "speaker": "karl",
+          "text": "「你是來應徵助手的？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0011",
+          "speaker": "kentaro",
+          "text": "「嗯！我叫山田健太郎！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0012",
+          "speaker": "karl",
+          "text": "「我是卡爾。叫我卡爾就好。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0013",
+          "speaker": null,
+          "text": "卡爾接過委託書，看了看眼前這個穿著勇者服裝的金髮青年。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0014",
+          "speaker": "karl",
+          "text": "「告示上寫了最好有工具使用經驗，你以前做過類似的工作嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0015",
+          "speaker": "kentaro",
+          "text": "「我學過汽車維修！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0016",
+          "speaker": "karl",
+          "text": "「汽車？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0017",
+          "speaker": "kentaro",
+          "text": "「啊……就是一種靠機械運作的車子。我以前在專門學校學過引擎、傳動系統，還有各種零件的維修。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0018",
+          "speaker": "karl",
+          "text": "「哦——」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0019",
+          "speaker": null,
+          "text": "卡爾有些意外。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0020",
+          "speaker": "karl",
+          "text": "「雖然聽起來跟木工不太一樣，不過你應該很熟悉機械結構吧。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0021",
+          "speaker": "kentaro",
+          "text": "「嗯！但木工我就不太懂了。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0022",
+          "speaker": null,
+          "text": "山田笑著補充。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0023",
+          "speaker": "kentaro",
+          "text": "「所以如果有不會的地方，還要麻煩你教我！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0024",
+          "speaker": null,
+          "text": "卡爾笑了。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0025",
+          "speaker": "karl",
+          "text": "「哈哈，那倒沒問題。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0026",
+          "speaker": null,
+          "text": "他帶著山田走向工作台，指著一座尚未完成的折疊木架。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0027",
+          "speaker": "karl",
+          "text": "「就是這個。明天集市要用，本來已經做好了，但組裝起來才發現兩邊活動得不太順暢。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0028",
+          "speaker": null,
+          "text": "他試著展開木架。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0029",
+          "speaker": null,
+          "text": "咔。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0030",
+          "speaker": null,
+          "text": "木架才打開一半，便卡在原地。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0031",
+          "speaker": "karl",
+          "text": "「唉……就是這樣。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0032",
+          "speaker": null,
+          "text": "山田蹲到旁邊，仔細看了看。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0033",
+          "speaker": "kentaro",
+          "text": "「可以讓我試試嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0034",
+          "speaker": "karl",
+          "text": "「當然。我就是找人來幫忙的。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0035",
+          "speaker": "kentaro",
+          "text": "「好！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0036",
+          "speaker": null,
+          "text": "山田沒有急著拆開零件，而是先慢慢展開其中一側的支腳。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0037",
+          "speaker": null,
+          "text": "很順暢。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0038",
+          "speaker": null,
+          "text": "接著，他試著活動另一側。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0039",
+          "speaker": null,
+          "text": "也沒有問題。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0040",
+          "speaker": null,
+          "text": "可是當兩邊同時展開，木架卻再次卡在相同的位置。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0041",
+          "speaker": "kentaro",
+          "text": "「咦？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0042",
+          "speaker": null,
+          "text": "山田停下動作。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0043",
+          "speaker": "kentaro",
+          "text": "「卡爾，這裡單獨活動的時候明明沒問題耶。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0044",
+          "speaker": "karl",
+          "text": "「對啊，所以我才覺得奇怪。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0045",
+          "speaker": "kentaro",
+          "text": "「可是兩邊一起動就會卡住……」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0046",
+          "speaker": null,
+          "text": "山田低下頭，從另一個角度觀察木架底部。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0047",
+          "speaker": "kentaro",
+          "text": "「會不會不是這裡壞了，而是其他地方把它拉住了？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0048",
+          "speaker": null,
+          "text": "卡爾愣了一下。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0049",
+          "speaker": "karl",
+          "text": "「其他地方？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0050",
+          "speaker": null,
+          "text": "他也蹲下來，順著山田指著的方向看去。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0051",
+          "speaker": "karl",
+          "text": "「……啊，原來如此。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0052",
+          "speaker": null,
+          "text": "卡爾重新檢查了支撐桿，隨後拿起工作台上的備用木料。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0053",
+          "speaker": "karl",
+          "text": "「你這個想法不錯。不過木頭和金屬不一樣，不能隨便調整接合處。要是受力方向不對，反而容易裂開。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0054",
+          "speaker": "kentaro",
+          "text": "「哦——！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0055",
+          "speaker": null,
+          "text": "山田湊近一些。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0056",
+          "speaker": "kentaro",
+          "text": "「所以不能只讓它動得順暢，還要考慮展開之後能不能撐住？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0057",
+          "speaker": "karl",
+          "text": "「沒錯。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0058",
+          "speaker": null,
+          "text": "卡爾把兩塊木料擺在桌上。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0059",
+          "speaker": "karl",
+          "text": "「來，我教你一個方法。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0060",
+          "speaker": null,
+          "text": "山田立即點頭。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0061",
+          "speaker": "kentaro",
+          "text": "「好！請多多指教！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        }
+      ]
+    },
+    {
+      "id": "aftermath",
+      "title": "木架修好了",
+      "lines": [
+        {
+          "id": "carpenter-0062",
+          "speaker": null,
+          "text": "山田將它收起，又重新打開。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0063",
+          "speaker": "kentaro",
+          "text": "「哦！成功了！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0064",
+          "speaker": "karl",
+          "text": "「真的啊……」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0065",
+          "speaker": null,
+          "text": "卡爾蹲下來，仔細檢查每一處接合。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0066",
+          "speaker": "karl",
+          "text": "「沒問題。這樣應該能趕上明天的集市了。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0067",
+          "speaker": "kentaro",
+          "text": "「太好了！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0068",
+          "speaker": null,
+          "text": "山田高興地拍了拍手。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0069",
+          "speaker": null,
+          "text": "卡爾也露出了笑容。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0070",
+          "speaker": "karl",
+          "text": "「不過你剛才那個觀察方法還挺有意思的。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0071",
+          "speaker": null,
+          "text": "他指向其中一個活動關節。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0072",
+          "speaker": "karl",
+          "text": "「以前我遇到這種問題，總習慣先檢查卡住的位置。今天才發現，有時候真正出問題的地方根本不在那裡。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0073",
+          "speaker": null,
+          "text": "山田笑了笑。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0074",
+          "speaker": "kentaro",
+          "text": "「我在學校實習的時候，老師也經常叫我們不要只看表面上的故障。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0075",
+          "speaker": "karl",
+          "text": "「哈哈，看來我也該多學學。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0076",
+          "speaker": "kentaro",
+          "text": "「可是我也學到了很多啊！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0077",
+          "speaker": null,
+          "text": "山田拿起剛才調整過的木料。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0078",
+          "speaker": "kentaro",
+          "text": "「尤其是這個！如果只有我自己修，說不定就直接把卡住的地方削掉了。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0079",
+          "speaker": "karl",
+          "text": "「那可就麻煩了。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0080",
+          "speaker": "kentaro",
+          "text": "「對啊！所以木工真的很厲害耶。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0081",
+          "speaker": null,
+          "text": "卡爾笑著搖搖頭。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0082",
+          "speaker": "karl",
+          "text": "「你這傢伙，倒是挺喜歡研究這些東西。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0083",
+          "speaker": "kentaro",
+          "text": "「嗯！因為很好玩嘛。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0084",
+          "speaker": null,
+          "text": "山田又試著活動了一下木架，才戀戀不捨地放下。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0085",
+          "speaker": null,
+          "text": "卡爾將完成的木架移到牆邊，卻又望向工作台上另外幾件尚未完成的東西。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0086",
+          "speaker": "karl",
+          "text": "「……接下來還有多恩先生的架子、莉妲的手推車，還有村口那戶人家的窗框。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0087",
+          "speaker": null,
+          "text": "他拿起訂單，翻了幾頁。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0088",
+          "speaker": "karl",
+          "text": "「糟糕，這個也是答應明天要送的。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0089",
+          "speaker": null,
+          "text": "山田看著他。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0090",
+          "speaker": null,
+          "text": "剛才明明還很高興的。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0091",
+          "speaker": null,
+          "text": "他說不上來為什麼，只覺得卡爾看見那些訂單之後，整個人又變得沉甸甸的。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0092",
+          "speaker": "kentaro",
+          "text": "「卡爾。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0093",
+          "speaker": "karl",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0094",
+          "speaker": "kentaro",
+          "text": "「你今天吃飯了嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0095",
+          "speaker": "karl",
+          "text": "「啊？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0096",
+          "speaker": null,
+          "text": "卡爾抬起頭，似乎完全沒料到他會問這個。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0097",
+          "speaker": "karl",
+          "text": "「午飯？早就過了吧。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0098",
+          "speaker": "kentaro",
+          "text": "「所以還沒吃？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0099",
+          "speaker": "karl",
+          "text": "「嗯……早上忙著做這個，想說做完再吃，結果一直弄到現在。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0100",
+          "speaker": "kentaro",
+          "text": "「欸——！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0101",
+          "speaker": null,
+          "text": "山田睜大了眼睛。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0102",
+          "speaker": "kentaro",
+          "text": "「那不是很餓嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0103",
+          "speaker": "karl",
+          "text": "「還好啦，習慣了。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0104",
+          "speaker": "kentaro",
+          "text": "「不會吧！我現在就很餓了耶。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0105",
+          "speaker": null,
+          "text": "卡爾忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0106",
+          "speaker": "karl",
+          "text": "「你剛才不是還說吃過午飯嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0107",
+          "speaker": "kentaro",
+          "text": "「可是已經過了很久啊！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0108",
+          "speaker": null,
+          "text": "山田說得理所當然，又看了看桌上那些零件。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0109",
+          "speaker": "kentaro",
+          "text": "「而且你今天一直在做這個吧？不累嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0110",
+          "speaker": "karl",
+          "text": "「累是累，不過……」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0111",
+          "speaker": null,
+          "text": "卡爾拿起一張訂單。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0112",
+          "speaker": "karl",
+          "text": "「都答應人家了，總不能讓人失望。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0113",
+          "speaker": null,
+          "text": "山田歪了歪頭。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0114",
+          "speaker": "kentaro",
+          "text": "「可是，你不是已經很努力了嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0115",
+          "speaker": "karl",
+          "text": "「努力歸努力，做不出來還不是一樣。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0116",
+          "speaker": "kentaro",
+          "text": "「嗯……」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0117",
+          "speaker": null,
+          "text": "山田想了想。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0118",
+          "speaker": "kentaro",
+          "text": "「那你有跟他們說可能要晚一點嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0119",
+          "speaker": "karl",
+          "text": "「沒有。這種事情怎麼好意思說？人家都是相信我才來委託的。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0120",
+          "speaker": "kentaro",
+          "text": "「咦？可是如果我送東西來修，你告訴我要多等兩天，我不會生氣啊。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0121",
+          "speaker": null,
+          "text": "卡爾苦笑。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0122",
+          "speaker": "karl",
+          "text": "「不是每個人都像你這樣。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0123",
+          "speaker": "kentaro",
+          "text": "「是嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0124",
+          "speaker": null,
+          "text": "山田眨了眨眼。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0125",
+          "speaker": "kentaro",
+          "text": "「可能吧。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0126",
+          "speaker": null,
+          "text": "他沒有繼續爭辯，反而拿起桌上已經完成的木架，仔細看了看。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0127",
+          "speaker": "kentaro",
+          "text": "「不過這個做得真的很好耶。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0128",
+          "speaker": "karl",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0129",
+          "speaker": "kentaro",
+          "text": "「你看，這裡調整之後，兩邊都很順暢。這個接合方式我以前都沒見過。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0130",
+          "speaker": null,
+          "text": "山田興致勃勃地又展開一次。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0131",
+          "speaker": "kentaro",
+          "text": "「卡爾，你真的很厲害啊！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0132",
+          "speaker": "karl",
+          "text": "「哈哈，哪有那麼誇張。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0133",
+          "speaker": "kentaro",
+          "text": "「真的啦！我都想再跟你學多一點。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0134",
+          "speaker": null,
+          "text": "卡爾望著他，笑容比剛才自然了一些。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0135",
+          "speaker": "karl",
+          "text": "「……你這傢伙還真是奇怪。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0136",
+          "speaker": "kentaro",
+          "text": "「咦？哪裡奇怪？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0137",
+          "speaker": "karl",
+          "text": "「明明才認識沒多久，就跑來幫忙。還對別人的工作這麼有興趣。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0138",
+          "speaker": "kentaro",
+          "text": "「因為很好玩啊！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0139",
+          "speaker": null,
+          "text": "山田回答得毫不猶豫。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0140",
+          "speaker": null,
+          "text": "卡爾笑著搖搖頭。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0141",
+          "speaker": "karl",
+          "text": "「你就不怕我覺得你多管閒事？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0142",
+          "speaker": "kentaro",
+          "text": "「啊？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0143",
+          "speaker": null,
+          "text": "山田愣了一下。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0144",
+          "speaker": "kentaro",
+          "text": "「你覺得嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0145",
+          "speaker": "karl",
+          "text": "「……倒也不是。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0146",
+          "speaker": "kentaro",
+          "text": "「那就好啊！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0147",
+          "speaker": null,
+          "text": "他笑了起來。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0148",
+          "speaker": "kentaro",
+          "text": "「而且如果你不想讓我碰，我就不碰嘛。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0149",
+          "speaker": null,
+          "text": "卡爾看著他，一時不知道該說什麼。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0150",
+          "speaker": null,
+          "text": "山田卻已經望向門口。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0151",
+          "speaker": "kentaro",
+          "text": "「啊，對了！村裡這個時間還有賣麵包嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0152",
+          "speaker": "karl",
+          "text": "「應該有吧。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0153",
+          "speaker": "kentaro",
+          "text": "「那你要不要先去買點吃的？」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0154",
+          "speaker": "karl",
+          "text": "「可是這些訂單……」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0155",
+          "speaker": "kentaro",
+          "text": "「等吃完再做啊。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0156",
+          "speaker": "karl",
+          "text": "「你說得倒輕鬆。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0157",
+          "speaker": "kentaro",
+          "text": "「因為肚子餓的時候，什麼都很難做嘛！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0158",
+          "speaker": null,
+          "text": "卡爾終於笑出了聲。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0159",
+          "speaker": "karl",
+          "text": "「哈哈哈！你這傢伙！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0160",
+          "speaker": null,
+          "text": "他將手上的訂單放回桌面，站起身伸了個懶腰。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0161",
+          "speaker": "karl",
+          "text": "「好吧。反正也忙了一整天，先吃點東西再說。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0162",
+          "speaker": "kentaro",
+          "text": "「好耶！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0163",
+          "speaker": null,
+          "text": "山田高興地跟著站起來。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0164",
+          "speaker": null,
+          "text": "走到門口時，卡爾忽然回頭，看了一眼工作台上那堆尚未完成的委託。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0165",
+          "speaker": "karl",
+          "text": "「……或許明天真的該去跟莉妲說一聲，手推車還得再等兩天。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0166",
+          "speaker": "kentaro",
+          "text": "「嗯！」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0167",
+          "speaker": null,
+          "text": "山田點點頭。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0168",
+          "speaker": "karl",
+          "text": "「她應該會抱怨吧。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0169",
+          "speaker": "kentaro",
+          "text": "「哈哈，肯定會。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0170",
+          "speaker": "kentaro",
+          "text": "「不過莉妲人很好耶。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0171",
+          "speaker": "karl",
+          "text": "「是啊。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0172",
+          "speaker": null,
+          "text": "卡爾笑了笑。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0173",
+          "speaker": "karl",
+          "text": "「我知道。」",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0174",
+          "speaker": null,
+          "text": "兩人一起走出工作坊。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        },
+        {
+          "id": "carpenter-0175",
+          "speaker": null,
+          "text": "午後的陽光落在木屑遍地的門檻上。工作台上仍有不少尚未完成的東西，但卡爾這次沒有再回頭拿起工具。",
+          "background": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png"
+        }
+      ]
+    },
+    {
+      "id": "bakery",
+      "title": "麵包店前",
+      "lines": [
+        {
+          "id": "carpenter-0177",
+          "speaker": null,
+          "text": "村裡的麵包店還開著。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0178",
+          "speaker": null,
+          "text": "卡爾買了兩個麵包，原本想分一個給山田作為幫忙的謝禮，山田卻已經拿著錢走到櫃檯前。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0179",
+          "speaker": "kentaro",
+          "text": "「那我也買一個！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0180",
+          "speaker": "karl",
+          "text": "「喂，我正打算請你吃呢。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0181",
+          "speaker": "kentaro",
+          "text": "「咦？真的嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0182",
+          "speaker": "karl",
+          "text": "「當然。今天多虧你幫忙，總得謝謝你吧。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0183",
+          "speaker": "kentaro",
+          "text": "「欸——那太好了！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0184",
+          "speaker": null,
+          "text": "山田高興地收回錢，又望向櫃檯。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0185",
+          "speaker": "kentaro",
+          "text": "「啊，不過我想多買一個。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0186",
+          "speaker": "karl",
+          "text": "「怎麼，還不夠？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0187",
+          "speaker": "kentaro",
+          "text": "「不是啦，想帶回去給奈津美。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0188",
+          "speaker": null,
+          "text": "卡爾把麵包遞給他。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0189",
+          "speaker": "karl",
+          "text": "「奈津美？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0190",
+          "speaker": "kentaro",
+          "text": "「嗯，我女朋友！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0191",
+          "speaker": "karl",
+          "text": "「哦——」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0192",
+          "speaker": null,
+          "text": "卡爾笑著看了他一眼。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0193",
+          "speaker": "karl",
+          "text": "「原來如此。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0194",
+          "speaker": null,
+          "text": "兩人坐在店外的長椅上。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0195",
+          "speaker": null,
+          "text": "卡爾咬了一口麵包，總算有了些精神。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0196",
+          "speaker": "karl",
+          "text": "「說起來，你剛才提到的自動車，是用什麼東西驅動的？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0197",
+          "speaker": "kentaro",
+          "text": "「啊，這個啊……」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0198",
+          "speaker": null,
+          "text": "山田立即來了興致。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0199",
+          "speaker": "kentaro",
+          "text": "「種類有很多！不過我之前學的主要是引擎和各種機械系統……」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0200",
+          "speaker": null,
+          "text": "他拿起旁邊的小樹枝，在地上簡單畫出幾個零件。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0201",
+          "speaker": null,
+          "text": "卡爾看得很專注。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0202",
+          "speaker": "karl",
+          "text": "「所以這個會自己轉動？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0203",
+          "speaker": "kentaro",
+          "text": "「嗯！只要有動力，就可以讓這裡帶著其他零件一起運作。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0204",
+          "speaker": "karl",
+          "text": "「有意思……」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0205",
+          "speaker": null,
+          "text": "卡爾拿起樹枝，在旁邊畫了另一個結構。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0206",
+          "speaker": "karl",
+          "text": "「那跟水車帶動磨坊的道理有點像啊。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0207",
+          "speaker": "kentaro",
+          "text": "「對對！就是那樣！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0208",
+          "speaker": null,
+          "text": "兩人越聊越起勁。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0209",
+          "speaker": null,
+          "text": "等麵包吃得差不多，卡爾才忽然想起什麼。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0210",
+          "speaker": "karl",
+          "text": "「對了，健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0211",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0212",
+          "speaker": "karl",
+          "text": "「你明天有空嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0213",
+          "speaker": "kentaro",
+          "text": "「怎麼了？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0214",
+          "speaker": "karl",
+          "text": "「如果你有興趣，可以再來工作坊看看。今天那種結構只是其中一種，我這裡還有些更複雜的東西。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0215",
+          "speaker": null,
+          "text": "山田眼睛一亮。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0216",
+          "speaker": "kentaro",
+          "text": "「真的可以嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0217",
+          "speaker": "karl",
+          "text": "「當然。你對機關挺有想法的，而且願意認真學。我也想看看你還知道些什麼。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0218",
+          "speaker": "kentaro",
+          "text": "「好啊！我也想再學多一點！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0219",
+          "speaker": null,
+          "text": "卡爾笑著伸出手。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0220",
+          "speaker": "karl",
+          "text": "「那就說好了。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0221",
+          "speaker": null,
+          "text": "山田握住他的手。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0222",
+          "speaker": "kentaro",
+          "text": "「請多多指教！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0223",
+          "speaker": null,
+          "text": "卡爾看著眼前這個金髮青年。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0224",
+          "speaker": null,
+          "text": "他直到現在還是覺得有些不可思議。對方似乎從來沒想過，自己主動幫忙會不會顯得多管閒事，也不會因為被人稱讚便故作謙虛。高興的時候就高興，覺得厲害便直接說厲害。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0225",
+          "speaker": null,
+          "text": "可是當自己累得連吃飯都忘記時，最先注意到的，偏偏也是他。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0226",
+          "speaker": null,
+          "text": "卡爾搖了搖頭，笑著將最後一口麵包吃完。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0227",
+          "speaker": "karl",
+          "text": "「好啦，差不多該回去了。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0228",
+          "speaker": "kentaro",
+          "text": "「嗯！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0229",
+          "speaker": null,
+          "text": "山田站起來，拿好替西買的麵包。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0230",
+          "speaker": "kentaro",
+          "text": "「那我明天再來！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0231",
+          "speaker": "karl",
+          "text": "「好，路上小心。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0232",
+          "speaker": "kentaro",
+          "text": "「你也是！記得不要又忘記吃飯喔！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0233",
+          "speaker": null,
+          "text": "卡爾忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0234",
+          "speaker": "karl",
+          "text": "「知道啦！」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0235",
+          "speaker": null,
+          "text": "山田朝他揮了揮手，沿著村裡的石板路走遠。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        },
+        {
+          "id": "carpenter-0236",
+          "speaker": null,
+          "text": "卡爾望著他的背影，過了一會兒，才慢慢往工作坊的方向走去。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png"
+        }
+      ]
+    },
+    {
+      "id": "night",
+      "title": "旅舍・夜晚",
+      "lines": [
+        {
+          "id": "carpenter-0243",
+          "speaker": null,
+          "text": "山田回到房間時，西正坐在桌前，將幾張紙按照大小排好。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0244",
+          "speaker": "kentaro",
+          "text": "「奈津美，我回來了！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0245",
+          "speaker": "natsumi",
+          "text": "「啊，健太郎。歡迎回來。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0246",
+          "speaker": null,
+          "text": "山田笑著走過去，從袋子裡拿出一個麵包。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0247",
+          "speaker": "kentaro",
+          "text": "「鏘鏘！給妳的！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0248",
+          "speaker": "natsumi",
+          "text": "「咦？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0249",
+          "speaker": null,
+          "text": "西抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0250",
+          "speaker": "natsumi",
+          "text": "「麵包？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0251",
+          "speaker": "kentaro",
+          "text": "「嗯！今天有人請我吃，覺得很好吃，就又買了一個。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0252",
+          "speaker": "natsumi",
+          "text": "「真的？謝謝！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0253",
+          "speaker": null,
+          "text": "西接過麵包，發現還帶著一點溫度。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0254",
+          "speaker": "natsumi",
+          "text": "「你今天去了哪裡？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0255",
+          "speaker": "kentaro",
+          "text": "「卡爾的工作坊！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0256",
+          "speaker": "natsumi",
+          "text": "「卡爾先生？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0257",
+          "speaker": "kentaro",
+          "text": "「嗯！我今天幫他修了一個超有意思的東西！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0258",
+          "speaker": null,
+          "text": "山田拉開她旁邊的椅子，從衣袋裡取出一張折起來的紙。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0259",
+          "speaker": "kentaro",
+          "text": "「妳看這個！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0260",
+          "speaker": null,
+          "text": "紙上畫著一座折疊木架，旁邊還標著幾個活動關節。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0261",
+          "speaker": null,
+          "text": "西湊近看了看。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0262",
+          "speaker": "natsumi",
+          "text": "「……這是什麼？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0263",
+          "speaker": "kentaro",
+          "text": "「集市用的展示架。本來打不開，後來我們發現是支撐桿的角度有問題。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0264",
+          "speaker": null,
+          "text": "他拿起桌上的兩支筆，試著模擬木架展開的動作。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0265",
+          "speaker": "kentaro",
+          "text": "「妳看，如果只有這邊動，就沒問題。可是兩邊一起動的時候——」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0266",
+          "speaker": null,
+          "text": "兩支筆在半空中撞到一起。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0267",
+          "speaker": "natsumi",
+          "text": "「啊，卡住了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0268",
+          "speaker": "kentaro",
+          "text": "「對！就是這樣！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0269",
+          "speaker": null,
+          "text": "山田將其中一支筆稍微移開。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0270",
+          "speaker": "kentaro",
+          "text": "「可是如果只把卡住的地方削掉，木架就可能撐不住重量。所以卡爾教我怎樣調整支撐的方向。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0271",
+          "speaker": null,
+          "text": "西看著他重新示範。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0272",
+          "speaker": "natsumi",
+          "text": "「哦……所以真正有問題的，不一定是最開始卡住的地方？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0273",
+          "speaker": "kentaro",
+          "text": "「對！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0274",
+          "speaker": null,
+          "text": "山田露出開心的表情。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0275",
+          "speaker": "kentaro",
+          "text": "「是不是很有意思？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0276",
+          "speaker": "natsumi",
+          "text": "「嗯。感覺跟解謎有點像。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0277",
+          "speaker": "kentaro",
+          "text": "「就是啊！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0278",
+          "speaker": null,
+          "text": "他將兩支筆放回桌上。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0279",
+          "speaker": "kentaro",
+          "text": "「而且木頭真的跟汽車零件很不一樣。以前我都沒想過這些。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0280",
+          "speaker": null,
+          "text": "西望著那張畫滿箭頭的紙。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0281",
+          "speaker": "natsumi",
+          "text": "「你看起來很開心呢。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0282",
+          "speaker": "kentaro",
+          "text": "「因為真的很好玩嘛。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0283",
+          "speaker": null,
+          "text": "山田笑著說完，又忽然想起什麼。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0284",
+          "speaker": "kentaro",
+          "text": "「啊，對了！卡爾還說下次可以再去幫忙。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0285",
+          "speaker": "natsumi",
+          "text": "「那很好啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0286",
+          "speaker": "kentaro",
+          "text": "「嗯！如果再學多一點，說不定之後遇到其他壞掉的東西，也能自己修。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0287",
+          "speaker": null,
+          "text": "西想了想，拿起放在旁邊的法杖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0288",
+          "speaker": "natsumi",
+          "text": "「那以後如果我的魔杖壞掉，也可以找你嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0289",
+          "speaker": null,
+          "text": "山田低頭看向她手裡的法杖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0290",
+          "speaker": "kentaro",
+          "text": "「唔……」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0291",
+          "speaker": null,
+          "text": "他很認真地觀察了一會兒。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0292",
+          "speaker": "kentaro",
+          "text": "「這個可能要先研究一下。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0293",
+          "speaker": "natsumi",
+          "text": "「欸，不能直接修嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0294",
+          "speaker": "kentaro",
+          "text": "「因為它會用魔法耶！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0295",
+          "speaker": null,
+          "text": "西忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0296",
+          "speaker": "natsumi",
+          "text": "「也是。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0297",
+          "speaker": "kentaro",
+          "text": "「不過，真的壞掉的話，我會想辦法的！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0298",
+          "speaker": "natsumi",
+          "text": "「嗯，那就拜託你了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0299",
+          "speaker": null,
+          "text": "山田點點頭，又拿起自己的圖紙。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0300",
+          "speaker": "kentaro",
+          "text": "「啊，還有一個很好玩的地方——」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0301",
+          "speaker": "natsumi",
+          "text": "「等一下。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0302",
+          "speaker": null,
+          "text": "西伸手輕輕按住那張紙。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0303",
+          "speaker": "natsumi",
+          "text": "「先讓我吃一口麵包啦。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0304",
+          "speaker": "kentaro",
+          "text": "「啊！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0305",
+          "speaker": null,
+          "text": "山田這才想起自己剛才帶回來的東西。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0306",
+          "speaker": "kentaro",
+          "text": "「對喔！妳快吃吃看！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0307",
+          "speaker": null,
+          "text": "西咬了一口。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0308",
+          "speaker": null,
+          "text": "外皮有點酥，裡面卻很柔軟，還帶著淡淡的奶油香氣。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0309",
+          "speaker": "natsumi",
+          "text": "「嗯，好吃。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0310",
+          "speaker": "kentaro",
+          "text": "「對吧！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0311",
+          "speaker": null,
+          "text": "山田高興地看著她。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0312",
+          "speaker": null,
+          "text": "西又咬了一口，才發現他一直望著自己。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0313",
+          "speaker": "natsumi",
+          "text": "「……健太郎，你想吃嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0314",
+          "speaker": "kentaro",
+          "text": "「咦？可以嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0315",
+          "speaker": "natsumi",
+          "text": "「你不是已經吃過了？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0316",
+          "speaker": "kentaro",
+          "text": "「可是看妳吃，又想吃了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0317",
+          "speaker": "natsumi",
+          "text": "「真是的。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0318",
+          "speaker": null,
+          "text": "西笑著將麵包掰成兩半，把其中一半遞給他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0319",
+          "speaker": null,
+          "text": "山田接過來。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0320",
+          "speaker": "kentaro",
+          "text": "「謝謝！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0321",
+          "speaker": null,
+          "text": "兩人一邊吃，一邊繼續看那張奇奇怪怪的結構圖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0322",
+          "speaker": null,
+          "text": "過了一會兒，西忽然問：",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0323",
+          "speaker": "natsumi",
+          "text": "「對了，卡爾先生是怎樣的人？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0324",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0325",
+          "speaker": null,
+          "text": "山田想了想。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0326",
+          "speaker": "kentaro",
+          "text": "「很厲害啊！做木工超熟練的，還教了我很多東西。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0327",
+          "speaker": "natsumi",
+          "text": "「嗯，然後呢？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0328",
+          "speaker": "kentaro",
+          "text": "「唔……工作好多。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0329",
+          "speaker": "natsumi",
+          "text": "「工作很多？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0330",
+          "speaker": "kentaro",
+          "text": "「對啊。做完一個，又有另一個，好像一直做不完。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0331",
+          "speaker": null,
+          "text": "山田咬了一口麵包。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0332",
+          "speaker": "kentaro",
+          "text": "「而且他今天連午飯都沒吃。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0333",
+          "speaker": "natsumi",
+          "text": "「咦？那不是很辛苦嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0334",
+          "speaker": "kentaro",
+          "text": "「對啊！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0335",
+          "speaker": null,
+          "text": "他點點頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0336",
+          "speaker": "kentaro",
+          "text": "「所以我們後來一起去買麵包了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0337",
+          "speaker": null,
+          "text": "西望著他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0338",
+          "speaker": "natsumi",
+          "text": "「原來你們還一起吃了東西。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0339",
+          "speaker": "kentaro",
+          "text": "「嗯！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0340",
+          "speaker": "natsumi",
+          "text": "「那你們相處得很好呢。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0341",
+          "speaker": "kentaro",
+          "text": "「應該吧！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0342",
+          "speaker": null,
+          "text": "山田笑了笑。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0343",
+          "speaker": "kentaro",
+          "text": "「我覺得卡爾人很好，還說下次可以再去。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0344",
+          "speaker": null,
+          "text": "西低頭看向那張畫滿筆記的紙。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0345",
+          "speaker": null,
+          "text": "她大概能夠想像，健太郎是怎樣在第一次見面的工作坊裡，興致勃勃地同對方研究了一整個下午。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0346",
+          "speaker": null,
+          "text": "想到這裡，她忽然有點想笑。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0347",
+          "speaker": "kentaro",
+          "text": "「怎麼了？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0348",
+          "speaker": null,
+          "text": "山田注意到她的表情。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0349",
+          "speaker": "natsumi",
+          "text": "「沒有啦。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0350",
+          "speaker": "kentaro",
+          "text": "「咦？妳在笑什麼？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0351",
+          "speaker": "natsumi",
+          "text": "「只是覺得，很像健太郎會做的事情。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0352",
+          "speaker": "kentaro",
+          "text": "「什麼意思？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0353",
+          "speaker": null,
+          "text": "西想了想。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0354",
+          "speaker": "natsumi",
+          "text": "「就是……看到有興趣的東西，就很自然地跑過去。然後不知不覺就跟人家變熟了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0355",
+          "speaker": "kentaro",
+          "text": "「有嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0356",
+          "speaker": "natsumi",
+          "text": "「有啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0357",
+          "speaker": null,
+          "text": "山田眨了眨眼，隨後笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0358",
+          "speaker": "kentaro",
+          "text": "「可是今天真的很好玩嘛。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0359",
+          "speaker": "natsumi",
+          "text": "「嗯，我知道。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0360",
+          "speaker": null,
+          "text": "西將剩下的麵包吃完，伸手重新拿起那張圖紙。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0361",
+          "speaker": "natsumi",
+          "text": "「好了，現在可以繼續了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0362",
+          "speaker": "kentaro",
+          "text": "「真的？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0363",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0364",
+          "speaker": "kentaro",
+          "text": "「那我從頭講一次！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0365",
+          "speaker": "natsumi",
+          "text": "「咦？全部嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0366",
+          "speaker": "kentaro",
+          "text": "「對！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0367",
+          "speaker": null,
+          "text": "西望著他閃閃發亮的眼睛，忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0368",
+          "speaker": "natsumi",
+          "text": "「……好啦。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0369",
+          "speaker": null,
+          "text": "山田立刻將椅子移近一些，把圖紙攤平。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0370",
+          "speaker": "kentaro",
+          "text": "「妳看，首先這裡有兩個關節——」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0371",
+          "speaker": null,
+          "text": "窗外的夜色漸漸深了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0372",
+          "speaker": null,
+          "text": "房間裡只亮著桌上的一盞燈，照著兩人的肩膀，以及那張畫滿箭頭、塗改痕跡和零件形狀的紙。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0373",
+          "speaker": null,
+          "text": "西安靜地聽著，偶爾問上一兩句。山田則越講越起勁，說到不清楚的地方，還會重新拿起筆來補畫。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0374",
+          "speaker": null,
+          "text": "明明只是村裡一件普通的維修工作。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "carpenter-0375",
+          "speaker": null,
+          "text": "可是看著他那麼高興的模樣，西也漸漸覺得，今天似乎真的是個很不錯的日子。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        }
+      ]
+    }
+  ]
+}

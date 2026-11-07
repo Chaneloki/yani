@@ -207,6 +207,21 @@
       "label": "旅舍大廳 · 日間暖光",
       "theme": "evening",
       "src": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp"
+    },
+    "north-broken-bridge": {
+      "label": "埃斯特拉北路 · 斷橋河谷",
+      "theme": "fantasy",
+      "src": "./assets/backgrounds/bg-estrala-north-broken-bridge-day.png"
+    },
+    "estrala-plaza-music-dusk": {
+      "label": "埃斯特拉廣場 · 傍晚樂聲",
+      "theme": "fantasy",
+      "src": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png"
+    },
+    "estrala-mill-hill-blue-hour": {
+      "label": "舊磨坊後山坡 · 村莊燈火",
+      "theme": "fantasy",
+      "src": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png"
     }
   },
   "cg": {
@@ -418,6 +433,188 @@
             "offset": 1
           }
         ]
+      }
+    },
+    "secret-tobi-reunion": {
+      "label": "米拉眼中的托比",
+      "src": "./assets/cg/cg-secret-tobi-reunion-user.png",
+      "type": "image",
+      "cameraSequence": {
+        "duration": 14000,
+        "desktop": [
+          {
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%",
+            "offset": 0
+          },
+          {
+            "scale": 1.025,
+            "position": "50% 40%",
+            "origin": "50% 40%",
+            "offset": 1
+          }
+        ],
+        "mobile": [
+          {
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%",
+            "offset": 0
+          },
+          {
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%",
+            "offset": 1
+          }
+        ],
+        "mobileFit": "framed"
+      }
+    },
+    "secret-mira-reunion": {
+      "label": "托比眼中的米拉",
+      "src": "./assets/cg/cg-secret-mira-reunion-user.png",
+      "type": "image",
+      "cameraSequence": {
+        "duration": 14000,
+        "desktop": [
+          {
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%",
+            "offset": 0
+          },
+          {
+            "scale": 1.025,
+            "position": "50% 40%",
+            "origin": "50% 40%",
+            "offset": 1
+          }
+        ],
+        "mobile": [
+          {
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%",
+            "offset": 0
+          },
+          {
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%",
+            "offset": 1
+          }
+        ],
+        "mobileFit": "framed"
+      }
+    },
+    "separate-days-plaza-dance": {
+      "label": "各自的一天 · 廣場共舞",
+      "src": "./assets/cg/cg-separate-days-plaza-dance.png",
+      "cameraSequence": {
+        "duration": 18000,
+        "desktop": [
+          {
+            "offset": 0,
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          },
+          {
+            "offset": 1,
+            "scale": 1.025,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          }
+        ],
+        "mobile": [
+          {
+            "offset": 0,
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          },
+          {
+            "offset": 1,
+            "scale": 1.025,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          }
+        ],
+        "mobileFit": "framed"
+      }
+    },
+    "separate-days-natsumi-twirl": {
+      "label": "各自的一天 · 西 · 轉圈後的笑容",
+      "src": "./assets/cg/cg-separate-days-natsumi-twirl.png",
+      "cameraSequence": {
+        "duration": 18000,
+        "desktop": [
+          {
+            "offset": 0,
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          },
+          {
+            "offset": 1,
+            "scale": 1.025,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          }
+        ],
+        "mobile": [
+          {
+            "offset": 0,
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          },
+          {
+            "offset": 1,
+            "scale": 1.025,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          }
+        ],
+        "mobileFit": "framed"
+      }
+    },
+    "separate-days-kentaro-smile": {
+      "label": "各自的一天 · 山田 · 共舞時的回望",
+      "src": "./assets/cg/cg-separate-days-kentaro-smile.png",
+      "cameraSequence": {
+        "duration": 18000,
+        "desktop": [
+          {
+            "offset": 0,
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          },
+          {
+            "offset": 1,
+            "scale": 1.025,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          }
+        ],
+        "mobile": [
+          {
+            "offset": 0,
+            "scale": 1,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          },
+          {
+            "offset": 1,
+            "scale": 1.025,
+            "position": "50% 40%",
+            "origin": "50% 40%"
+          }
+        ],
+        "mobileFit": "framed"
       }
     }
   },

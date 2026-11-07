@@ -1,0 +1,4334 @@
+{
+  "id": "keep-the-promise",
+  "title": "支線 05｜說好了要保密",
+  "variants": {
+    "kentaro": {
+      "well": [
+        {
+          "id": "secret-0007",
+          "text": "村莊的委託板上，多了一張字跡歪歪斜斜的紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0008",
+          "text": "尋物委託",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0009",
+          "text": "我有一個很重要的盒子不見了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0010",
+          "text": "是藍色的，蓋子有一顆星星。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0011",
+          "text": "找到的人請來水井旁邊找托比。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0012",
+          "text": "一定要保密！！！",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0013",
+          "text": "報酬：一顆很漂亮的玻璃珠。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0014",
+          "text": "委託人：托比",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0016",
+          "text": "托比正坐在井邊，用樹枝在地上畫著什麼。一見有人拿著委託書走近，他立刻跳了起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0017",
+          "text": "「你是來幫我找盒子的嗎？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0018",
+          "text": "得到肯定答覆後，他又緊張地四處張望。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0019",
+          "text": "「先說好，這件事絕對不能告訴米拉！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0020",
+          "text": "「為什麼？」",
+          "speaker": "$actor",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0021",
+          "text": "「因為……因為那是秘密！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0022",
+          "text": "托比說得理直氣壯，接著從衣袋裡取出一張皺巴巴的紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0023",
+          "text": "上面畫著一條河、三座高山，還有一個像城堡的東西。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0024",
+          "text": "「這是盒子最後出現的地方。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0025",
+          "text": "玩家看著地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0026",
+          "text": "「……這是村子？」",
+          "speaker": "$actor",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0027",
+          "text": "「當然！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0028",
+          "text": "托比指著其中一個符號。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0029",
+          "text": "「這裡是巨龍山脈，這裡是銀色大河，然後這個就是國王的城堡！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0030",
+          "text": "可是埃斯特拉村似乎沒有這些地方。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0031",
+          "text": "「我們自己取的名字啦。」托比補充，「米拉說，冒險地圖就應該要有很厲害的地名。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0032",
+          "text": "他說到米拉時，語氣稍微低了下去。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0033",
+          "text": "「總之，你幫我找到盒子就好了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        }
+      ],
+      "encounter": [
+        {
+          "id": "secret-0038",
+          "text": "在尋找盒子的途中，玩家會遇到米拉。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0039",
+          "text": "她看見托比的地圖，立刻認出那張紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0040",
+          "text": "「那不是我們畫的嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0041",
+          "text": "托比慌忙將地圖藏到身後。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0042",
+          "text": "「才、才不是！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0043",
+          "text": "「明明就是！那個城堡還是我畫的！」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0044",
+          "text": "「反正不是妳的！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0045",
+          "text": "米拉皺起眉。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0046",
+          "text": "「……隨便你。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0047",
+          "text": "她轉身跑開。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0048",
+          "text": "托比望著她的背影，原本還想說些什麼，最後卻只是低下頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0049",
+          "text": "「……她最近都這樣。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "found": [
+        {
+          "id": "secret-0128",
+          "text": "最後，玩家按照地圖上的標記，在舊磨坊附近找到那個小藍盒。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0129",
+          "text": "盒子原本被藏在木屋旁的花盆後面，後來有人整理雜物，將花盆搬到另一邊，它便跟著被移走了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0130",
+          "text": "托比一見到盒子，立刻跑過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0131",
+          "text": "「找到了！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0132",
+          "text": "他小心翼翼地打開盒蓋。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0133",
+          "text": "裡面沒有金幣，也沒有寶石，只有一疊折得整整齊齊的紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0134",
+          "text": "最上面那張，是他和米拉一起畫的冒險地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0135",
+          "text": "而在地圖尚未完成的地方，托比偷偷添了一條長長的道路，從埃斯特拉村一直延伸到紙張的另一端。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0136",
+          "text": "「這是……？」",
+          "speaker": "$actor",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0137",
+          "text": "托比紅著臉，將盒子抱在懷裡。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0138",
+          "text": "「我本來想在她走之前，把剩下的路畫好送給她。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0139",
+          "text": "「……」",
+          "speaker": "$actor",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0140",
+          "text": "「可是畫到一半就不見了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0141",
+          "text": "他低下頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0142",
+          "text": "「而且我們又吵架了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0143",
+          "text": "過了一會兒，托比忽然問：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0144",
+          "text": "「你覺得，她還會想要嗎？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0146",
+          "text": "最終，托比決定親自去找米拉。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "reconcile": [
+        {
+          "id": "secret-0148",
+          "text": "米拉正在村口整理幾個小石子，見到托比走近，便停下動作。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0149",
+          "text": "「……幹嘛？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0150",
+          "text": "托比把藍盒子遞出去。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0151",
+          "text": "「這個。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0152",
+          "text": "「什麼啊？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0153",
+          "text": "「妳打開看看嘛。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0154",
+          "text": "米拉半信半疑地打開盒蓋。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0155",
+          "text": "看見裡面的地圖時，她愣住了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0156",
+          "text": "「……你不是說不想畫了嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0157",
+          "text": "「我那時候是亂講的啦。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0158",
+          "text": "托比抓了抓頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0159",
+          "text": "「我本來想把它畫完再給妳，可是盒子不見了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0160",
+          "text": "米拉慢慢展開那張地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0161",
+          "text": "「這條路是什麼？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0162",
+          "text": "「去妳阿姨家的路。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0163",
+          "text": "「可是你根本不知道她家在哪裡吧。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0164",
+          "text": "「所以我亂畫的啊！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0165",
+          "text": "「什麼嘛！」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0166",
+          "text": "米拉忍不住笑了一下，卻又很快低下頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0167",
+          "text": "「……你之前說，反正我都要走了。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0168",
+          "text": "「對不起。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0169",
+          "text": "托比望著她。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0170",
+          "text": "「我只是……不想妳走。」",
+          "speaker": "tobi",
+          "background": "./assets/cg/cg-secret-tobi-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0171",
+          "text": "米拉握著地圖，安靜了好一會兒。",
+          "speaker": null,
+          "background": "./assets/cg/cg-secret-tobi-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0172",
+          "text": "「我也不是不想跟你玩啊。」",
+          "speaker": "mira",
+          "background": "./assets/cg/cg-secret-tobi-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0173",
+          "text": "「我知道。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0174",
+          "text": "「而且我又不是不回來了。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0175",
+          "text": "「……嗯。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0176",
+          "text": "米拉將地圖重新折好。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0177",
+          "text": "「不過這張還沒畫完吧？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0178",
+          "text": "托比抬起頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0179",
+          "text": "「咦？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0180",
+          "text": "「海啊。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0181",
+          "text": "她指著地圖最遠處的空白。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0182",
+          "text": "「你不是說要畫一片很大的海嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0183",
+          "text": "「可是妳要走了……」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0184",
+          "text": "「那等我回來再畫啊。」",
+          "speaker": "mira",
+          "background": "./assets/cg/cg-secret-mira-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0185",
+          "text": "托比望著她。",
+          "speaker": null,
+          "background": "./assets/cg/cg-secret-mira-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0186",
+          "text": "「真的？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0187",
+          "text": "「嗯。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0188",
+          "text": "米拉想了想，又補充：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0189",
+          "text": "「而且我去了那邊，也可以畫新的地圖帶回來。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0190",
+          "text": "托比的眼睛一下子亮了起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0191",
+          "text": "「那我們就有兩張地圖了！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0192",
+          "text": "「對啊！」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0193",
+          "text": "兩個孩子重新蹲到地上，開始討論地圖上應該再加什麼。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0194",
+          "text": "他們還有很多事情沒說清楚，也不可能因為一個盒子就立刻變得什麼都不介意。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0195",
+          "text": "但是至少現在，托比終於願意告訴米拉自己其實很捨不得她，而米拉也知道了，原來那句令她難過的話，並不是托比真正的心意。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0196",
+          "text": "玩家沒有打擾他們。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0197",
+          "text": "在離開前，托比突然追了過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0198",
+          "text": "「等一下！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0199",
+          "text": "他從衣袋裡取出一顆藍色的玻璃珠。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0200",
+          "text": "「這是報酬！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0201",
+          "text": "他將玻璃珠交到玩家手裡。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0202",
+          "text": "「還有，謝謝你幫我保守秘密。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0203",
+          "text": "說完，他又急急忙忙跑回米拉身旁。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        }
+      ],
+      "route": [
+        {
+          "id": "secret-0053",
+          "text": "「托比。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0054",
+          "text": "「幹嘛？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0055",
+          "text": "「你跟米拉吵架了？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0056",
+          "text": "「才沒有！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0057",
+          "text": "山田望著他，沒有立即接話。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0058",
+          "text": "剛才托比明明還很有精神，一看見米拉走開，卻連聲音都小了下來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0059",
+          "text": "「可是你看起來很不開心耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0060",
+          "text": "「……我哪有。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0061",
+          "text": "「是嗎？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0062",
+          "text": "山田蹲下來，指著地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0063",
+          "text": "「這張圖畫得很好啊。你們不是很喜歡一起畫地圖嗎？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0064",
+          "text": "「以前是啦。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0065",
+          "text": "「以前？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0066",
+          "text": "托比用鞋尖踢了踢地上的小石子。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0067",
+          "text": "「米拉下個月就要去她阿姨那裡住了。她說可能要過好幾個月才回來。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0068",
+          "text": "「哦……」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0069",
+          "text": "「我們明明說好要一起把地圖畫完的。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0070",
+          "text": "山田看著他。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0071",
+          "text": "「所以你很想她留下來？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0072",
+          "text": "「……嗯。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0073",
+          "text": "托比的聲音小得幾乎聽不見。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0074",
+          "text": "山田想了想。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0075",
+          "text": "「那你有跟她說嗎？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0076",
+          "text": "「沒有。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0077",
+          "text": "「為什麼？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0078",
+          "text": "「因為她好像很期待去那邊啊！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0079",
+          "text": "山田望著托比，忽然有點明白。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0080",
+          "text": "「啊……原來是這樣。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0081",
+          "text": "托比抬起頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0082",
+          "text": "「你懂什麼啦。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0083",
+          "text": "「不知道耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0084",
+          "text": "山田回答得很坦率。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0085",
+          "text": "「不過如果是我的話，有人跟我說不想我走，我應該會很高興。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0086",
+          "text": "「……真的？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0087",
+          "text": "「嗯！因為那代表他很喜歡跟我待在一起嘛。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0088",
+          "text": "托比望著地圖，沒有說話。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0089",
+          "text": "山田也沒有催促，只是重新站起身。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0090",
+          "text": "「好！先把盒子找回來吧！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0091",
+          "text": "「……嗯！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "night": [
+        {
+          "id": "secret-0206",
+          "text": "山田將今天的事情告訴西，說到托比畫了一條根本不知道通往哪裡的路時，自己先笑了起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0207",
+          "text": "「那個真的很好笑！他連米拉阿姨家在哪裡都不知道耶！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0208",
+          "text": "西也忍不住笑了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0209",
+          "text": "「可是他還是畫了。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0210",
+          "text": "「對啊。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0211",
+          "text": "山田將那顆玻璃珠放在桌上。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0212",
+          "text": "「不過，最後他們說要等米拉回來再一起畫。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0213",
+          "text": "西望著那顆在燈光下閃閃發亮的珠子。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0214",
+          "text": "「那很好啊。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0215",
+          "text": "「嗯！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0216",
+          "text": "山田看了一眼兩人自己的地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0217",
+          "text": "「奈津美，我們這張也還有好多地方沒畫耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0218",
+          "text": "「是啊。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0219",
+          "text": "「以後一定會越畫越大吧！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0220",
+          "text": "西望著那張還有大片空白的紙，輕輕點頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0221",
+          "text": "「嗯，希望如此。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        }
+      ]
+    },
+    "natsumi": {
+      "well": [
+        {
+          "id": "secret-0007",
+          "text": "村莊的委託板上，多了一張字跡歪歪斜斜的紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0008",
+          "text": "尋物委託",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0009",
+          "text": "我有一個很重要的盒子不見了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0010",
+          "text": "是藍色的，蓋子有一顆星星。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0011",
+          "text": "找到的人請來水井旁邊找托比。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0012",
+          "text": "一定要保密！！！",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0013",
+          "text": "報酬：一顆很漂亮的玻璃珠。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0014",
+          "text": "委託人：托比",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0016",
+          "text": "托比正坐在井邊，用樹枝在地上畫著什麼。一見有人拿著委託書走近，他立刻跳了起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0017",
+          "text": "「你是來幫我找盒子的嗎？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0018",
+          "text": "得到肯定答覆後，他又緊張地四處張望。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0019",
+          "text": "「先說好，這件事絕對不能告訴米拉！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0020",
+          "text": "「為什麼？」",
+          "speaker": "$actor",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0021",
+          "text": "「因為……因為那是秘密！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0022",
+          "text": "托比說得理直氣壯，接著從衣袋裡取出一張皺巴巴的紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0023",
+          "text": "上面畫著一條河、三座高山，還有一個像城堡的東西。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0024",
+          "text": "「這是盒子最後出現的地方。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0025",
+          "text": "玩家看著地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0026",
+          "text": "「……這是村子？」",
+          "speaker": "$actor",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0027",
+          "text": "「當然！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0028",
+          "text": "托比指著其中一個符號。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0029",
+          "text": "「這裡是巨龍山脈，這裡是銀色大河，然後這個就是國王的城堡！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0030",
+          "text": "可是埃斯特拉村似乎沒有這些地方。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0031",
+          "text": "「我們自己取的名字啦。」托比補充，「米拉說，冒險地圖就應該要有很厲害的地名。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0032",
+          "text": "他說到米拉時，語氣稍微低了下去。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0033",
+          "text": "「總之，你幫我找到盒子就好了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        }
+      ],
+      "encounter": [
+        {
+          "id": "secret-0038",
+          "text": "在尋找盒子的途中，玩家會遇到米拉。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0039",
+          "text": "她看見托比的地圖，立刻認出那張紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0040",
+          "text": "「那不是我們畫的嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0041",
+          "text": "托比慌忙將地圖藏到身後。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0042",
+          "text": "「才、才不是！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0043",
+          "text": "「明明就是！那個城堡還是我畫的！」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0044",
+          "text": "「反正不是妳的！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0045",
+          "text": "米拉皺起眉。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0046",
+          "text": "「……隨便你。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0047",
+          "text": "她轉身跑開。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0048",
+          "text": "托比望著她的背影，原本還想說些什麼，最後卻只是低下頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0049",
+          "text": "「……她最近都這樣。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "found": [
+        {
+          "id": "secret-0128",
+          "text": "最後，玩家按照地圖上的標記，在舊磨坊附近找到那個小藍盒。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0129",
+          "text": "盒子原本被藏在木屋旁的花盆後面，後來有人整理雜物，將花盆搬到另一邊，它便跟著被移走了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0130",
+          "text": "托比一見到盒子，立刻跑過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0131",
+          "text": "「找到了！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0132",
+          "text": "他小心翼翼地打開盒蓋。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0133",
+          "text": "裡面沒有金幣，也沒有寶石，只有一疊折得整整齊齊的紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0134",
+          "text": "最上面那張，是他和米拉一起畫的冒險地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0135",
+          "text": "而在地圖尚未完成的地方，托比偷偷添了一條長長的道路，從埃斯特拉村一直延伸到紙張的另一端。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0136",
+          "text": "「這是……？」",
+          "speaker": "$actor",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0137",
+          "text": "托比紅著臉，將盒子抱在懷裡。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0138",
+          "text": "「我本來想在她走之前，把剩下的路畫好送給她。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0139",
+          "text": "「……」",
+          "speaker": "$actor",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0140",
+          "text": "「可是畫到一半就不見了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0141",
+          "text": "他低下頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0142",
+          "text": "「而且我們又吵架了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0143",
+          "text": "過了一會兒，托比忽然問：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0144",
+          "text": "「你覺得，她還會想要嗎？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0146",
+          "text": "最終，托比決定親自去找米拉。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "reconcile": [
+        {
+          "id": "secret-0148",
+          "text": "米拉正在村口整理幾個小石子，見到托比走近，便停下動作。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0149",
+          "text": "「……幹嘛？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0150",
+          "text": "托比把藍盒子遞出去。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0151",
+          "text": "「這個。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0152",
+          "text": "「什麼啊？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0153",
+          "text": "「妳打開看看嘛。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0154",
+          "text": "米拉半信半疑地打開盒蓋。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0155",
+          "text": "看見裡面的地圖時，她愣住了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0156",
+          "text": "「……你不是說不想畫了嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0157",
+          "text": "「我那時候是亂講的啦。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0158",
+          "text": "托比抓了抓頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0159",
+          "text": "「我本來想把它畫完再給妳，可是盒子不見了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0160",
+          "text": "米拉慢慢展開那張地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0161",
+          "text": "「這條路是什麼？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0162",
+          "text": "「去妳阿姨家的路。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0163",
+          "text": "「可是你根本不知道她家在哪裡吧。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0164",
+          "text": "「所以我亂畫的啊！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0165",
+          "text": "「什麼嘛！」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0166",
+          "text": "米拉忍不住笑了一下，卻又很快低下頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0167",
+          "text": "「……你之前說，反正我都要走了。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0168",
+          "text": "「對不起。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0169",
+          "text": "托比望著她。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0170",
+          "text": "「我只是……不想妳走。」",
+          "speaker": "tobi",
+          "background": "./assets/cg/cg-secret-tobi-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0171",
+          "text": "米拉握著地圖，安靜了好一會兒。",
+          "speaker": null,
+          "background": "./assets/cg/cg-secret-tobi-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0172",
+          "text": "「我也不是不想跟你玩啊。」",
+          "speaker": "mira",
+          "background": "./assets/cg/cg-secret-tobi-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0173",
+          "text": "「我知道。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0174",
+          "text": "「而且我又不是不回來了。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0175",
+          "text": "「……嗯。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0176",
+          "text": "米拉將地圖重新折好。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0177",
+          "text": "「不過這張還沒畫完吧？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0178",
+          "text": "托比抬起頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0179",
+          "text": "「咦？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0180",
+          "text": "「海啊。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0181",
+          "text": "她指著地圖最遠處的空白。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0182",
+          "text": "「你不是說要畫一片很大的海嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0183",
+          "text": "「可是妳要走了……」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0184",
+          "text": "「那等我回來再畫啊。」",
+          "speaker": "mira",
+          "background": "./assets/cg/cg-secret-mira-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0185",
+          "text": "托比望著她。",
+          "speaker": null,
+          "background": "./assets/cg/cg-secret-mira-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0186",
+          "text": "「真的？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0187",
+          "text": "「嗯。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0188",
+          "text": "米拉想了想，又補充：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0189",
+          "text": "「而且我去了那邊，也可以畫新的地圖帶回來。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0190",
+          "text": "托比的眼睛一下子亮了起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0191",
+          "text": "「那我們就有兩張地圖了！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0192",
+          "text": "「對啊！」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0193",
+          "text": "兩個孩子重新蹲到地上，開始討論地圖上應該再加什麼。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0194",
+          "text": "他們還有很多事情沒說清楚，也不可能因為一個盒子就立刻變得什麼都不介意。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0195",
+          "text": "但是至少現在，托比終於願意告訴米拉自己其實很捨不得她，而米拉也知道了，原來那句令她難過的話，並不是托比真正的心意。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0196",
+          "text": "玩家沒有打擾他們。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0197",
+          "text": "在離開前，托比突然追了過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0198",
+          "text": "「等一下！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0199",
+          "text": "他從衣袋裡取出一顆藍色的玻璃珠。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0200",
+          "text": "「這是報酬！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0201",
+          "text": "他將玻璃珠交到玩家手裡。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0202",
+          "text": "「還有，謝謝你幫我保守秘密。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0203",
+          "text": "說完，他又急急忙忙跑回米拉身旁。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        }
+      ],
+      "route": [
+        {
+          "id": "secret-0093",
+          "text": "西看著托比藏在身後的地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0094",
+          "text": "「這張圖是你跟米拉一起畫的吧？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0095",
+          "text": "「……嗯。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0096",
+          "text": "「那她剛才為什麼說隨便你？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0097",
+          "text": "托比低頭用腳尖磨著地上的泥土。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0098",
+          "text": "「因為我們吵架了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0099",
+          "text": "西沒有立即追問。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0100",
+          "text": "過了一會兒，托比自己開口：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0101",
+          "text": "「她下個月要去阿姨家住。可是我們明明說好，要一起把地圖畫完的。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0102",
+          "text": "「原來如此。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0103",
+          "text": "「而且她看起來很高興，一直在說那邊有什麼好玩的地方。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0104",
+          "text": "托比抿起嘴。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0105",
+          "text": "「所以我就說，反正妳都要走了，還畫什麼地圖。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0106",
+          "text": "西安靜了一會兒。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0107",
+          "text": "「……可是你其實還想跟她一起畫，對吧？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0108",
+          "text": "托比點點頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0109",
+          "text": "「嗯。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0110",
+          "text": "他將地圖攤開，指著最遠處一個尚未完成的空白。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0111",
+          "text": "「這裡本來要畫海的。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0112",
+          "text": "西看著那塊空白。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0113",
+          "text": "「你們真的畫了很多地方呢。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0114",
+          "text": "「因為米拉說，要是地圖夠大，就算去很遠的地方，也能找到回來的路。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0115",
+          "text": "西的手微微停了一下。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0116",
+          "text": "她想起自己和健太郎放在旅舍桌上的地圖。那上面同樣有很多尚未走過的地方，也有一個他們很想回去、卻不知道怎樣抵達的家。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0117",
+          "text": "「……我也正在跟一個很重要的人一起畫地圖。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0118",
+          "text": "「真的？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0119",
+          "text": "「嗯。我們也有很多地方還沒畫完。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0120",
+          "text": "托比抬頭望著她。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0121",
+          "text": "「那妳們會一直畫下去嗎？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0122",
+          "text": "西想了想。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0123",
+          "text": "「我希望會。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0124",
+          "text": "她將地圖還給他。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0125",
+          "text": "「不過，這張圖是你跟米拉一起畫的。要不要繼續畫，還是應該由你們兩個自己決定吧。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0126",
+          "text": "托比望著手中的紙，輕輕點了點頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "night": [
+        {
+          "id": "secret-0223",
+          "text": "西將今天兩個孩子的事情告訴山田。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0224",
+          "text": "聽到托比偷偷畫了一條通往米拉阿姨家的路時，山田忍不住笑了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0225",
+          "text": "「什麼嘛！那傢伙明明很喜歡米拉啊！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0226",
+          "text": "「是啊。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0227",
+          "text": "西將那顆玻璃珠放到桌上。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0228",
+          "text": "「不過他自己好像一直不知道要怎麼說。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0229",
+          "text": "山田拿起玻璃珠，對著燈光看了一會兒。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0230",
+          "text": "「哦，好漂亮！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0231",
+          "text": "「那是托比給我的報酬。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0232",
+          "text": "「欸——！真好！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0233",
+          "text": "西看著他興致勃勃的模樣，笑了笑。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0234",
+          "text": "「健太郎。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0235",
+          "text": "「嗯？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0236",
+          "text": "「你覺得我們的地圖，最後會畫到哪裡呢？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0237",
+          "text": "山田低頭看著兩人一起畫的紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0238",
+          "text": "「不知道耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0239",
+          "text": "他想了想，笑著說：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0240",
+          "text": "「不過，現在還有好多地方可以去。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0241",
+          "text": "西望著那些尚未確認的道路。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0242",
+          "text": "「……也是。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0243",
+          "text": "她將玻璃珠放在地圖的一角，輕輕壓住捲起的紙邊。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0244",
+          "text": "至少現在，這張地圖仍然在繼續延伸。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        }
+      ]
+    },
+    "together": {
+      "well": [
+        {
+          "id": "secret-0256",
+          "text": "「奈津美，妳看這個！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0257",
+          "text": "山田站在委託板前，指著一張貼得歪歪斜斜的紙。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0258",
+          "text": "西湊近看了一眼。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0259",
+          "text": "上面用歪歪扭扭的字寫著：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0260",
+          "text": "「尋找藍色盒子。蓋子有星星。非常重要。一定要保密！報酬是一顆很漂亮的玻璃珠。」",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0261",
+          "text": "「……玻璃珠？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0262",
+          "text": "「感覺是小朋友寫的耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0263",
+          "text": "山田笑著看向她。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0264",
+          "text": "「要不要去看看？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0265",
+          "text": "「嗯。反正我們下午還有一點時間。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0266",
+          "text": "兩人接下委託，按照紙上的地址來到村莊中央的水井。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0267",
+          "text": "一個男孩正蹲在水井旁，用樹枝在地上畫著什麼。看見兩人走近，他立刻站了起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0268",
+          "text": "「你們是來幫我找盒子的嗎？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0269",
+          "text": "「對啊！我是健太郎，這是奈津美。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0270",
+          "text": "「你好。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0271",
+          "text": "「我叫托比！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0272",
+          "text": "托比興奮地跑近幾步，隨即又緊張地朝四周張望。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0273",
+          "text": "「先說好，這件事絕對不能告訴米拉！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0274",
+          "text": "山田眨了眨眼。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0275",
+          "text": "「米拉是誰？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0276",
+          "text": "「……是我朋友。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0277",
+          "text": "「哦！那為什麼不能告訴她？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0278",
+          "text": "「因為是秘密啦！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0279",
+          "text": "托比說完，從衣袋裡取出一張皺巴巴的地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0280",
+          "text": "「盒子最後就是在這附近不見的。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0281",
+          "text": "西接過地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0282",
+          "text": "上面畫著三座高山、一條彎彎曲曲的大河，還有一座屋頂尖尖的城堡。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0283",
+          "text": "她看了一會兒。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0284",
+          "text": "「……這是埃斯特拉村嗎？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0285",
+          "text": "「當然！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0286",
+          "text": "托比指著上面的圖案。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0287",
+          "text": "「這裡是巨龍山脈，這裡是銀色大河，最後是國王的城堡！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0288",
+          "text": "「欸——！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0289",
+          "text": "山田湊過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0290",
+          "text": "「村裡原來有巨龍山脈嗎？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0291",
+          "text": "「有啊！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0292",
+          "text": "「在哪裡？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0293",
+          "text": "「就那邊！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0294",
+          "text": "托比指向村莊西側。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0295",
+          "text": "山田望過去。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0296",
+          "text": "那裡只有幾塊大石頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0297",
+          "text": "「……哦！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0298",
+          "text": "他忽然笑了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0299",
+          "text": "「原來如此！那幾塊石頭啊！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0300",
+          "text": "「怎樣？很像山吧！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0301",
+          "text": "「很像耶！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0302",
+          "text": "西看著興致勃勃的兩個人，不由得笑了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0303",
+          "text": "她低頭再看了一眼地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0304",
+          "text": "「這是你自己畫的嗎？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0305",
+          "text": "「……跟米拉一起畫的。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0306",
+          "text": "「原來是這樣。畫得很仔細呢。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0307",
+          "text": "托比似乎有點高興，卻又很快板起臉。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0308",
+          "text": "「總之，你們一定要保密！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0309",
+          "text": "山田舉起手。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0310",
+          "text": "「好！約好了！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0311",
+          "text": "西也點頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0312",
+          "text": "「不過，如果找到盒子，要不要告訴米拉，還是由你自己決定，好嗎？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0313",
+          "text": "「嗯！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0314",
+          "text": "托比將地圖交給他們。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        },
+        {
+          "id": "secret-0315",
+          "text": "「那就拜託你們了！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp"
+        }
+      ],
+      "rocks": [
+        {
+          "id": "secret-0320",
+          "text": "兩人首先來到村莊西側。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0321",
+          "text": "山田站在三塊大石頭前，仰頭看了一會兒。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0322",
+          "text": "「奈津美，這個真的有點像耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0323",
+          "text": "「像什麼？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0324",
+          "text": "「龍的背！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0325",
+          "text": "西順著他指的方向看去。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0326",
+          "text": "三塊石頭高低不一，最上面那塊還有一個尖尖的凸起。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0327",
+          "text": "「啊……真的。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0328",
+          "text": "她低頭比對地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0329",
+          "text": "「而且這裡還畫了一棵樹。應該就是這附近。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0330",
+          "text": "「好！第一個地方找到了！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0331",
+          "text": "山田伸出手，西自然地和他擊了個掌。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "canal": [
+        {
+          "id": "secret-0332",
+          "text": "接著，兩人沿著灌溉水渠尋找地圖上的銀色大河。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0333",
+          "text": "「這條河也太小了吧。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0334",
+          "text": "西望著腳邊的水渠。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0335",
+          "text": "「哈哈，可是對小朋友來說應該很大吧！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0336",
+          "text": "山田蹲下來，將手掌放在水渠上方比了比。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0337",
+          "text": "「如果我們只有這麼高，這裡就很寬了耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0338",
+          "text": "「……還真是。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0339",
+          "text": "西忍不住笑了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0340",
+          "text": "「那這裡應該就是銀色大河。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "encounter": [
+        {
+          "id": "secret-0341",
+          "text": "兩人沿著水渠往舊磨坊走去。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0342",
+          "text": "途中，山田忽然停下腳步。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0343",
+          "text": "「咦？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0344",
+          "text": "「怎麼了？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0345",
+          "text": "「那個女孩是不是一直在看我們？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0346",
+          "text": "西抬起頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0347",
+          "text": "不遠處，一個女孩正站在石牆旁邊，望著山田手中的地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0348",
+          "text": "見兩人注意到自己，她便走了過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0349",
+          "text": "「那張圖……」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0350",
+          "text": "女孩皺起眉。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0351",
+          "text": "「是托比給你們的嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0352",
+          "text": "山田看了一眼西。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0353",
+          "text": "「啊……」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0354",
+          "text": "西想起剛才答應托比的事情。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0355",
+          "text": "「我們正在幫人找東西。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0356",
+          "text": "女孩卻已經認出了地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0357",
+          "text": "「那個城堡是我畫的。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0358",
+          "text": "她指著地圖上的尖塔。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0359",
+          "text": "「還有那條河。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0360",
+          "text": "山田恍然大悟。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0361",
+          "text": "「啊！妳就是米拉！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0362",
+          "text": "「……嗯。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0363",
+          "text": "米拉望著那張圖，神情有些複雜。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0364",
+          "text": "「托比不是說不要了嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0365",
+          "text": "西輕輕問道：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0366",
+          "text": "「你們吵架了？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0367",
+          "text": "米拉低下頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0368",
+          "text": "「才沒有。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0369",
+          "text": "她說完，又小聲補了一句。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0370",
+          "text": "「……是他先說不想跟我畫了。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0371",
+          "text": "山田望著她。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0372",
+          "text": "「可是這張地圖畫得很好耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0373",
+          "text": "米拉抬起頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0374",
+          "text": "「那當然！我們畫了好久！」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0375",
+          "text": "「對啊，所以不繼續畫很可惜吧。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0376",
+          "text": "米拉張了張嘴，最後卻沒有回答。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0377",
+          "text": "她看了看那張地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0378",
+          "text": "「……隨便他啦。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0379",
+          "text": "說完，便轉身走了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0380",
+          "text": "山田望著她的背影。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0381",
+          "text": "「……她好像很難過耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0382",
+          "text": "西點了點頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0383",
+          "text": "「嗯。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0384",
+          "text": "她看向手中的地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0385",
+          "text": "「不過，既然托比說要保密，我們還是先找到盒子吧。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0386",
+          "text": "「嗯！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0387",
+          "text": "山田重新打起精神。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0388",
+          "text": "「走吧！還有國王的城堡！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "found": [
+        {
+          "id": "secret-0390",
+          "text": "最後，兩人來到舊磨坊旁的小木屋。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0391",
+          "text": "山田繞著木屋看了一圈。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0392",
+          "text": "「這裡應該就是城堡吧？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0393",
+          "text": "「嗯。地圖上的屋頂和窗戶都對得上。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0394",
+          "text": "西蹲下來，看著木屋旁邊的花盆。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0395",
+          "text": "「健太郎，你看這裡。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0396",
+          "text": "「嗯？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0397",
+          "text": "「這個位置好像有移動過的痕跡。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0398",
+          "text": "山田走過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0399",
+          "text": "「啊，真的耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0400",
+          "text": "他輕輕將旁邊的花盆移開。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0401",
+          "text": "一個小小的藍色盒子露了出來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0402",
+          "text": "盒蓋上畫著一顆黃色的星星。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0403",
+          "text": "「找到了！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0404",
+          "text": "山田高興地拿起盒子。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0405",
+          "text": "西也鬆了一口氣。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0406",
+          "text": "「太好了。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0407",
+          "text": "兩人將盒子帶回水井旁。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0408",
+          "text": "托比一看見它，立刻跑了過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0409",
+          "text": "「我的盒子！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0410",
+          "text": "他小心翼翼地打開盒蓋。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0411",
+          "text": "裡面放著一疊折得整整齊齊的紙，其中最上面那張，正是他和米拉一起畫的冒險地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0412",
+          "text": "不過這張地圖多了一條長長的道路，從埃斯特拉村一直延伸到紙張的另一端。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0413",
+          "text": "「哦？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0414",
+          "text": "山田彎下腰。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0415",
+          "text": "「這條路我們剛才那張沒有耶！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0416",
+          "text": "托比連忙將地圖拿近自己。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0417",
+          "text": "「這、這是我後來畫的！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0418",
+          "text": "西望著他。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0419",
+          "text": "「是想送給米拉的嗎？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0420",
+          "text": "托比抬起頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0421",
+          "text": "「妳怎麼知道？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0422",
+          "text": "「因為你說要保密，而且剛才米拉看起來很在意這張地圖。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0423",
+          "text": "托比低下頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0424",
+          "text": "過了一會兒，他才小聲說：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0425",
+          "text": "「……她下個月就要去阿姨家住了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0426",
+          "text": "山田蹲到他旁邊。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0427",
+          "text": "「哦……所以你們要分開一段時間？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0428",
+          "text": "「嗯。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0429",
+          "text": "托比用手指輕輕捏著地圖的邊角。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0430",
+          "text": "「可是我們明明說好，要一起把地圖畫完的。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0431",
+          "text": "「那你很不想她走吧。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0432",
+          "text": "「……嗯。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0433",
+          "text": "托比低著頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0434",
+          "text": "「但是她好像很期待去那邊，一直跟我說那裡有什麼好玩的東西。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0435",
+          "text": "山田想了想。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0436",
+          "text": "「啊……那你一定很寂寞吧。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0437",
+          "text": "托比沒有回答，只是輕輕點了點頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0438",
+          "text": "西坐到井邊。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0439",
+          "text": "「你有沒有跟她說過？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0440",
+          "text": "「沒有。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0441",
+          "text": "「為什麼？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0442",
+          "text": "「因為……」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0443",
+          "text": "托比望著地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0444",
+          "text": "「如果我說不想讓她走，她可能會不高興。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0445",
+          "text": "山田歪了歪頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0446",
+          "text": "「可是你真的不想她走啊。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0447",
+          "text": "「我知道啦！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0448",
+          "text": "托比有些著急。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0449",
+          "text": "「但她都已經很高興了，我不想讓她覺得去阿姨家是不好的事情！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0450",
+          "text": "山田愣了一下。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0451",
+          "text": "「……哦。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0452",
+          "text": "西望著托比，輕輕說：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0453",
+          "text": "「你不是討厭她去那裡，只是捨不得她，對吧？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0454",
+          "text": "「嗯。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0455",
+          "text": "「那是兩件不同的事啊。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0456",
+          "text": "托比抬頭看向她。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0457",
+          "text": "西想了想。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0458",
+          "text": "「米拉可能也不知道你是這樣想的。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0459",
+          "text": "山田忽然接著說：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0460",
+          "text": "「而且如果是我的話，有人跟我說很捨不得我，我會很高興耶！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0461",
+          "text": "「真的？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0462",
+          "text": "「嗯！因為那代表他很喜歡跟我一起玩嘛！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0463",
+          "text": "托比望著兩人。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0464",
+          "text": "「可是……」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0465",
+          "text": "「不過要不要告訴米拉，還是你自己決定。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0466",
+          "text": "西將盒子推回他面前。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0467",
+          "text": "「我們答應幫你保密，就不會替你說出去。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0468",
+          "text": "山田立即點頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0469",
+          "text": "「嗯！說好了嘛！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0470",
+          "text": "托比看著手中的盒子，沉默了一會兒。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0471",
+          "text": "「……那你們可以陪我去找她嗎？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0472",
+          "text": "山田笑了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0473",
+          "text": "「當然可以！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0474",
+          "text": "西也站起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        },
+        {
+          "id": "secret-0475",
+          "text": "「走吧。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
+        }
+      ],
+      "reconcile": [
+        {
+          "id": "secret-0477",
+          "text": "米拉正在村口整理幾個小石子。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0478",
+          "text": "看見托比走近，她停下手上的動作。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0479",
+          "text": "「……幹嘛？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0480",
+          "text": "托比將藍色盒子遞了出去。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0481",
+          "text": "「這個。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0482",
+          "text": "「什麼啊？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0483",
+          "text": "「妳打開看看嘛。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0484",
+          "text": "米拉半信半疑地打開盒蓋。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0485",
+          "text": "看見裡面的地圖時，她愣住了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0486",
+          "text": "「……你不是說不想畫了嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0487",
+          "text": "「我那時候是亂講的啦。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0488",
+          "text": "托比抓了抓頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0489",
+          "text": "「我本來想把它畫完再給妳，可是盒子不見了。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0490",
+          "text": "米拉慢慢展開地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0491",
+          "text": "「這條路是什麼？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0492",
+          "text": "「去妳阿姨家的路。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0493",
+          "text": "「可是你根本不知道她家在哪裡吧？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0494",
+          "text": "「所以我亂畫的啊！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0495",
+          "text": "「什麼嘛！」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0496",
+          "text": "米拉忍不住笑了一下，卻又很快低下頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0497",
+          "text": "「……你之前說，反正我都要走了。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0498",
+          "text": "「對不起。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0499",
+          "text": "托比望著她。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0500",
+          "text": "「我只是……不想妳走。」",
+          "speaker": "tobi",
+          "background": "./assets/cg/cg-secret-tobi-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0501",
+          "text": "米拉握著地圖，安靜了好一會兒。",
+          "speaker": null,
+          "background": "./assets/cg/cg-secret-tobi-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0502",
+          "text": "「我也不是不想跟你玩啊。」",
+          "speaker": "mira",
+          "background": "./assets/cg/cg-secret-tobi-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0503",
+          "text": "「我知道。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0504",
+          "text": "「而且我又不是不回來了。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0505",
+          "text": "「……嗯。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0506",
+          "text": "站在稍遠處的山田和西沒有插話。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0507",
+          "text": "山田看著兩個孩子，輕輕碰了碰西的手背。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0508",
+          "text": "西轉頭看他。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0509",
+          "text": "他沒有說話，只是朝兩人那邊示意了一下。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0510",
+          "text": "西點點頭，和他一起往後退了幾步。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0511",
+          "text": "過了一會兒，米拉重新展開地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0512",
+          "text": "「不過這張還沒畫完吧？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0513",
+          "text": "托比抬起頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0514",
+          "text": "「咦？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0515",
+          "text": "「海啊。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0516",
+          "text": "她指著地圖最遠處的空白。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0517",
+          "text": "「你不是說要畫一片很大的海嗎？」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0518",
+          "text": "「可是妳要走了……」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0519",
+          "text": "「那等我回來再畫啊。」",
+          "speaker": "mira",
+          "background": "./assets/cg/cg-secret-mira-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0520",
+          "text": "托比望著她。",
+          "speaker": null,
+          "background": "./assets/cg/cg-secret-mira-reunion-user.png",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "secret-0521",
+          "text": "「真的？」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0522",
+          "text": "「嗯。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0523",
+          "text": "米拉想了想，又補充：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0524",
+          "text": "「而且我去了那邊，也可以畫新的地圖帶回來。」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0525",
+          "text": "托比的眼睛一下子亮了起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0526",
+          "text": "「那我們就有兩張地圖了！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0527",
+          "text": "「對啊！」",
+          "speaker": "mira",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0528",
+          "text": "兩個孩子重新蹲到地上，開始討論地圖上應該再加什麼。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0529",
+          "text": "山田望著他們，露出開心的表情。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0530",
+          "text": "「太好了。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0531",
+          "text": "西看著托比重新有了精神，也笑了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0532",
+          "text": "「嗯。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0533",
+          "text": "「奈津美。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0534",
+          "text": "「怎麼了？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0535",
+          "text": "「他們真的很喜歡一起畫地圖耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0536",
+          "text": "「是啊。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0537",
+          "text": "山田忽然低頭看著她。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0538",
+          "text": "「我們也是。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0539",
+          "text": "西微微一愣。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0540",
+          "text": "「……我們？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0541",
+          "text": "「嗯！我們最近不是也一直在畫地圖嗎？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0542",
+          "text": "「啊……是呢。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0543",
+          "text": "山田笑了笑。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0544",
+          "text": "「雖然還有好多地方不知道。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0545",
+          "text": "西望著兩個孩子手中那張畫滿幻想地名的紙，輕輕點頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0546",
+          "text": "「嗯。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0547",
+          "text": "就在兩人準備離開時，托比突然跑了過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0548",
+          "text": "「等一下！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0549",
+          "text": "他從衣袋裡取出一顆藍色玻璃珠。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0550",
+          "text": "「這是報酬！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0551",
+          "text": "山田接過來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0552",
+          "text": "「哦！好漂亮！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0553",
+          "text": "「是吧！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0554",
+          "text": "托比得意地挺起胸膛。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0555",
+          "text": "「我挑了很久耶！」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0556",
+          "text": "西笑著說：",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0557",
+          "text": "「謝謝你，托比。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0558",
+          "text": "「還有……」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0559",
+          "text": "托比看了看兩人。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0560",
+          "text": "「謝謝你們幫我保守秘密。」",
+          "speaker": "tobi",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0561",
+          "text": "山田舉起手。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0562",
+          "text": "「不客氣！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        },
+        {
+          "id": "secret-0563",
+          "text": "托比笑了，轉身跑回米拉身邊。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-village-entrance-day.webp"
+        }
+      ],
+      "night": [
+        {
+          "id": "secret-0565",
+          "text": "兩人回到旅舍時，天色已經暗了下來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0566",
+          "text": "山田將那顆藍色玻璃珠放在桌上，對著燈光看了好一會兒。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0567",
+          "text": "「奈津美，妳看！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0568",
+          "text": "「嗯？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0569",
+          "text": "「從這邊看，裡面好像有星星耶。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0570",
+          "text": "西湊近看了一眼。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0571",
+          "text": "玻璃珠中央有一道細小的氣泡，在燈光下折射出淡淡的光。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0572",
+          "text": "「啊，真的。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0573",
+          "text": "山田將珠子遞給她。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0574",
+          "text": "「給妳！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0575",
+          "text": "「咦？可是這是我們一起得到的報酬吧？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0576",
+          "text": "「嗯！所以放在我們的東西裡就好啦。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0577",
+          "text": "西接過玻璃珠，想了想，將它放在桌上的地圖一角。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0578",
+          "text": "「這樣剛好可以壓著紙。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0579",
+          "text": "「哦！不錯耶！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0580",
+          "text": "山田拉開椅子坐下。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0581",
+          "text": "「說起來，今天那張地圖真的很好玩啊。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0582",
+          "text": "「嗯。巨龍山脈、銀色大河……」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0583",
+          "text": "「還有國王的城堡！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0584",
+          "text": "西忍不住笑了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0585",
+          "text": "「明明只是舊磨坊旁邊的小木屋。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0586",
+          "text": "「可是對他們來說就是城堡嘛！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0587",
+          "text": "「也是。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0588",
+          "text": "山田望著兩人自己的地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0589",
+          "text": "「奈津美，妳小時候有沒有畫過這種東西？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0590",
+          "text": "西想了想。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0591",
+          "text": "「好像沒有耶。不過以前會在筆記本裡畫一些想去的地方。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0592",
+          "text": "「哦！有哪些？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0593",
+          "text": "「嗯……水族館、海邊，還有一些在電視上看到的地方。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0594",
+          "text": "「欸——！感覺很有趣！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0595",
+          "text": "「你呢？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0596",
+          "text": "「我以前會畫車子！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0597",
+          "text": "西抬頭看他。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0598",
+          "text": "「……我想也是。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0599",
+          "text": "「咦？妳怎麼知道？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0600",
+          "text": "「因為很像你啊。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0601",
+          "text": "山田笑了起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0602",
+          "text": "「也是喔！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0603",
+          "text": "過了一會兒，西重新拿起那張地圖。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0604",
+          "text": "她看著上面那些尚未畫完的道路，忽然想起下午托比說過的話。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0605",
+          "text": "「健太郎。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0606",
+          "text": "「嗯？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0607",
+          "text": "「今天托比說，他不想讓米拉走，可是又不想讓她覺得去阿姨家是不好的事情。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0608",
+          "text": "「嗯。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0609",
+          "text": "「我覺得他其實很溫柔呢。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0610",
+          "text": "「對啊。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0611",
+          "text": "山田點點頭。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0612",
+          "text": "「所以他才會那麼難過吧。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0613",
+          "text": "西望著他。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0614",
+          "text": "「……你很快就看出來了。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0615",
+          "text": "「咦？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0616",
+          "text": "「托比很捨不得米拉的事。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0617",
+          "text": "山田想了想。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0618",
+          "text": "「因為他看起來很不開心啊。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0619",
+          "text": "「就這樣？」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0620",
+          "text": "「嗯。」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0621",
+          "text": "他的回答理所當然。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0622",
+          "text": "西看著他，忽然笑了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0623",
+          "text": "「怎麼了？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0624",
+          "text": "「沒有。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0625",
+          "text": "她將玻璃珠往地圖中間移了一點。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0626",
+          "text": "「只是覺得，健太郎真的很厲害。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0627",
+          "text": "「欸？為什麼？」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0628",
+          "text": "「秘密。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0629",
+          "text": "「咦——！告訴我啦！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0630",
+          "text": "「不要。」",
+          "speaker": "natsumi",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0631",
+          "text": "「奈津美——！」",
+          "speaker": "kentaro",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0632",
+          "text": "西終於忍不住笑出聲。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0633",
+          "text": "山田望著她，也跟著笑了起來。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0634",
+          "text": "桌上的地圖在燈光下攤開，尚未確認的道路仍然延伸到紙張邊緣。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0635",
+          "text": "兩人還不知道這張地圖最後會畫到哪裡。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        },
+        {
+          "id": "secret-0636",
+          "text": "但明天，他們又可以一起出發了。",
+          "speaker": null,
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp"
+        }
+      ]
+    }
+  }
+}

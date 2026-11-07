@@ -1,3 +1,4 @@
+import {mountMiniTutorial} from './minigame-tutorial.js';
 import {InstructionPreferences,SKYRAIL_GUIDE} from '../minigames/instructions.js';
 import {mountRescueInstructions} from './rescue-instructions.js';
 import {RescueCompanion,successExchange} from '../minigames/rescue-companion.js';
@@ -9,17 +10,18 @@ export function mountSkyrailGame({app,assets,characters,onComplete,onSkip}){
  dialog.addEventListener('dragstart',event=>event.preventDefault());
  app.append(dialog);const content=dialog.querySelector('.rescue-content');let game=null,frame=null,last=0,input={},lastMessage='',successShown=false,tracePoint=null,companion=null,lastReaction=0,stageOptions={},guideFlashTimer=null;
  let localStorage=null;try{localStorage=window.localStorage;}catch{}
+ let miniTeaching=false;const miniGuide=mountMiniTutorial({app,onToggle:value=>{miniTeaching=value;input={};last=0;}});
  const instructionPreferences=new InstructionPreferences(localStorage);
  const guideInfo=()=>stageOptions.guide || SKYRAIL_GUIDE;
  const instructions=mountRescueInstructions({app,
   onChoice:()=>instructionPreferences.acknowledge(guideInfo()),
   onResume:()=>{if(dialog.open && game?.phase==='playing'){last=0;if(frame===null)frame=requestAnimationFrame(loop);dialog.focus();}}});
- function showInstructions(){stop();instructionPreferences.acknowledge(guideInfo());clearTimeout(guideFlashTimer);const b=content.querySelector('.rescue-guide-button');b?.classList.remove('has-update');b?.removeAttribute('data-update');instructions.guide(game.role);}
- function enter(role){start(role);const status=instructionPreferences.state(guideInfo());if(status.ask){stop();instructions.offer(role);}else if(status.updated){const b=content.querySelector('.rescue-guide-button');b.classList.add('has-update');b.dataset.update='玩法已更新';guideFlashTimer=setTimeout(()=>{b.classList.remove('has-update');b.removeAttribute('data-update');},6000);}}
+ function showInstructions(){miniGuide.show('skyrail-'+game.role);}
+ function enter(role){start(role);const status=instructionPreferences.state(guideInfo());instructionPreferences.acknowledge(guideInfo());miniGuide.enter('skyrail-'+role);if(status.updated){const b=content.querySelector('.rescue-guide-button');b.classList.add('has-update');b.dataset.update='玩法已更新';guideFlashTimer=setTimeout(()=>{b.classList.remove('has-update');b.removeAttribute('data-update');},6000);}}
  const image=id=>new URL(characters[id].variants[id==='kentaro'?'hero-back':'witch-back'].neutral,document.baseURI).href;
  const bg=new URL(assets.backgrounds['skyrail-train-derailment-day'].src,document.baseURI).href;
  function stop(){if(frame!==null)cancelAnimationFrame(frame);frame=null;input={};game?.endTrace();}
- function close(){stop();clearTimeout(guideFlashTimer);dialog.close();instructions.close();}
+ function close(){miniGuide.close();stop();clearTimeout(guideFlashTimer);dialog.close();instructions.close();}
  dialog.querySelector('.rescue-close').onclick=close;
  dialog.addEventListener('close',()=>{stop();instructions.close();});
  const release=()=>{input={};game?.endTrace();};window.addEventListener('blur',release);
@@ -35,7 +37,7 @@ export function mountSkyrailGame({app,assets,characters,onComplete,onSkip}){
   dialog.dataset.role=role;
   content.innerHTML=`<div class="rescue-flight" style="--rescue-bg:url('${bg}')">
    <div class="rescue-landscape" aria-hidden="true"></div><div class="rescue-speedlines" aria-hidden="true"></div>
-   <div class="rescue-play-top"><div><small>星軌列車／最後的連接</small><strong>${role==='kentaro'?'穩住車廂':'編織魔力軌道'}</strong></div><div class="rescue-play-tools"><button class="rescue-guide-button" aria-label="玩法說明">ⓘ 玩法說明</button><button class="rescue-switch">換角色</button></div></div>
+   <div class="rescue-play-top"><div><small>星軌列車／最後的連接</small><strong>${role==='kentaro'?'穩住車廂':'編織魔力軌道'}</strong></div><div class="rescue-play-tools"><button class="rescue-guide-button" aria-label="新手教學">ⓘ 新手教學</button><button class="rescue-full-guide">完整說明</button><button class="rescue-switch">換角色</button></div></div>
    <div class="rescue-mission"><span class="rescue-step">${role==='kentaro'?'01 · 拉住　02 · 對準　03 · 放開':'01 · 連接　02 · 蓄能　03 · 施法'}</span><p>${role==='kentaro'?'讓車廂保持在中央，替奈津美爭取時間。':'沿著符文引導魔力，健太郎會替你穩住車廂。'}</p></div>
    <div class="rescue-live-cue" aria-live="polite"></div><div class="rescue-beat" role="status" hidden></div><div class="rescue-action-area">
     <div class="rescue-mechanism" ${role==='kentaro'?'':'hidden'}><div class="rescue-gauge-heading"><span>連接裝置</span><strong class="rescue-stability">尚未制動</strong></div><div class="rescue-dial"><div class="rescue-dial-ticks"></div><div class="rescue-safe-zone"></div><div class="rescue-cursor"><i></i><span>▼</span></div><div class="rescue-dial-center"></div></div><div class="rescue-dial-labels"><span>← 向左修正</span><span>對準中心</span><span>向右修正 →</span></div><div class="rescue-brake-light"><i></i><span>制動桿待命</span></div></div>
@@ -47,7 +49,7 @@ export function mountSkyrailGame({app,assets,characters,onComplete,onSkip}){
   </div>
   <div class="rescue-command"><p class="rescue-status" role="status" aria-live="polite"></p><div class="rescue-controls">${role==='kentaro'?'<button data-hold="left" aria-label="車廂向左調整"><small>← / A</small>向左</button><button data-hold="brake" class="rescue-brake" aria-pressed="false"><small>SPACE</small>按住制動桿</button><button data-hold="right" aria-label="車廂向右調整"><small>→ / D</small>向右</button>':'<button class="rescue-cast" disabled><span>✧</span> 連接符文後施法</button>'}</div><button class="rescue-latch" hidden>鎖定制動桿（點按模式）</button><p class="rescue-help">${role==='kentaro'?'按住空白鍵制動，方向鍵或 A／D 調整。亦可用下方按鈕點按操作。':'看清下一枚符文，等亮起時拖曳或點選。鍵盤按 1–4 選符文；接好三段軌道後施法。'}</p></div>
   <div class="rescue-success" hidden><small>星軌重新連接</small><strong>協力成功</strong><p>車廂已回到軌道上。</p><section class="rescue-result-dialogue" aria-label="救援後的對話"></section><div><button class="rescue-return">繼續故事 ↗</button><button class="rescue-retry">再玩一次</button></div></div>`;
-  content.querySelector('.rescue-switch').onclick=select;content.querySelector('.rescue-guide-button').onclick=showInstructions;
+  content.querySelector('.rescue-switch').onclick=select;content.querySelector('.rescue-guide-button').onclick=showInstructions;content.querySelector('.rescue-full-guide').onclick=()=>{stop();instructions.guide(game.role);};
   content.querySelector('.rescue-return').onclick=()=>{const selected=game.role;close();onComplete(selected);};
   content.querySelector('.rescue-retry').onclick=()=>start(role);
   for(const b of content.querySelectorAll('[data-hold]')){
@@ -71,7 +73,7 @@ export function mountSkyrailGame({app,assets,characters,onComplete,onSkip}){
  }
  function loop(time){
   if(!dialog.open || !game)return;
-  const dt=last?(time-last)/1000:0;last=time;game.update(dt,input);
+  const dt=last?(time-last)/1000:0;last=time;if(miniTeaching){frame=requestAnimationFrame(loop);return;}game.update(dt,input);
   const percent=Math.round(game.progress*100);
   content.querySelector('.rescue-percent').textContent=percent+'%';content.querySelector('.rescue-progress').setAttribute('aria-valuenow',percent);content.querySelector('.rescue-progress i').style.width=percent+'%';
   const flight=content.querySelector('.rescue-flight');
@@ -113,7 +115,7 @@ export function mountSkyrailGame({app,assets,characters,onComplete,onSkip}){
   if(game.phase==='playing')frame=requestAnimationFrame(loop);else frame=null;
  }
  dialog.addEventListener('keydown',e=>{
-  if(!game || game.phase!=='playing')return;
+  if(miniTeaching||!game || game.phase!=='playing')return;
   const key=e.key.toLowerCase();const map={' ':'brake',arrowleft:'left',a:'left',arrowright:'right',d:'right'};
   if(game.role==='kentaro' && map[key]){e.preventDefault();input[map[key]]=true;if(!e.repeat && map[key]!=='brake')game.alignment=Math.max(-85,Math.min(85,game.alignment+(map[key]==='right'?4:-4)));}
   if(game.role==='natsumi' && /^[1234]$/.test(key)){e.preventDefault();game.connect(Number(key)-1);}

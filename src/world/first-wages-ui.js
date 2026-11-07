@@ -1,3 +1,4 @@
+import {mountMiniTutorial} from '../ui/minigame-tutorial.js';
 import {renderQuestReader} from './quest-reader.js';
 import {CompanionReactions} from './companion-reactions.js';
 import {CargoPacking,CARGO_ITEMS} from './cargo-packing.js';
@@ -8,10 +9,11 @@ const e=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=
 const b=(text,fn,cls='')=>{const n=e('button',cls,text);n.type='button';n.onclick=fn;return n;};
 export function mountFirstWages({app,config,characters,getLife,onSave,onChange,onCue=()=>{}}){
  const dialog=e('dialog','first-wages-dialog');dialog.setAttribute('aria-label','支線 01 第一份工錢');dialog.tabIndex=-1;app.append(dialog);
+ let miniTeaching=false;const miniGuide=mountMiniTutorial({app,onToggle:value=>miniTeaching=value});
  let reader=null;const reactions=new CompanionReactions();let timer=null,transport=null,release=null,selected=null,rotated=false,advancing=false;
  const life=()=>getLife(),state=()=>life().state,d=()=>state().delivery;
  function stop(){reader?.close();reader=null;release?.();release=null;if(timer!==null)cancelAnimationFrame(timer);timer=null;if(transport&&state().pending&&['transport-first','transport-final'].includes(d().phase)){life().deliveryCheckpoint(transport.snapshot());onSave();}transport=null;}
- function close(){stop();if(dialog.open)dialog.close();onChange();}
+ function close(){miniGuide.close();stop();if(dialog.open)dialog.close();onChange();}
  dialog.addEventListener('cancel',()=>{stop();onChange();});
  function save(){onSave();}
  function act(fn){try{fn();save();render();}catch(err){const out=dialog.querySelector('.quest-feedback');if(out)out.textContent=err.message;else throw err;}}
@@ -21,14 +23,15 @@ export function mountFirstWages({app,config,characters,getLife,onSave,onChange,o
  function render(){
   stop();queueMicrotask(()=>{if(dialog.open)dialog.focus({preventScroll:true});});dialog.onkeydown=null;dialog.className='first-wages-dialog';dialog.replaceChildren();const phase=d().phase;
   if(['board-story','pickup-story','ending-story'].includes(phase)){story();return;}
-  if(phase==='packing'){dialog.classList.add('quest-play','quest-pack');packing();return;}
-  if(['transport-first','transport-final'].includes(phase)){dialog.classList.add('quest-play','quest-drive');cart();return;}
-  if(phase==='wheel'){dialog.classList.add('quest-play','quest-wheel');wheel();return;}
+  if(phase==='packing'){dialog.classList.add('quest-play','quest-pack');packing();miniHelp('cargo-pack');return;}
+  if(['transport-first','transport-final'].includes(phase)){dialog.classList.add('quest-play','quest-drive');cart();miniHelp('cart-'+state().controlled);return;}
+  if(phase==='wheel'){dialog.classList.add('quest-play','quest-wheel');wheel();miniHelp('axle-repair');return;}
   if(phase==='handoff'){header('送到旅舍了','核對兩筐蔬菜與清單，取得多恩的簽名。交貨後要回莉妲處領取報酬。');dialog.append(companion(state().controlled==='kentaro'?'清單在這裡，兩筐都到了。':'我把車停好了，先把清單交給多恩先生吧。'),b('交付兩筐蔬菜，請多恩簽收',()=>{life().signDelivery();save();close();},'quest-primary'));return;}
   if(phase==='return'){header('帶清單回菜圃','多恩已簽收。返回村莊地圖，點「莉妲的菜圃」。');dialog.append(b('返回地圖 · 去找莉妲',close,'quest-primary'));return;}
   if(phase==='reward'){life().complete();save();close();return;}
   close();
  }
+ function miniHelp(id){dialog.querySelector('.quest-top')?.append(b('新手教學',()=>miniGuide.show(id)));miniGuide.enter(id);}
  function story(){
   reader?.close();const segment={'board-story':'board','pickup-story':'pickup','ending-story':'ending'}[d().phase];
   const pages=config.questStories['first-wages'].scenes[segment].flatMap(line=>paginateText(line.text).map((text,i)=>({...line,text,id:`${line.id}-${i}`})));
@@ -61,10 +64,10 @@ export function mountFirstWages({app,config,characters,getLife,onSave,onChange,o
   const controls=e('div','delivery-controls');function turn(text,key){const btn=b(text,()=>{});btn.onpointerdown=ev=>{ev.preventDefault();btn.setPointerCapture(ev.pointerId);input[key]=true;};btn.onpointerup=btn.onpointercancel=btn.onlostpointercapture=()=>input[key]=false;return btn;}
   function lock(){if(model.lock()){say(model.complete?'repaired':'locked');wasAligned=false;lastCue=-1000;cueUntil=0;feedback.textContent=model.complete?'三處都固定好了，推車穩下來了。':'這一處扣緊了，調整下一處。';life().repairCheckpoint(model.snapshot());save();if(model.complete){done.disabled=false;pin.disabled=true;}}else{say('retry');feedback.textContent='還沒有咬合。轉動固定環，留意下一次提示。';}}
   const pin=b('扣緊固定片 · Space',lock,'quest-primary'),done=b('固定完成 · 繼續送貨',()=>act(()=>life().fixWheel()),'quest-primary');done.disabled=!model.complete;pin.disabled=model.complete;controls.append(turn('↶ 向左轉','left'),pin,turn('向右轉 ↷','right'));dialog.append(controls,feedback,done);
-  const down=ev=>{if(!dialog.open)return;if(['ArrowLeft','KeyA','ArrowRight','KeyD','Space'].includes(ev.code))ev.preventDefault();if(['ArrowLeft','KeyA'].includes(ev.code))input.left=true;if(['ArrowRight','KeyD'].includes(ev.code))input.right=true;if(ev.code==='Space'&&!ev.repeat)lock();};const up=ev=>{if(['ArrowLeft','KeyA'].includes(ev.code))input.left=false;if(['ArrowRight','KeyD'].includes(ev.code))input.right=false;};const clear=()=>input.left=input.right=false;
+  const down=ev=>{if(!dialog.open||miniTeaching)return;if(['ArrowLeft','KeyA','ArrowRight','KeyD','Space'].includes(ev.code))ev.preventDefault();if(['ArrowLeft','KeyA'].includes(ev.code))input.left=true;if(['ArrowRight','KeyD'].includes(ev.code))input.right=true;if(ev.code==='Space'&&!ev.repeat)lock();};const up=ev=>{if(['ArrowLeft','KeyA'].includes(ev.code))input.left=false;if(['ArrowRight','KeyD'].includes(ev.code))input.right=false;};const clear=()=>input.left=input.right=false;
   dial.onpointerdown=ev=>{ev.preventDefault();dial.setPointerCapture(ev.pointerId);aim(ev);};function aim(ev){const rect=dial.getBoundingClientRect();model.aim(Math.atan2(ev.clientY-(rect.top+rect.height/2),ev.clientX-(rect.left+rect.width/2))*180/Math.PI+90);}dial.onpointermove=ev=>{if(ev.buttons===1)aim(ev);};
   window.addEventListener('keydown',down);window.addEventListener('keyup',up);window.addEventListener('blur',clear);let last=performance.now();release=()=>{clear();window.removeEventListener('keydown',down);window.removeEventListener('keyup',up);window.removeEventListener('blur',clear);if(d().phase==='wheel'){life().repairCheckpoint(model.snapshot());save();}};
-  let wasAligned=false,cueUntil=0,lastCue=-1000;const tick=now=>{const dt=Math.min(.05,(now-last)/1000);last=now;model.rotate((Number(input.right)-Number(input.left))*95*dt);ring.style.transform=`rotate(${model.angle}deg)`;if(model.aligned&&!wasAligned&&!model.complete&&now-lastCue>700){cueUntil=now+150;lastCue=now;onCue('repair-aligned');}wasAligned=model.aligned;dial.dataset.cue=String(now<cueUntil);count.textContent=`已固定 ${model.locks} / 3 · ${model.complete?'臨時固定完成':'轉動並留意提示'}`;timer=requestAnimationFrame(tick);};timer=requestAnimationFrame(tick);
+  let wasAligned=false,cueUntil=0,lastCue=-1000;const tick=now=>{const dt=Math.min(.05,(now-last)/1000);last=now;if(miniTeaching){timer=requestAnimationFrame(tick);return;}model.rotate((Number(input.right)-Number(input.left))*95*dt);ring.style.transform=`rotate(${model.angle}deg)`;if(model.aligned&&!wasAligned&&!model.complete&&now-lastCue>700){cueUntil=now+150;lastCue=now;onCue('repair-aligned');}wasAligned=model.aligned;dial.dataset.cue=String(now<cueUntil);count.textContent=`已固定 ${model.locks} / 3 · ${model.complete?'臨時固定完成':'轉動並留意提示'}`;timer=requestAnimationFrame(tick);};timer=requestAnimationFrame(tick);
  }
  function cart(){
   const final=d().phase==='transport-final';transport=new DeliveryCart(state().controlled,d().transport);const game=transport.game;
@@ -75,13 +78,13 @@ export function mountFirstWages({app,config,characters,getLife,onSave,onChange,o
   const input={left:false,right:false,brake:false};let nodes=[],paths=[],brake=null,balance=null,needle=null,cast=null;
   const controls=e('div','delivery-controls');
   function hold(label,key){const btn=b(label,()=>{},key==='brake'?'quest-primary':'');btn.onpointerdown=ev=>{ev.preventDefault();btn.setPointerCapture(ev.pointerId);input[key]=true;};btn.onpointerup=btn.onpointercancel=btn.onlostpointercapture=()=>input[key]=false;btn.onkeydown=ev=>{if(['Space','Enter'].includes(ev.code)){ev.preventDefault();input[key]=true;}};btn.onkeyup=ev=>{if(['Space','Enter'].includes(ev.code))input[key]=false;};btn.onblur=()=>input[key]=false;return btn;}
-  const clear=()=>{input.left=input.right=input.brake=false;};const keyDown=ev=>{if(!dialog.open)return;if(['ArrowLeft','KeyA','ArrowRight','KeyD','Space'].includes(ev.code))ev.preventDefault();if(['ArrowLeft','KeyA'].includes(ev.code))input.left=true;if(['ArrowRight','KeyD'].includes(ev.code))input.right=true;if(ev.code==='Space')input.brake=true;};const keyUp=ev=>{if(['ArrowLeft','KeyA'].includes(ev.code))input.left=false;if(['ArrowRight','KeyD'].includes(ev.code))input.right=false;if(ev.code==='Space'){ev.preventDefault();input.brake=false;}};
+  const clear=()=>{input.left=input.right=input.brake=false;};const keyDown=ev=>{if(!dialog.open||miniTeaching)return;if(['ArrowLeft','KeyA','ArrowRight','KeyD','Space'].includes(ev.code))ev.preventDefault();if(['ArrowLeft','KeyA'].includes(ev.code))input.left=true;if(['ArrowRight','KeyD'].includes(ev.code))input.right=true;if(ev.code==='Space')input.brake=true;};const keyUp=ev=>{if(['ArrowLeft','KeyA'].includes(ev.code))input.left=false;if(['ArrowRight','KeyD'].includes(ev.code))input.right=false;if(ev.code==='Space'){ev.preventDefault();input.brake=false;}};
   if(state().controlled==='kentaro'){balance=e('div','cart-balance');balance.append(e('span','cart-safe'));needle=e('i','cart-balance-needle');balance.append(needle);dialog.append(balance);brake=hold('按住 · 扶穩貨箱','brake');controls.append(hold('← 往左','left'),brake,hold('往右 →','right'));window.addEventListener('keydown',keyDown);window.addEventListener('keyup',keyUp);}
   else{const ropes=e('div','rope-board');ropes.setAttribute('aria-label','貨箱繩結節點');const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 100 100');svg.setAttribute('preserveAspectRatio','none');const points=game.points;for(let i=0;i<points.length-1;i++){const path=document.createElementNS('http://www.w3.org/2000/svg','line');path.classList.add('rope-line');svg.append(path);paths.push(path);}ropes.append(svg);
    points.forEach((r,i)=>{const node=b(String(i+1),()=>{game.connect(i);feedback.textContent=game.feedback;},'rope-node');node.style.left=`${r.x}%`;node.style.top=`${r.y}%`;node.setAttribute('aria-label',`繩結節點 ${i+1}`);node.onpointerdown=ev=>{ev.preventDefault();node.setPointerCapture(ev.pointerId);game.beginTrace(r.x,r.y);};node.onpointermove=ev=>{if(ev.buttons===1){const rect=ropes.getBoundingClientRect();game.trace((ev.clientX-rect.left)/rect.width*100,(ev.clientY-rect.top)/rect.height*100);}};node.onpointerup=node.onpointercancel=()=>game.endTrace();nodes.push(node);ropes.append(node);});dialog.append(ropes);cast=b('繩結已穩 · 確認收緊',()=>game.cast(),'quest-primary');cast.disabled=true;controls.append(cast);}
   dialog.append(controls);say(final?'resume':'start');let previous=performance.now(),stopped=false;let prior={mistakes:game.mistakes,round:game.round,ready:game.ready,wind:false,unstable:false,progress:game.progress};let reactionUntil=0;
   release=()=>{clear();window.removeEventListener('keydown',keyDown);window.removeEventListener('keyup',keyUp);window.removeEventListener('blur',clear);document.removeEventListener('visibilitychange',clear);};window.addEventListener('blur',clear);document.addEventListener('visibilitychange',clear);
-  const tick=now=>{if(stopped)return;const dt=(now-previous)/1000;previous=now;transport.update(dt,input);progress.value=game.progress;cartArt.style.transform=`translateX(${game.alignment/6}px) rotate(${game.alignment/25}deg)`;
+  const tick=now=>{if(stopped)return;const dt=(now-previous)/1000;previous=now;if(miniTeaching){timer=requestAnimationFrame(tick);return;}transport.update(dt,input);progress.value=game.progress;cartArt.style.transform=`translateX(${game.alignment/6}px) rotate(${game.alignment/25}deg)`;
    if(state().controlled==='kentaro'){needle.style.left=`${50+game.alignment/2}%`;status.textContent=game.ready?'已經到旅舍前，放開扶穩按鈕。':game.windWarning?`石路將往${game.windDirection>0?'右':'左'}顛簸`:`貨箱穩定 ${Math.round(game.progress*100)}%`;brake.textContent=game.ready?'放手 · 停好推車':'按住 · 扶穩貨箱';}
    else{status.textContent=`固定繩結 ${game.round} / 3 · ${game.pulseOpen?'亮起了，連接下一個':'等待拉緊時機'}`;nodes.forEach((node,i)=>{node.dataset.lit=String(game.litRunes.includes(i));node.dataset.next=String(game.nextRune===i&&game.pulseOpen);node.dataset.order=String(game.route.indexOf(i)+1);});paths.forEach((path,i)=>{const a=game.points[game.route[i]],b=game.points[game.route[i+1]];path.setAttribute('x1',a.x);path.setAttribute('y1',a.y);path.setAttribute('x2',b.x);path.setAttribute('y2',b.y);path.dataset.connected=String(i<game.connected-1);path.style.visibility=i<game.connected-1?'visible':'hidden';});cast.disabled=!game.ready;feedback.textContent=game.feedback;}
    const unstable=Math.abs(game.alignment)>25;

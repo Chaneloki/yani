@@ -1,0 +1,17 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';
+import {NorthRoad,createNorthRoad,validateNorthRoad} from '../src/world/north-road.js';
+import {VillageLife,validateWorld} from '../src/world/world-engine.js';import {createQuestPreview,previewStorageKey} from '../src/world/quest-previews.js';
+const config=JSON.parse(await readFile(new URL('../src/content/world.json',import.meta.url),'utf8'));
+const content=JSON.parse(await readFile(new URL('../src/content/quests/unreachable-north-road.json',import.meta.url),'utf8'));
+for(const actor of ['kentaro','natsumi'])for(const together of [false,true])test(`north road ${actor}/${together?'duet':'solo'} completes without optional skills, resumes and pays once`,()=>{
+ const life=new VillageLife(config,createQuestPreview(config,'unreachable-north-road',actor,together));const before=life.state.coins;assert.equal(life.state.skills,undefined);assert.throws(()=>life.complete(),/回報/);
+ const g=new NorthRoad(life.state.northRoad);g.storyEnd();assert.throws(()=>g.continue());g.observe('river');g.observe('river');assert.equal(g.s.observed.length,1);g.observe('sign');g.observe('bridge');g.continue();g.storyEnd();g.updateMap();life.northCheckpoint(g.snapshot());const restored=new VillageLife(config,life.snapshot());const r=new NorthRoad(restored.state.northRoad);r.returnInn();restored.northCheckpoint(r.snapshot());assert.equal(restored.state.location,'inn');r.report();r.storyEnd();restored.northCheckpoint(r.snapshot());restored.complete();assert.equal(restored.state.coins,before+20);assert.equal(restored.state.mainline.northRoadConfirmed,true);assert.equal(restored.state.mainline.orenVerifiedRoute,undefined);assert.equal(restored.gate.find(x=>x.id==='north').done,true);assert.equal(restored.ready,false);assert.equal(restored.available(config.tasks.find(t=>t.id==='unreachable-north-road')),false);validateWorld(restored.snapshot(),config);assert.throws(()=>restored.complete());assert.ok(previewStorageKey(restored.state).includes('unreachable-north-road'));
+});
+test('cannot shortcut observation, map update, report or change saved character route',()=>{
+ const g=new NorthRoad(createNorthRoad('natsumi'));assert.throws(()=>g.updateMap());assert.throws(()=>g.returnInn());assert.throws(()=>g.report());assert.throws(()=>validateNorthRoad({...g.snapshot(),phase:'settle'}));const life=new VillageLife(config,createQuestPreview(config,'unreachable-north-road','natsumi'));assert.throws(()=>life.northCheckpoint(createNorthRoad('kentaro')));life.complete({success:false});assert.equal(life.state.mainline?.northRoadConfirmed,undefined);assert.equal(life.state.completed['unreachable-north-road'],undefined);
+});
+test('imports all three authored routes with stable unique ids, preserving narrative and dialogue',async()=>{
+ const raw=await readFile(new URL('../docs/manuscripts/side-quest-06-north-road-user.txt',import.meta.url),'utf8');
+ for(const variant of Object.values(content.variants)){const ids=new Set();for(const phase of ['trail','reflection','night']){assert.ok(variant[phase].length);for(const l of variant[phase]){assert.ok(raw.includes(l.text));assert.ok(!ids.has(l.id),l.id);ids.add(l.id);assert.ok([null,'kentaro','natsumi'].includes(l.speaker));assert.ok(l.source.line>0);}}}
+ assert.notDeepEqual(content.variants.kentaro.night,content.variants.natsumi.night);assert.notDeepEqual(content.variants.together.reflection,content.variants.kentaro.reflection);
+});

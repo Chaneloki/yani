@@ -131,5 +131,53 @@
       }
     },
     "portraitLayout": "bust"
+  },
+  "ayme": {
+    "name": "艾梅",
+    "shortName": "艾梅",
+    "color": "#9aab85",
+    "variants": {
+      "fantasy": {
+        "neutral": "./assets/characters/ayme-herbalist-neutral.png"
+      }
+    }
+  },
+  "karl": {
+    "name": "卡爾",
+    "shortName": "卡爾",
+    "color": "#a38260",
+    "variants": {
+      "fantasy": {
+        "neutral": "./assets/characters/karl-carpenter-neutral.png"
+      }
+    }
+  },
+  "tobi": {
+    "name": "托比",
+    "shortName": "托比",
+    "color": "#a18350",
+    "variants": {
+      "fantasy": {
+        "neutral": "./assets/characters/tobi-village-neutral-v2.png"
+      }
+    }
+  },
+  "mira": {
+    "name": "米拉",
+    "shortName": "米拉",
+    "color": "#6d97a0",
+    "variants": {
+      "fantasy": {
+        "neutral": "./assets/characters/mira-village-neutral-v2.png"
+      }
+    }
+  },
+  "bakery_vendor": {
+    "name": "烘焙攤主",
+    "shortName": "攤主",
+    "color": "#b88e55",
+    "variants": {
+      "fantasy": {}
+    }
   }
 }

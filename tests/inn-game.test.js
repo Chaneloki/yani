@@ -41,3 +41,19 @@ test('legacy traveler in room 02 is requeued without losing completed service, r
  const m=new InnShift(old);assert.equal(m.s.rooms[1].guest,null);assert.equal(m.s.guests[2].room,null);assert.equal(m.s.guests[2].asked,true);assert.deepEqual(m.s.guests[2].served,['towel']);assert.deepEqual(m.s.rooms[1].cleaned,old.rooms[1].cleaned);assert.equal(m.s.elapsed,100);assert.equal(m.s.seed,old.seed);assert.equal(m.roomPlan('traveler').room,3);assert.match(m.s.feedback,/已更正舊版房間登記/);validateInn(m.snapshot());assert.equal(old.rooms[1].guest,'traveler');
 });
 test('family plan exposes the preparation step rather than presenting occupied rooms as an unsolvable booking',()=>{const m=new InnShift(createInn('natsumi',false));m.s.phase='playing';go(m,'desk');m.ask('family');assert.match(m.roomPlan('family').reason,/先在櫃檯詢問/);m.ask('resident');assert.equal(m.roomPlan('family').spot,'room2');assert.match(m.roomPlan('family').reason,/先整理 02/);assert.equal(m.roomPlan('traveler').spot,'room3');assert.equal(m.roomPlan('merchant').spot,'room4');});
+
+test('clearing current work brings one next arrival within five seconds, including after reload',()=>{
+ const m=new InnShift(createInn('kentaro',false));m.chooseDifficulty('easy');const s=m.s;s.phase='playing';s.tutorial.status='skipped';s.lockFixed=true;s.rooms.forEach(r=>{r.cleaned=['bed','chair','cup'];r.locked=false;});
+ s.moved=true;s.rooms[0].guest='family';s.rooms[1].guest='resident';s.guests[0].room=2;s.guests[1].room=1;
+ for(const g of s.guests.slice(0,2)){g.asked=true;g.served=[...g.needs];}
+ const later=s.guests[3].arrival;m.update(.1);assert.ok(s.guests[2].arrival<=5);assert.equal(s.guests[3].arrival,later);
+ const resumed=new InnShift(m.snapshot());for(let i=0;i<50;i++)resumed.update(.1);
+ assert.ok(resumed.calls.some(c=>c.id==='arrival:traveler'));
+});
+test('idle service and repair events are accelerated without adding rewards or bypassing active work',()=>{
+ const m=new InnShift(createInn('kentaro',false));m.chooseDifficulty('standard');const s=m.s;s.phase='playing';s.tutorial.status='skipped';s.lockFixed=true;s.rooms.forEach(r=>{r.cleaned=['bed','chair','cup'];r.locked=false;});s.elapsed=200;
+ s.rooms.forEach(r=>r.guest=null);s.guests.forEach((g,i)=>{g.asked=true;g.room=i+1;g.checkedIn=200;s.rooms[i].guest=g.id;g.served=[...g.needs];});
+ const g=s.guests[1];g.served=['water'];s.maintenance=[];m.update(.1);assert.ok(g.requestTimes.meal<=205);
+ for(let i=0;i<50;i++)m.update(.1);assert.ok(m.requests(g).includes('meal'));assert.deepEqual(g.served,['water']);
+ const fresh=new InnShift(createInn('kentaro',false));fresh.s.phase='playing';const arrival=fresh.s.guests[2].arrival;fresh.update(.1);assert.equal(fresh.s.guests[2].arrival,arrival);
+});

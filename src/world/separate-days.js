@@ -1,0 +1,5 @@
+const check=(ok,msg)=>{if(!ok)throw Error(msg);};
+export function createSeparateDay(work){return {version:1,id:'separate-days',phase:'scheduled',dueDay:work.day,work:structuredClone(work),scene:0,page:0,completedDay:null};}
+export function validateSeparateDay(s){check(s?.version===1&&s.id==='separate-days'&&['scheduled','reading','done'].includes(s.phase)&&Number.isSafeInteger(s.dueDay)&&s.dueDay>=2&&s.work&&s.work.day===s.dueDay&&Number.isInteger(s.work.period)&&s.work.period>=0&&s.work.period<2&&['kentaro','natsumi'].includes(s.work.actor)&&typeof s.work.task==='string'&&Number.isSafeInteger(s.scene)&&s.scene>=0&&Number.isSafeInteger(s.page)&&s.page>=0,'傍晚約會進度無效');if(s.phase==='done')check(Number.isSafeInteger(s.completedDay)&&s.completedDay>=s.dueDay,'約會完成日期無效');else check(s.completedDay===null,'約會尚未完成');return true;}
+// Only daylight work with the companion independently earning a wage schedules this scene.
+export function isSeparateWork(task,pending,success){return success&&task.kind==='work'&&!task.together&&pending.companion==='work'&&pending.period<2;}

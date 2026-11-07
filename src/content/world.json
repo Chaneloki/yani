@@ -56,12 +56,55 @@
       ]
     },
     {
+      "id": "herbalist",
+      "label": "艾梅的草藥小屋",
+      "icon": "♧",
+      "x": 18,
+      "y": 28,
+      "description": "艾梅的住處；在廣場接取支線後，可由西獨自登門拜訪。",
+      "npcs": [
+        "艾梅"
+      ]
+    },
+    {
+      "id": "workshop",
+      "label": "卡爾的木匠工作坊",
+      "icon": "⚒",
+      "x": 78,
+      "y": 48,
+      "description": "卡爾的工作台與維修委託。先在廣場接取，由山田前來。",
+      "npcs": [
+        "卡爾"
+      ]
+    },
+    {
+      "id": "well",
+      "label": "中央水井",
+      "icon": "◉",
+      "x": 53,
+      "y": 58,
+      "description": "托比約定見面的地方；在廣場接取尋物委託後來這裡。",
+      "npcs": [
+        "托比",
+        "米拉"
+      ]
+    },
+    {
       "id": "entrance",
       "label": "村口",
       "icon": "↗",
       "x": 83,
       "y": 30,
       "description": "調查外出方向與已知路線。",
+      "npcs": []
+    },
+    {
+      "id": "north-road",
+      "label": "北方舊道路",
+      "description": "舊路標仍指向星燈之城。接取多恩的道路調查委託後，從安全位置確認路況。",
+      "icon": "⌁",
+      "x": 72,
+      "y": 12,
       "npcs": []
     },
     {
@@ -94,7 +137,12 @@
       "info": "oren-return",
       "together": true,
       "activity": "first-wages",
-      "repeatable": false
+      "repeatable": false,
+      "notice": {
+        "author": "莉妲",
+        "title": "送菜幫手",
+        "text": "有兩筐蔬菜要送到多恩的旅舍，請在中午前送到，別壓壞裡面的香草。送妥後請多恩簽名，帶清單回菜圃找我領錢。"
+      }
     },
     {
       "id": "busy-inn-night",
@@ -108,7 +156,100 @@
       "coins": 24,
       "xp": 3,
       "activity": "inn-shift",
-      "repeatable": false
+      "repeatable": false,
+      "notice": {
+        "author": "多恩",
+        "title": "今晚來旅舍幫個忙",
+        "text": "今晚有客人要來，旅舍需要人手。接待、整理客房，還有客人臨時需要的東西，都得有人照看。一個人或兩個人來都行，到櫃檯找我。"
+      }
+    },
+    {
+      "id": "windowsill-herbs",
+      "title": "曬在窗邊的草藥",
+      "location": "herbalist",
+      "kind": "work",
+      "activity": "herbs-story",
+      "actor": "natsumi",
+      "solo": true,
+      "slots": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "description": "西專屬人物支線。拜訪老藥師艾梅，打聽古石門的傳聞。純劇情，沒有小遊戲。",
+      "repeatable": false,
+      "coins": 0,
+      "xp": 0,
+      "notice": {
+        "author": "艾梅",
+        "title": "窗邊的草藥",
+        "text": "窗邊曬著的草藥還沒收好，想找個人搭把手。有空的話，來小屋坐坐。"
+      }
+    },
+    {
+      "id": "carpenter-workbench",
+      "title": "木匠的工作台",
+      "location": "workshop",
+      "kind": "work",
+      "activity": "woodwork",
+      "actor": "kentaro",
+      "solo": true,
+      "slots": [
+        "afternoon"
+      ],
+      "description": "山田專屬支線。和卡爾修好折疊木架，學習結構判讀。含可選難度的維修挑戰。",
+      "coins": 0,
+      "xp": 3,
+      "repeatable": false,
+      "notice": {
+        "author": "卡爾",
+        "title": "工作台上的木架",
+        "text": "工作坊裡有個折疊木架要修。想試試木工的，可以來看看；不熟悉工具也沒關係，我會在旁邊。"
+      }
+    },
+    {
+      "id": "keep-the-promise",
+      "title": "說好了要保密",
+      "kind": "work",
+      "activity": "secret-map",
+      "location": "well",
+      "slots": [
+        "morning",
+        "afternoon"
+      ],
+      "description": "依照兩個孩子的幻想地圖找回藍盒子。山田、西或雙人同行均可；沒有時間限制。",
+      "coins": 0,
+      "xp": 1,
+      "item": "blue-marble",
+      "repeatable": false,
+      "notice": {
+        "author": "托比",
+        "title": "幫我找一個盒子",
+        "text": "我把一個藍色蓋子的盒子藏起來了，現在找不到。願意幫忙的話，來中央水井找我。先不要告訴米拉。"
+      }
+    },
+    {
+      "id": "workshop-repair",
+      "title": "工作坊進階維修",
+      "location": "workshop",
+      "kind": "work",
+      "activity": "woodwork",
+      "actor": "kentaro",
+      "solo": true,
+      "slots": [
+        "morning",
+        "afternoon"
+      ],
+      "description": "可重複的維修工作。運用結構判讀，留意間歇性的左右反轉與擾動；不重演人物支線。",
+      "coins": 18,
+      "xp": 2,
+      "repeatable": true,
+      "requiresCompleted": "carpenter-workbench",
+      "notice": {
+        "author": "卡爾",
+        "title": "工作坊徵修繕幫手",
+        "text": "工作坊還有些東西等著修。熟悉這裡工具的話，早上或下午過來幫忙，完工後付錢。"
+      }
     },
     {
       "id": "sort",
@@ -126,7 +267,12 @@
       "repeatable": true,
       "hidden": false,
       "activity": "inn-shift",
-      "requiresCompleted": "busy-inn-night"
+      "requiresCompleted": "busy-inn-night",
+      "notice": {
+        "author": "多恩",
+        "title": "旅舍徵值班幫手",
+        "text": "旅舍每天都有些事要忙。做過這裡工作的，可以再來幫忙接待和整理。有空就到櫃檯問我。"
+      }
     },
     {
       "id": "carry",
@@ -141,7 +287,12 @@
       "coins": 24,
       "xp": 2,
       "together": true,
-      "repeatable": true
+      "repeatable": true,
+      "notice": {
+        "author": "村路搬運處",
+        "title": "徵兩位搬運幫手",
+        "text": "村路這邊有貨物要搬，需要兩個人一起幫忙。早上或下午來，搬妥後付錢。"
+      }
     },
     {
       "id": "route-a",
@@ -169,6 +320,52 @@
       ],
       "info": "route-b",
       "xp": 1
+    },
+    {
+      "id": "unreachable-north-road",
+      "title": "走不到的北路",
+      "kind": "work",
+      "activity": "north-road",
+      "location": "north-road",
+      "slots": [
+        "morning",
+        "afternoon"
+      ],
+      "coins": 20,
+      "xp": 1,
+      "repeatable": false,
+      "requiresCompleted": "first-wages",
+      "info": "north-road-confirmed",
+      "description": "確認北路狀況、更新地圖，向多恩回報。",
+      "notice": {
+        "title": "道路調查委託",
+        "author": "多恩（代村民張貼）",
+        "text": "聽聞村北的舊石橋近日已無法通行，惟村中仍有舊路標指向該處。為免旅人誤入危險路段，希望有人前往確認道路狀況。\n\n只需在安全位置觀察並回報，不得冒險渡河或攀爬損壞橋體。\n\n完成後支付報酬。"
+      }
+    },
+    {
+      "id": "two-delivery-lists",
+      "title": "兩張不一樣的貨單",
+      "kind": "work",
+      "activity": "delivery-ledger",
+      "location": "inn",
+      "slots": [
+        "morning",
+        "afternoon"
+      ],
+      "coins": 26,
+      "xp": 1,
+      "item": "ripe-tomato",
+      "itemQuantity": 2,
+      "repeatable": false,
+      "together": true,
+      "requiresCompleted": "first-wages",
+      "description": "協助莉妲與多恩核對出貨、入庫與實物紀錄。",
+      "notice": {
+        "title": "貨物核對助手",
+        "author": "莉妲、多恩",
+        "text": "本日送往多恩旅舍的蔬菜，出貨記錄與收貨記錄不符。希望有人協助清點貨物、核對貨單，確認差異原因。\n\n請勿擅自修改帳簿，確認後由雙方共同簽收。\n\n報酬由雙方支付。"
+      }
     }
   ],
   "items": {
@@ -187,6 +384,22 @@
     "travel-supplies": {
       "label": "旅途物資（佔位）",
       "description": "正式內容與準備方式待後續主線一併確認。"
+    },
+    "blue-marble": {
+      "label": "藍色玻璃珠",
+      "description": "托比給的尋物報酬。燈光下像藏著一顆小星星，是兩個孩子冒險地圖的紀念。"
+    },
+    "ripe-tomato": {
+      "label": "熟透的番茄",
+      "description": "莉妲在貨單核對後送的番茄，今天早上剛摘的。"
+    },
+    "shared-map": {
+      "label": "兩人的旅行地圖",
+      "description": "記下埃斯特拉村與曾走過的道路。以後，也可以把回來的路畫上去。"
+    },
+    "travel-diary": {
+      "label": "共同旅行日記",
+      "description": "離村前夕一起開始的筆記。地圖記下道路，這裡記下值得記住的事情。"
     }
   },
   "chapterGate": {
@@ -203,7 +416,12 @@
   "questAssets": {
     "garden": "./assets/backgrounds/bg-estrala-vegetable-garden-day.webp",
     "inn": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
-    "street": "./assets/backgrounds/bg-estrala-village-street-day.webp"
+    "street": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+    "herbalistExterior": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+    "herbalistInterior": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+    "workshop": "./assets/backgrounds/bg-estrala-carpenter-workshop-day.png",
+    "bakery": "./assets/backgrounds/bg-estrala-bakery-day.png",
+    "secretLandmarks": "./assets/backgrounds/bg-estrala-secret-landmarks-day.png"
   },
   "onboarding": {
     "required": true

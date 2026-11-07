@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {TutorialProgress} from '../src/ui/minigame-tutorial.js';
+import {TUTORIALS} from '../src/ui/tutorial-practices.js';
+test('every minigame and role has an independent first-play choice that persists without modifying story storage',()=>{const data=new Map([['story-save','keep']]),storage={getItem:k=>data.get(k),setItem:(k,v)=>data.set(k,v)},p=new TutorialProgress(storage);assert.equal(Object.keys(TUTORIALS).length,11);for(const id of Object.keys(TUTORIALS)){assert.equal(p.asked(id),false);p.choose(id,id.endsWith('natsumi')?'practice':'skip');assert.equal(new TutorialProgress(storage).asked(id),true);}assert.equal(data.get('story-save'),'keep');});
+test('skip never marks other games seen, including the other role of the same mission',()=>{const p=new TutorialProgress();p.choose('cart-kentaro','skip');assert.equal(p.asked('cart-kentaro'),true);assert.equal(p.asked('cart-natsumi'),false);assert.equal(p.asked('inn-room'),false);p.choose('cart-kentaro','practice');assert.equal(p.asked('cart-kentaro'),true);});
+test('blocked or corrupt storage still remembers the choice within the session',()=>{const broken={getItem:()=>'{bad',setItem:()=>{throw Error('blocked');}},p=new TutorialProgress(broken);assert.equal(p.asked('inn-lock'),false);assert.doesNotThrow(()=>p.choose('inn-lock','skip'));assert.equal(p.asked('inn-lock'),true);});

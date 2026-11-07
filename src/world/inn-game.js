@@ -44,7 +44,7 @@ export class InnShift{
 
  get sRooms(){return this.s.rooms;}
  get arrived(){return this.s.guests.filter(g=>g.arrival<=this.s.elapsed);}
- requests(g){return g.asked&&g.room?g.needs.filter((item,i)=>!g.served.includes(item)&&this.s.elapsed>=(g.checkedIn??g.arrival)+i*(this.s.requestGap??14)):[];}
+ requests(g){return g.asked&&g.room?g.needs.filter((item,i)=>!g.served.includes(item)&&this.s.elapsed>=(g.requestTimes?.[item]??((g.checkedIn??g.arrival)+i*(this.s.requestGap??14)))):[];}
  get calls(){const calls=[];for(const g of this.arrived){if(!g.asked)calls.push({id:`arrival:${g.id}`,spot:'desk',text:`🔔 ${g.name}來到櫃檯了。`});else if(!g.room)calls.push({id:`room:${g.id}`,spot:'desk',text:`${g.name}正在等候安排房間。`});for(const item of this.requests(g))calls.push({id:`service:${g.id}:${item}`,spot:`room${g.room}`,text:`0${g.room} 號房 · ${g.name}想要${INN_ITEMS[item]}。`});}for(const job of this.activeMaintenance)calls.push({id:`lamp:${job.id}`,spot:`room${job.room}`,text:`0${job.room} 號房的床頭燈忽明忽暗，請幫忙調整。`});if(this.s.elapsed>=20&&!this.s.lockFixed)calls.push({id:'lock',spot:`room${this.s.lockRoom||3}`,text:`0${this.s.lockRoom||3} 號房的門鎖卡住了，得過去看看。`});return calls;}
  get complete(){return this.s.guests.every(g=>g.asked&&g.room&&g.needs.every(i=>g.served.includes(i)))&&this.s.rooms.every(r=>r.cleaned.length===3)&&this.s.lockFixed&&this.s.maintenance.every(j=>j.fixed);}
  get bonus(){return Math.floor(this.s.quality/25);}
@@ -59,7 +59,19 @@ export class InnShift{
  returnItem(index){check(this.s.player.bag[index],'手上沒有這件物品。');const item=this.s.player.bag[index],station=item==='towel'?'store':item==='luggage'?'desk':'kitchen';check(this.at(station),'請回原工作站放下物品。');this.s.player.bag.splice(index,1);this.s.feedback='物品已放回工作站。';}
  serve(id,item,who='player'){const g=this.s.guests.find(g=>g.id===id),p=this.s[who];check(g?.room&&this.at(`room${g.room}`,who),'先把物品送到客房。');const index=p.bag.indexOf(item);check(index>=0&&this.requests(g).includes(item),'物品不符合或已經送過。');p.bag.splice(index,1);g.served.push(item);if(who==='player')this.s.feedback=`${g.name}收到${INN_ITEMS[item]}了。`;}
  delegate(id,item){check(this.s.partner,'今次沒有同行同伴。');const g=this.s.guests.find(g=>g.id===id);check(!this.s.aiJob&&g?.room&&this.requests(g).includes(item),'這項服務暫時不能分工。');this.s.aiJob={guest:id,item,stage:'pickup'};this.s.partnerLine=this.s.actor==='natsumi'?'健太郎：好，這份我去送。':'奈津美：嗯，這份交給我。';}
- update(dt){const s=this.s;if(s.phase!=='playing')return;s.elapsed+=Math.min(.1,Math.max(0,dt));for(const g of this.arrived)if(!g.room||this.requests(g).length>0)g.wait+=Math.min(.1,Math.max(0,dt));const late=this.arrived.filter(g=>g.wait>(s.waitLimit??120)).length;if(late>s.lateMarks){s.quality=Math.max(0,s.quality-(late-s.lateMarks)*10);s.lateMarks=late;s.feedback='有客人等了一會兒。完成基本工作仍會有工錢，先處理他們吧。';}
+ paceNextWork(){
+  const s=this.s;
+  if(s.tutorial?.status==='active'||this.complete||this.calls.length||!s.lockFixed||s.rooms.some(r=>r.cleaned.length<3))return;
+  // Bring forward just the next pending event, never a whole batch.
+  const pending=[];
+  for(const g of s.guests){
+   if(g.arrival>s.elapsed)pending.push({at:g.arrival,set:at=>g.arrival=at});
+   if(g.asked&&g.room)g.needs.forEach((item,i)=>{const at=g.requestTimes?.[item]??((g.checkedIn??g.arrival)+i*(s.requestGap??14));if(!g.served.includes(item)&&at>s.elapsed)pending.push({at,set:value=>{g.requestTimes??={};g.requestTimes[item]=value;}});});
+  }
+  for(const job of s.maintenance)if(!job.fixed){const g=s.guests.find(g=>g.room===job.room);if(g){const at=(g.checkedIn??0)+job.delay;if(at>s.elapsed)pending.push({at,set:value=>job.delay=value-(g.checkedIn??0)});}}
+  pending.sort((a,b)=>a.at-b.at);if(pending.length)pending[0].set(Math.min(pending[0].at,s.elapsed+5));
+ }
+ update(dt){const s=this.s;if(s.phase!=='playing')return;this.paceNextWork();s.elapsed+=Math.min(.1,Math.max(0,dt));for(const g of this.arrived)if(!g.room||this.requests(g).length>0)g.wait+=Math.min(.1,Math.max(0,dt));const late=this.arrived.filter(g=>g.wait>(s.waitLimit??120)).length;if(late>s.lateMarks){s.quality=Math.max(0,s.quality-(late-s.lateMarks)*10);s.lateMarks=late;s.feedback='有客人等了一會兒。完成基本工作仍會有工錢，先處理他們吧。';}
   if(s.partner){if(!s.aiJob&&s.aiAuto){const g=this.arrived.find(g=>g.room&&g.asked&&this.requests(g).some(i=>!s.player.bag.includes(i)));if(g)this.delegate(g.id,this.requests(g).find(i=>!s.player.bag.includes(i)));}this.aiClock+=dt;if(s.aiJob&&this.aiClock>.18){this.aiClock=0;const job=s.aiJob,g=s.guests.find(g=>g.id===job.guest),station=job.item==='towel'?'store':job.item==='luggage'?'desk':'kitchen',dest=job.stage==='pickup'?station:`room${g.room}`;if(g.served.includes(job.item)){s.partner.bag=[];s.aiJob=null;}else if(this.at(dest,'partner')){if(job.stage==='pickup'){this.take(job.item,'partner');job.stage='deliver';}else{this.serve(g.id,job.item,'partner');s.partnerLine=s.actor==='natsumi'?'健太郎：送到了！接下來要幫什麼？':'奈津美：已經送好了。我再看看其他客人。';s.aiJob=null;}}else{const next=innPath(s.partner,INN_SPOTS[dest])[0];if(next){s.partner.facing=next.x<s.partner.x?2:next.x>s.partner.x?3:next.y<s.partner.y?1:0;Object.assign(s.partner,next);}}}}
   if(this.complete){s.finishedAt=s.elapsed;s.phase=s.repeat?'settle':'ending';s.page=0;}
  }

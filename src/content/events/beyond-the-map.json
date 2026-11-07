@@ -1,0 +1,3849 @@
+{
+  "id": "beyond-the-map",
+  "title": "地圖以外的事情",
+  "required": true,
+  "scenes": [
+    {
+      "id": "packing",
+      "title": "整理行囊",
+      "lines": [
+        {
+          "id": "departure-0005-0",
+          "speaker": null,
+          "text": "晚飯過後，旅舍漸漸安靜下來。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 5
+          }
+        },
+        {
+          "id": "departure-0007-0",
+          "speaker": null,
+          "text": "西回到房間時，山田正坐在床邊整理行囊。兩個袋子敞開放在地上，換洗衣物、乾糧、水袋和工具都已經分門別類地收好，只剩下幾件明天早上還要用的東西。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 7
+          }
+        },
+        {
+          "id": "departure-0009-1",
+          "speaker": "kentaro",
+          "text": "「啊，奈津美，回來了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 9
+          }
+        },
+        {
+          "id": "departure-0011-1",
+          "speaker": "natsumi",
+          "text": "「嗯。多恩先生說，明天會幫我們準備一些可以帶走的食物。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 11
+          }
+        },
+        {
+          "id": "departure-0013-1",
+          "speaker": "kentaro",
+          "text": "「那太好了。我剛才還在想，要不要再去買點麵包。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 13
+          }
+        },
+        {
+          "id": "departure-0015-0",
+          "speaker": null,
+          "text": "西看了一眼行囊。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 15
+          }
+        },
+        {
+          "id": "departure-0017-1",
+          "speaker": "natsumi",
+          "text": "「已經收拾得差不多了？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 17
+          }
+        },
+        {
+          "id": "departure-0019-1",
+          "speaker": "kentaro",
+          "text": "「嗯。重的東西我先放到下面了，這邊是路上會用到的。對了，我把工具分成兩份，有幾樣留在妳那邊，萬一我們要分開拿東西，也不用一直翻我的袋子。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 19
+          }
+        },
+        {
+          "id": "departure-0021-0",
+          "speaker": null,
+          "text": "山田說著，將其中一個小布包遞給她。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 21
+          }
+        },
+        {
+          "id": "departure-0023-0",
+          "speaker": null,
+          "text": "西打開看了一眼，裡面放著繩子、小刀和幾件簡單的工具。她把布包放在手心掂了掂。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 23
+          }
+        },
+        {
+          "id": "departure-0025-1",
+          "speaker": "natsumi",
+          "text": "「你把這些都整理好了啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 25
+          }
+        },
+        {
+          "id": "departure-0027-1",
+          "speaker": "kentaro",
+          "text": "「嗯。奧倫說山路不好走，行李最好不要裝得太滿。我們明天還得帶水呢。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 27
+          }
+        },
+        {
+          "id": "departure-0029-1",
+          "speaker": "natsumi",
+          "text": "「也是。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 29
+          }
+        },
+        {
+          "id": "departure-0031-0",
+          "speaker": null,
+          "text": "西將布包收進自己的行囊，接著拿起桌上的紙張。那是一份兩人白天才核對過的物資清單，旁邊還寫著奧倫提醒他們注意的幾件事。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 31
+          }
+        },
+        {
+          "id": "departure-0033-0",
+          "speaker": null,
+          "text": "從埃斯特拉村出發，沿南邊的商道前往山間驛站。途中會經過一段山谷，附近有供商隊停留的地方，但不能保證每處都能補給。奧倫願意在自己運送貨物的路上帶著他們，到了驛站之後，兩人便需要再找前往星燈之城的道路。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 33
+          }
+        },
+        {
+          "id": "departure-0035-0",
+          "speaker": null,
+          "text": "這是他們來到這個世界之後，第一次真正準備離開一個熟悉的地方。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 35
+          }
+        },
+        {
+          "id": "departure-0037-0",
+          "speaker": null,
+          "text": "西望著清單，忽然有種不太真實的感覺。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 37
+          }
+        },
+        {
+          "id": "departure-0039-0",
+          "speaker": null,
+          "text": "明天就要走了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 39
+          }
+        },
+        {
+          "id": "departure-0041-0",
+          "speaker": null,
+          "text": "明明過去這些天，她幾乎每天都在想怎樣前往星燈之城。可真正把出發的日子定下來以後，心裡卻沒有想像中那樣輕鬆。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 41
+          }
+        },
+        {
+          "id": "departure-0043-1",
+          "speaker": "kentaro",
+          "text": "「奈津美？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 43
+          }
+        },
+        {
+          "id": "departure-0045-0",
+          "speaker": null,
+          "text": "她抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 45
+          }
+        },
+        {
+          "id": "departure-0047-0",
+          "speaker": null,
+          "text": "山田正看著她。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 47
+          }
+        },
+        {
+          "id": "departure-0049-1",
+          "speaker": "kentaro",
+          "text": "「怎麼了？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 49
+          }
+        },
+        {
+          "id": "departure-0051-1",
+          "speaker": "natsumi",
+          "text": "「沒有……只是在想，明天真的要走了呢。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 51
+          }
+        },
+        {
+          "id": "departure-0053-1",
+          "speaker": "kentaro",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 53
+          }
+        },
+        {
+          "id": "departure-0055-0",
+          "speaker": null,
+          "text": "山田把最後一件衣服收好，將行囊暫時放到一旁。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 55
+          }
+        },
+        {
+          "id": "departure-0057-1",
+          "speaker": "kentaro",
+          "text": "「今天跟多恩先生說的時候，我也有種終於要出發了的感覺。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 57
+          }
+        },
+        {
+          "id": "departure-0059-1",
+          "speaker": "natsumi",
+          "text": "「他有說什麼嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 59
+          }
+        },
+        {
+          "id": "departure-0061-1",
+          "speaker": "kentaro",
+          "text": "「問我們打算什麼時候回來。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 61
+          }
+        },
+        {
+          "id": "departure-0063-1",
+          "speaker": "natsumi",
+          "text": "「……你怎麼回答？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 63
+          }
+        },
+        {
+          "id": "departure-0065-1",
+          "speaker": "kentaro",
+          "text": "「我說還不知道。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 65
+          }
+        },
+        {
+          "id": "departure-0067-0",
+          "speaker": null,
+          "text": "西望著他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 67
+          }
+        },
+        {
+          "id": "departure-0069-0",
+          "speaker": null,
+          "text": "山田坐到桌前，拿起兩人共同畫的地圖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 69
+          }
+        },
+        {
+          "id": "departure-0071-1",
+          "speaker": "kentaro",
+          "text": "「畢竟真的不知道嘛。我們連星燈之城要走多久都還沒完全確認，更別說之後會怎樣了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 71
+          }
+        },
+        {
+          "id": "departure-0073-0",
+          "speaker": null,
+          "text": "他攤開地圖，指著村莊南方那條尚未畫完的道路。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 73
+          }
+        },
+        {
+          "id": "departure-0075-1",
+          "speaker": "kentaro",
+          "text": "「不過，多恩先生說，如果我們之後還會經過這附近，可以再去住他的旅舍。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 75
+          }
+        },
+        {
+          "id": "departure-0077-1",
+          "speaker": "natsumi",
+          "text": "「真的？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 77
+          }
+        },
+        {
+          "id": "departure-0079-1",
+          "speaker": "kentaro",
+          "text": "「嗯。還提醒我到時候要提前訂房。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 79
+          }
+        },
+        {
+          "id": "departure-0081-0",
+          "speaker": null,
+          "text": "西笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 81
+          }
+        },
+        {
+          "id": "departure-0083-1",
+          "speaker": "natsumi",
+          "text": "「很像他會說的話。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 83
+          }
+        },
+        {
+          "id": "departure-0085-1",
+          "speaker": "kentaro",
+          "text": "「對吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 85
+          }
+        },
+        {
+          "id": "departure-0087-0",
+          "speaker": null,
+          "text": "山田也笑了笑。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 87
+          }
+        },
+        {
+          "id": "departure-0089-0",
+          "speaker": null,
+          "text": "西將清單放下，走到他身旁坐下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 89
+          }
+        }
+      ]
+    },
+    {
+      "id": "village",
+      "title": "熟悉的村莊",
+      "lines": [
+        {
+          "id": "departure-0091-0",
+          "speaker": null,
+          "text": "桌上的地圖已經比最初完整了不少。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 91
+          }
+        },
+        {
+          "id": "departure-0093-0",
+          "speaker": null,
+          "text": "剛來到村莊時，兩人只知道自己從某個山坡走下來，遠處有一片屋頂，除此之外幾乎一無所知。如今埃斯特拉村的街道、附近的農田、南北兩條道路，以及那座已經無法通行的石橋，都有了各自的位置。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 93
+          }
+        },
+        {
+          "id": "departure-0095-0",
+          "speaker": null,
+          "text": "那些歪歪斜斜的線條，有些是他們親自走過的，有些則是聽村民描述後暫時畫上的。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 95
+          }
+        },
+        {
+          "id": "departure-0097-0",
+          "speaker": null,
+          "text": "西用指尖輕輕按住紙張的一角。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 97
+          }
+        },
+        {
+          "id": "departure-0099-1",
+          "speaker": "natsumi",
+          "text": "「……我們原來已經畫了這麼多。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 99
+          }
+        },
+        {
+          "id": "departure-0101-1",
+          "speaker": "kentaro",
+          "text": "「是啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 101
+          }
+        },
+        {
+          "id": "departure-0103-0",
+          "speaker": null,
+          "text": "山田看著地圖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 103
+          }
+        },
+        {
+          "id": "departure-0105-1",
+          "speaker": "kentaro",
+          "text": "「最開始連回旅舍的路都要問人。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 105
+          }
+        },
+        {
+          "id": "departure-0107-1",
+          "speaker": "natsumi",
+          "text": "「那次是因為天快黑了啦。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 107
+          }
+        },
+        {
+          "id": "departure-0109-1",
+          "speaker": "kentaro",
+          "text": "「而且我們還走錯了岔路。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 109
+          }
+        },
+        {
+          "id": "departure-0111-1",
+          "speaker": "natsumi",
+          "text": "「……那是因為你說左邊好像比較近。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 111
+          }
+        },
+        {
+          "id": "departure-0113-1",
+          "speaker": "kentaro",
+          "text": "「我記得妳也同意了耶。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 113
+          }
+        },
+        {
+          "id": "departure-0115-0",
+          "speaker": null,
+          "text": "西想了想，沒辦法反駁。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 115
+          }
+        },
+        {
+          "id": "departure-0117-1",
+          "speaker": "natsumi",
+          "text": "「好像是。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 117
+          }
+        },
+        {
+          "id": "departure-0119-0",
+          "speaker": null,
+          "text": "兩人相視一笑。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 119
+          }
+        },
+        {
+          "id": "departure-0121-0",
+          "speaker": null,
+          "text": "她還記得那天傍晚。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 121
+          }
+        },
+        {
+          "id": "departure-0123-0",
+          "speaker": null,
+          "text": "村裡的屋頂被夕陽照得橙紅，兩人一邊擔心趕不上旅舍供應晚飯的時間，一邊拿著簡陋的地圖在岔路口研究了半天。最後是一位路過的村民看見他們，主動指了路。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 123
+          }
+        },
+        {
+          "id": "departure-0125-0",
+          "speaker": null,
+          "text": "那時候，連有人向他們打招呼，都會讓她稍微緊張一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 125
+          }
+        },
+        {
+          "id": "departure-0127-0",
+          "speaker": null,
+          "text": "現在卻已經不一樣了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 127
+          }
+        },
+        {
+          "id": "departure-0129-0",
+          "speaker": null,
+          "text": "她知道早上經過菜田時，莉妲大多已經開始工作；知道多恩不喜歡客人在櫃檯前堆放行李；知道村莊到了傍晚，哪條街最先亮起燈火。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 129
+          }
+        },
+        {
+          "id": "departure-0131-0",
+          "speaker": null,
+          "text": "都是些微不足道的小事。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 131
+          }
+        },
+        {
+          "id": "departure-0133-0",
+          "speaker": null,
+          "text": "但正是這些小事，讓原本陌生的地方，逐漸有了熟悉的模樣。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 133
+          }
+        },
+        {
+          "id": "departure-0135-1",
+          "speaker": "natsumi",
+          "text": "「健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 135
+          }
+        },
+        {
+          "id": "departure-0137-1",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 137
+          }
+        },
+        {
+          "id": "departure-0139-1",
+          "speaker": "natsumi",
+          "text": "「我今天去跟莉妲小姐道別了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 139
+          }
+        },
+        {
+          "id": "departure-0141-1",
+          "speaker": "kentaro",
+          "text": "「哦，她怎麼說？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 141
+          }
+        },
+        {
+          "id": "departure-0143-1",
+          "speaker": "natsumi",
+          "text": "「她問我們為什麼不多待幾天，等準備得更充分再走。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 143
+          }
+        },
+        {
+          "id": "departure-0145-1",
+          "speaker": "kentaro",
+          "text": "「哈哈，她真的很會擔心這些事。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 145
+          }
+        },
+        {
+          "id": "departure-0147-1",
+          "speaker": "natsumi",
+          "text": "「不過我跟她說，已經跟奧倫先生約好了。她就沒有再勸，只是叫我們記得帶夠水。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 147
+          }
+        },
+        {
+          "id": "departure-0149-0",
+          "speaker": null,
+          "text": "西稍微停了一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 149
+          }
+        },
+        {
+          "id": "departure-0151-1",
+          "speaker": "natsumi",
+          "text": "「後來她還塞了一袋蔬菜給我。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 151
+          }
+        },
+        {
+          "id": "departure-0153-1",
+          "speaker": "kentaro",
+          "text": "「難怪剛才多了一袋東西。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 153
+          }
+        },
+        {
+          "id": "departure-0155-1",
+          "speaker": "natsumi",
+          "text": "「嗯。我本來想付錢，她說只是一些不值錢的菜，叫我不要囉唆。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 155
+          }
+        },
+        {
+          "id": "departure-0157-0",
+          "speaker": null,
+          "text": "山田笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 157
+          }
+        },
+        {
+          "id": "departure-0159-1",
+          "speaker": "kentaro",
+          "text": "「真像莉妲。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 159
+          }
+        },
+        {
+          "id": "departure-0161-0",
+          "speaker": null,
+          "text": "西也跟著笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 161
+          }
+        },
+        {
+          "id": "departure-0163-0",
+          "speaker": null,
+          "text": "她想起莉妲把布袋交給自己時的模樣。那人說話仍然很直接，臨別前還不忘抱怨天氣，提醒他們遇到下雨要及早找地方躲避。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 163
+          }
+        },
+        {
+          "id": "departure-0165-0",
+          "speaker": null,
+          "text": "明明只是一次普通的道別。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 165
+          }
+        },
+        {
+          "id": "departure-0167-0",
+          "speaker": null,
+          "text": "可是走出菜田後，西卻突然有點想回頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 167
+          }
+        },
+        {
+          "id": "departure-0169-1",
+          "speaker": "natsumi",
+          "text": "「……有點捨不得呢。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 169
+          }
+        },
+        {
+          "id": "departure-0171-0",
+          "speaker": null,
+          "text": "她不知不覺將這句話說了出來。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 171
+          }
+        },
+        {
+          "id": "departure-0173-0",
+          "speaker": null,
+          "text": "山田轉過頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 173
+          }
+        },
+        {
+          "id": "departure-0175-0",
+          "speaker": null,
+          "text": "西仍然望著地圖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 175
+          }
+        },
+        {
+          "id": "departure-0177-1",
+          "speaker": "natsumi",
+          "text": "「很奇怪吧。明明一直都想快點回家，可是真的要走了，又覺得有點寂寞。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 177
+          }
+        },
+        {
+          "id": "departure-0179-1",
+          "speaker": "kentaro",
+          "text": "「不奇怪啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 179
+          }
+        },
+        {
+          "id": "departure-0181-0",
+          "speaker": null,
+          "text": "他的回答很自然。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 181
+          }
+        },
+        {
+          "id": "departure-0183-1",
+          "speaker": "kentaro",
+          "text": "「我也捨不得。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 183
+          }
+        },
+        {
+          "id": "departure-0185-0",
+          "speaker": null,
+          "text": "西望向他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 185
+          }
+        },
+        {
+          "id": "departure-0187-1",
+          "speaker": "natsumi",
+          "text": "「真的？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 187
+          }
+        },
+        {
+          "id": "departure-0189-1",
+          "speaker": "kentaro",
+          "text": "「當然。這幾天認識了不少人啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 189
+          }
+        },
+        {
+          "id": "departure-0191-0",
+          "speaker": null,
+          "text": "山田想了一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 191
+          }
+        },
+        {
+          "id": "departure-0193-1",
+          "speaker": "kentaro",
+          "text": "「而且我還有些事情想做。附近有幾條路沒走過，有些人也還沒好好道別。要是可以的話，真想再多待幾天。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 193
+          }
+        },
+        {
+          "id": "departure-0195-1",
+          "speaker": "natsumi",
+          "text": "「……嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 195
+          }
+        },
+        {
+          "id": "departure-0197-1",
+          "speaker": "kentaro",
+          "text": "「可是我們也不能一直留在這裡。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 197
+          }
+        },
+        {
+          "id": "departure-0199-0",
+          "speaker": null,
+          "text": "他低頭看著地圖上的南方商道。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 199
+          }
+        },
+        {
+          "id": "departure-0201-1",
+          "speaker": "kentaro",
+          "text": "「現在好不容易有機會跟熟悉路的人一起出發，我覺得還是應該去。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 201
+          }
+        },
+        {
+          "id": "departure-0203-0",
+          "speaker": null,
+          "text": "西點了點頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 203
+          }
+        },
+        {
+          "id": "departure-0205-0",
+          "speaker": null,
+          "text": "她知道健太郎說得對。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 205
+          }
+        },
+        {
+          "id": "departure-0207-0",
+          "speaker": null,
+          "text": "他們在埃斯特拉村的生活，確實已經漸漸安定下來。多恩願意讓他們繼續住宿，村民也開始認得他們，連賺取生活費都不再像最初那樣困難。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 207
+          }
+        },
+        {
+          "id": "departure-0209-0",
+          "speaker": null,
+          "text": "可是，這份安定本來就不是他們最初想尋找的東西。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 209
+          }
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "想回家的心情",
+      "lines": [
+        {
+          "id": "departure-0211-0",
+          "speaker": null,
+          "text": "西想起自己原本的房間。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 211
+          }
+        },
+        {
+          "id": "departure-0213-0",
+          "speaker": null,
+          "text": "桌上還放著考完試後隨手收起的課本，手機裡大概有不少未讀訊息。出門前，她甚至沒有想過要帶什麼行李。畢竟那天只是去健太郎家玩遊戲，晚上本來就應該回去。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 213
+          }
+        },
+        {
+          "id": "departure-0215-0",
+          "speaker": null,
+          "text": "她忽然很想知道，現在那邊究竟怎麼樣了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 215
+          }
+        },
+        {
+          "id": "departure-0217-0",
+          "speaker": null,
+          "text": "家裡的人有沒有發現她不見了？",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 217
+          }
+        },
+        {
+          "id": "departure-0219-0",
+          "speaker": null,
+          "text": "他們會不會一直在找她？",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 219
+          }
+        },
+        {
+          "id": "departure-0221-0",
+          "speaker": null,
+          "text": "現實世界的時間，是不是也像這裡一樣，一天接著一天地過去？",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 221
+          }
+        },
+        {
+          "id": "departure-0223-0",
+          "speaker": null,
+          "text": "她發現自己又在想那些沒有答案的問題。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 223
+          }
+        },
+        {
+          "id": "departure-0225-1",
+          "speaker": "natsumi",
+          "text": "「……我有時候會覺得很對不起家裡的人。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 225
+          }
+        },
+        {
+          "id": "departure-0227-0",
+          "speaker": null,
+          "text": "山田轉頭看她。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 227
+          }
+        },
+        {
+          "id": "departure-0229-0",
+          "speaker": null,
+          "text": "西垂下眼睛。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 229
+          }
+        },
+        {
+          "id": "departure-0231-1",
+          "speaker": "natsumi",
+          "text": "「因為我今天其實過得很開心。莉妲小姐還跟我聊了不少事情，晚飯也很好吃。可是後來想到家裡的人可能正在擔心我，就突然覺得……自己這樣是不是有點奇怪。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 231
+          }
+        },
+        {
+          "id": "departure-0233-0",
+          "speaker": null,
+          "text": "房間裡安靜了一會兒。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 233
+          }
+        },
+        {
+          "id": "departure-0235-0",
+          "speaker": null,
+          "text": "山田沒有急著回答。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 235
+          }
+        },
+        {
+          "id": "departure-0237-0",
+          "speaker": null,
+          "text": "他將攤在桌上的紙張移開一些，伸手握住西放在膝上的手。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 237
+          }
+        },
+        {
+          "id": "departure-0239-1",
+          "speaker": "kentaro",
+          "text": "「奈津美。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 239
+          }
+        },
+        {
+          "id": "departure-0241-1",
+          "speaker": "natsumi",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 241
+          }
+        },
+        {
+          "id": "departure-0243-1",
+          "speaker": "kentaro",
+          "text": "「我也有啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 243
+          }
+        },
+        {
+          "id": "departure-0245-0",
+          "speaker": null,
+          "text": "西抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 245
+          }
+        },
+        {
+          "id": "departure-0247-1",
+          "speaker": "kentaro",
+          "text": "「有時候忙完一整天，我才突然想起來，原本今天根本不應該在這裡。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 247
+          }
+        },
+        {
+          "id": "departure-0249-0",
+          "speaker": null,
+          "text": "山田望著她。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 249
+          }
+        },
+        {
+          "id": "departure-0251-1",
+          "speaker": "kentaro",
+          "text": "「我也想知道家裡現在怎麼樣了。要是他們一直找不到我們，肯定會很難過吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 251
+          }
+        },
+        {
+          "id": "departure-0253-0",
+          "speaker": null,
+          "text": "他的聲音很平穩，卻沒有像平時那樣帶著輕快的笑意。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 253
+          }
+        },
+        {
+          "id": "departure-0255-1",
+          "speaker": "natsumi",
+          "text": "「……嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 255
+          }
+        },
+        {
+          "id": "departure-0257-1",
+          "speaker": "kentaro",
+          "text": "「不過，我覺得我們沒必要因為今天有開心的事情，就覺得自己做錯了什麼。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 257
+          }
+        },
+        {
+          "id": "departure-0259-0",
+          "speaker": null,
+          "text": "西望著他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 259
+          }
+        },
+        {
+          "id": "departure-0261-0",
+          "speaker": null,
+          "text": "山田想了想，接著說：",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 261
+          }
+        },
+        {
+          "id": "departure-0263-1",
+          "speaker": "kentaro",
+          "text": "「我們現在能做的事情都在做了。已經打聽了路，也準備好要去找石門。那中間遇到很好的人，或者發生很開心的事，我也不想假裝那些事情不重要。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 263
+          }
+        },
+        {
+          "id": "departure-0265-0",
+          "speaker": null,
+          "text": "西安靜地聽著。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 265
+          }
+        },
+        {
+          "id": "departure-0267-1",
+          "speaker": "kentaro",
+          "text": "「我想回家，也真的很喜歡這裡的人。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 267
+          }
+        },
+        {
+          "id": "departure-0269-0",
+          "speaker": null,
+          "text": "山田稍微握緊了她的手。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 269
+          }
+        },
+        {
+          "id": "departure-0271-1",
+          "speaker": "kentaro",
+          "text": "「這兩件事沒有衝突吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 271
+          }
+        },
+        {
+          "id": "departure-0273-0",
+          "speaker": null,
+          "text": "西望著他，慢慢點了點頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 273
+          }
+        },
+        {
+          "id": "departure-0275-1",
+          "speaker": "natsumi",
+          "text": "「……嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 275
+          }
+        },
+        {
+          "id": "departure-0277-0",
+          "speaker": null,
+          "text": "其實她也明白。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 277
+          }
+        },
+        {
+          "id": "departure-0279-0",
+          "speaker": null,
+          "text": "只是有時候，明白一件事，和真正願意讓自己相信，是兩回事。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 279
+          }
+        },
+        {
+          "id": "departure-0281-0",
+          "speaker": null,
+          "text": "她低頭望著兩人交握的手。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 281
+          }
+        },
+        {
+          "id": "departure-0283-0",
+          "speaker": null,
+          "text": "來到這個世界之後，她曾經很多次想像過回家的情景。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 283
+          }
+        },
+        {
+          "id": "departure-0285-0",
+          "speaker": null,
+          "text": "打開熟悉的房門，聽見家人說話的聲音。重新用上手機，去便利店買飲料，搭乘平時熟悉的電車。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 285
+          }
+        },
+        {
+          "id": "departure-0287-0",
+          "speaker": null,
+          "text": "甚至是回到那個普通的星期六。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 287
+          }
+        },
+        {
+          "id": "departure-0289-0",
+          "speaker": null,
+          "text": "如果能夠重新選擇，她還會不會打開那隻遊戲？",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 289
+          }
+        },
+        {
+          "id": "departure-0291-0",
+          "speaker": null,
+          "text": "答案應該很簡單才對。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 291
+          }
+        },
+        {
+          "id": "departure-0293-0",
+          "speaker": null,
+          "text": "可她想起埃斯特拉村，想起這幾天認識的人，卻忽然發現自己並不希望那些相遇從來沒有發生過。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 293
+          }
+        },
+        {
+          "id": "departure-0295-0",
+          "speaker": null,
+          "text": "她沒有把這個念頭說出口。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 295
+          }
+        },
+        {
+          "id": "departure-0297-0",
+          "speaker": null,
+          "text": "山田也沒有催促她。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 297
+          }
+        },
+        {
+          "id": "departure-0299-0",
+          "speaker": null,
+          "text": "兩人就這樣坐了一會兒，直到樓下傳來多恩收拾餐具的聲音，西才重新抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 299
+          }
+        },
+        {
+          "id": "departure-0301-1",
+          "speaker": "natsumi",
+          "text": "「健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 301
+          }
+        },
+        {
+          "id": "departure-0303-1",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 303
+          }
+        }
+      ]
+    },
+    {
+      "id": "uncertain",
+      "title": "尚未知道的答案",
+      "lines": [
+        {
+          "id": "departure-0305-1",
+          "speaker": "natsumi",
+          "text": "「你有沒有想過，如果我們真的找到石門，卻沒辦法回去，該怎麼辦？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 305
+          }
+        },
+        {
+          "id": "departure-0307-0",
+          "speaker": null,
+          "text": "山田望了她一眼。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 307
+          }
+        },
+        {
+          "id": "departure-0309-1",
+          "speaker": "kentaro",
+          "text": "「有啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 309
+          }
+        },
+        {
+          "id": "departure-0311-0",
+          "speaker": null,
+          "text": "他回答得很坦率。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 311
+          }
+        },
+        {
+          "id": "departure-0313-1",
+          "speaker": "kentaro",
+          "text": "「之前在查北邊那條路的時候，我就想過了。其實我們現在只是知道，那座門跟我們見過的很像，其他事情都還不能確定。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 313
+          }
+        },
+        {
+          "id": "departure-0315-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 315
+          }
+        },
+        {
+          "id": "departure-0317-1",
+          "speaker": "kentaro",
+          "text": "「就算找到，也不代表一定能回家。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 317
+          }
+        },
+        {
+          "id": "departure-0319-0",
+          "speaker": null,
+          "text": "聽見他親口說出來，西胸口還是微微沉了一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 319
+          }
+        },
+        {
+          "id": "departure-0321-0",
+          "speaker": null,
+          "text": "這件事她當然知道。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 321
+          }
+        },
+        {
+          "id": "departure-0323-0",
+          "speaker": null,
+          "text": "但一路以來，古石門始終是他們最明確的目標。只要想到還有一個地方可以尋找，就好像暫時不需要面對其他可能性。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 323
+          }
+        },
+        {
+          "id": "departure-0325-1",
+          "speaker": "natsumi",
+          "text": "「……你會害怕嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 325
+          }
+        },
+        {
+          "id": "departure-0327-0",
+          "speaker": null,
+          "text": "她問。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 327
+          }
+        },
+        {
+          "id": "departure-0329-1",
+          "speaker": "kentaro",
+          "text": "「會。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 329
+          }
+        },
+        {
+          "id": "departure-0331-0",
+          "speaker": null,
+          "text": "山田稍微停了一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 331
+          }
+        },
+        {
+          "id": "departure-0333-1",
+          "speaker": "kentaro",
+          "text": "「我怕我們找了很久，最後還是沒有辦法回去。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 333
+          }
+        },
+        {
+          "id": "departure-0335-0",
+          "speaker": null,
+          "text": "他望著她，沒有移開視線。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 335
+          }
+        },
+        {
+          "id": "departure-0337-1",
+          "speaker": "kentaro",
+          "text": "「也怕到時候不知道還能做什麼。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 337
+          }
+        },
+        {
+          "id": "departure-0339-0",
+          "speaker": null,
+          "text": "西的手指不自覺地收緊。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 339
+          }
+        },
+        {
+          "id": "departure-0341-0",
+          "speaker": null,
+          "text": "山田輕輕回握住她。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 341
+          }
+        },
+        {
+          "id": "departure-0343-1",
+          "speaker": "kentaro",
+          "text": "「可是，如果現在就一直想著最壞的情況，我們也不會因此更接近答案吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 343
+          }
+        },
+        {
+          "id": "departure-0345-0",
+          "speaker": null,
+          "text": "他拿起桌上的地圖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 345
+          }
+        },
+        {
+          "id": "departure-0347-1",
+          "speaker": "kentaro",
+          "text": "「所以我想，先去驛站，把那邊的資料查清楚。到了星燈之城，再想辦法找到古石門。如果真的不行，我們就重新整理知道的事情，看看還有沒有其他線索。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 347
+          }
+        },
+        {
+          "id": "departure-0349-0",
+          "speaker": null,
+          "text": "西看著地圖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 349
+          }
+        },
+        {
+          "id": "departure-0351-0",
+          "speaker": null,
+          "text": "山田的手指停在星燈之城附近。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 351
+          }
+        },
+        {
+          "id": "departure-0353-1",
+          "speaker": "kentaro",
+          "text": "「而且我們也不是什麼都沒有啊。這幾天問到了不少事情，還認識了這麼多人。就算石門不是答案，至少也可以從那些地方繼續找。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 353
+          }
+        },
+        {
+          "id": "departure-0355-0",
+          "speaker": null,
+          "text": "他說得並不激昂。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 355
+          }
+        },
+        {
+          "id": "departure-0357-0",
+          "speaker": null,
+          "text": "像是在談一件真正需要花時間完成的事情，既沒有低估其中的困難，也沒有因為無法預見結果就放棄。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 357
+          }
+        },
+        {
+          "id": "departure-0359-0",
+          "speaker": null,
+          "text": "西忽然想起，第一次來到埃斯特拉村的那個晚上，健太郎也是這樣。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 359
+          }
+        },
+        {
+          "id": "departure-0361-0",
+          "speaker": null,
+          "text": "當時兩人連住處都沒有，他先和她一起弄清楚身上還剩下多少錢，再去詢問旅舍的價格，之後才討論怎樣尋找回家的路。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 361
+          }
+        },
+        {
+          "id": "departure-0363-0",
+          "speaker": null,
+          "text": "他不是沒有害怕。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 363
+          }
+        },
+        {
+          "id": "departure-0365-0",
+          "speaker": null,
+          "text": "只是即使害怕，也不會讓自己停在原地。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 365
+          }
+        },
+        {
+          "id": "departure-0367-1",
+          "speaker": "natsumi",
+          "text": "「……健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 367
+          }
+        },
+        {
+          "id": "departure-0369-1",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 369
+          }
+        },
+        {
+          "id": "departure-0371-1",
+          "speaker": "natsumi",
+          "text": "「你真的很可靠呢。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 371
+          }
+        },
+        {
+          "id": "departure-0373-0",
+          "speaker": null,
+          "text": "山田看著她，笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 373
+          }
+        },
+        {
+          "id": "departure-0375-1",
+          "speaker": "kentaro",
+          "text": "「突然怎麼了？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 375
+          }
+        },
+        {
+          "id": "departure-0377-1",
+          "speaker": "natsumi",
+          "text": "「沒什麼。只是突然很想說。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 377
+          }
+        },
+        {
+          "id": "departure-0379-1",
+          "speaker": "kentaro",
+          "text": "「那我很高興啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 379
+          }
+        },
+        {
+          "id": "departure-0381-0",
+          "speaker": null,
+          "text": "他回答得坦率，沒有故作謙虛。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 381
+          }
+        },
+        {
+          "id": "departure-0383-0",
+          "speaker": null,
+          "text": "西也笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 383
+          }
+        }
+      ]
+    },
+    {
+      "id": "together",
+      "title": "一起想辦法",
+      "lines": [
+        {
+          "id": "departure-0385-1",
+          "speaker": "natsumi",
+          "text": "「不過，」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 385
+          }
+        },
+        {
+          "id": "departure-0385-2",
+          "speaker": null,
+          "text": "她接著說，",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 385
+          }
+        },
+        {
+          "id": "departure-0385-3",
+          "speaker": "natsumi",
+          "text": "「如果之後真的遇到不知道怎麼辦的事情，你也可以跟我說。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 385
+          }
+        },
+        {
+          "id": "departure-0387-0",
+          "speaker": null,
+          "text": "山田微微一怔。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 387
+          }
+        },
+        {
+          "id": "departure-0389-1",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 389
+          }
+        },
+        {
+          "id": "departure-0391-1",
+          "speaker": "natsumi",
+          "text": "「因為你總是很快就開始想辦法。有時候我會不小心以為，你已經把所有事情都想好了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 391
+          }
+        },
+        {
+          "id": "departure-0393-0",
+          "speaker": null,
+          "text": "西望著他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 393
+          }
+        },
+        {
+          "id": "departure-0395-1",
+          "speaker": "natsumi",
+          "text": "「可是我們明明都一樣，還有很多事情不知道。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 395
+          }
+        },
+        {
+          "id": "departure-0397-0",
+          "speaker": null,
+          "text": "山田安靜地聽著。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 397
+          }
+        },
+        {
+          "id": "departure-0399-1",
+          "speaker": "natsumi",
+          "text": "「所以，就算暫時想不到辦法，也沒關係。我們可以一起想。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 399
+          }
+        },
+        {
+          "id": "departure-0401-0",
+          "speaker": null,
+          "text": "過了一會兒，他點點頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 401
+          }
+        },
+        {
+          "id": "departure-0403-1",
+          "speaker": "kentaro",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 403
+          }
+        },
+        {
+          "id": "departure-0405-0",
+          "speaker": null,
+          "text": "他看著西，忽然露出有些無奈的笑容。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 405
+          }
+        },
+        {
+          "id": "departure-0407-1",
+          "speaker": "kentaro",
+          "text": "「其實我也常常不知道怎麼辦啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 407
+          }
+        },
+        {
+          "id": "departure-0409-1",
+          "speaker": "natsumi",
+          "text": "「我知道。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 409
+          }
+        },
+        {
+          "id": "departure-0411-1",
+          "speaker": "kentaro",
+          "text": "「知道還說我可靠。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 411
+          }
+        },
+        {
+          "id": "departure-0413-1",
+          "speaker": "natsumi",
+          "text": "「因為不知道怎麼辦的時候，也會努力想辦法啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 413
+          }
+        },
+        {
+          "id": "departure-0415-0",
+          "speaker": null,
+          "text": "山田望著她。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 415
+          }
+        },
+        {
+          "id": "departure-0417-0",
+          "speaker": null,
+          "text": "西自己說完，才有些不好意思地別開視線。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 417
+          }
+        },
+        {
+          "id": "departure-0419-1",
+          "speaker": "natsumi",
+          "text": "「……而且，我也會幫忙的。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 419
+          }
+        },
+        {
+          "id": "departure-0421-1",
+          "speaker": "kentaro",
+          "text": "「嗯，我知道。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 421
+          }
+        },
+        {
+          "id": "departure-0423-0",
+          "speaker": null,
+          "text": "山田笑著應了一聲。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 423
+          }
+        },
+        {
+          "id": "departure-0425-0",
+          "speaker": null,
+          "text": "這次輪到西看向他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 425
+          }
+        },
+        {
+          "id": "departure-0427-0",
+          "speaker": null,
+          "text": "她本來還想說些什麼，最後卻只是伸手抱住了他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 427
+          }
+        },
+        {
+          "id": "departure-0429-0",
+          "speaker": null,
+          "text": "山田自然地伸手環住她的背。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 429
+          }
+        },
+        {
+          "id": "departure-0431-0",
+          "speaker": null,
+          "text": "西將額頭靠在他的肩上，閉了一會兒眼睛。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 431
+          }
+        },
+        {
+          "id": "departure-0433-0",
+          "speaker": null,
+          "text": "那是她很熟悉的溫度。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 433
+          }
+        },
+        {
+          "id": "departure-0435-0",
+          "speaker": null,
+          "text": "熟悉得幾乎讓人忘記，他們現在正身處一個完全陌生的世界。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 435
+          }
+        },
+        {
+          "id": "departure-0437-1",
+          "speaker": "natsumi",
+          "text": "「……幸好是跟你一起來的。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 437
+          }
+        },
+        {
+          "id": "departure-0439-0",
+          "speaker": null,
+          "text": "她輕聲說。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 439
+          }
+        },
+        {
+          "id": "departure-0441-0",
+          "speaker": null,
+          "text": "山田的手在她背上停了一下，隨後將她抱得更緊了一些。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 441
+          }
+        },
+        {
+          "id": "departure-0443-1",
+          "speaker": "kentaro",
+          "text": "「我也是。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 443
+          }
+        },
+        {
+          "id": "departure-0445-0",
+          "speaker": null,
+          "text": "過了一會兒，他又說：",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 445
+          }
+        },
+        {
+          "id": "departure-0447-1",
+          "speaker": "kentaro",
+          "text": "「不過，要是可以選，我還是比較想跟妳待在家裡。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 447
+          }
+        },
+        {
+          "id": "departure-0449-0",
+          "speaker": null,
+          "text": "西忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 449
+          }
+        },
+        {
+          "id": "departure-0451-1",
+          "speaker": "natsumi",
+          "text": "「我也是啦。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 451
+          }
+        },
+        {
+          "id": "departure-0453-1",
+          "speaker": "kentaro",
+          "text": "「明明只是想一起玩遊戲而已。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 453
+          }
+        },
+        {
+          "id": "departure-0455-1",
+          "speaker": "natsumi",
+          "text": "「誰知道會變成這樣。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 455
+          }
+        },
+        {
+          "id": "departure-0457-0",
+          "speaker": null,
+          "text": "她抬起頭，看著他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 457
+          }
+        },
+        {
+          "id": "departure-0459-1",
+          "speaker": "natsumi",
+          "text": "「等回去了，你還想玩那隻遊戲嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 459
+          }
+        },
+        {
+          "id": "departure-0461-0",
+          "speaker": null,
+          "text": "山田想了想。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 461
+          }
+        },
+        {
+          "id": "departure-0463-1",
+          "speaker": "kentaro",
+          "text": "「應該會吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 463
+          }
+        },
+        {
+          "id": "departure-0465-1",
+          "speaker": "natsumi",
+          "text": "「真的假的？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 465
+          }
+        },
+        {
+          "id": "departure-0467-1",
+          "speaker": "kentaro",
+          "text": "「嗯。至少想看看，我們不在之後，遊戲裡會發生什麼。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 467
+          }
+        },
+        {
+          "id": "departure-0469-0",
+          "speaker": null,
+          "text": "西愣了一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 469
+          }
+        },
+        {
+          "id": "departure-0471-0",
+          "speaker": null,
+          "text": "這個問題，她倒是沒有想過。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 471
+          }
+        },
+        {
+          "id": "departure-0473-1",
+          "speaker": "natsumi",
+          "text": "「……如果還能繼續玩的話？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 473
+          }
+        },
+        {
+          "id": "departure-0475-1",
+          "speaker": "kentaro",
+          "text": "「對。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 475
+          }
+        },
+        {
+          "id": "departure-0477-0",
+          "speaker": null,
+          "text": "山田望著桌上的地圖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 477
+          }
+        },
+        {
+          "id": "departure-0479-1",
+          "speaker": "kentaro",
+          "text": "「而且說不定有些地方，跟我們現在看到的不太一樣。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 479
+          }
+        },
+        {
+          "id": "departure-0481-0",
+          "speaker": null,
+          "text": "西順著他的目光看過去。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 481
+          }
+        },
+        {
+          "id": "departure-0483-0",
+          "speaker": null,
+          "text": "她想起遊戲裡那列飛在空中的魔法列車，想起星燈之城夜空下的巨大星鯨，也想起他們最後站在古石門前的情景。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 483
+          }
+        },
+        {
+          "id": "departure-0485-0",
+          "speaker": null,
+          "text": "那些原本只存在於畫面裡的事物，如今卻真實地存在於某個地方。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 485
+          }
+        },
+        {
+          "id": "departure-0487-1",
+          "speaker": "natsumi",
+          "text": "「……那到時候，我也想一起看。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 487
+          }
+        },
+        {
+          "id": "departure-0489-1",
+          "speaker": "kentaro",
+          "text": "「好啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 489
+          }
+        },
+        {
+          "id": "departure-0491-0",
+          "speaker": null,
+          "text": "山田回答得很自然。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 491
+          }
+        },
+        {
+          "id": "departure-0493-1",
+          "speaker": "kentaro",
+          "text": "「不過下次，我們得先確認那座門不會又把人吸進去。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 493
+          }
+        },
+        {
+          "id": "departure-0495-0",
+          "speaker": null,
+          "text": "西笑出了聲。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 495
+          }
+        },
+        {
+          "id": "departure-0497-1",
+          "speaker": "natsumi",
+          "text": "「那不是當然的嗎！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 497
+          }
+        },
+        {
+          "id": "departure-0499-0",
+          "speaker": null,
+          "text": "兩人分開時，桌上的燈火輕輕搖晃了一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 499
+          }
+        },
+        {
+          "id": "departure-0501-0",
+          "speaker": null,
+          "text": "山田重新拿起地圖，將它攤平。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 501
+          }
+        }
+      ]
+    },
+    {
+      "id": "diary",
+      "title": "地圖以外的事情",
+      "lines": [
+        {
+          "id": "departure-0503-1",
+          "speaker": "kentaro",
+          "text": "「對了，奈津美。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 503
+          }
+        },
+        {
+          "id": "departure-0505-1",
+          "speaker": "natsumi",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 505
+          }
+        },
+        {
+          "id": "departure-0507-1",
+          "speaker": "kentaro",
+          "text": "「我在想，要不要把這幾天發生的事情也記下來。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 507
+          }
+        },
+        {
+          "id": "departure-0509-0",
+          "speaker": null,
+          "text": "西有些意外。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 509
+          }
+        },
+        {
+          "id": "departure-0511-1",
+          "speaker": "natsumi",
+          "text": "「除了地圖？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 511
+          }
+        },
+        {
+          "id": "departure-0513-1",
+          "speaker": "kentaro",
+          "text": "「嗯。道路和位置都有畫，可是光看這個，以後可能也想不起來當時發生過什麼。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 513
+          }
+        },
+        {
+          "id": "departure-0515-0",
+          "speaker": null,
+          "text": "他指著埃斯特拉村的位置。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 515
+          }
+        },
+        {
+          "id": "departure-0517-1",
+          "speaker": "kentaro",
+          "text": "「例如第一次來這裡的時候，我們住在哪個房間，第一份工錢是怎麼賺到的。這些地圖上都沒有啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 517
+          }
+        },
+        {
+          "id": "departure-0519-0",
+          "speaker": null,
+          "text": "西看著那些小小的線條。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 519
+          }
+        },
+        {
+          "id": "departure-0521-0",
+          "speaker": null,
+          "text": "她想起下午同莉妲道別的事情。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 521
+          }
+        },
+        {
+          "id": "departure-0523-0",
+          "speaker": null,
+          "text": "想起多恩將明天的早餐時間記在帳簿上時，還順便提醒她不要把水袋放得太靠近床邊。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 523
+          }
+        },
+        {
+          "id": "departure-0525-0",
+          "speaker": null,
+          "text": "想起這些天裡，許多已經逐漸成為日常的片段。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 525
+          }
+        },
+        {
+          "id": "departure-0527-1",
+          "speaker": "natsumi",
+          "text": "「……也是。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 527
+          }
+        },
+        {
+          "id": "departure-0529-0",
+          "speaker": null,
+          "text": "她低頭翻了翻自己的筆記。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 529
+          }
+        },
+        {
+          "id": "departure-0531-1",
+          "speaker": "natsumi",
+          "text": "「那就另外找一本來寫吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 531
+          }
+        },
+        {
+          "id": "departure-0533-1",
+          "speaker": "kentaro",
+          "text": "「現在有嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 533
+          }
+        },
+        {
+          "id": "departure-0535-1",
+          "speaker": "natsumi",
+          "text": "「嗯，還有一本空白的。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 535
+          }
+        },
+        {
+          "id": "departure-0537-0",
+          "speaker": null,
+          "text": "西從行囊裡拿出那本薄薄的筆記，將它放到兩人中間。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 537
+          }
+        },
+        {
+          "id": "departure-0539-1",
+          "speaker": "natsumi",
+          "text": "「第一頁寫什麼好？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 539
+          }
+        },
+        {
+          "id": "departure-0541-0",
+          "speaker": null,
+          "text": "山田想了想。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 541
+          }
+        },
+        {
+          "id": "departure-0543-1",
+          "speaker": "kentaro",
+          "text": "「我們來到這個世界的那一天？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 543
+          }
+        },
+        {
+          "id": "departure-0545-1",
+          "speaker": "natsumi",
+          "text": "「可是那天發生太多事情了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 545
+          }
+        },
+        {
+          "id": "departure-0547-1",
+          "speaker": "kentaro",
+          "text": "「那就從明天開始？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 547
+          }
+        },
+        {
+          "id": "departure-0549-0",
+          "speaker": null,
+          "text": "西看著空白的紙頁，忽然有了主意。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 549
+          }
+        },
+        {
+          "id": "departure-0551-1",
+          "speaker": "natsumi",
+          "text": "「不如從今天開始。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 551
+          }
+        },
+        {
+          "id": "departure-0553-0",
+          "speaker": null,
+          "text": "她拿起筆，在最上面寫下：",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 553
+          }
+        },
+        {
+          "id": "departure-0555-0",
+          "speaker": null,
+          "text": "離開埃斯特拉村的前一晚。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 555
+          },
+          "presentation": "journal"
+        },
+        {
+          "id": "departure-0557-0",
+          "speaker": null,
+          "text": "接著，她將筆遞給山田。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 557
+          }
+        },
+        {
+          "id": "departure-0559-1",
+          "speaker": "natsumi",
+          "text": "「你也寫點什麼吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 559
+          }
+        },
+        {
+          "id": "departure-0561-0",
+          "speaker": null,
+          "text": "山田接過筆，想了一會兒。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 561
+          }
+        },
+        {
+          "id": "departure-0563-0",
+          "speaker": null,
+          "text": "明天跟奧倫一起前往山間驛站。行李已經準備好了，天氣看起來應該不錯。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 563
+          },
+          "presentation": "journal"
+        },
+        {
+          "id": "departure-0565-0",
+          "speaker": null,
+          "text": "他停了停，又添上一句。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 565
+          }
+        },
+        {
+          "id": "departure-0567-0",
+          "speaker": null,
+          "text": "希望之後還有機會回來。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 567
+          },
+          "presentation": "journal"
+        },
+        {
+          "id": "departure-0569-0",
+          "speaker": null,
+          "text": "西看著最後那行字。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 569
+          }
+        },
+        {
+          "id": "departure-0571-1",
+          "speaker": "natsumi",
+          "text": "「……嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 571
+          }
+        },
+        {
+          "id": "departure-0573-0",
+          "speaker": null,
+          "text": "她拿回筆，在下面補上一句。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 573
+          }
+        },
+        {
+          "id": "departure-0575-0",
+          "speaker": null,
+          "text": "這裡有很多很好的人。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 575
+          },
+          "presentation": "journal"
+        },
+        {
+          "id": "departure-0577-0",
+          "speaker": null,
+          "text": "山田看著兩人的字跡。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 577
+          }
+        },
+        {
+          "id": "departure-0579-1",
+          "speaker": "kentaro",
+          "text": "「就這樣？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 579
+          }
+        },
+        {
+          "id": "departure-0581-1",
+          "speaker": "natsumi",
+          "text": "「嗯。其他的，以後想起來再慢慢寫吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 581
+          }
+        },
+        {
+          "id": "departure-0583-1",
+          "speaker": "kentaro",
+          "text": "「好。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 583
+          }
+        },
+        {
+          "id": "departure-0585-0",
+          "speaker": null,
+          "text": "他將筆記本合上，放到地圖旁邊。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 585
+          }
+        },
+        {
+          "id": "departure-0587-0",
+          "speaker": null,
+          "text": "西望著那兩樣東西，忽然覺得有些不可思議。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 587
+          }
+        },
+        {
+          "id": "departure-0589-0",
+          "speaker": null,
+          "text": "剛來到埃斯特拉村時，他們連明天要怎麼生活都不知道。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 589
+          }
+        },
+        {
+          "id": "departure-0591-0",
+          "speaker": null,
+          "text": "現在卻已經有了足夠的行李、前往下一個地方的路線，還有一張畫著他們曾經走過的道路的地圖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 591
+          }
+        },
+        {
+          "id": "departure-0593-0",
+          "speaker": null,
+          "text": "甚至開始想著，等一切結束之後，要怎樣記住這段原本不應該發生的旅程。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 593
+          }
+        },
+        {
+          "id": "departure-0595-1",
+          "speaker": "natsumi",
+          "text": "「健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 595
+          }
+        },
+        {
+          "id": "departure-0597-1",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 597
+          }
+        }
+      ]
+    },
+    {
+      "id": "saturday",
+      "title": "普通的星期六",
+      "lines": [
+        {
+          "id": "departure-0599-1",
+          "speaker": "natsumi",
+          "text": "「如果真的能回去，你最想做什麼？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 599
+          }
+        },
+        {
+          "id": "departure-0601-0",
+          "speaker": null,
+          "text": "山田想了一會兒。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 601
+          }
+        },
+        {
+          "id": "departure-0603-1",
+          "speaker": "kentaro",
+          "text": "「先跟家裡報平安吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 603
+          }
+        },
+        {
+          "id": "departure-0605-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 605
+          }
+        },
+        {
+          "id": "departure-0607-1",
+          "speaker": "kentaro",
+          "text": "「然後……」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 607
+          }
+        },
+        {
+          "id": "departure-0609-0",
+          "speaker": null,
+          "text": "他看向西。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 609
+          }
+        },
+        {
+          "id": "departure-0611-1",
+          "speaker": "kentaro",
+          "text": "「想好好休息一天。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 611
+          }
+        },
+        {
+          "id": "departure-0613-0",
+          "speaker": null,
+          "text": "西笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 613
+          }
+        },
+        {
+          "id": "departure-0615-1",
+          "speaker": "natsumi",
+          "text": "「只是休息？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 615
+          }
+        },
+        {
+          "id": "departure-0617-1",
+          "speaker": "kentaro",
+          "text": "「嗯。最好什麼都不用擔心，睡到自然醒。醒來再看看要去哪裡吃飯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 617
+          }
+        },
+        {
+          "id": "departure-0619-1",
+          "speaker": "natsumi",
+          "text": "「這個倒是不錯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 619
+          }
+        },
+        {
+          "id": "departure-0621-1",
+          "speaker": "kentaro",
+          "text": "「妳呢？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 621
+          }
+        },
+        {
+          "id": "departure-0623-0",
+          "speaker": null,
+          "text": "西望著他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 623
+          }
+        },
+        {
+          "id": "departure-0625-0",
+          "speaker": null,
+          "text": "她本來想說想見家人，想回自己的房間，想把這些天發生的事情全部整理好。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 625
+          }
+        },
+        {
+          "id": "departure-0627-0",
+          "speaker": null,
+          "text": "可是到了最後，腦海裡浮現的卻是一個再普通不過的畫面。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 627
+          }
+        },
+        {
+          "id": "departure-0629-1",
+          "speaker": "natsumi",
+          "text": "「……我想再去你家。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 629
+          }
+        },
+        {
+          "id": "departure-0631-0",
+          "speaker": null,
+          "text": "山田眨了眨眼。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 631
+          }
+        },
+        {
+          "id": "departure-0633-1",
+          "speaker": "kentaro",
+          "text": "「我家？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 633
+          }
+        },
+        {
+          "id": "departure-0635-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 635
+          }
+        },
+        {
+          "id": "departure-0637-0",
+          "speaker": null,
+          "text": "西笑了笑。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 637
+          }
+        },
+        {
+          "id": "departure-0639-1",
+          "speaker": "natsumi",
+          "text": "「就像那個星期六一樣。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 639
+          }
+        },
+        {
+          "id": "departure-0641-0",
+          "speaker": null,
+          "text": "她看著他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 641
+          }
+        },
+        {
+          "id": "departure-0643-1",
+          "speaker": "natsumi",
+          "text": "「不用特別安排什麼，也不用急著去哪裡。只是一起待著，就很好了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 643
+          }
+        },
+        {
+          "id": "departure-0645-0",
+          "speaker": null,
+          "text": "山田安靜了一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 645
+          }
+        },
+        {
+          "id": "departure-0647-0",
+          "speaker": null,
+          "text": "隨後，他笑著握住她的手。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 647
+          }
+        },
+        {
+          "id": "departure-0649-1",
+          "speaker": "kentaro",
+          "text": "「好啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 649
+          }
+        },
+        {
+          "id": "departure-0651-0",
+          "speaker": null,
+          "text": "他說。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 651
+          }
+        },
+        {
+          "id": "departure-0653-1",
+          "speaker": "kentaro",
+          "text": "「到時候，妳想待多久都可以。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 653
+          }
+        },
+        {
+          "id": "departure-0655-0",
+          "speaker": null,
+          "text": "西笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 655
+          }
+        },
+        {
+          "id": "departure-0657-1",
+          "speaker": "natsumi",
+          "text": "「那我要待一整天。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 657
+          }
+        },
+        {
+          "id": "departure-0659-1",
+          "speaker": "kentaro",
+          "text": "「一整天？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 659
+          }
+        },
+        {
+          "id": "departure-0661-1",
+          "speaker": "natsumi",
+          "text": "「嗯。從早上到晚上。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 661
+          }
+        },
+        {
+          "id": "departure-0663-1",
+          "speaker": "kentaro",
+          "text": "「那我得先準備很多吃的了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 663
+          }
+        },
+        {
+          "id": "departure-0665-1",
+          "speaker": "natsumi",
+          "text": "「你不要又買太多零食就好。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 665
+          }
+        },
+        {
+          "id": "departure-0667-1",
+          "speaker": "kentaro",
+          "text": "「上次不是都吃完了嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 667
+          }
+        },
+        {
+          "id": "departure-0669-1",
+          "speaker": "natsumi",
+          "text": "「那是因為我們本來就打算待一整天啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 669
+          }
+        },
+        {
+          "id": "departure-0671-1",
+          "speaker": "kentaro",
+          "text": "「所以這次也可以啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 671
+          }
+        },
+        {
+          "id": "departure-0673-0",
+          "speaker": null,
+          "text": "西看著他一臉認真的模樣，笑著搖了搖頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 673
+          }
+        },
+        {
+          "id": "departure-0675-1",
+          "speaker": "natsumi",
+          "text": "「……也是。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 675
+          }
+        }
+      ]
+    },
+    {
+      "id": "return",
+      "title": "回來的路",
+      "lines": [
+        {
+          "id": "departure-0677-0",
+          "speaker": null,
+          "text": "窗外的夜色已經很深。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 677
+          }
+        },
+        {
+          "id": "departure-0679-0",
+          "speaker": null,
+          "text": "兩人再次檢查了明早需要隨身帶上的物品，確認沒有遺漏後，便將行囊放到門邊。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 679
+          }
+        },
+        {
+          "id": "departure-0681-0",
+          "speaker": null,
+          "text": "西最後收起那張地圖。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 681
+          }
+        },
+        {
+          "id": "departure-0683-0",
+          "speaker": null,
+          "text": "摺到埃斯特拉村附近時，她的動作稍微慢了下來。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 683
+          }
+        },
+        {
+          "id": "departure-0685-0",
+          "speaker": null,
+          "text": "山田注意到她還站在桌旁，便走過來。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 685
+          }
+        },
+        {
+          "id": "departure-0687-1",
+          "speaker": "kentaro",
+          "text": "「奈津美？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 687
+          }
+        },
+        {
+          "id": "departure-0689-1",
+          "speaker": "natsumi",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 689
+          }
+        },
+        {
+          "id": "departure-0691-0",
+          "speaker": null,
+          "text": "她抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 691
+          }
+        },
+        {
+          "id": "departure-0693-1",
+          "speaker": "natsumi",
+          "text": "「……我在想，之後要是再回來，這張地圖應該會畫得更完整吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 693
+          }
+        },
+        {
+          "id": "departure-0695-0",
+          "speaker": null,
+          "text": "山田望向她手裡的紙。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 695
+          }
+        },
+        {
+          "id": "departure-0697-1",
+          "speaker": "kentaro",
+          "text": "「應該會。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 697
+          }
+        },
+        {
+          "id": "departure-0699-1",
+          "speaker": "natsumi",
+          "text": "「可能還會知道更多地方的名字。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 699
+          }
+        },
+        {
+          "id": "departure-0701-1",
+          "speaker": "kentaro",
+          "text": "「嗯。說不定到時候也可以把回來的路畫上去。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 701
+          }
+        },
+        {
+          "id": "departure-0703-0",
+          "speaker": null,
+          "text": "西望著他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 703
+          }
+        },
+        {
+          "id": "departure-0705-1",
+          "speaker": "natsumi",
+          "text": "「……回來的路？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 705
+          }
+        },
+        {
+          "id": "departure-0707-1",
+          "speaker": "kentaro",
+          "text": "「對啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 707
+          }
+        },
+        {
+          "id": "departure-0709-0",
+          "speaker": null,
+          "text": "山田指了指地圖上的村莊。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 709
+          }
+        },
+        {
+          "id": "departure-0711-1",
+          "speaker": "kentaro",
+          "text": "「我們現在只知道怎麼離開這裡。等以後走得更遠，不就也要知道怎麼回來嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 711
+          }
+        },
+        {
+          "id": "departure-0713-0",
+          "speaker": null,
+          "text": "西低頭看著那個小小的村莊標記。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 713
+          }
+        },
+        {
+          "id": "departure-0715-0",
+          "speaker": null,
+          "text": "她忽然很喜歡這個想法。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 715
+          }
+        },
+        {
+          "id": "departure-0717-0",
+          "speaker": null,
+          "text": "原來這張地圖不只是用來尋找離開的道路。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 717
+          }
+        },
+        {
+          "id": "departure-0719-0",
+          "speaker": null,
+          "text": "有一天，它也可以成為回到某個地方的指引。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 719
+          }
+        },
+        {
+          "id": "departure-0721-1",
+          "speaker": "natsumi",
+          "text": "「……嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 721
+          }
+        },
+        {
+          "id": "departure-0723-0",
+          "speaker": null,
+          "text": "西將地圖小心摺好，放進行囊最容易取出的地方。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 723
+          }
+        },
+        {
+          "id": "departure-0725-1",
+          "speaker": "natsumi",
+          "text": "「那就留著吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 725
+          }
+        },
+        {
+          "id": "departure-0727-0",
+          "speaker": null,
+          "text": "山田點點頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 727
+          }
+        },
+        {
+          "id": "departure-0729-1",
+          "speaker": "kentaro",
+          "text": "「當然。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 729
+          }
+        },
+        {
+          "id": "departure-0731-0",
+          "speaker": null,
+          "text": "燈火熄滅前，西最後望了一眼桌上的筆記本。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 731
+          }
+        },
+        {
+          "id": "departure-0733-0",
+          "speaker": null,
+          "text": "裡面只有短短幾行字，還有大片尚未寫下任何東西的空白。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 733
+          }
+        },
+        {
+          "id": "departure-0735-0",
+          "speaker": null,
+          "text": "他們不知道接下來會遇見什麼，也不知道這趟旅程究竟會有多長。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 735
+          }
+        },
+        {
+          "id": "departure-0737-0",
+          "speaker": null,
+          "text": "但至少今晚，兩人已經約好，要把那些值得記住的事情慢慢寫下來。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 737
+          }
+        },
+        {
+          "id": "departure-0739-0",
+          "speaker": null,
+          "text": "她轉身走向床邊。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 739
+          }
+        },
+        {
+          "id": "departure-0741-0",
+          "speaker": null,
+          "text": "山田正替她將被子拉好，聽見腳步聲，便回頭看了她一眼。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 741
+          }
+        },
+        {
+          "id": "departure-0743-1",
+          "speaker": "kentaro",
+          "text": "「明天要早起，早點睡吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 743
+          }
+        },
+        {
+          "id": "departure-0745-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 745
+          }
+        },
+        {
+          "id": "departure-0747-0",
+          "speaker": null,
+          "text": "西走近，輕輕抱了他一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 747
+          }
+        },
+        {
+          "id": "departure-0749-1",
+          "speaker": "natsumi",
+          "text": "「晚安，健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 749
+          }
+        },
+        {
+          "id": "departure-0751-1",
+          "speaker": "kentaro",
+          "text": "「晚安，奈津美。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 751
+          }
+        },
+        {
+          "id": "departure-0753-0",
+          "speaker": null,
+          "text": "窗外，埃斯特拉村的燈火正一盞接著一盞熄滅。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 753
+          }
+        },
+        {
+          "id": "departure-0755-0",
+          "speaker": null,
+          "text": "明天，他們將沿著南方商道離開。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 755
+          }
+        },
+        {
+          "id": "departure-0757-0",
+          "speaker": null,
+          "text": "而這個曾經完全陌生的村莊，也會成為兩人旅途中第一個真正想要再回來的地方。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "source": {
+            "file": "beyond-the-map-user.txt",
+            "line": 757
+          }
+        }
+      ]
+    }
+  ]
+}

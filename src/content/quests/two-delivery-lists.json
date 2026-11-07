@@ -1,0 +1,2377 @@
+{
+  "id": "two-delivery-lists",
+  "title": "兩張不一樣的貨單",
+  "scenes": {
+    "intro": [
+      {
+        "id": "ledger-0016-1",
+        "speaker": "kentaro",
+        "text": "「奈津美，妳看。」",
+        "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 16
+        }
+      },
+      {
+        "id": "ledger-0017-0",
+        "speaker": null,
+        "text": "山田指著委託書上的名字。",
+        "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 17
+        }
+      },
+      {
+        "id": "ledger-0018-1",
+        "speaker": "kentaro",
+        "text": "「是莉妲跟多恩先生耶。」",
+        "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 18
+        },
+        "originalText": "「是莉妲跟多恩先生耶！」"
+      },
+      {
+        "id": "ledger-0019-1",
+        "speaker": "natsumi",
+        "text": "「真的。原來他們兩個有生意往來啊。」",
+        "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 19
+        }
+      },
+      {
+        "id": "ledger-0020-1",
+        "speaker": "kentaro",
+        "text": "「之前不是也送過蔬菜去旅舍嗎？」",
+        "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 20
+        }
+      },
+      {
+        "id": "ledger-0021-1",
+        "speaker": "natsumi",
+        "text": "「啊，對喔。」",
+        "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 21
+        }
+      },
+      {
+        "id": "ledger-0022-0",
+        "speaker": null,
+        "text": "西仔細讀了一遍委託內容。",
+        "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 22
+        }
+      },
+      {
+        "id": "ledger-0023-1",
+        "speaker": "natsumi",
+        "text": "「貨單對不上……不知道是送錯了什麼。」",
+        "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 23
+        }
+      },
+      {
+        "id": "ledger-0024-1",
+        "speaker": "kentaro",
+        "text": "「去看看吧！」",
+        "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 24
+        }
+      },
+      {
+        "id": "ledger-0025-0",
+        "speaker": null,
+        "text": "兩人接下委託，前往多恩的旅舍。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 25
+        }
+      },
+      {
+        "id": "ledger-0026-0",
+        "speaker": null,
+        "text": "才剛走進門口，便聽見櫃檯旁傳來熟悉的聲音。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 26
+        }
+      },
+      {
+        "id": "ledger-0027-1",
+        "speaker": "lida",
+        "text": "「我明明裝了三包！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 27
+        }
+      },
+      {
+        "id": "ledger-0028-1",
+        "speaker": "dorn",
+        "text": "「莉妲，我不是說妳沒有裝。我是說我這裡只收到兩包。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 28
+        }
+      },
+      {
+        "id": "ledger-0029-1",
+        "speaker": "lida",
+        "text": "「那第三包去哪裡了？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 29
+        }
+      },
+      {
+        "id": "ledger-0030-1",
+        "speaker": "dorn",
+        "text": "「我也想知道。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 30
+        }
+      },
+      {
+        "id": "ledger-0031-0",
+        "speaker": null,
+        "text": "莉妲雙手叉腰，站在櫃檯前。多恩則拿著帳簿，表情依然平靜，只是眉間多了一道皺紋。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 31
+        }
+      },
+      {
+        "id": "ledger-0032-0",
+        "speaker": null,
+        "text": "山田走近。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 32
+        }
+      },
+      {
+        "id": "ledger-0033-1",
+        "speaker": "kentaro",
+        "text": "「莉妲，多恩先生。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 33
+        },
+        "originalText": "「莉妲！多恩先生！」"
+      },
+      {
+        "id": "ledger-0034-0",
+        "speaker": null,
+        "text": "兩人同時轉過頭。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 34
+        }
+      },
+      {
+        "id": "ledger-0035-1",
+        "speaker": "lida",
+        "text": "「啊，是你們啊。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 35
+        }
+      },
+      {
+        "id": "ledger-0035-2",
+        "speaker": null,
+        "text": "莉妲說。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 35
+        }
+      },
+      {
+        "id": "ledger-0036-0",
+        "speaker": null,
+        "text": "多恩看見山田手上的委託書，鬆了一口氣。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 36
+        }
+      },
+      {
+        "id": "ledger-0037-1",
+        "speaker": "dorn",
+        "text": "「太好了。正需要有人幫忙。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 37
+        }
+      },
+      {
+        "id": "ledger-0038-1",
+        "speaker": "natsumi",
+        "text": "「到底發生什麼事了？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 38
+        }
+      },
+      {
+        "id": "ledger-0038-2",
+        "speaker": null,
+        "text": "西問。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 38
+        }
+      },
+      {
+        "id": "ledger-0039-0",
+        "speaker": null,
+        "text": "多恩將兩張貨單攤在桌上。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 39
+        }
+      },
+      {
+        "id": "ledger-0040-1",
+        "speaker": "dorn",
+        "text": "「這是莉妲今天的出貨記錄，這張是我的收貨記錄。有幾項數量看起來不一樣，還有一項貨物尚未確認。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 40
+        }
+      },
+      {
+        "id": "ledger-0041-0",
+        "speaker": null,
+        "text": "莉妲立即補充：",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 41
+        }
+      },
+      {
+        "id": "ledger-0042-1",
+        "speaker": "lida",
+        "text": "「我早上明明都裝好了，還一樣一樣數過！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 42
+        }
+      },
+      {
+        "id": "ledger-0043-1",
+        "speaker": "dorn",
+        "text": "「我相信妳數過。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 43
+        }
+      },
+      {
+        "id": "ledger-0043-2",
+        "speaker": null,
+        "text": "多恩說，",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 43
+        }
+      },
+      {
+        "id": "ledger-0043-3",
+        "speaker": "dorn",
+        "text": "「可是我也不能把沒收到的貨記成已經收到了。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 43
+        }
+      },
+      {
+        "id": "ledger-0044-1",
+        "speaker": "lida",
+        "text": "「我又不是要你亂記帳！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 44
+        }
+      },
+      {
+        "id": "ledger-0045-1",
+        "speaker": "dorn",
+        "text": "「我也沒有這麼說。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 45
+        }
+      },
+      {
+        "id": "ledger-0046-0",
+        "speaker": null,
+        "text": "兩人互相看了一眼。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 46
+        }
+      },
+      {
+        "id": "ledger-0047-0",
+        "speaker": null,
+        "text": "山田望著他們，忽然說：",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 47
+        }
+      },
+      {
+        "id": "ledger-0048-1",
+        "speaker": "kentaro",
+        "text": "「你們兩個都很在意這件事耶。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 48
+        }
+      },
+      {
+        "id": "ledger-0049-0",
+        "speaker": null,
+        "text": "莉妲愣了一下。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 49
+        }
+      },
+      {
+        "id": "ledger-0050-1",
+        "speaker": "lida",
+        "text": "「當然在意啦。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 50
+        }
+      },
+      {
+        "id": "ledger-0051-1",
+        "speaker": "kentaro",
+        "text": "「嗯。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 51
+        },
+        "originalText": "「嗯！」"
+      },
+      {
+        "id": "ledger-0051-2",
+        "speaker": null,
+        "text": "山田點點頭，",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 51
+        }
+      },
+      {
+        "id": "ledger-0051-3",
+        "speaker": "kentaro",
+        "text": "「那就一起找找看吧。東西應該不會自己消失吧？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 51
+        }
+      },
+      {
+        "id": "ledger-0052-0",
+        "speaker": null,
+        "text": "多恩推了推帳簿。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 52
+        }
+      },
+      {
+        "id": "ledger-0053-1",
+        "speaker": "dorn",
+        "text": "「但願如此。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 53
+        }
+      },
+      {
+        "id": "ledger-0054-0",
+        "speaker": null,
+        "text": "西將兩張貨單放在一起。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 54
+        }
+      },
+      {
+        "id": "ledger-0055-1",
+        "speaker": "natsumi",
+        "text": "「我們可以先核對每一項貨物嗎？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 55
+        }
+      },
+      {
+        "id": "ledger-0056-1",
+        "speaker": "dorn",
+        "text": "「可以。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 56
+        }
+      },
+      {
+        "id": "ledger-0056-2",
+        "speaker": null,
+        "text": "多恩說，",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 56
+        }
+      },
+      {
+        "id": "ledger-0056-3",
+        "speaker": "dorn",
+        "text": "「帳簿都在這裡。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 56
+        }
+      },
+      {
+        "id": "ledger-0057-1",
+        "speaker": "lida",
+        "text": "「我帶你們去看看貨籃。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 57
+        }
+      },
+      {
+        "id": "ledger-0057-2",
+        "speaker": null,
+        "text": "莉妲說。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 57
+        }
+      },
+      {
+        "id": "ledger-0058-0",
+        "speaker": null,
+        "text": "山田和西交換了一個眼神。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 58
+        }
+      },
+      {
+        "id": "ledger-0059-1",
+        "speaker": "kentaro",
+        "text": "「好。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 59
+        },
+        "originalText": "「好！」"
+      }
+    ],
+    "reconcile": [
+      {
+        "id": "ledger-0083-1",
+        "speaker": "kentaro",
+        "text": "「找到了！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 83
+        }
+      },
+      {
+        "id": "ledger-0084-0",
+        "speaker": null,
+        "text": "山田從貨車旁站起來，手裡拿著一包乾菇。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 84
+        }
+      },
+      {
+        "id": "ledger-0085-1",
+        "speaker": "kentaro",
+        "text": "「在這裡。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 85
+        },
+        "originalText": "「在這裡！」"
+      },
+      {
+        "id": "ledger-0086-0",
+        "speaker": null,
+        "text": "莉妲立即走過去。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 86
+        }
+      },
+      {
+        "id": "ledger-0087-1",
+        "speaker": "lida",
+        "text": "「啊！原來還在車上！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 87
+        }
+      },
+      {
+        "id": "ledger-0088-0",
+        "speaker": null,
+        "text": "多恩接過乾菇，檢查了一下包裝。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 88
+        }
+      },
+      {
+        "id": "ledger-0089-1",
+        "speaker": "dorn",
+        "text": "「確實是第三包。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 89
+        }
+      },
+      {
+        "id": "ledger-0090-1",
+        "speaker": "lida",
+        "text": "「我就說我有裝吧！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 90
+        }
+      },
+      {
+        "id": "ledger-0091-0",
+        "speaker": null,
+        "text": "莉妲雙手叉腰，總算露出得意的表情。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 91
+        }
+      },
+      {
+        "id": "ledger-0092-0",
+        "speaker": null,
+        "text": "多恩點點頭。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 92
+        }
+      },
+      {
+        "id": "ledger-0093-1",
+        "speaker": "dorn",
+        "text": "「是，妳的出貨記錄沒有問題。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 93
+        }
+      },
+      {
+        "id": "ledger-0094-1",
+        "speaker": "lida",
+        "text": "「那當然！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 94
+        }
+      },
+      {
+        "id": "ledger-0095-1",
+        "speaker": "dorn",
+        "text": "「不過我早上確實只收到兩包。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 95
+        }
+      },
+      {
+        "id": "ledger-0096-1",
+        "speaker": "lida",
+        "text": "「……這倒也是。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 96
+        }
+      },
+      {
+        "id": "ledger-0097-0",
+        "speaker": null,
+        "text": "莉妲看向那輛貨車，忍不住嘆了口氣。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 97
+        }
+      },
+      {
+        "id": "ledger-0098-1",
+        "speaker": "lida",
+        "text": "「早知道就先把防雨布掀開看一遍。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 98
+        }
+      },
+      {
+        "id": "ledger-0099-0",
+        "speaker": null,
+        "text": "西將最後一項核對結果寫到紙上。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 99
+        }
+      },
+      {
+        "id": "ledger-0100-1",
+        "speaker": "natsumi",
+        "text": "「所以兩張貨單記錄的其實是不同的事情。莉妲小姐記下的是出貨數量，多恩先生記下的是已經收到的數量。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 100
+        }
+      },
+      {
+        "id": "ledger-0101-1",
+        "speaker": "kentaro",
+        "text": "「還有，蘿蔔跟葉菜本來就沒有少。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 101
+        }
+      },
+      {
+        "id": "ledger-0101-2",
+        "speaker": null,
+        "text": "山田補充，",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 101
+        }
+      },
+      {
+        "id": "ledger-0101-3",
+        "speaker": "kentaro",
+        "text": "「只是你們用的單位不一樣。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 101
+        },
+        "originalText": "「只是你們用的單位不一樣！」"
+      },
+      {
+        "id": "ledger-0102-1",
+        "speaker": "dorn",
+        "text": "「沒錯。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 102
+        }
+      },
+      {
+        "id": "ledger-0102-2",
+        "speaker": null,
+        "text": "多恩說，",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 102
+        }
+      },
+      {
+        "id": "ledger-0102-3",
+        "speaker": "dorn",
+        "text": "「帳簿應該寫得更清楚些。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 102
+        }
+      },
+      {
+        "id": "ledger-0103-0",
+        "speaker": null,
+        "text": "莉妲望著整理好的核對表。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 103
+        }
+      },
+      {
+        "id": "ledger-0104-1",
+        "speaker": "lida",
+        "text": "「那以後我乾脆連每籃有多少根都寫上去好了。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 104
+        }
+      },
+      {
+        "id": "ledger-0105-1",
+        "speaker": "dorn",
+        "text": "「這樣很好。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 105
+        }
+      },
+      {
+        "id": "ledger-0105-2",
+        "speaker": null,
+        "text": "多恩說，",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 105
+        }
+      },
+      {
+        "id": "ledger-0105-3",
+        "speaker": "dorn",
+        "text": "「我這邊也會把收貨單位和入庫時間分開記。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 105
+        }
+      },
+      {
+        "id": "ledger-0106-0",
+        "speaker": null,
+        "text": "兩人各自看了一眼桌上的貨單。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 106
+        }
+      },
+      {
+        "id": "ledger-0107-0",
+        "speaker": null,
+        "text": "過了一會兒，莉妲忽然說：",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 107
+        }
+      },
+      {
+        "id": "ledger-0108-1",
+        "speaker": "lida",
+        "text": "「……我剛才是不是有點太兇了？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 108
+        }
+      },
+      {
+        "id": "ledger-0109-0",
+        "speaker": null,
+        "text": "多恩抬起頭。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 109
+        }
+      },
+      {
+        "id": "ledger-0110-1",
+        "speaker": "dorn",
+        "text": "「妳平常也差不多。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 110
+        }
+      },
+      {
+        "id": "ledger-0111-1",
+        "speaker": "lida",
+        "text": "「多恩！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 111
+        }
+      },
+      {
+        "id": "ledger-0112-1",
+        "speaker": "dorn",
+        "text": "「我是說，妳一向很重視自己送來的東西。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 112
+        }
+      },
+      {
+        "id": "ledger-0113-0",
+        "speaker": null,
+        "text": "莉妲一時沒有接話。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 113
+        }
+      },
+      {
+        "id": "ledger-0114-0",
+        "speaker": null,
+        "text": "多恩將帳簿合上。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 114
+        }
+      },
+      {
+        "id": "ledger-0115-1",
+        "speaker": "dorn",
+        "text": "「我知道妳不會隨便少裝貨物。不過旅舍的帳目不能出錯，這點也希望妳明白。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 115
+        }
+      },
+      {
+        "id": "ledger-0116-1",
+        "speaker": "lida",
+        "text": "「我知道啦。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 116
+        }
+      },
+      {
+        "id": "ledger-0117-0",
+        "speaker": null,
+        "text": "莉妲撇了撇嘴。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 117
+        }
+      },
+      {
+        "id": "ledger-0118-1",
+        "speaker": "lida",
+        "text": "「只是你一直說沒收到，我聽著就覺得好像自己被當成粗心大意的人。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 118
+        }
+      },
+      {
+        "id": "ledger-0119-1",
+        "speaker": "dorn",
+        "text": "「那倒沒有。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 119
+        }
+      },
+      {
+        "id": "ledger-0120-0",
+        "speaker": null,
+        "text": "多恩推了推眼鏡。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 120
+        }
+      },
+      {
+        "id": "ledger-0121-1",
+        "speaker": "dorn",
+        "text": "「我只是想知道第三包究竟在哪裡。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 121
+        }
+      },
+      {
+        "id": "ledger-0122-0",
+        "speaker": null,
+        "text": "莉妲看著他，終於忍不住笑了一聲。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 122
+        }
+      },
+      {
+        "id": "ledger-0123-1",
+        "speaker": "lida",
+        "text": "「你這人說話真的很不討喜。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 123
+        }
+      },
+      {
+        "id": "ledger-0124-1",
+        "speaker": "dorn",
+        "text": "「妳也不遑多讓。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 124
+        }
+      },
+      {
+        "id": "ledger-0125-0",
+        "speaker": null,
+        "text": "站在旁邊的山田突然笑了起來。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 125
+        }
+      },
+      {
+        "id": "ledger-0126-1",
+        "speaker": "kentaro",
+        "text": "「哈哈，你們兩個感情很好耶。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 126
+        },
+        "originalText": "「哈哈，你們兩個感情很好耶！」"
+      },
+      {
+        "id": "ledger-0127-1",
+        "speaker": "lida",
+        "text": "「哪裡好了！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 127
+        }
+      },
+      {
+        "id": "ledger-0127-2",
+        "speaker": null,
+        "text": "莉妲立即反駁。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 127
+        }
+      },
+      {
+        "id": "ledger-0128-0",
+        "speaker": null,
+        "text": "多恩則平靜地回答：",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 128
+        }
+      },
+      {
+        "id": "ledger-0129-1",
+        "speaker": "dorn",
+        "text": "「我們只是合作很多年了。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 129
+        }
+      },
+      {
+        "id": "ledger-0130-1",
+        "speaker": "kentaro",
+        "text": "「那不是很好嗎？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 130
+        }
+      },
+      {
+        "id": "ledger-0131-0",
+        "speaker": null,
+        "text": "山田歪了歪頭。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 131
+        }
+      },
+      {
+        "id": "ledger-0132-1",
+        "speaker": "kentaro",
+        "text": "「如果不熟的話，應該不會這樣直接講吧？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 132
+        }
+      },
+      {
+        "id": "ledger-0133-0",
+        "speaker": null,
+        "text": "莉妲張了張嘴，最後轉頭看向多恩。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 133
+        }
+      },
+      {
+        "id": "ledger-0134-0",
+        "speaker": null,
+        "text": "多恩沉默了一下。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 134
+        }
+      },
+      {
+        "id": "ledger-0135-1",
+        "speaker": "dorn",
+        "text": "「……大概吧。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 135
+        }
+      },
+      {
+        "id": "ledger-0136-1",
+        "speaker": "lida",
+        "text": "「什麼叫大概！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 136
+        }
+      },
+      {
+        "id": "ledger-0137-0",
+        "speaker": null,
+        "text": "西終於忍不住笑了。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 137
+        }
+      },
+      {
+        "id": "ledger-0138-0",
+        "speaker": null,
+        "text": "山田望著她，也跟著笑起來。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 138
+        }
+      }
+    ],
+    "ending": [
+      {
+        "id": "ledger-0142-0",
+        "speaker": null,
+        "text": "多恩依照約定，將報酬交給兩人。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 142
+        }
+      },
+      {
+        "id": "ledger-0143-1",
+        "speaker": "dorn",
+        "text": "「辛苦了。今天幫了大忙。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 143
+        }
+      },
+      {
+        "id": "ledger-0144-1",
+        "speaker": "kentaro",
+        "text": "「謝謝！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 144
+        }
+      },
+      {
+        "id": "ledger-0144-2",
+        "speaker": null,
+        "text": "山田接過錢袋。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 144
+        }
+      },
+      {
+        "id": "ledger-0145-0",
+        "speaker": null,
+        "text": "莉妲也從籃子裡挑出兩個熟透的番茄。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 145
+        }
+      },
+      {
+        "id": "ledger-0146-1",
+        "speaker": "lida",
+        "text": "「這個拿去吧。今天早上剛摘的。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 146
+        }
+      },
+      {
+        "id": "ledger-0147-1",
+        "speaker": "kentaro",
+        "text": "「咦？真的可以嗎？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 147
+        }
+      },
+      {
+        "id": "ledger-0148-1",
+        "speaker": "lida",
+        "text": "「可以啦，反正我帶了不少。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 148
+        }
+      },
+      {
+        "id": "ledger-0149-0",
+        "speaker": null,
+        "text": "西接過番茄。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 149
+        }
+      },
+      {
+        "id": "ledger-0150-1",
+        "speaker": "natsumi",
+        "text": "「謝謝您。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 150
+        }
+      },
+      {
+        "id": "ledger-karl-pending",
+        "speaker": "lida",
+        "text": "「我的手推車還在等卡爾安排時間呢。」",
+        "unlessCompleted": "carpenter-workbench",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "adaptation": "Author requested a brief complaint if Karl story is not completed."
+      },
+      {
+        "id": "ledger-0151-1",
+        "speaker": "lida",
+        "text": "「對了，健太郎。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 151
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0152-0",
+        "speaker": null,
+        "text": "莉妲忽然叫住他。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 152
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0153-1",
+        "speaker": "kentaro",
+        "text": "「嗯？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 153
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0154-1",
+        "speaker": "lida",
+        "text": "「卡爾最近有沒有跟你提過我的手推車？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 154
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0155-0",
+        "speaker": null,
+        "text": "山田愣了一下。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 155
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0156-1",
+        "speaker": "kentaro",
+        "text": "「啊，有耶。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 156
+        },
+        "originalText": "「啊，有耶！」",
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0157-1",
+        "speaker": "lida",
+        "text": "「那傢伙終於記得了？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 157
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0158-1",
+        "speaker": "kentaro",
+        "text": "「記得啊。他還說要去跟妳講一下需要多少時間。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 158
+        },
+        "originalText": "「記得啊！他還說要去跟妳講一下需要多少時間。」",
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0159-0",
+        "speaker": null,
+        "text": "莉妲哼了一聲。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 159
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0160-1",
+        "speaker": "lida",
+        "text": "「那就好。我也不是一定要他明天修好，早點告訴我，我就可以另外安排送貨的車了。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 160
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0161-1",
+        "speaker": "kentaro",
+        "text": "「哦——原來是這樣。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 161
+        },
+        "originalText": "「哦——原來是這樣！」",
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0162-0",
+        "speaker": null,
+        "text": "山田笑了。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 162
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0163-1",
+        "speaker": "kentaro",
+        "text": "「那我覺得卡爾知道之後應該會很高興。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 163
+        },
+        "originalText": "「那我覺得卡爾知道之後應該會很高興！」",
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0164-0",
+        "speaker": null,
+        "text": "莉妲看了他一眼。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 164
+        },
+        "requiresCompleted": "carpenter-workbench"
+      },
+      {
+        "id": "ledger-0165-1",
+        "speaker": "lida",
+        "text": "「你還真是跟誰都聊得來。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 165
+        }
+      },
+      {
+        "id": "ledger-0166-1",
+        "speaker": "kentaro",
+        "text": "「咦？有嗎？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 166
+        }
+      },
+      {
+        "id": "ledger-0167-1",
+        "speaker": "lida",
+        "text": "「有啊。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 167
+        }
+      },
+      {
+        "id": "ledger-0168-0",
+        "speaker": null,
+        "text": "她笑著揮了揮手。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 168
+        }
+      },
+      {
+        "id": "ledger-0169-1",
+        "speaker": "lida",
+        "text": "「好了，快回去吧。我還有活要做呢。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 169
+        }
+      },
+      {
+        "id": "ledger-0170-0",
+        "speaker": null,
+        "text": "兩人向莉妲和多恩道別，離開旅舍。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 170
+        }
+      },
+      {
+        "id": "ledger-0171-0",
+        "speaker": null,
+        "text": "走出門口時，山田忽然回頭看了一眼。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 171
+        }
+      },
+      {
+        "id": "ledger-0172-1",
+        "speaker": "kentaro",
+        "text": "「奈津美。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 172
+        }
+      },
+      {
+        "id": "ledger-0173-1",
+        "speaker": "natsumi",
+        "text": "「嗯？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 173
+        }
+      },
+      {
+        "id": "ledger-0174-1",
+        "speaker": "kentaro",
+        "text": "「我覺得他們兩個真的感情很好耶。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 174
+        }
+      },
+      {
+        "id": "ledger-0175-1",
+        "speaker": "natsumi",
+        "text": "「是啊。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 175
+        }
+      },
+      {
+        "id": "ledger-0176-0",
+        "speaker": null,
+        "text": "西想了想。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 176
+        }
+      },
+      {
+        "id": "ledger-0177-1",
+        "speaker": "natsumi",
+        "text": "「而且他們好像都很相信對方。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 177
+        }
+      },
+      {
+        "id": "ledger-0178-1",
+        "speaker": "kentaro",
+        "text": "「對吧。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 178
+        },
+        "originalText": "「對吧！」"
+      },
+      {
+        "id": "ledger-0179-1",
+        "speaker": "natsumi",
+        "text": "「只是有時候，因為太習慣彼此的做事方式，反而忘記要把一些事情講清楚。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 179
+        }
+      },
+      {
+        "id": "ledger-0180-0",
+        "speaker": null,
+        "text": "山田望著她。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 180
+        }
+      },
+      {
+        "id": "ledger-0181-1",
+        "speaker": "kentaro",
+        "text": "「哦……這樣啊。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 181
+        }
+      },
+      {
+        "id": "ledger-0182-0",
+        "speaker": null,
+        "text": "他想了一會兒，忽然問：",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 182
+        }
+      },
+      {
+        "id": "ledger-0183-1",
+        "speaker": "kentaro",
+        "text": "「那我們有沒有這樣的時候？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 183
+        }
+      },
+      {
+        "id": "ledger-0184-0",
+        "speaker": null,
+        "text": "西微微一怔。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 184
+        }
+      },
+      {
+        "id": "ledger-0185-1",
+        "speaker": "natsumi",
+        "text": "「我們？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 185
+        }
+      },
+      {
+        "id": "ledger-0186-1",
+        "speaker": "kentaro",
+        "text": "「嗯。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 186
+        },
+        "originalText": "「嗯！」"
+      },
+      {
+        "id": "ledger-0187-0",
+        "speaker": null,
+        "text": "西看著他認真的表情，思索了一會兒。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 187
+        }
+      },
+      {
+        "id": "ledger-0188-1",
+        "speaker": "natsumi",
+        "text": "「……有吧。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 188
+        }
+      },
+      {
+        "id": "ledger-0189-1",
+        "speaker": "kentaro",
+        "text": "「欸？什麼時候？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 189
+        }
+      },
+      {
+        "id": "ledger-0190-1",
+        "speaker": "natsumi",
+        "text": "「例如你有時候會覺得，我一定知道你在想什麼。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 190
+        }
+      },
+      {
+        "id": "ledger-0191-1",
+        "speaker": "kentaro",
+        "text": "「咦？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 191
+        },
+        "originalText": "「咦——！」"
+      },
+      {
+        "id": "ledger-0192-0",
+        "speaker": null,
+        "text": "山田睜大眼睛。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 192
+        }
+      },
+      {
+        "id": "ledger-0193-1",
+        "speaker": "kentaro",
+        "text": "「可是我覺得妳真的很懂我耶。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 193
+        },
+        "originalText": "「可是我覺得妳真的很懂我耶！」"
+      },
+      {
+        "id": "ledger-0194-0",
+        "speaker": null,
+        "text": "西忍不住笑了。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 194
+        }
+      },
+      {
+        "id": "ledger-0195-1",
+        "speaker": "natsumi",
+        "text": "「你看，就是這樣。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 195
+        }
+      },
+      {
+        "id": "ledger-0196-1",
+        "speaker": "kentaro",
+        "text": "「啊哈哈。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 196
+        },
+        "originalText": "「啊哈哈！」"
+      },
+      {
+        "id": "ledger-0197-0",
+        "speaker": null,
+        "text": "山田抓了抓頭。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 197
+        }
+      },
+      {
+        "id": "ledger-0198-1",
+        "speaker": "kentaro",
+        "text": "「那下次我就多講一點。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 198
+        },
+        "originalText": "「那下次我就多講一點！」"
+      },
+      {
+        "id": "ledger-0199-1",
+        "speaker": "natsumi",
+        "text": "「嗯，不過也不用什麼都講啦。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 199
+        }
+      },
+      {
+        "id": "ledger-0200-1",
+        "speaker": "kentaro",
+        "text": "「為什麼？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 200
+        }
+      },
+      {
+        "id": "ledger-0201-1",
+        "speaker": "natsumi",
+        "text": "「因為你現在已經講很多了。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 201
+        }
+      },
+      {
+        "id": "ledger-0202-1",
+        "speaker": "kentaro",
+        "text": "「欸？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 202
+        },
+        "originalText": "「欸——！」"
+      },
+      {
+        "id": "ledger-0203-0",
+        "speaker": null,
+        "text": "兩人一邊笑，一邊沿著石板路往回走。",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 203
+        }
+      }
+    ],
+    "night": [
+      {
+        "id": "ledger-0207-0",
+        "speaker": null,
+        "text": "晚餐過後，兩人將今天得到的報酬放到桌上。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 207
+        }
+      },
+      {
+        "id": "ledger-0208-0",
+        "speaker": null,
+        "text": "西拿出記帳紙，記下收入。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 208
+        }
+      },
+      {
+        "id": "ledger-0209-0",
+        "speaker": null,
+        "text": "山田則將莉妲送的番茄擺在旁邊。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 209
+        }
+      },
+      {
+        "id": "ledger-0210-1",
+        "speaker": "kentaro",
+        "text": "「奈津美，這個明天早餐可以吃耶。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 210
+        }
+      },
+      {
+        "id": "ledger-0211-1",
+        "speaker": "natsumi",
+        "text": "「嗯。可以問問多恩先生能不能借我們廚房。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 211
+        }
+      },
+      {
+        "id": "ledger-0212-1",
+        "speaker": "kentaro",
+        "text": "「好。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 212
+        },
+        "originalText": "「好！」"
+      },
+      {
+        "id": "ledger-0213-0",
+        "speaker": null,
+        "text": "山田將其中一個番茄拿起來看了看。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 213
+        }
+      },
+      {
+        "id": "ledger-0214-1",
+        "speaker": "kentaro",
+        "text": "「說起來，今天真的很有趣啊。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 214
+        }
+      },
+      {
+        "id": "ledger-0215-1",
+        "speaker": "natsumi",
+        "text": "「哪個部分？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 215
+        }
+      },
+      {
+        "id": "ledger-0216-1",
+        "speaker": "kentaro",
+        "text": "「就是他們明明都沒記錯，卻一直以為對方算錯了。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 216
+        }
+      },
+      {
+        "id": "ledger-0217-1",
+        "speaker": "natsumi",
+        "text": "「嗯。因為兩個人記錄的標準不一樣。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 217
+        }
+      },
+      {
+        "id": "ledger-0218-0",
+        "speaker": null,
+        "text": "西將最後一筆收入寫好。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 218
+        }
+      },
+      {
+        "id": "ledger-0219-1",
+        "speaker": "natsumi",
+        "text": "「如果我們沒有一起去確認，可能也會以為只是其中一個人粗心吧。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 219
+        }
+      },
+      {
+        "id": "ledger-0220-1",
+        "speaker": "kentaro",
+        "text": "「對啊。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 220
+        },
+        "originalText": "「對啊！」"
+      },
+      {
+        "id": "ledger-0221-0",
+        "speaker": null,
+        "text": "山田忽然想起什麼。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 221
+        }
+      },
+      {
+        "id": "ledger-0222-1",
+        "speaker": "kentaro",
+        "text": "「而且莉妲找到乾菇的時候，真的超高興的。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 222
+        }
+      },
+      {
+        "id": "ledger-0223-0",
+        "speaker": null,
+        "text": "西看向他。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 223
+        }
+      },
+      {
+        "id": "ledger-0224-1",
+        "speaker": "natsumi",
+        "text": "「你注意到了？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 224
+        }
+      },
+      {
+        "id": "ledger-0225-1",
+        "speaker": "kentaro",
+        "text": "「嗯。她剛才一直很不開心嘛。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 225
+        },
+        "originalText": "「嗯！她剛才一直很不開心嘛。」"
+      },
+      {
+        "id": "ledger-0226-1",
+        "speaker": "natsumi",
+        "text": "「是因為怕多恩先生覺得她做事不可靠吧。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 226
+        }
+      },
+      {
+        "id": "ledger-0227-0",
+        "speaker": null,
+        "text": "山田想了想。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 227
+        }
+      },
+      {
+        "id": "ledger-0228-1",
+        "speaker": "kentaro",
+        "text": "「可能吧。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 228
+        }
+      },
+      {
+        "id": "ledger-0229-0",
+        "speaker": null,
+        "text": "他笑了笑。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 229
+        }
+      },
+      {
+        "id": "ledger-0230-1",
+        "speaker": "kentaro",
+        "text": "「不過她真的很認真啊。之前幫她送菜的時候，就覺得她什麼都準備得很仔細。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 230
+        }
+      },
+      {
+        "id": "ledger-0231-1",
+        "speaker": "natsumi",
+        "text": "「嗯。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 231
+        }
+      },
+      {
+        "id": "ledger-0232-0",
+        "speaker": null,
+        "text": "西望著桌上那兩個番茄。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 232
+        }
+      },
+      {
+        "id": "ledger-0233-0",
+        "speaker": null,
+        "text": "她想起多恩將帳簿合起來時的模樣，又想起莉妲明明還有些不服氣，卻已經開始討論下次要怎樣改善貨單。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 233
+        }
+      },
+      {
+        "id": "ledger-0234-0",
+        "speaker": null,
+        "text": "兩個人都沒有為了結束爭執而隨便認錯，也沒有將責任全部推給對方。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 234
+        }
+      },
+      {
+        "id": "ledger-0235-1",
+        "speaker": "natsumi",
+        "text": "「……他們應該還會繼續吵架吧。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 235
+        }
+      },
+      {
+        "id": "ledger-0235-2",
+        "speaker": null,
+        "text": "西說。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 235
+        }
+      },
+      {
+        "id": "ledger-0236-1",
+        "speaker": "kentaro",
+        "text": "「肯定會。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 236
+        },
+        "originalText": "「肯定會！」"
+      },
+      {
+        "id": "ledger-0237-0",
+        "speaker": null,
+        "text": "山田回答得很快。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 237
+        }
+      },
+      {
+        "id": "ledger-0238-0",
+        "speaker": null,
+        "text": "兩人相視一笑。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 238
+        }
+      },
+      {
+        "id": "ledger-0239-0",
+        "speaker": null,
+        "text": "過了一會兒，山田伸手將番茄往西那邊推了一點。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 239
+        }
+      },
+      {
+        "id": "ledger-0240-1",
+        "speaker": "kentaro",
+        "text": "「奈津美，妳比較喜歡哪一個？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 240
+        }
+      },
+      {
+        "id": "ledger-0241-1",
+        "speaker": "natsumi",
+        "text": "「咦？有什麼不同嗎？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 241
+        }
+      },
+      {
+        "id": "ledger-0242-1",
+        "speaker": "kentaro",
+        "text": "「這個比較大。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 242
+        },
+        "originalText": "「這個比較大！」"
+      },
+      {
+        "id": "ledger-0243-1",
+        "speaker": "natsumi",
+        "text": "「……那就你吃大的吧。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 243
+        }
+      },
+      {
+        "id": "ledger-0244-1",
+        "speaker": "kentaro",
+        "text": "「真的？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 244
+        }
+      },
+      {
+        "id": "ledger-0245-1",
+        "speaker": "natsumi",
+        "text": "「嗯。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 245
+        }
+      },
+      {
+        "id": "ledger-0246-0",
+        "speaker": null,
+        "text": "山田想了想，又將兩個番茄放在一起。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 246
+        }
+      },
+      {
+        "id": "ledger-0247-1",
+        "speaker": "kentaro",
+        "text": "「不過切開一人一半，不就一樣了嗎？」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 247
+        }
+      },
+      {
+        "id": "ledger-0248-0",
+        "speaker": null,
+        "text": "西望著他。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 248
+        }
+      },
+      {
+        "id": "ledger-0249-1",
+        "speaker": "natsumi",
+        "text": "「……也是。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 249
+        }
+      },
+      {
+        "id": "ledger-0250-0",
+        "speaker": null,
+        "text": "山田露出得意的表情。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 250
+        }
+      },
+      {
+        "id": "ledger-0251-1",
+        "speaker": "kentaro",
+        "text": "「問題解決！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 251
+        }
+      },
+      {
+        "id": "ledger-0252-1",
+        "speaker": "natsumi",
+        "text": "「什麼問題啦！」",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 252
+        }
+      },
+      {
+        "id": "ledger-0253-0",
+        "speaker": null,
+        "text": "西終於忍不住笑出聲。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 253
+        }
+      },
+      {
+        "id": "ledger-0254-0",
+        "speaker": null,
+        "text": "桌上的兩個番茄安靜地並排放著，旁邊是今天新記下的一筆工錢。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 254
+        }
+      },
+      {
+        "id": "ledger-0255-0",
+        "speaker": null,
+        "text": "明天，莉妲仍然會照常採收蔬菜，多恩也仍然會一筆一筆地核對帳目。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 255
+        }
+      },
+      {
+        "id": "ledger-0256-0",
+        "speaker": null,
+        "text": "而山田與西，還有屬於自己的路要走。",
+        "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+        "source": {
+          "file": "side-quest-07-delivery-lists-user.md",
+          "line": 256
+        }
+      }
+    ]
+  },
+  "followups": {
+    "lida": [
+      {
+        "id": "ledger-followup-lida",
+        "speaker": "lida",
+        "text": "「這次連每籃有多少根都寫上去了。多恩總沒話說了吧。」",
+        "background": "./assets/backgrounds/bg-estrala-vegetable-garden-day.webp"
+      }
+    ],
+    "dorn": [
+      {
+        "id": "ledger-followup-dorn",
+        "speaker": "dorn",
+        "text": "「新的貨單已經寫清楚包裝數量和入庫時間，查起來方便多了。上次多虧你們幫忙。」",
+        "background": "./assets/backgrounds/bg-estrala-inn-lobby-day.webp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4542 @@
+{
+  "id": "separate-days",
+  "title": "各自的一天",
+  "required": true,
+  "scenes": [
+    {
+      "id": "meeting",
+      "title": "傍晚的約定",
+      "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+      "bgm": "happy-anticipation",
+      "camera": false,
+      "lines": [
+        {
+          "id": "separate-0007-0",
+          "speaker": null,
+          "text": "西結束工作時，太陽還沒有完全落山。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 7
+          }
+        },
+        {
+          "id": "separate-0009-0",
+          "speaker": null,
+          "text": "她沿著村裡的石板路往中央廣場走，經過幾間正在收攤的店舖。傍晚的風帶著一點麵包和柴火的香氣，從街道另一頭吹過來。幾個小孩追逐著跑過她身邊，其中一個差點撞上她，又急忙回頭道歉。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 9
+          }
+        },
+        {
+          "id": "separate-0011-1",
+          "speaker": "natsumi",
+          "text": "「沒關係。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 11
+          }
+        },
+        {
+          "id": "separate-0011-2",
+          "speaker": null,
+          "text": "西笑著讓開路，看著他們跑遠。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 11
+          }
+        },
+        {
+          "id": "separate-0013-0",
+          "speaker": null,
+          "text": "今天是她和山田第一次分開行動。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 13
+          }
+        },
+        {
+          "id": "separate-0015-0",
+          "speaker": null,
+          "text": "早上兩人在委託板前各自選好工作，約定傍晚在廣場的水井旁碰面。原本只是很普通的安排，畢竟在日本的時候，他們也不是每一天都待在一起。可是來到這個世界以後，連出門買東西都習慣兩個人一起，突然又能各自安排一天，反倒有種久違的感覺。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 15
+          }
+        },
+        {
+          "id": "separate-0017-0",
+          "speaker": null,
+          "text": "一整個下午，她忙著完成自己的工作，遇見幾位以前沒有說過話的村民，也逐漸熟悉了村子另一邊的道路。等到終於閒下來，第一個浮現在腦海裡的念頭，竟然是想帶健太郎去看看下午經過的那間小店。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 17
+          }
+        },
+        {
+          "id": "separate-0019-0",
+          "speaker": null,
+          "text": "那裡有一種剛烤好的蜂蜜果餅，香得讓她經過兩次都忍不住回頭。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 19
+          }
+        },
+        {
+          "id": "separate-0021-0",
+          "speaker": null,
+          "text": "不過，今天賺到的錢還要留作旅費。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 21
+          }
+        },
+        {
+          "id": "separate-0023-0",
+          "speaker": null,
+          "text": "她稍微猶豫了一下，最後又覺得，偶爾買一點東西吃，應該也沒有關係吧。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 23
+          }
+        },
+        {
+          "id": "separate-0025-1",
+          "speaker": "kentaro",
+          "text": "「奈津美！」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 25
+          }
+        },
+        {
+          "id": "separate-0027-0",
+          "speaker": null,
+          "text": "熟悉的聲音從前方傳來。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 27
+          }
+        },
+        {
+          "id": "separate-0029-0",
+          "speaker": null,
+          "text": "西抬起頭，看見山田正站在水井旁，朝她揮手。夕陽從旁邊的屋頂落下來，將他的金髮照得很亮。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 29
+          }
+        },
+        {
+          "id": "separate-0031-0",
+          "speaker": null,
+          "text": "她加快腳步。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 31
+          }
+        },
+        {
+          "id": "separate-0033-1",
+          "speaker": "natsumi",
+          "text": "「健太郎！等很久了嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 33
+          }
+        },
+        {
+          "id": "separate-0035-1",
+          "speaker": "kentaro",
+          "text": "「沒有，我也剛到。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 35
+          }
+        },
+        {
+          "id": "separate-0037-0",
+          "speaker": null,
+          "text": "山田走近，目光落在她的臉上。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 37
+          }
+        },
+        {
+          "id": "separate-0039-1",
+          "speaker": "kentaro",
+          "text": "「今天還順利嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 39
+          }
+        },
+        {
+          "id": "separate-0041-1",
+          "speaker": "natsumi",
+          "text": "「嗯，挺順利的。你呢？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 41
+          }
+        },
+        {
+          "id": "separate-0043-1",
+          "speaker": "kentaro",
+          "text": "「也不錯。還發現了一個很有意思的地方。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 43
+          }
+        },
+        {
+          "id": "separate-0045-1",
+          "speaker": "natsumi",
+          "text": "「什麼地方？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 45
+          }
+        },
+        {
+          "id": "separate-0047-1",
+          "speaker": "kentaro",
+          "text": "「等一下帶妳去看。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 47
+          }
+        },
+        {
+          "id": "separate-0049-0",
+          "speaker": null,
+          "text": "他說得神秘，卻藏不住臉上的笑意。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 49
+          }
+        },
+        {
+          "id": "separate-0051-0",
+          "speaker": null,
+          "text": "西有點好奇。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 51
+          }
+        },
+        {
+          "id": "separate-0053-1",
+          "speaker": "natsumi",
+          "text": "「什麼嘛，現在不能說？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 53
+          }
+        },
+        {
+          "id": "separate-0055-1",
+          "speaker": "kentaro",
+          "text": "「可以啊。不過我覺得親眼看到比較好。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 55
+          }
+        },
+        {
+          "id": "separate-0057-1",
+          "speaker": "natsumi",
+          "text": "「唔……好吧。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 57
+          }
+        },
+        {
+          "id": "separate-0059-0",
+          "speaker": null,
+          "text": "她想起自己下午的小發現，忽然也有點高興。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 59
+          }
+        },
+        {
+          "id": "separate-0061-1",
+          "speaker": "natsumi",
+          "text": "「那我也有個地方想帶你去。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 61
+          }
+        },
+        {
+          "id": "separate-0063-0",
+          "speaker": null,
+          "text": "山田笑了。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 63
+          }
+        },
+        {
+          "id": "separate-0065-1",
+          "speaker": "kentaro",
+          "text": "「真的？那今天行程很豐富耶。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 65
+          }
+        },
+        {
+          "id": "separate-0067-1",
+          "speaker": "natsumi",
+          "text": "「哪有，只是附近的一間店而已。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 67
+          }
+        },
+        {
+          "id": "separate-0069-1",
+          "speaker": "kentaro",
+          "text": "「也很好啊。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 69
+          }
+        },
+        {
+          "id": "separate-0071-0",
+          "speaker": null,
+          "text": "他伸出手。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 71
+          }
+        },
+        {
+          "id": "separate-0073-1",
+          "speaker": "kentaro",
+          "text": "「走吧？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 73
+          }
+        },
+        {
+          "id": "separate-0075-0",
+          "speaker": null,
+          "text": "西很自然地握住。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 75
+          }
+        },
+        {
+          "id": "separate-0077-0",
+          "speaker": null,
+          "text": "直到兩人沿著廣場邊緣往前走，她才忽然發現，從早上到現在，原來已經過了這麼久。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 77
+          }
+        },
+        {
+          "id": "separate-0079-0",
+          "speaker": null,
+          "text": "以前在日本，他們也經常這樣約在某個地方見面。明明只是普通地牽著手去吃飯，卻總讓人有一種，接下來的時間終於真正屬於兩個人的感覺。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 79
+          }
+        },
+        {
+          "id": "separate-0081-0",
+          "speaker": null,
+          "text": "她忽然想起一件事。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 81
+          }
+        },
+        {
+          "id": "separate-0083-1",
+          "speaker": "natsumi",
+          "text": "「健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 83
+          }
+        },
+        {
+          "id": "separate-0085-1",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 85
+          }
+        },
+        {
+          "id": "separate-0087-1",
+          "speaker": "natsumi",
+          "text": "「我們今天是不是在約會？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 87
+          }
+        },
+        {
+          "id": "separate-0089-0",
+          "speaker": null,
+          "text": "山田轉頭看她。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 89
+          }
+        },
+        {
+          "id": "separate-0091-1",
+          "speaker": "kentaro",
+          "text": "「我以為本來就是啊。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 91
+          }
+        },
+        {
+          "id": "separate-0093-1",
+          "speaker": "natsumi",
+          "text": "「咦？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 93
+          }
+        },
+        {
+          "id": "separate-0095-1",
+          "speaker": "kentaro",
+          "text": "「工作都做完了，接下來也沒有其他安排。難得兩個人有空，當然想跟妳出去走走。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 95
+          }
+        },
+        {
+          "id": "separate-0097-0",
+          "speaker": null,
+          "text": "他笑了笑。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 97
+          }
+        },
+        {
+          "id": "separate-0099-1",
+          "speaker": "kentaro",
+          "text": "「而且最近一直忙著找路、賺錢，好像都沒有好好約會了。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 99
+          }
+        },
+        {
+          "id": "separate-0101-0",
+          "speaker": null,
+          "text": "西望著他，忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 101
+          }
+        },
+        {
+          "id": "separate-0103-1",
+          "speaker": "natsumi",
+          "text": "「……說得也是。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 103
+          }
+        },
+        {
+          "id": "separate-0105-1",
+          "speaker": "kentaro",
+          "text": "「所以今天不急著回旅舍，怎麼樣？」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 105
+          }
+        },
+        {
+          "id": "separate-0107-1",
+          "speaker": "natsumi",
+          "text": "「好。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 107
+          }
+        },
+        {
+          "id": "separate-0109-0",
+          "speaker": null,
+          "text": "她握緊了一點他的手。",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 109
+          }
+        },
+        {
+          "id": "separate-0111-1",
+          "speaker": "natsumi",
+          "text": "「我也想跟你待久一點。」",
+          "background": "./assets/backgrounds/bg-estrala-village-square-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 111
+          }
+        }
+      ]
+    },
+    {
+      "id": "cake",
+      "title": "蜂蜜果餅",
+      "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+      "bgm": "cozy-cafe-jazz",
+      "camera": false,
+      "lines": [
+        {
+          "id": "separate-0113-0",
+          "speaker": null,
+          "text": "傍晚的小廣場比白天熱鬧。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 113
+          }
+        },
+        {
+          "id": "separate-0115-0",
+          "speaker": null,
+          "text": "幾個商販還沒有收攤，木製小車整齊地排在道路兩旁，掛著不同顏色的布幔。有人販賣果乾和香料，也有人將手工製作的陶杯擺在木箱上，讓經過的客人挑選。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 115
+          }
+        },
+        {
+          "id": "separate-0117-0",
+          "speaker": null,
+          "text": "西帶著山田來到一間小小的烘焙攤前。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 117
+          }
+        },
+        {
+          "id": "separate-0119-1",
+          "speaker": "natsumi",
+          "text": "「就是這裡。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 119
+          }
+        },
+        {
+          "id": "separate-0121-0",
+          "speaker": null,
+          "text": "山田看了一眼。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 121
+          }
+        },
+        {
+          "id": "separate-0123-1",
+          "speaker": "kentaro",
+          "text": "「哦，好香。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 123
+          }
+        },
+        {
+          "id": "separate-0125-1",
+          "speaker": "natsumi",
+          "text": "「對吧？我下午經過的時候就聞到了。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 125
+          }
+        },
+        {
+          "id": "separate-0127-0",
+          "speaker": null,
+          "text": "攤主正把最後一批果餅從烤爐裡取出。圓圓的餅皮烤得金黃，表面塗了一層薄薄的蜂蜜。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 127
+          }
+        },
+        {
+          "id": "separate-0129-1",
+          "speaker": "bakery_vendor",
+          "text": "「兩位要不要試試？今天剛好還有一點。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 129
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0131-0",
+          "speaker": null,
+          "text": "山田看向西。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 131
+          }
+        },
+        {
+          "id": "separate-0133-1",
+          "speaker": "kentaro",
+          "text": "「想吃嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 133
+          }
+        },
+        {
+          "id": "separate-0135-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 135
+          }
+        },
+        {
+          "id": "separate-0137-0",
+          "speaker": null,
+          "text": "西點點頭，又有些不好意思地補充：",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 137
+          }
+        },
+        {
+          "id": "separate-0139-1",
+          "speaker": "natsumi",
+          "text": "「其實我下午就想買了。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 139
+          }
+        },
+        {
+          "id": "separate-0141-1",
+          "speaker": "kentaro",
+          "text": "「那就買吧。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 141
+          }
+        },
+        {
+          "id": "separate-0143-0",
+          "speaker": null,
+          "text": "山田看了看價錢，先向攤主確認兩人需要多少，又選了一份剛出爐的。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 143
+          }
+        },
+        {
+          "id": "separate-0145-0",
+          "speaker": null,
+          "text": "西拿出今天賺到的銅幣。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 145
+          }
+        },
+        {
+          "id": "separate-0147-1",
+          "speaker": "natsumi",
+          "text": "「這次我請你。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 147
+          }
+        },
+        {
+          "id": "separate-0149-1",
+          "speaker": "kentaro",
+          "text": "「真的？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 149
+          }
+        },
+        {
+          "id": "separate-0151-1",
+          "speaker": "natsumi",
+          "text": "「嗯。今天第一天自己賺到工錢嘛。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 151
+          }
+        },
+        {
+          "id": "separate-0153-0",
+          "speaker": null,
+          "text": "山田望著她，笑了。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 153
+          }
+        },
+        {
+          "id": "separate-0155-1",
+          "speaker": "kentaro",
+          "text": "「那我就不客氣了。謝謝奈津美。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 155
+          }
+        },
+        {
+          "id": "separate-0157-0",
+          "speaker": null,
+          "text": "攤主將果餅切成兩半，用乾淨的紙包好。兩人站在攤位旁，趁熱各咬了一口。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 157
+          }
+        },
+        {
+          "id": "separate-0159-0",
+          "speaker": null,
+          "text": "蜂蜜的甜味先在舌尖散開，緊接著是烤得柔軟的果肉，帶著一點微微的酸。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 159
+          }
+        },
+        {
+          "id": "separate-0161-1",
+          "speaker": "natsumi",
+          "text": "「……啊，好吃。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 161
+          }
+        },
+        {
+          "id": "separate-0163-0",
+          "speaker": null,
+          "text": "西忍不住又咬了一口。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 163
+          }
+        },
+        {
+          "id": "separate-0165-1",
+          "speaker": "kentaro",
+          "text": "「真的不錯。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 165
+          }
+        },
+        {
+          "id": "separate-0167-0",
+          "speaker": null,
+          "text": "山田低頭研究了一下餅皮。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 167
+          }
+        },
+        {
+          "id": "separate-0169-1",
+          "speaker": "kentaro",
+          "text": "「裡面好像還加了堅果。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 169
+          }
+        },
+        {
+          "id": "separate-0171-1",
+          "speaker": "natsumi",
+          "text": "「是嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 171
+          }
+        },
+        {
+          "id": "separate-0173-1",
+          "speaker": "kentaro",
+          "text": "「嗯，妳看這裡。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 173
+          }
+        },
+        {
+          "id": "separate-0175-0",
+          "speaker": null,
+          "text": "他將自己那半掰開一點，給她看裡面細碎的果仁。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 175
+          }
+        },
+        {
+          "id": "separate-0177-0",
+          "speaker": null,
+          "text": "西湊近看了看。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 177
+          }
+        },
+        {
+          "id": "separate-0179-1",
+          "speaker": "natsumi",
+          "text": "「真的耶。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 179
+          }
+        },
+        {
+          "id": "separate-0181-0",
+          "speaker": null,
+          "text": "山田將手中的果餅遞過來。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 181
+          }
+        },
+        {
+          "id": "separate-0183-1",
+          "speaker": "kentaro",
+          "text": "「要不要試試我這邊？這塊果肉比較多。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 183
+          }
+        },
+        {
+          "id": "separate-0185-1",
+          "speaker": "natsumi",
+          "text": "「可是你不是也很喜歡嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 185
+          }
+        },
+        {
+          "id": "separate-0187-1",
+          "speaker": "kentaro",
+          "text": "「可以分妳一口啊。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 187
+          }
+        },
+        {
+          "id": "separate-0189-0",
+          "speaker": null,
+          "text": "西看著他伸過來的手，笑著咬了一小口。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 189
+          }
+        },
+        {
+          "id": "separate-0191-1",
+          "speaker": "natsumi",
+          "text": "「嗯，這邊比較酸。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 191
+          }
+        },
+        {
+          "id": "separate-0193-1",
+          "speaker": "kentaro",
+          "text": "「對吧。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 193
+          }
+        },
+        {
+          "id": "separate-0195-1",
+          "speaker": "natsumi",
+          "text": "「你要不要也試試我的？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 195
+          }
+        },
+        {
+          "id": "separate-0197-1",
+          "speaker": "kentaro",
+          "text": "「好。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 197
+          }
+        },
+        {
+          "id": "separate-0199-0",
+          "speaker": null,
+          "text": "兩人就這樣把各自那半果餅分著吃完，還認真討論了究竟哪一邊比較好吃。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 199
+          }
+        },
+        {
+          "id": "separate-0201-0",
+          "speaker": null,
+          "text": "離開攤位後，西忽然覺得有點好笑。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 201
+          }
+        },
+        {
+          "id": "separate-0203-0",
+          "speaker": null,
+          "text": "以前在日本，他們也曾經為了哪間拉麵店比較好吃，花上整個下午比較兩間店的味道。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 203
+          }
+        },
+        {
+          "id": "separate-0205-0",
+          "speaker": null,
+          "text": "沒想到換了個世界，連這種事情都沒有變。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 205
+          }
+        },
+        {
+          "id": "separate-0207-1",
+          "speaker": "natsumi",
+          "text": "「健太郎，等我們回去之後，會不會覺得日本的甜點太好吃了？」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 207
+          }
+        },
+        {
+          "id": "separate-0209-1",
+          "speaker": "kentaro",
+          "text": "「可能喔。不過這個也很好吃啊。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 209
+          }
+        },
+        {
+          "id": "separate-0211-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 211
+          }
+        },
+        {
+          "id": "separate-0213-1",
+          "speaker": "kentaro",
+          "text": "「而且以後要是還有機會來這邊，我想再買一次。」",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 213
+          }
+        },
+        {
+          "id": "separate-0215-0",
+          "speaker": null,
+          "text": "西側過頭看他。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 215
+          }
+        },
+        {
+          "id": "separate-0217-0",
+          "speaker": null,
+          "text": "他說得很自然，彷彿那只是一次普通旅行，將來還有機會再訪。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 217
+          }
+        },
+        {
+          "id": "separate-0219-0",
+          "speaker": null,
+          "text": "她沒有提醒他，他們甚至還不知道能不能回去。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 219
+          }
+        },
+        {
+          "id": "separate-0221-0",
+          "speaker": null,
+          "text": "這一刻，她只是覺得，如果有那麼一天，能夠再和他一起走過這條街，似乎也是件很好的事。",
+          "background": "./assets/backgrounds/bg-estrala-bakery-day.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 221
+          }
+        }
+      ]
+    },
+    {
+      "id": "dance",
+      "title": "廣場的旋律",
+      "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+      "bgm": "upbeat-everyday",
+      "camera": false,
+      "lines": [
+        {
+          "id": "separate-0223-0",
+          "speaker": null,
+          "text": "再往前走，廣場另一端忽然傳來一陣音樂。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 223
+          }
+        },
+        {
+          "id": "separate-0225-0",
+          "speaker": null,
+          "text": "先是一把弦樂器的聲音，隨後加入了輕快的笛聲。兩人循聲望去，只見幾位旅人模樣的樂師坐在小廣場邊緣，正為附近的村民演奏。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 225
+          }
+        },
+        {
+          "id": "separate-0227-0",
+          "speaker": null,
+          "text": "幾個孩子最先跟著節奏跳起來，後來又有兩對年輕男女加入。石板地上沒有特別劃出舞池，人們只是很自然地讓出一小片空地，隨著音樂轉圈、交換舞步。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 227
+          }
+        },
+        {
+          "id": "separate-0229-0",
+          "speaker": null,
+          "text": "山田停下腳步。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 229
+          }
+        },
+        {
+          "id": "separate-0231-1",
+          "speaker": "kentaro",
+          "text": "「哦，這個不錯耶。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 231
+          }
+        },
+        {
+          "id": "separate-0233-0",
+          "speaker": null,
+          "text": "西也看得有些入神。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 233
+          }
+        },
+        {
+          "id": "separate-0235-0",
+          "speaker": null,
+          "text": "音樂跟她熟悉的日本流行歌完全不同，卻有一種令人忍不住想跟著節奏擺動的輕快。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 235
+          }
+        },
+        {
+          "id": "separate-0237-0",
+          "speaker": null,
+          "text": "她望著那些跳舞的人。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 237
+          }
+        },
+        {
+          "id": "separate-0239-0",
+          "speaker": null,
+          "text": "其中一對年紀較大的夫妻顯然很熟悉舞步，兩人幾乎不需要互相提醒，就能在轉身時剛好配合。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 239
+          }
+        },
+        {
+          "id": "separate-0241-1",
+          "speaker": "natsumi",
+          "text": "「好厲害……」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 241
+          }
+        },
+        {
+          "id": "separate-0243-0",
+          "speaker": null,
+          "text": "西小聲說。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 243
+          }
+        },
+        {
+          "id": "separate-0245-0",
+          "speaker": null,
+          "text": "山田順著她的目光望去。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 245
+          }
+        },
+        {
+          "id": "separate-0247-1",
+          "speaker": "kentaro",
+          "text": "「那兩個人跳得真好。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 247
+          }
+        },
+        {
+          "id": "separate-0249-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 249
+          }
+        },
+        {
+          "id": "separate-0251-0",
+          "speaker": null,
+          "text": "西正看得出神，山田忽然伸手，輕輕拉了一下她的手。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 251
+          }
+        },
+        {
+          "id": "separate-0253-1",
+          "speaker": "kentaro",
+          "text": "「奈津美，要不要一起跳？」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 253
+          }
+        },
+        {
+          "id": "separate-0255-0",
+          "speaker": null,
+          "text": "她愣了一下。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 255
+          }
+        },
+        {
+          "id": "separate-0257-1",
+          "speaker": "natsumi",
+          "text": "「咦？在這裡？」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 257
+          }
+        },
+        {
+          "id": "separate-0259-1",
+          "speaker": "kentaro",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 259
+          }
+        },
+        {
+          "id": "separate-0261-0",
+          "speaker": null,
+          "text": "西看向廣場中央。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 261
+          }
+        },
+        {
+          "id": "separate-0263-0",
+          "speaker": null,
+          "text": "雖然沒有人特別在意其他人，但突然要她在這種地方跳舞，還是有一點難為情。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 263
+          }
+        },
+        {
+          "id": "separate-0265-1",
+          "speaker": "natsumi",
+          "text": "「可是我不會這邊的舞。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 265
+          }
+        },
+        {
+          "id": "separate-0267-1",
+          "speaker": "kentaro",
+          "text": "「我也不會。不過剛才看了一會兒，應該可以先跟上簡單的部分。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 267
+          }
+        },
+        {
+          "id": "separate-0269-0",
+          "speaker": null,
+          "text": "山田指了指正在跳舞的人。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 269
+          }
+        },
+        {
+          "id": "separate-0271-1",
+          "speaker": "kentaro",
+          "text": "「妳看，轉圈之前基本上都是那幾個步子。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 271
+          }
+        },
+        {
+          "id": "separate-0273-0",
+          "speaker": null,
+          "text": "西發現他竟然真的已經留意到舞步的規律。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 273
+          }
+        },
+        {
+          "id": "separate-0275-1",
+          "speaker": "natsumi",
+          "text": "「……你剛才在記？」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 275
+          }
+        },
+        {
+          "id": "separate-0277-1",
+          "speaker": "kentaro",
+          "text": "「有一點。還挺有意思的。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 277
+          }
+        },
+        {
+          "id": "separate-0279-0",
+          "speaker": null,
+          "text": "他望著她。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 279
+          }
+        },
+        {
+          "id": "separate-0281-1",
+          "speaker": "kentaro",
+          "text": "「想試試看嗎？如果不想也沒關係，我們可以在這裡聽。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 281
+          }
+        },
+        {
+          "id": "separate-0283-0",
+          "speaker": null,
+          "text": "西看著他的手，又看向廣場裡那些跳舞的人。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 283
+          }
+        },
+        {
+          "id": "separate-0285-0",
+          "speaker": null,
+          "text": "一位剛跳完的女孩正笑著跑回朋友身邊。旁邊的老先生隨著音樂拍手，樂師也沒有因為有人偶爾踩錯節拍便停下來。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 285
+          }
+        },
+        {
+          "id": "separate-0287-0",
+          "speaker": null,
+          "text": "這裡似乎沒有人在意誰跳得好。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 287
+          }
+        },
+        {
+          "id": "separate-0289-0",
+          "speaker": null,
+          "text": "她忽然很想試試。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 289
+          }
+        },
+        {
+          "id": "separate-0291-1",
+          "speaker": "natsumi",
+          "text": "「……好啊。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 291
+          }
+        },
+        {
+          "id": "separate-0293-0",
+          "speaker": null,
+          "text": "山田笑了。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 293
+          }
+        },
+        {
+          "id": "separate-0295-1",
+          "speaker": "kentaro",
+          "text": "「走吧。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 295
+          }
+        },
+        {
+          "id": "separate-0297-0",
+          "speaker": null,
+          "text": "他牽著她走進廣場，先留意了一下周圍的人，然後在靠邊一點的位置停下。",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 297
+          }
+        },
+        {
+          "id": "separate-0299-1",
+          "speaker": "kentaro",
+          "text": "「先跟著節奏來？」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 299
+          }
+        },
+        {
+          "id": "separate-0301-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-plaza-music-dusk.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 301
+          }
+        },
+        {
+          "id": "separate-0303-0",
+          "speaker": null,
+          "text": "山田握著她的手，另一隻手自然地扶住她的腰。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 303
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0305-0",
+          "speaker": null,
+          "text": "西抬頭看他。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 305
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0307-0",
+          "speaker": null,
+          "text": "明明已經交往了好幾年，這樣的距離早就不值得大驚小怪，可在陌生的音樂與燈光之中，她還是忽然有種新鮮的感覺。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 307
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0309-0",
+          "speaker": null,
+          "text": "最初幾步，兩人都在小心地配合。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 309
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0311-0",
+          "speaker": null,
+          "text": "山田試著跟隨周圍的人調整步伐，西則一邊留意節奏，一邊努力記住剛才看見的轉身動作。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 311
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0313-1",
+          "speaker": "natsumi",
+          "text": "「這邊？」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 313
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0315-1",
+          "speaker": "kentaro",
+          "text": "「嗯，下一拍轉過來。」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 315
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0317-0",
+          "speaker": null,
+          "text": "西跟著他轉了一圈。",
+          "background": "./assets/cg/cg-separate-days-natsumi-twirl.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 317
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0319-0",
+          "speaker": null,
+          "text": "衣裙的下擺輕輕揚起，尖帽上的飾帶也隨之晃動。",
+          "background": "./assets/cg/cg-separate-days-natsumi-twirl.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 319
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0321-1",
+          "speaker": "natsumi",
+          "text": "「啊，成功了。」",
+          "background": "./assets/cg/cg-separate-days-natsumi-twirl.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 321
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0323-0",
+          "speaker": null,
+          "text": "她自己都有些意外。",
+          "background": "./assets/cg/cg-separate-days-natsumi-twirl.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 323
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0325-0",
+          "speaker": null,
+          "text": "山田笑了。",
+          "background": "./assets/cg/cg-separate-days-kentaro-smile.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 325
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0327-1",
+          "speaker": "kentaro",
+          "text": "「對吧。」",
+          "background": "./assets/cg/cg-separate-days-kentaro-smile.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 327
+          },
+          "originalText": "「對吧！」",
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0329-0",
+          "speaker": null,
+          "text": "下一段旋律開始時，兩人已經熟悉了基本的步伐。西不再一直低頭看自己的腳，開始跟著音樂自然地移動。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 329
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0331-0",
+          "speaker": null,
+          "text": "有一次山田伸手示意她轉身，她卻故意往相反的方向走了一步。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 331
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0333-0",
+          "speaker": null,
+          "text": "山田稍微愣住，隨即反應過來，順著她的動作改變方向。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 333
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0335-1",
+          "speaker": "kentaro",
+          "text": "「奈津美，妳故意的吧？」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 335
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0337-1",
+          "speaker": "natsumi",
+          "text": "「沒有啊。」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 337
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0339-1",
+          "speaker": "kentaro",
+          "text": "「真的？」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 339
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0341-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 341
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0343-0",
+          "speaker": null,
+          "text": "西努力忍著笑。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 343
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0345-0",
+          "speaker": null,
+          "text": "山田看了她一眼，顯然沒有相信，卻也沒有拆穿。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 345
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0347-0",
+          "speaker": null,
+          "text": "下一次換方向時，他忽然在原本的節奏裡多帶了半圈。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 347
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0349-0",
+          "speaker": null,
+          "text": "西猝不及防，連忙抓住他的手臂。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 349
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0351-1",
+          "speaker": "natsumi",
+          "text": "「等一下！」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 351
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0353-0",
+          "speaker": null,
+          "text": "山田穩穩扶住她。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 353
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0355-1",
+          "speaker": "kentaro",
+          "text": "「剛才不是妳先開始的嗎？」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 355
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0357-1",
+          "speaker": "natsumi",
+          "text": "「……你還記著啊！」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 357
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0359-1",
+          "speaker": "kentaro",
+          "text": "「當然。」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 359
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0361-0",
+          "speaker": null,
+          "text": "兩人終於一起笑了出來。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 361
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0363-0",
+          "speaker": null,
+          "text": "音樂繼續往前，附近的人也漸漸加入。有人跟著節奏拍手，有人因為轉錯方向而笑得停不下來。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 363
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0365-0",
+          "speaker": null,
+          "text": "西的臉頰有些發熱。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 365
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0367-0",
+          "speaker": null,
+          "text": "但不是因為難為情。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 367
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0369-0",
+          "speaker": null,
+          "text": "她已經很久沒有這樣，什麼都不想，只是跟著音樂笑了。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 369
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0371-0",
+          "speaker": null,
+          "text": "又過了一會兒，樂曲開始放慢。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 371
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0373-0",
+          "speaker": null,
+          "text": "山田握著她的手，配合節奏將步伐放緩。西靠近一些，將手輕輕搭在他的肩上。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 373
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0375-0",
+          "speaker": null,
+          "text": "夕陽已經沉到屋頂後面，廣場周圍陸續亮起暖黃色的燈。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 375
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0377-0",
+          "speaker": null,
+          "text": "她抬頭時，正好看見山田望著自己。",
+          "background": "./assets/cg/cg-separate-days-kentaro-smile.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 377
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0379-1",
+          "speaker": "natsumi",
+          "text": "「怎麼了？」",
+          "background": "./assets/cg/cg-separate-days-kentaro-smile.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 379
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0381-1",
+          "speaker": "kentaro",
+          "text": "「沒有。」",
+          "background": "./assets/cg/cg-separate-days-kentaro-smile.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 381
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0383-0",
+          "speaker": null,
+          "text": "他笑了笑。",
+          "background": "./assets/cg/cg-separate-days-kentaro-smile.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 383
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0385-1",
+          "speaker": "kentaro",
+          "text": "「只是覺得妳今天很開心。」",
+          "background": "./assets/cg/cg-separate-days-kentaro-smile.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 385
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0387-0",
+          "speaker": null,
+          "text": "西望著他。",
+          "background": "./assets/cg/cg-separate-days-natsumi-twirl.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 387
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0389-1",
+          "speaker": "natsumi",
+          "text": "「……嗯。」",
+          "background": "./assets/cg/cg-separate-days-natsumi-twirl.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 389
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0391-0",
+          "speaker": null,
+          "text": "她也笑了。",
+          "background": "./assets/cg/cg-separate-days-natsumi-twirl.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 391
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0393-1",
+          "speaker": "natsumi",
+          "text": "「因為真的很好玩。」",
+          "background": "./assets/cg/cg-separate-days-natsumi-twirl.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 393
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0395-0",
+          "speaker": null,
+          "text": "山田微微低下頭，靠近她一些。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 395
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0397-1",
+          "speaker": "kentaro",
+          "text": "「那要不要再跳一首？」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 397
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0399-0",
+          "speaker": null,
+          "text": "西看了看周圍。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 399
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0401-0",
+          "speaker": null,
+          "text": "樂師已經開始調整樂器，準備下一首曲子。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 401
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0403-0",
+          "speaker": null,
+          "text": "她沒有立即回答，只是拉著山田的手，往廣場中央走近了一點。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 403
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0405-1",
+          "speaker": "natsumi",
+          "text": "「這次換我帶你。」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 405
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0407-0",
+          "speaker": null,
+          "text": "山田笑了。",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 407
+          },
+          "cg": true,
+          "portrait": false
+        },
+        {
+          "id": "separate-0409-1",
+          "speaker": "kentaro",
+          "text": "「好啊。」",
+          "background": "./assets/cg/cg-separate-days-plaza-dance.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 409
+          },
+          "cg": true,
+          "portrait": false
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "title": "另一個小發現",
+      "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+      "bgm": "warm-daily-life",
+      "camera": false,
+      "lines": [
+        {
+          "id": "separate-0411-0",
+          "speaker": null,
+          "text": "等兩人終於離開廣場，天已經快黑了。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 411
+          }
+        },
+        {
+          "id": "separate-0413-0",
+          "speaker": null,
+          "text": "西走得有些慢。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 413
+          }
+        },
+        {
+          "id": "separate-0415-1",
+          "speaker": "natsumi",
+          "text": "「……好累。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 415
+          }
+        },
+        {
+          "id": "separate-0417-0",
+          "speaker": null,
+          "text": "山田望向她。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 417
+          }
+        },
+        {
+          "id": "separate-0419-1",
+          "speaker": "kentaro",
+          "text": "「跳太久了？」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 419
+          }
+        },
+        {
+          "id": "separate-0421-1",
+          "speaker": "natsumi",
+          "text": "「你還好意思說，最後明明是你說再跳一首的。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 421
+          }
+        },
+        {
+          "id": "separate-0423-1",
+          "speaker": "kentaro",
+          "text": "「可是妳也同意了啊。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 423
+          }
+        },
+        {
+          "id": "separate-0425-1",
+          "speaker": "natsumi",
+          "text": "「是啦。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 425
+          }
+        },
+        {
+          "id": "separate-0427-0",
+          "speaker": null,
+          "text": "西忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 427
+          }
+        },
+        {
+          "id": "separate-0429-0",
+          "speaker": null,
+          "text": "她原本只打算在村裡逛一會兒，沒想到竟然會和山田在廣場跳舞，還跳到連腳都有點酸。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 429
+          }
+        },
+        {
+          "id": "separate-0431-0",
+          "speaker": null,
+          "text": "山田看了一眼天空。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 431
+          }
+        },
+        {
+          "id": "separate-0433-1",
+          "speaker": "kentaro",
+          "text": "「還想去看看我今天發現的地方嗎？不過如果累了，我們可以改天再去。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 433
+          }
+        },
+        {
+          "id": "separate-0435-0",
+          "speaker": null,
+          "text": "西想起他一開始說的話。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 435
+          }
+        },
+        {
+          "id": "separate-0437-1",
+          "speaker": "natsumi",
+          "text": "「啊，對了，你還沒帶我去呢。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 437
+          }
+        },
+        {
+          "id": "separate-0439-1",
+          "speaker": "kentaro",
+          "text": "「嗯。就在舊磨坊後面的山坡上，不遠。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 439
+          }
+        },
+        {
+          "id": "separate-0441-1",
+          "speaker": "natsumi",
+          "text": "「那就去吧。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 441
+          }
+        },
+        {
+          "id": "separate-0443-1",
+          "speaker": "kentaro",
+          "text": "「真的不用休息一下？」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 443
+          }
+        },
+        {
+          "id": "separate-0445-1",
+          "speaker": "natsumi",
+          "text": "「不用啦，只是跳舞而已。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 445
+          }
+        },
+        {
+          "id": "separate-0447-0",
+          "speaker": null,
+          "text": "西笑著抬頭看他。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 447
+          }
+        },
+        {
+          "id": "separate-0449-1",
+          "speaker": "natsumi",
+          "text": "「而且我很好奇。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 449
+          }
+        },
+        {
+          "id": "separate-0451-0",
+          "speaker": null,
+          "text": "山田點點頭。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 451
+          }
+        },
+        {
+          "id": "separate-0453-1",
+          "speaker": "kentaro",
+          "text": "「好，那我們慢慢走。」",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 453
+          }
+        },
+        {
+          "id": "separate-0455-0",
+          "speaker": null,
+          "text": "兩人離開廣場，沿著小路往舊磨坊的方向前進。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 455
+          }
+        },
+        {
+          "id": "separate-0457-0",
+          "speaker": null,
+          "text": "離開熱鬧的街道後，四周逐漸安靜下來。石牆旁開著幾簇不知名的小花，晚風帶著田野的氣息，偶爾可以聽見遠處傳來水車轉動的聲音。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 457
+          }
+        },
+        {
+          "id": "separate-0459-0",
+          "speaker": null,
+          "text": "山田帶著她走上一段不太陡的山坡。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 459
+          }
+        },
+        {
+          "id": "separate-0461-0",
+          "speaker": null,
+          "text": "到了上面，西才終於明白他為什麼想帶自己來。",
+          "background": "./assets/backgrounds/bg-estrala-village-street-day.webp",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 461
+          }
+        }
+      ]
+    },
+    {
+      "id": "view",
+      "title": "山坡上的埃斯特拉",
+      "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+      "bgm": "heartwarming-romance",
+      "camera": true,
+      "lines": [
+        {
+          "id": "separate-0463-0",
+          "speaker": null,
+          "text": "埃斯特拉村就在腳下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 463
+          }
+        },
+        {
+          "id": "separate-0465-0",
+          "speaker": null,
+          "text": "屋頂沿著緩緩起伏的地勢排列，村莊中央的小廣場仍然亮著燈。遠處的農田已經籠罩在夜色裡，只有蜿蜒的道路還保留著最後一點夕光。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 465
+          }
+        },
+        {
+          "id": "separate-0467-0",
+          "speaker": null,
+          "text": "更遠的地方，是他們還沒有真正走過的山谷。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 467
+          }
+        },
+        {
+          "id": "separate-0469-1",
+          "speaker": "natsumi",
+          "text": "「……好漂亮。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 469
+          }
+        },
+        {
+          "id": "separate-0471-0",
+          "speaker": null,
+          "text": "西不自覺地停下腳步。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 471
+          }
+        },
+        {
+          "id": "separate-0473-0",
+          "speaker": null,
+          "text": "山田走到她旁邊。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 473
+          }
+        },
+        {
+          "id": "separate-0475-1",
+          "speaker": "kentaro",
+          "text": "「對吧。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 475
+          }
+        },
+        {
+          "id": "separate-0477-1",
+          "speaker": "natsumi",
+          "text": "「你怎麼找到這裡的？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 477
+          }
+        },
+        {
+          "id": "separate-0479-1",
+          "speaker": "kentaro",
+          "text": "「今天回來的路上看見有條小徑往上，剛好有村民從那邊下來。我問了一下，才知道這裡可以看到整個村子。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 479
+          }
+        },
+        {
+          "id": "separate-0481-0",
+          "speaker": null,
+          "text": "西望向他。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 481
+          }
+        },
+        {
+          "id": "separate-0483-1",
+          "speaker": "natsumi",
+          "text": "「所以你特地記下來了？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 483
+          }
+        },
+        {
+          "id": "separate-0485-1",
+          "speaker": "kentaro",
+          "text": "「嗯。想著傍晚可以帶妳來看看。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 485
+          }
+        },
+        {
+          "id": "separate-0487-0",
+          "speaker": null,
+          "text": "他望向遠處。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 487
+          }
+        },
+        {
+          "id": "separate-0489-1",
+          "speaker": "kentaro",
+          "text": "「我們一直在畫埃斯特拉村的地圖，可是從上面看，還是第一次吧。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 489
+          }
+        },
+        {
+          "id": "separate-0491-0",
+          "speaker": null,
+          "text": "西怔了一下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 491
+          }
+        },
+        {
+          "id": "separate-0493-0",
+          "speaker": null,
+          "text": "確實。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 493
+          }
+        },
+        {
+          "id": "separate-0495-0",
+          "speaker": null,
+          "text": "這幾天他們走過不少街道，認得越來越多店舖和房屋，卻從來沒有站在這個高度，看過整個村莊。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 495
+          }
+        },
+        {
+          "id": "separate-0497-0",
+          "speaker": null,
+          "text": "她走近一點，仔細辨認那些熟悉的位置。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 497
+          }
+        },
+        {
+          "id": "separate-0499-1",
+          "speaker": "natsumi",
+          "text": "「啊，那個是不是多恩先生的旅舍？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 499
+          }
+        },
+        {
+          "id": "separate-0501-1",
+          "speaker": "kentaro",
+          "text": "「對，就在廣場旁邊。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 501
+          }
+        },
+        {
+          "id": "separate-0503-1",
+          "speaker": "natsumi",
+          "text": "「那邊應該是莉妲小姐的田吧？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 503
+          }
+        },
+        {
+          "id": "separate-0505-1",
+          "speaker": "kentaro",
+          "text": "「嗯。早上從這裡看應該會更清楚。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 505
+          }
+        },
+        {
+          "id": "separate-0507-0",
+          "speaker": null,
+          "text": "西望著村莊，忽然有點想笑。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 507
+          }
+        },
+        {
+          "id": "separate-0509-1",
+          "speaker": "natsumi",
+          "text": "「從這裡看，好像變得很小。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 509
+          }
+        },
+        {
+          "id": "separate-0511-1",
+          "speaker": "kentaro",
+          "text": "「是啊。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 511
+          }
+        },
+        {
+          "id": "separate-0513-1",
+          "speaker": "natsumi",
+          "text": "「明明我們剛來的時候，還覺得村子好大。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 513
+          }
+        },
+        {
+          "id": "separate-0515-0",
+          "speaker": null,
+          "text": "山田輕輕應了一聲。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 515
+          }
+        },
+        {
+          "id": "separate-0517-0",
+          "speaker": null,
+          "text": "他們在山坡邊找了一塊平坦的草地坐下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 517
+          }
+        },
+        {
+          "id": "separate-0519-0",
+          "speaker": null,
+          "text": "夜色慢慢覆蓋過來，遠處的山脈變成深藍色的剪影。村莊裡的燈光一點點亮起，像散落在山谷中的小星星。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 519
+          }
+        },
+        {
+          "id": "separate-0521-0",
+          "speaker": null,
+          "text": "西將尖帽摘下來，放在膝上。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 521
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0523-0",
+          "speaker": null,
+          "text": "晚風吹過額前，她忍不住伸手理了理頭髮。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 523
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0525-1",
+          "speaker": "natsumi",
+          "text": "「今天真的很像約會呢。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 525
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0527-0",
+          "speaker": null,
+          "text": "山田側過頭。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 527
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0529-1",
+          "speaker": "kentaro",
+          "text": "「本來就是約會啊。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 529
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0531-1",
+          "speaker": "natsumi",
+          "text": "「我知道啦。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 531
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0533-0",
+          "speaker": null,
+          "text": "西笑著看向遠處。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 533
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0535-1",
+          "speaker": "natsumi",
+          "text": "「只是有一點……久違的感覺。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 535
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0537-0",
+          "speaker": null,
+          "text": "以前的約會，總是在熟悉的城市裡。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 537
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0539-0",
+          "speaker": null,
+          "text": "去吃飯、看電影，或者只是在街上逛逛。有時候他們也會各自忙上一整天，然後約在某個車站見面。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 539
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0541-0",
+          "speaker": null,
+          "text": "那時候，西從來沒有想過，原來自己會如此懷念這些普通的事。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 541
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0543-0",
+          "speaker": null,
+          "text": "可是今天，她竟然在一個完全陌生的世界裡，再次感受到了那種熟悉的心情。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 543
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0545-1",
+          "speaker": "natsumi",
+          "text": "「健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 545
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0547-1",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 547
+          },
+          "portrait": false
+        }
+      ]
+    },
+    {
+      "id": "together",
+      "title": "各自的一天",
+      "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+      "bgm": "heartwarming-romance",
+      "camera": true,
+      "lines": [
+        {
+          "id": "separate-0549-1",
+          "speaker": "natsumi",
+          "text": "「我今天工作的時候，突然有點想念以前。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 549
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0551-1",
+          "speaker": "kentaro",
+          "text": "「以前？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 551
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0553-1",
+          "speaker": "natsumi",
+          "text": "「就是……我們放學以後約出來見面的時候。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 553
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0555-0",
+          "speaker": null,
+          "text": "山田想了一下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 555
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0557-1",
+          "speaker": "kentaro",
+          "text": "「啊，妳以前經常在車站旁邊等我。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 557
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0559-1",
+          "speaker": "natsumi",
+          "text": "「明明有幾次是你先到的吧。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 559
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0561-1",
+          "speaker": "kentaro",
+          "text": "「對，我記得。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 561
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0563-0",
+          "speaker": null,
+          "text": "他笑了笑。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 563
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0565-1",
+          "speaker": "kentaro",
+          "text": "「有一次妳剛考完試，出來的時候整個人都沒什麼精神。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 565
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0567-1",
+          "speaker": "natsumi",
+          "text": "「……你連那個都記得？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 567
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0569-1",
+          "speaker": "kentaro",
+          "text": "「嗯。因為妳一見到我就說，今天不想再動腦了。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 569
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0571-0",
+          "speaker": null,
+          "text": "西忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 571
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0573-1",
+          "speaker": "natsumi",
+          "text": "「那次真的很累嘛。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 573
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0575-1",
+          "speaker": "kentaro",
+          "text": "「所以後來我們就去吃拉麵了。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 575
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0577-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 577
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0579-0",
+          "speaker": null,
+          "text": "她記得。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 579
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0581-0",
+          "speaker": null,
+          "text": "那天山田替她留了最後一塊叉燒，還一邊聽她抱怨考試題目太難，一邊幫她把快要滑下桌子的袋子移到旁邊。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 581
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0583-0",
+          "speaker": null,
+          "text": "都是很小的事情。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 583
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0585-0",
+          "speaker": null,
+          "text": "小到當時根本不會特別記下來。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 585
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0587-0",
+          "speaker": null,
+          "text": "可是如今想起，竟然那麼清楚。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 587
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0589-1",
+          "speaker": "natsumi",
+          "text": "「今天也是。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 589
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0591-0",
+          "speaker": null,
+          "text": "西輕聲說。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 591
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0593-1",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 593
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0595-1",
+          "speaker": "natsumi",
+          "text": "「下午自己工作，然後約好時間見面。一起吃東西、到處走走……感覺跟以前很像。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 595
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0597-0",
+          "speaker": null,
+          "text": "山田望著她。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 597
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0599-1",
+          "speaker": "kentaro",
+          "text": "「我也這樣覺得。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 599
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0601-0",
+          "speaker": null,
+          "text": "他稍微停了一下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 601
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0603-1",
+          "speaker": "kentaro",
+          "text": "「而且今天還做了以前沒做過的事。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 603
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0605-1",
+          "speaker": "natsumi",
+          "text": "「跳舞？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 605
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0607-1",
+          "speaker": "kentaro",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 607
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0609-0",
+          "speaker": null,
+          "text": "山田笑了。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 609
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0611-1",
+          "speaker": "kentaro",
+          "text": "「我很喜歡。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 611
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0613-0",
+          "speaker": null,
+          "text": "西看向他。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 613
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0615-1",
+          "speaker": "natsumi",
+          "text": "「哪個部分？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 615
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0617-1",
+          "speaker": "kentaro",
+          "text": "「跟妳一起跳的部分。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 617
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0619-0",
+          "speaker": null,
+          "text": "他的回答很自然。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 619
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0621-0",
+          "speaker": null,
+          "text": "西卻還是忍不住彎起嘴角。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 621
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0623-1",
+          "speaker": "natsumi",
+          "text": "「……你這樣講，好像我不在就不好玩一樣。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 623
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0625-1",
+          "speaker": "kentaro",
+          "text": "「應該也會好玩吧。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 625
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0627-0",
+          "speaker": null,
+          "text": "山田想了想，又看向她。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 627
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0629-1",
+          "speaker": "kentaro",
+          "text": "「不過如果妳在，我就會想跟妳一起。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 629
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0631-0",
+          "speaker": null,
+          "text": "西安靜了一下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 631
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0633-0",
+          "speaker": null,
+          "text": "有時候，她真的很喜歡健太郎這一點。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 633
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0635-0",
+          "speaker": null,
+          "text": "他不會為了讓一句話聽起來更浪漫，而說一些連自己都未必相信的事情。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 635
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0637-0",
+          "speaker": null,
+          "text": "他只是很自然地將自己真正的想法告訴她。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 637
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0639-0",
+          "speaker": null,
+          "text": "而那些話，偏偏總會讓她覺得高興。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 639
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0641-0",
+          "speaker": null,
+          "text": "西稍微靠近一些，將頭輕輕靠在他的肩上。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 641
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0643-0",
+          "speaker": null,
+          "text": "山田順勢握住她的手。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 643
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0645-0",
+          "speaker": null,
+          "text": "兩人安靜地看著山坡下的村莊。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 645
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0647-0",
+          "speaker": null,
+          "text": "過了一會兒，西忽然說：",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 647
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0649-1",
+          "speaker": "natsumi",
+          "text": "「我今天本來有件事，想等見到你就告訴你。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 649
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0651-1",
+          "speaker": "kentaro",
+          "text": "「什麼事？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 651
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0653-1",
+          "speaker": "natsumi",
+          "text": "「其實也不是什麼重要的事。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 653
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0655-0",
+          "speaker": null,
+          "text": "她想了一下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 655
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0657-1",
+          "speaker": "natsumi",
+          "text": "「就是我下午經過那間烘焙店的時候，第一個想到的是想帶你去吃。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 657
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0659-0",
+          "speaker": null,
+          "text": "山田笑了。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 659
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0661-1",
+          "speaker": "kentaro",
+          "text": "「幸好妳帶我去了，真的很好吃。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 661
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0663-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 663
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0665-1",
+          "speaker": "kentaro",
+          "text": "「我今天找到這裡的時候，也覺得妳應該會喜歡。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 665
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0667-0",
+          "speaker": null,
+          "text": "西抬頭看向他。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 667
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0669-0",
+          "speaker": null,
+          "text": "他正望著村莊的燈火。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 669
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0671-1",
+          "speaker": "natsumi",
+          "text": "「……原來我們今天都在想差不多的事。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 671
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0673-1",
+          "speaker": "kentaro",
+          "text": "「是啊。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 673
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0675-0",
+          "speaker": null,
+          "text": "山田轉過頭，笑著看她。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 675
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0677-0",
+          "speaker": null,
+          "text": "西望著他，忽然覺得有些奇妙。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 677
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0679-0",
+          "speaker": null,
+          "text": "明明今天是來到這個世界之後，兩人第一次真正分開半天。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 679
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0681-0",
+          "speaker": null,
+          "text": "可是在各自走過不同的道路、遇見不同的人時，他們又不約而同地記下了某個地方，想著等見到對方，一定要帶他來看看。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 681
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0683-0",
+          "speaker": null,
+          "text": "她忽然想起早上分開時，自己心裡那一瞬間的不習慣。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 683
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0685-0",
+          "speaker": null,
+          "text": "原來並不是因為沒有健太郎在身旁，她就無法好好度過一天。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 685
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0687-0",
+          "speaker": null,
+          "text": "她也可以自己工作，認識新的人，處理陌生的事情，甚至因為一些小小的發現而感到開心。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 687
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0689-0",
+          "speaker": null,
+          "text": "只是當她發現有趣的事物，仍然會很想讓他知道。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 689
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0691-0",
+          "speaker": null,
+          "text": "而健太郎也是一樣。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 691
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0693-1",
+          "speaker": "natsumi",
+          "text": "「……我覺得這樣很好。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 693
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0695-0",
+          "speaker": null,
+          "text": "西輕聲說。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 695
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0697-1",
+          "speaker": "kentaro",
+          "text": "「什麼？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 697
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0699-1",
+          "speaker": "natsumi",
+          "text": "「就是我們今天這樣。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 699
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0701-0",
+          "speaker": null,
+          "text": "她稍微想了一下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 701
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0703-1",
+          "speaker": "natsumi",
+          "text": "「各自去做自己想做的事情，然後再一起去喜歡的地方。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 703
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0705-0",
+          "speaker": null,
+          "text": "山田點點頭。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 705
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0707-1",
+          "speaker": "kentaro",
+          "text": "「嗯。我也喜歡。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 707
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0709-1",
+          "speaker": "natsumi",
+          "text": "「而且明天可能又會發現新的東西。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 709
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0711-1",
+          "speaker": "kentaro",
+          "text": "「對啊。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 711
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0713-0",
+          "speaker": null,
+          "text": "他望著遠處尚未亮起燈火的山路。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 713
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0715-1",
+          "speaker": "kentaro",
+          "text": "「這裡還有很多地方沒去過呢。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 715
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0717-0",
+          "speaker": null,
+          "text": "西順著他的目光望去。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 717
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0719-0",
+          "speaker": null,
+          "text": "那條道路在夜色裡逐漸模糊，通向地圖上尚未畫出的地方。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 719
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0721-0",
+          "speaker": null,
+          "text": "她知道兩人終究還是要繼續尋找回家的方法。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 721
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0723-0",
+          "speaker": null,
+          "text": "這個村莊不會永遠是他們的落腳處，今天這種悠閒的傍晚，也不一定每一天都能擁有。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 723
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0725-0",
+          "speaker": null,
+          "text": "可是此刻，她忽然覺得，不必急著把所有事情都想清楚。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 725
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0727-0",
+          "speaker": null,
+          "text": "明天仍然有工作、有地圖要畫，也有許多未知的問題等著他們。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 727
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0729-0",
+          "speaker": null,
+          "text": "今晚，至少可以再多坐一會兒。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 729
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0731-0",
+          "speaker": null,
+          "text": "西抬起頭，看著山田。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 731
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0733-1",
+          "speaker": "natsumi",
+          "text": "「健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 733
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0735-1",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 735
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0737-1",
+          "speaker": "natsumi",
+          "text": "「下次我們再約會吧。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 737
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0739-0",
+          "speaker": null,
+          "text": "山田笑了。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 739
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0741-1",
+          "speaker": "kentaro",
+          "text": "「好啊。妳想去哪裡？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 741
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0743-1",
+          "speaker": "natsumi",
+          "text": "「還不知道。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 743
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0745-1",
+          "speaker": "kentaro",
+          "text": "「那就慢慢找。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 745
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0747-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 747
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0749-0",
+          "speaker": null,
+          "text": "西將帽子放到一旁，轉過身，伸手輕輕抱住他。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 749
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0751-0",
+          "speaker": null,
+          "text": "山田自然地接住她，手掌落在她的背上。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 751
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0753-1",
+          "speaker": "kentaro",
+          "text": "「今天很開心？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 753
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0753-2",
+          "speaker": null,
+          "text": "他問。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 753
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0755-1",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 755
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0757-0",
+          "speaker": null,
+          "text": "西將臉靠在他的肩上。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 757
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0759-1",
+          "speaker": "natsumi",
+          "text": "「很開心。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 759
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0761-0",
+          "speaker": null,
+          "text": "她聽見山田輕輕笑了一聲。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 761
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0763-1",
+          "speaker": "kentaro",
+          "text": "「我也是。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 763
+          },
+          "portrait": false
+        }
+      ]
+    },
+    {
+      "id": "encore",
+      "title": "再跳一次",
+      "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+      "bgm": "peaceful-night",
+      "camera": true,
+      "lines": [
+        {
+          "id": "separate-0765-0",
+          "speaker": null,
+          "text": "山坡下，村莊的燈火仍然溫暖地亮著。晚風穿過草地，將遠處隱約傳來的音樂聲送到兩人耳邊。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 765
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0767-0",
+          "speaker": null,
+          "text": "西忽然想起，剛才在廣場跳舞時，自己曾經故意走錯方向，想看看健太郎會怎麼反應。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 767
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0769-0",
+          "speaker": null,
+          "text": "他當時很快就跟上了。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 769
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0771-0",
+          "speaker": null,
+          "text": "想到這裡，她忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 771
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0773-1",
+          "speaker": "kentaro",
+          "text": "「怎麼了？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 773
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0773-2",
+          "speaker": null,
+          "text": "山田問。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 773
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0775-1",
+          "speaker": "natsumi",
+          "text": "「沒有。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 775
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0777-0",
+          "speaker": null,
+          "text": "西抬起頭，眼裡帶著一點笑意。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 777
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0779-1",
+          "speaker": "natsumi",
+          "text": "「只是突然想到，你剛才跳舞的時候，最後是不是故意多轉了半圈？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 779
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0781-0",
+          "speaker": null,
+          "text": "山田看著她。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 781
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0783-1",
+          "speaker": "kentaro",
+          "text": "「妳現在才發現？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 783
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0785-1",
+          "speaker": "natsumi",
+          "text": "「……果然是故意的！」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 785
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0787-1",
+          "speaker": "kentaro",
+          "text": "「因為妳先逗我的啊。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 787
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0789-1",
+          "speaker": "natsumi",
+          "text": "「哪有！」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 789
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0791-1",
+          "speaker": "kentaro",
+          "text": "「有。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 791
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0793-0",
+          "speaker": null,
+          "text": "他回答得很肯定。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 793
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0795-0",
+          "speaker": null,
+          "text": "西忍不住笑著推了他一下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 795
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0797-0",
+          "speaker": null,
+          "text": "山田握住她的手，沒有放開。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 797
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0799-1",
+          "speaker": "kentaro",
+          "text": "「奈津美。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 799
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0801-1",
+          "speaker": "natsumi",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 801
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0803-1",
+          "speaker": "kentaro",
+          "text": "「要不要再跳一次？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 803
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0805-0",
+          "speaker": null,
+          "text": "西愣了一下。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 805
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0807-1",
+          "speaker": "natsumi",
+          "text": "「在這裡？」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 807
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0809-1",
+          "speaker": "kentaro",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 809
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0811-0",
+          "speaker": null,
+          "text": "山田站起來，朝她伸出手。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 811
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0813-1",
+          "speaker": "kentaro",
+          "text": "「反正還聽得到音樂。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 813
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0815-0",
+          "speaker": null,
+          "text": "遠處廣場的旋律很輕，偶爾才隨著晚風傳過來。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 815
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0817-0",
+          "speaker": null,
+          "text": "西看著他的手，又望了一眼腳下的草地。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 817
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0819-1",
+          "speaker": "natsumi",
+          "text": "「這裡沒有廣場那麼平耶。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 819
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0821-1",
+          "speaker": "kentaro",
+          "text": "「那就慢慢來。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 821
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0823-0",
+          "speaker": null,
+          "text": "她看了他一會兒，終於笑著伸出手。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 823
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0825-1",
+          "speaker": "natsumi",
+          "text": "「……好吧。」",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 825
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0827-0",
+          "speaker": null,
+          "text": "山田牽她站起來。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 827
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0829-0",
+          "speaker": null,
+          "text": "兩人沒有再跳剛才那套熱鬧的舞步，只是隨著遠處隱約傳來的節奏，在草地上慢慢移動。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 829
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0831-0",
+          "speaker": null,
+          "text": "有時候音樂被風吹得聽不清楚，他們便索性按照自己的步伐繼續。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 831
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0833-0",
+          "speaker": null,
+          "text": "西握著他的手，望向山坡下那些細小的燈光。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 833
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0835-0",
+          "speaker": null,
+          "text": "她不知道明天會發生什麼，也不知道究竟要走多遠，才能找到回家的路。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 835
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0837-0",
+          "speaker": null,
+          "text": "但今晚，他們終於像以前那樣，好好地約了一次會。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 837
+          },
+          "portrait": false
+        },
+        {
+          "id": "separate-0839-0",
+          "speaker": null,
+          "text": "而在這片陌生的土地上，這已經是一件值得高興的事情。",
+          "background": "./assets/backgrounds/bg-estrala-mill-hill-blue-hour.png",
+          "source": {
+            "file": "separate-days-user.txt",
+            "line": 839
+          },
+          "portrait": false
+        }
+      ]
+    }
+  ]
+}

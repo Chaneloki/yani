@@ -28,8 +28,8 @@
       "npc": "艾梅",
       "roles": "natsumi",
       "required": false,
-      "workRepeatable": true,
-      "status": "planned"
+      "workRepeatable": false,
+      "status": "implemented"
     },
     {
       "id": "carpenter-workbench",
@@ -39,27 +39,27 @@
       "roles": "kentaro",
       "required": false,
       "workRepeatable": true,
-      "status": "planned"
+      "status": "implemented"
     },
     {
       "id": "keep-the-promise",
       "number": 5,
       "title": "說好了要保密",
-      "npc": "村中孩子",
+      "npc": "托比、米拉",
       "roles": "either",
       "required": false,
       "workRepeatable": false,
-      "status": "planned"
+      "status": "implemented"
     },
     {
       "id": "unreachable-north-road",
       "number": 6,
       "title": "走不到的北路",
-      "npc": "村民／奧倫的熟人",
+      "npc": "多恩",
       "roles": "either",
       "required": true,
       "workRepeatable": false,
-      "status": "planned"
+      "status": "implemented"
     },
     {
       "id": "two-delivery-lists",
@@ -69,22 +69,23 @@
       "roles": "together",
       "required": false,
       "workRepeatable": false,
-      "status": "planned",
-      "familiarityRule": "與莉妲、多恩已有交流，正式門檻待定"
+      "status": "implemented",
+      "familiarityRule": "完成第一份工錢，已與莉妲、多恩接觸；不要求卡爾人物支線。"
     }
   ],
   "coupleEvents": [
     {
       "id": "separate-days",
       "title": "各自的一天",
-      "status": "planned",
-      "trigger": "完成新手委託後，首次分開行動的夜晚",
-      "requiredRoles": "either"
+      "status": "implemented",
+      "trigger": "完成新手委託後，首次白天分頭工作成功的傍晚；果餅攤、廣場舞蹈、磨坊後山坡約會。",
+      "requiredRoles": "either",
+      "required": true
     },
     {
       "id": "beyond-the-map",
       "title": "地圖以外的事情",
-      "status": "planned",
+      "status": "implemented",
       "trigger": "完成北路探索與奧倫商道情報，出發前夜",
       "requiredRoles": "either"
     }

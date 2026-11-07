@@ -15,7 +15,7 @@
 - Prepare room 02, let Dorn confirm the resident's voluntary move, then assign the two-bed room 01 to mother and child.
 - Room preparation: drag bedding, chair and cup to their positions. Select-then-place works with touch/keyboard too.
 - Kitchen provides hot water and bread; storage provides towels; reception holds the merchant's luggage. Carry up to two items, deliver in person or return unwanted items to source.
-- The stuck door is a rotation interaction. Kentaro has a wider alignment tolerance; both characters can repair. Natsumi sees extra booking-record hints; both characters can ask/assign every guest.
+- The stuck door uses retained spring pins and a key-turn interaction; both characters can repair without a precision/timing penalty. Natsumi sees extra booking-record hints; both characters can ask/assign every guest.
 - With a companion: they physically walk to pick up/deliver a service. Toggle autonomy or explicitly delegate a pending service. The duo has one extra service request, not double pay.
 - Arrivals, AI and patience continue during room/lock interactions. A notification lets the player decide whether to finish or return to reception. Hidden tab, window blur and explicit pause stop the shift.
 - Basic work always pays; waiting lowers only a small efficiency bonus. No eviction, countdown loss or forced restart.
@@ -26,7 +26,7 @@
 - `src/world/inn-ui.js`, `inn.css`: scene, controls, room and lock interactions, author story pages.
 - World checkpoint every five active seconds, plus meaningful actions and explicit pause. Settlement uses the existing world receipt guard and advances one world time slot only once.
 - First completion stores route/shared-experience and family/merchant encounter markers for future reappearance. No future-map scenes were invented.
-- Repeat shifts vary arrival timing, one ordinary guest's service and the stuck room from the saved seed. Each shift has one door-lock incident plus difficulty-dependent bedside-lamp repairs. Lamp work uses brightness alignment and a continuous hold to stabilize current; AI cannot finish these manual repairs.
+- Repeat shifts vary arrival timing, one ordinary guest's service and the stuck room from the saved seed. Each shift has one door-lock incident plus difficulty-dependent bedside-lamp repairs. Lamp work uses reconnecting, turning the light knob and pulling a test switch; AI cannot finish these manual repairs.
 - Money values are prototype balance: first work 24, repeat work 18, efficiency bonus 0–4. Shared wallet rewards are paid once; duo is not two payouts.
 
 ## RPG walking art
@@ -67,3 +67,15 @@ All presets retain the one door repair. At the same level, duet arrivals are 20%
 Skipping the guide exposed an invalid allocation: the traveler could take room 02 before the existing guest relocated, permanently blocking the family from room 01. Room 02 is now reserved for relocation; the traveler uses room 03, family room 01, and reserved merchant room 04. Reception explains preparation/consent requirements and links to the needed room instead of offering impossible choices. Unready confirmation is disabled. Legacy traveler-in-02 registrations are reopened on load while preserving cleaning, delivered services, time, seed, difficulty and other shift work.
 
 Regression coverage includes all six difficulty/party configurations with traveler and merchant registered before the family, plus legacy booking recovery. No tutorial completion is required for these paths.
+
+## Tactile interaction pass
+
+The three service interactions now use distinct object-based actions rather than shared sliders:
+
+- Room: brush across three bed wrinkles, drag the chair back under the table, collect three cups into a tray. Point-and-select alternatives remain available. Completed bed/chair/cup groups persist through the existing room state.
+- Lock: lift three spring pins in any order, then turn/drag the key to retract the bolt and open the door. Lifted pins stay in place; no timing penalty.
+- Lamp: reconnect a loose plug, turn through off/dim/bright/warm settings, then pull the switch to test. Light flicker, glow and knob/cord movement provide immediate feedback. No hold-time meter or narrow timing zone.
+
+A result view remains until “做好了 · 返回旅舍”. Lock/lamp repairs commit on that confirmation, while room groups commit as finished. Shift time pauses on the result screen; unfinished interactions still allow new guest calls. Existing difficulty presets, tasks and payout rules were not increased for this pass. Leaving an incomplete lock/lamp resets only that small interaction, not the shift.
+
+`inn-workshop.js` contains the small interaction rules; `inn-interactions.js` and `inn-interactions.css` contain their presentation. No generated image assets or new dependencies were required.

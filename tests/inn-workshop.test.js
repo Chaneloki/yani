@@ -1,0 +1,6 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {BedSmoothing,LatchLock,LampRepair} from '../src/world/inn-workshop.js';
+test('bed responds to spatial brushing in any order without repeated strokes manufacturing progress',()=>{const bed=new BedSmoothing();bed.brush(-100,-100);assert.equal(bed.smoothed.size,0);bed.brush(40,75);bed.brush(40,75);assert.equal(bed.smoothed.size,1);bed.brush(25,30);assert.equal(bed.complete,false);bed.brush(65,50);assert.equal(bed.complete,true);});
+test('lock visibly retains lifted pins, permits free order and needs a real key turn',()=>{const lock=new LatchLock();assert.equal(lock.turn(90),false);lock.lift(2);lock.lift(0);assert.equal(lock.turn(90),false);assert.equal(lock.angle,0);lock.lift(1);assert.equal(lock.released,true);assert.equal(lock.turn(45),false);assert.equal(lock.turn(90),true);assert.equal(lock.open,true);});
+test('lamp requires connection, comfortable light and an explicit switch test; experimenting does not reset repairs',()=>{const lamp=new LampRepair();lamp.turn();lamp.turn();lamp.turn();assert.equal(lamp.mood,'溫暖柔和');assert.equal(lamp.test(),false);lamp.connect();assert.equal(lamp.connected,true);assert.equal(lamp.test(),true);lamp.turn();assert.equal(lamp.setting,0);assert.equal(lamp.complete,false);assert.equal(lamp.connected,true);});

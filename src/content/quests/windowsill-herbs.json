@@ -1,0 +1,2557 @@
+{
+  "id": "windowsill-herbs",
+  "title": "支線 03｜曬在窗邊的草藥",
+  "scenes": [
+    {
+      "id": "visit",
+      "title": "午後的拜訪",
+      "lines": [
+        {
+          "id": "herbs-0004",
+          "speaker": null,
+          "text": "午後的陽光落在窗邊，一束束草藥懸在屋簷下，將細長的影子投在石牆上。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0005",
+          "speaker": null,
+          "text": "西站在小屋門前，從衣袋裡取出筆記，再次確認上面的名字。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0006",
+          "speaker": null,
+          "text": "艾梅。村裡的老藥師，聽說年輕時曾經去過不少地方，也認識一些往來商道的旅人。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0007",
+          "speaker": null,
+          "text": "最近，她和山田一直在打聽星燈之城附近的古石門。雖然收集到的消息還很零碎，但既然有人可能知道，她就不想錯過。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0008",
+          "speaker": null,
+          "text": "只是，突然登門詢問一件幾十年前的往事，會不會有點打擾人家？",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0009",
+          "speaker": null,
+          "text": "她正猶豫著，屋內便傳來一道蒼老的聲音。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0010",
+          "speaker": "ayme",
+          "text": "「門口那位姑娘，有什麼事嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0011",
+          "speaker": null,
+          "text": "西連忙抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0012",
+          "speaker": "natsumi",
+          "text": "「啊，不好意思！請問您是艾梅先生嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0013",
+          "speaker": null,
+          "text": "一位頭髮花白的老人從窗邊探出頭來，鼻樑上架著一副圓圓的眼鏡。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0014",
+          "speaker": "ayme",
+          "text": "「是我。妳找我？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0015",
+          "speaker": "natsumi",
+          "text": "「嗯。我聽村裡的人說，您以前去過不少地方，所以想向您打聽一件事。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0016",
+          "speaker": "ayme",
+          "text": "「哦？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0017",
+          "speaker": "natsumi",
+          "text": "「您有沒有聽過，星燈之城附近有一座古老的石門？中間有一面圓形的鏡子，旁邊還刻著星星的圖案。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0018",
+          "speaker": null,
+          "text": "艾梅想了想。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0019",
+          "speaker": "ayme",
+          "text": "「石門啊……這附近的古蹟可不少。妳說的這個，我倒沒什麼印象。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0020",
+          "speaker": "natsumi",
+          "text": "「這樣啊……」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0021",
+          "speaker": null,
+          "text": "西稍微有些失望，卻還是點了點頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0022",
+          "speaker": "natsumi",
+          "text": "「謝謝您，不好意思突然打擾。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0023",
+          "speaker": "ayme",
+          "text": "「沒事。不過今天我還有不少東西要收拾，恐怕沒空陪妳慢慢聊。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0024",
+          "speaker": "natsumi",
+          "text": "「啊，那我就不打擾了。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0025",
+          "speaker": null,
+          "text": "她將筆記收回衣袋，正準備離開，窗外忽然傳來一陣急促的風聲。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0026",
+          "speaker": null,
+          "text": "艾梅抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0027",
+          "speaker": "ayme",
+          "text": "「唔？這天氣……」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0028",
+          "speaker": null,
+          "text": "遠處的山脈不知何時籠罩在灰色雲影下，原本平靜的樹枝被風吹得搖晃起來。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0029",
+          "speaker": null,
+          "text": "緊接著，幾顆雨點落在窗台上。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0030",
+          "speaker": "ayme",
+          "text": "「糟了！」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0031",
+          "speaker": null,
+          "text": "艾梅放下手中的東西，快步走出屋子。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0032",
+          "speaker": "ayme",
+          "text": "「還有幾盤草藥沒收呢！」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0033",
+          "speaker": null,
+          "text": "西回頭一看，才發現屋簷外的木架上擺著不少竹盤。雨勢來得突然，最外側的幾盤已經開始淋濕。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0034",
+          "speaker": "natsumi",
+          "text": "「我來幫忙吧！」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0035",
+          "speaker": "ayme",
+          "text": "「那幫我把靠外面的三盤搬進去！」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0036",
+          "speaker": "natsumi",
+          "text": "「好！」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0037",
+          "speaker": null,
+          "text": "西連忙上前，按照艾梅的指示將竹盤搬進屋裡。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0038",
+          "speaker": null,
+          "text": "收拾到最後，她發現旁邊還有兩束葉片相似的草藥，一束綁著藍繩，另一束綁著紅繩。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0039",
+          "speaker": "natsumi",
+          "text": "「艾梅先生，這兩束也要一起收嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0040",
+          "speaker": "ayme",
+          "text": "「藍繩的先拿進來，紅繩那束放到屋簷下面就行。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0041",
+          "speaker": "natsumi",
+          "text": "「好。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0042",
+          "speaker": null,
+          "text": "西照著他的指示，將兩束草藥分開放好。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0043",
+          "speaker": null,
+          "text": "等最後一個竹盤也安置妥當，雨已經下得相當大了。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0044",
+          "speaker": null,
+          "text": "艾梅望著屋外的雨幕，長長呼出一口氣。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0045",
+          "speaker": "ayme",
+          "text": "「呼……差點就白忙一整天。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0046",
+          "speaker": "natsumi",
+          "text": "「還好來得及。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0047",
+          "speaker": "ayme",
+          "text": "「是啊。多虧妳了，姑娘。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0048",
+          "speaker": "natsumi",
+          "text": "「沒有啦，我只是幫忙搬了一下。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0049",
+          "speaker": null,
+          "text": "西回頭看向那些草藥。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0050",
+          "speaker": "natsumi",
+          "text": "「不過，剛才那兩束看起來差不多，為什麼要分開放呢？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0051",
+          "speaker": "ayme",
+          "text": "「哦？妳看得出它們很像？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0052",
+          "speaker": "natsumi",
+          "text": "「嗯。葉子的形狀好像差不多。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0053",
+          "speaker": null,
+          "text": "艾梅走過去，從兩束草藥裡各取下一片葉子。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0054",
+          "speaker": "ayme",
+          "text": "「妳瞧，這種葉子的邊緣比較平滑，另一種則有細小的鋸齒。它們雖然長得像，處理的方法卻不同。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0055",
+          "speaker": null,
+          "text": "西湊近看了看。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0056",
+          "speaker": "natsumi",
+          "text": "「啊……真的耶。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0057",
+          "speaker": "ayme",
+          "text": "「有些人來幫忙，總覺得反正都是草，放在一起也沒什麼關係。等我發現弄亂了，反而更麻煩。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0058",
+          "speaker": "natsumi",
+          "text": "「原來如此。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0059",
+          "speaker": null,
+          "text": "西仔細看著那兩片葉子。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0060",
+          "speaker": "natsumi",
+          "text": "「幸好剛才有先問您，不然我可能就一起搬進去了。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0061",
+          "speaker": null,
+          "text": "艾梅笑了一聲。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0062",
+          "speaker": "ayme",
+          "text": "「不懂就問嘛。這有什麼不好？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0063",
+          "speaker": null,
+          "text": "他將葉片放回原處，轉頭望向門外。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0064",
+          "speaker": "ayme",
+          "text": "「看樣子，這雨一時半刻不會停了。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0065",
+          "speaker": null,
+          "text": "老人走進屋裡，朝西招了招手。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0066",
+          "speaker": "ayme",
+          "text": "「進來坐坐吧。等雨小一點再走。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0067",
+          "speaker": "natsumi",
+          "text": "「咦？可以嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0068",
+          "speaker": "ayme",
+          "text": "「當然。妳都幫我收了一堆東西，總不能讓妳站在門口淋雨吧。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0069",
+          "speaker": "natsumi",
+          "text": "「那就打擾您了。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "rain"
+        },
+        {
+          "id": "herbs-0070",
+          "speaker": null,
+          "text": "西跟著走進小屋。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0071",
+          "speaker": null,
+          "text": "不一會兒，屋內便飄起淡淡的茶香。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "title": "記得住的事，與記不清的事",
+      "lines": [
+        {
+          "id": "herbs-0073",
+          "speaker": null,
+          "text": "西坐在窗邊的小桌旁，捧著一杯熱茶。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0074",
+          "speaker": null,
+          "text": "茶水帶著淡淡的草木香氣，入口比想像中清爽。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0075",
+          "speaker": null,
+          "text": "艾梅則坐在對面，將剛才收回來的幾束草藥重新整理好，又拿出一本厚厚的筆記，在上面寫了幾行字。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0076",
+          "speaker": null,
+          "text": "西注意到，筆記裡除了植物名稱，還寫著採集日期、地點，以及一些陌生的人名。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0077",
+          "speaker": "natsumi",
+          "text": "「這些名字也是草藥的名稱嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0078",
+          "speaker": "ayme",
+          "text": "「不是。那是教我這些事情的人。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0079",
+          "speaker": null,
+          "text": "艾梅將筆記轉過來，指著其中一頁。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0080",
+          "speaker": "ayme",
+          "text": "「妳看，這種草長在北邊的山谷。我年輕時還沒去過那裡，是一個藥商告訴我的。後來我自己去了一趟，才發現他說的地方還要再往北一些。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0081",
+          "speaker": "natsumi",
+          "text": "「所以您把原本聽到的內容也留下來了？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0082",
+          "speaker": "ayme",
+          "text": "「嗯。不然過了這麼久，誰知道是他講錯，還是我記錯？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0083",
+          "speaker": null,
+          "text": "西看了一會兒。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0084",
+          "speaker": "natsumi",
+          "text": "「這樣就可以分清楚，哪些是自己親眼見過的，哪些是從別人那裡聽來的。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0085",
+          "speaker": "ayme",
+          "text": "「沒錯。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0086",
+          "speaker": null,
+          "text": "艾梅有些意外地看了她一眼。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0087",
+          "speaker": "ayme",
+          "text": "「妳平常也做記錄？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0088",
+          "speaker": "natsumi",
+          "text": "「嗯。以前念書的時候，經常需要整理很多資料。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0089",
+          "speaker": null,
+          "text": "西想了想，又補充道：",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0090",
+          "speaker": "natsumi",
+          "text": "「最近我和健太郎也開始把打聽到的事情記下來。不過……有時候不同人說的內容會不太一樣。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0091",
+          "speaker": "ayme",
+          "text": "「那是當然。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0092",
+          "speaker": null,
+          "text": "艾梅將筆記合上。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0093",
+          "speaker": "ayme",
+          "text": "「每個人都只知道自己看見的東西。有些人記得很清楚，有些人卻把聽來的故事當成自己的經歷。過了幾十年，連本人也未必分得清。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0094",
+          "speaker": null,
+          "text": "西低頭望著茶杯。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0095",
+          "speaker": null,
+          "text": "她想起這幾天收集的情報。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0096",
+          "speaker": null,
+          "text": "有人說古石門位於星燈之城外，有人說山中也有類似的遺跡。每次聽到新的消息，她總會有一點期待，可是當那些消息互相矛盾時，又不知道究竟應該相信哪一個。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0097",
+          "speaker": "natsumi",
+          "text": "「……那要怎麼知道哪個是真的呢？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0098",
+          "speaker": "ayme",
+          "text": "「去看看囉。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0099",
+          "speaker": "natsumi",
+          "text": "「啊。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0100",
+          "speaker": "ayme",
+          "text": "「不然呢？既然有人說東邊，有人說西邊，總不能坐在家裡就分得出來吧。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0101",
+          "speaker": null,
+          "text": "西忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0102",
+          "speaker": "natsumi",
+          "text": "「也是。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0103",
+          "speaker": "ayme",
+          "text": "「不過，也不用每件事都親自走一趟。有些東西只要知道是誰說的、從哪裡聽來的，就能省不少功夫。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0104",
+          "speaker": null,
+          "text": "艾梅拍了拍桌上的筆記。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0105",
+          "speaker": "ayme",
+          "text": "「這些紙也不是什麼了不起的東西，但有時候比我的腦袋可靠。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0106",
+          "speaker": null,
+          "text": "西望著那本邊角已經磨損的筆記。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0107",
+          "speaker": "natsumi",
+          "text": "「您記得真仔細。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0108",
+          "speaker": "ayme",
+          "text": "「年輕時沒這麼仔細，吃過虧才學的。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0109",
+          "speaker": null,
+          "text": "老人笑了笑。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0110",
+          "speaker": "ayme",
+          "text": "「倒是妳，剛才幫忙收草藥的時候，挺有耐性的。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0111",
+          "speaker": "natsumi",
+          "text": "「咦？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0112",
+          "speaker": "ayme",
+          "text": "「不認得的東西，妳都會先問清楚。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0113",
+          "speaker": "natsumi",
+          "text": "「因為我真的不懂草藥。要是弄錯了，反而會給您添麻煩。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0114",
+          "speaker": null,
+          "text": "艾梅點了點頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0115",
+          "speaker": "ayme",
+          "text": "「有的人見我年紀大了，就急著替我搬這搬那，總覺得自己幫得越多越好。可有些東西，他們根本不知道為什麼要那樣放。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0116",
+          "speaker": null,
+          "text": "他搖搖頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0117",
+          "speaker": "ayme",
+          "text": "「倒也不是不領情。只是啊，好意和真正幫得上忙，有時候是兩回事。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0118",
+          "speaker": null,
+          "text": "西安靜地聽著。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0119",
+          "speaker": null,
+          "text": "艾梅喝了一口茶。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0120",
+          "speaker": "ayme",
+          "text": "「妳剛才雖然不懂那些草藥，卻沒有隨便動。這點我挺欣賞。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0121",
+          "speaker": null,
+          "text": "西怔了一下。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0122",
+          "speaker": "natsumi",
+          "text": "「……謝謝您。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0123",
+          "speaker": "ayme",
+          "text": "「哈哈，這有什麼好謝的。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0124",
+          "speaker": null,
+          "text": "老人將茶杯放下，隨口問道：",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0125",
+          "speaker": "ayme",
+          "text": "「不過，妳這個年紀的姑娘，怎麼會對幾十年前的古蹟那麼感興趣？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0126",
+          "speaker": null,
+          "text": "西抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0127",
+          "speaker": "natsumi",
+          "text": "「因為我正在找一個地方。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0128",
+          "speaker": "ayme",
+          "text": "「找地方？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0129",
+          "speaker": "natsumi",
+          "text": "「嗯。我和健太郎……就是我的男朋友，最近一直在想辦法回家。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0130",
+          "speaker": null,
+          "text": "艾梅望了她一眼。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0131",
+          "speaker": "ayme",
+          "text": "「原來如此。你們是從很遠的地方來的？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0132",
+          "speaker": "natsumi",
+          "text": "「……很遠。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0133",
+          "speaker": null,
+          "text": "西握著茶杯的手微微收緊。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0134",
+          "speaker": null,
+          "text": "遠到她甚至不知道該怎麼向人解釋。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0135",
+          "speaker": null,
+          "text": "艾梅似乎察覺到她不太容易回答，便沒有再追問下去。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0136",
+          "speaker": "ayme",
+          "text": "「那你們的家人應該很擔心吧。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0137",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0138",
+          "speaker": null,
+          "text": "西低聲應了一句。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0139",
+          "speaker": null,
+          "text": "窗外的雨漸漸小了。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0140",
+          "speaker": "natsumi",
+          "text": "「其實我們也不知道能不能回去。」她望著杯中的茶水，「但是，既然可能有線索，就還是想試試看。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0141",
+          "speaker": null,
+          "text": "艾梅沒有打斷她。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0142",
+          "speaker": "natsumi",
+          "text": "「健太郎一直很努力。他很會和人相處，也很擅長處理各種事情。來到這裡之後，幫了我很多忙。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0143",
+          "speaker": "ayme",
+          "text": "「那妳呢？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0144",
+          "speaker": "natsumi",
+          "text": "「我？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0145",
+          "speaker": "ayme",
+          "text": "「妳自己沒做什麼？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0146",
+          "speaker": null,
+          "text": "西愣了一下。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0147",
+          "speaker": "natsumi",
+          "text": "「倒也不是……」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0148",
+          "speaker": null,
+          "text": "她想起兩人一起畫過的地圖、向村民打聽過的道路，以及今天獨自來拜訪這間小屋的事情。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0149",
+          "speaker": "natsumi",
+          "text": "「我也有在做自己能做的事情。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0150",
+          "speaker": "ayme",
+          "text": "「那不就好了。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0151",
+          "speaker": null,
+          "text": "艾梅靠回椅背。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0152",
+          "speaker": "ayme",
+          "text": "「兩個人一起走路，又不是非得每一步都走得一模一樣。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0153",
+          "speaker": null,
+          "text": "西望著老人，過了一會兒，輕輕笑了。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0154",
+          "speaker": "natsumi",
+          "text": "「……說得也是。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0155",
+          "speaker": "ayme",
+          "text": "「而且啊，妳自己不也是個挺有主見的姑娘嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0156",
+          "speaker": "natsumi",
+          "text": "「咦？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0157",
+          "speaker": "ayme",
+          "text": "「明明不太習慣向陌生人打聽事情，卻還是自己跑來了。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0158",
+          "speaker": null,
+          "text": "西有些驚訝。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0159",
+          "speaker": "natsumi",
+          "text": "「您看得出來？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0160",
+          "speaker": "ayme",
+          "text": "「哈哈，我跟人打交道的年頭可比妳年紀還長呢。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0161",
+          "speaker": null,
+          "text": "西不禁有點難為情。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0162",
+          "speaker": "natsumi",
+          "text": "「……其實剛才在門口，我還猶豫了好一會兒。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0163",
+          "speaker": "ayme",
+          "text": "「那又怎樣？妳最後不是敲門了嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0164",
+          "speaker": null,
+          "text": "艾梅說得理所當然。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0165",
+          "speaker": null,
+          "text": "西低頭笑了笑。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0166",
+          "speaker": null,
+          "text": "老人站起身，將茶壺放回爐子旁。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0167",
+          "speaker": "ayme",
+          "text": "「說回那座石門吧。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0168",
+          "speaker": null,
+          "text": "西抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0169",
+          "speaker": "natsumi",
+          "text": "「您想起什麼了嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0170",
+          "speaker": "ayme",
+          "text": "「也不算想起。只是聽妳說了這麼多，我倒覺得有件舊事可以講給妳聽。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0171",
+          "speaker": null,
+          "text": "他走到木櫃前，拿出另一本薄薄的舊筆記。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0172",
+          "speaker": "ayme",
+          "text": "「不過先說好，我自己也不確定那是不是妳要找的地方。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0173",
+          "speaker": "natsumi",
+          "text": "「嗯，沒關係！」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0174",
+          "speaker": null,
+          "text": "西連忙坐直了一些。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0175",
+          "speaker": null,
+          "text": "艾梅將筆記翻開。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        }
+      ]
+    },
+    {
+      "id": "old-road",
+      "title": "舊商道上的故事",
+      "lines": [
+        {
+          "id": "herbs-0177",
+          "speaker": "ayme",
+          "text": "「我年輕時認識一個經常往返山間驛站的行商。那傢伙很喜歡收集各地的舊故事，每次來村裡交換藥材，總有一大堆事情要講。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0178",
+          "speaker": null,
+          "text": "艾梅翻到其中一頁。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0179",
+          "speaker": "ayme",
+          "text": "「有一次，他提起星燈城外有一座古老的石門，中間嵌著一塊像鏡子一樣的東西。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0180",
+          "speaker": null,
+          "text": "西的心跳忽然快了一些。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0181",
+          "speaker": "natsumi",
+          "text": "「……鏡子？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0182",
+          "speaker": "ayme",
+          "text": "「嗯。不過那個人自己有沒有去過，我已經記不清了。說不定也是從別人那裡聽來的。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0183",
+          "speaker": "natsumi",
+          "text": "「那您還記得那座石門在哪裡嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0184",
+          "speaker": "ayme",
+          "text": "「只知道是在星燈城附近。至於具體位置，我當時沒問。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0185",
+          "speaker": null,
+          "text": "西點了點頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0186",
+          "speaker": null,
+          "text": "雖然還不能確定，但這是目前聽過最接近兩人記憶的描述。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0187",
+          "speaker": "ayme",
+          "text": "「不過，還有件事挺奇怪的。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0188",
+          "speaker": null,
+          "text": "艾梅指向筆記角落的一段文字。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0189",
+          "speaker": "ayme",
+          "text": "「那個行商說，他以前看過一張很舊的圖，上面也畫著那座石門。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0190",
+          "speaker": "natsumi",
+          "text": "「地圖嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0191",
+          "speaker": "ayme",
+          "text": "「大概吧。只是那張圖除了道路，還畫了不少星星的位置。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0192",
+          "speaker": "natsumi",
+          "text": "「星星？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0193",
+          "speaker": null,
+          "text": "西有些不解。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0194",
+          "speaker": "ayme",
+          "text": "「嗯。我當時也覺得奇怪，畫道路的圖，怎麼還要記星星的位置？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0195",
+          "speaker": null,
+          "text": "艾梅聳了聳肩。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0196",
+          "speaker": "ayme",
+          "text": "「他說那是很久以前留下來的東西，可能有其他用途。不過我又不研究星星，也就沒特別追問。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0197",
+          "speaker": null,
+          "text": "西低頭看著那頁筆記。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0198",
+          "speaker": null,
+          "text": "星星的圖案。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0199",
+          "speaker": null,
+          "text": "她記得當初那座古石門上，確實刻著星形的紋路。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0200",
+          "speaker": null,
+          "text": "可是古代建築上有星星圖案，似乎也不是什麼特別奇怪的事情。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0201",
+          "speaker": null,
+          "text": "她沒有急著下結論。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0202",
+          "speaker": "natsumi",
+          "text": "「那張圖現在還在嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0203",
+          "speaker": "ayme",
+          "text": "「聽說原本放在山間驛站。那個行商以前經常在那裡落腳，還幫人整理過一些舊道路記錄。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0204",
+          "speaker": null,
+          "text": "艾梅想了想。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0205",
+          "speaker": "ayme",
+          "text": "「不過都是幾十年前的事情了，現在還找不找得到，我可不敢保證。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0206",
+          "speaker": "natsumi",
+          "text": "「山間驛站……」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0207",
+          "speaker": null,
+          "text": "西連忙取出自己的筆記。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0208",
+          "speaker": "natsumi",
+          "text": "「我可以把這些記下來嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0209",
+          "speaker": "ayme",
+          "text": "「當然。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0210",
+          "speaker": null,
+          "text": "她將艾梅說過的事情仔細寫下，包括行商只是轉述傳聞、石門可能位於星燈之城郊外，以及那張用途不明的舊圖。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0211",
+          "speaker": null,
+          "text": "艾梅看著她在最後一行旁邊加上「未經確認」幾個字，嘴角露出一點笑意。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0212",
+          "speaker": "ayme",
+          "text": "「妳倒是真的會記。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0213",
+          "speaker": null,
+          "text": "西抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0214",
+          "speaker": "natsumi",
+          "text": "「因為怕之後記錯了。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0215",
+          "speaker": "ayme",
+          "text": "「這樣好。至少以後查到不一樣的事情，還知道是哪裡出了差錯。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0216",
+          "speaker": null,
+          "text": "西收好筆記，認真向他道謝。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0217",
+          "speaker": "natsumi",
+          "text": "「今天真的幫了大忙。謝謝您，艾梅先生。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0218",
+          "speaker": "ayme",
+          "text": "「別高興得太早啊。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0219",
+          "speaker": null,
+          "text": "老人笑著擺擺手。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0220",
+          "speaker": "ayme",
+          "text": "「我講的只是以前聽來的故事，說不定妳到了那邊，什麼都找不到。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0221",
+          "speaker": "natsumi",
+          "text": "「嗯，我知道。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0222",
+          "speaker": null,
+          "text": "西想了想，接著說：",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0223",
+          "speaker": "natsumi",
+          "text": "「不過，至少我們又多了一個可以去問問看的地方。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0224",
+          "speaker": null,
+          "text": "艾梅望著她，沒有立即回答。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0225",
+          "speaker": null,
+          "text": "過了一會兒，他笑了起來。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0226",
+          "speaker": "ayme",
+          "text": "「哈哈，這倒是。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-interior-rain.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0227",
+          "speaker": null,
+          "text": "窗外的雨已經停了。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0228",
+          "speaker": null,
+          "text": "午後的陽光重新落在窗台上，照亮那些剛剛收回來的草藥。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0229",
+          "speaker": null,
+          "text": "西站起身，準備告辭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0230",
+          "speaker": "natsumi",
+          "text": "「今天打擾您這麼久，真是不好意思。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0231",
+          "speaker": "ayme",
+          "text": "「沒什麼。反正下雨也沒辦法到外面做事。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0232",
+          "speaker": null,
+          "text": "艾梅送她走到門口。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0233",
+          "speaker": "ayme",
+          "text": "「對了，姑娘。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0234",
+          "speaker": "natsumi",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0235",
+          "speaker": "ayme",
+          "text": "「妳叫什麼名字？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0236",
+          "speaker": "natsumi",
+          "text": "「奈津美。西奈津美。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0237",
+          "speaker": "ayme",
+          "text": "「奈津美啊。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0238",
+          "speaker": null,
+          "text": "老人點點頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0239",
+          "speaker": "ayme",
+          "text": "「下次要是路過，可以再來坐坐。不用每次都帶著問題來。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0240",
+          "speaker": null,
+          "text": "西微微一怔。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0241",
+          "speaker": null,
+          "text": "隨後，她露出了笑容。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0242",
+          "speaker": "natsumi",
+          "text": "「好。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0243",
+          "speaker": null,
+          "text": "她走下石階，又忽然回過頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0244",
+          "speaker": "natsumi",
+          "text": "「艾梅先生。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0245",
+          "speaker": "ayme",
+          "text": "「怎麼啦？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0246",
+          "speaker": "natsumi",
+          "text": "「如果我之後真的找到那座石門，知道它究竟是什麼地方……可以再回來告訴您嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0247",
+          "speaker": null,
+          "text": "艾梅眨了眨眼。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0248",
+          "speaker": "ayme",
+          "text": "「當然可以。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0249",
+          "speaker": null,
+          "text": "他望了一眼屋裡的舊筆記。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0250",
+          "speaker": "ayme",
+          "text": "「畢竟聽了這麼多年，我也想知道當初那個行商說的究竟是什麼。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0251",
+          "speaker": null,
+          "text": "西認真地點了點頭。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0252",
+          "speaker": "natsumi",
+          "text": "「嗯，我會的。」",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0253",
+          "speaker": null,
+          "text": "她朝老人揮手道別，沿著被雨洗淨的石板路，慢慢走回旅舍。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0254",
+          "speaker": null,
+          "text": "今天得到的消息還不足以確定古石門的位置，更不知道它是否真能讓他們回家。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0255",
+          "speaker": null,
+          "text": "但是，至少有了一個新的調查方向。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0256",
+          "speaker": null,
+          "text": "山間驛站。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0257",
+          "speaker": null,
+          "text": "西望著筆記上的地名，腳步不知不覺輕快了一些。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0258",
+          "speaker": null,
+          "text": "等健太郎回來，就把今天的事情全部告訴他吧。",
+          "background": "./assets/backgrounds/bg-estrala-herbalist-cottage-day.png",
+          "weather": "clear"
+        }
+      ]
+    },
+    {
+      "id": "night",
+      "title": "旅舍・夜晚",
+      "lines": [
+        {
+          "id": "herbs-0260",
+          "speaker": null,
+          "text": "山田回到房間時，西正坐在桌前整理筆記。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0261",
+          "speaker": "kentaro",
+          "text": "「奈津美，我回來了！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0262",
+          "speaker": "natsumi",
+          "text": "「啊，健太郎！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0263",
+          "speaker": null,
+          "text": "西抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0264",
+          "speaker": "natsumi",
+          "text": "「你回來得正好！我今天打聽到一些事情。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0265",
+          "speaker": "kentaro",
+          "text": "「真的？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0266",
+          "speaker": null,
+          "text": "山田拉開旁邊的椅子坐下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0267",
+          "speaker": "kentaro",
+          "text": "「什麼什麼？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0268",
+          "speaker": "natsumi",
+          "text": "「我今天去找艾梅先生了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0269",
+          "speaker": "kentaro",
+          "text": "「艾梅先生？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0270",
+          "speaker": "natsumi",
+          "text": "「嗯，就是村裡那位藥師。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0271",
+          "speaker": null,
+          "text": "西將下午的經歷告訴他。原本只是想問古石門，結果突然下起大雨，兩人忙著收草藥，後來還坐下來喝茶，聊了好一陣子。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0272",
+          "speaker": null,
+          "text": "山田聽到雨勢突然變大時，立刻問：",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0273",
+          "speaker": "kentaro",
+          "text": "「妳沒淋濕吧？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0274",
+          "speaker": "natsumi",
+          "text": "「只有袖子濕了一點啦。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0275",
+          "speaker": "kentaro",
+          "text": "「那就好。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0276",
+          "speaker": null,
+          "text": "他望向她的手。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0277",
+          "speaker": "kentaro",
+          "text": "「搬那些東西重不重？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0278",
+          "speaker": "natsumi",
+          "text": "「還好，都是竹盤而已。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0279",
+          "speaker": "kentaro",
+          "text": "「哦——」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0280",
+          "speaker": null,
+          "text": "山田若有所思地點點頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0281",
+          "speaker": "kentaro",
+          "text": "「不過他那個架子要是遇到大風就很危險耶。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0282",
+          "speaker": null,
+          "text": "西忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0283",
+          "speaker": "natsumi",
+          "text": "「你怎麼開始在意架子了？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0284",
+          "speaker": "kentaro",
+          "text": "「因為聽起來很容易倒啊！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0285",
+          "speaker": "natsumi",
+          "text": "「沒有倒啦。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0286",
+          "speaker": "kentaro",
+          "text": "「可是下次還是可以幫他加固一下吧。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0287",
+          "speaker": null,
+          "text": "西望著他認真的表情，終於笑出了聲。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0288",
+          "speaker": "natsumi",
+          "text": "「那你下次可以去問問艾梅先生。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0289",
+          "speaker": "kentaro",
+          "text": "「好啊！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0290",
+          "speaker": null,
+          "text": "山田回答得毫不猶豫。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0291",
+          "speaker": "kentaro",
+          "text": "「啊，對了！所以妳問到石門的事情了嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0292",
+          "speaker": "natsumi",
+          "text": "「嗯，可能有一點。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0293",
+          "speaker": null,
+          "text": "她把筆記推到他面前。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0294",
+          "speaker": "natsumi",
+          "text": "「你看，艾梅先生以前認識一個經常走商道的人，那個人提過星燈之城附近有一座石門，中間好像有一面很大的圓形鏡子。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0295",
+          "speaker": null,
+          "text": "山田低下頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0296",
+          "speaker": "kentaro",
+          "text": "「……這不就跟我們見過的很像嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0297",
+          "speaker": "natsumi",
+          "text": "「對吧！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0298",
+          "speaker": "kentaro",
+          "text": "「而且還有星星的圖案。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0299",
+          "speaker": "natsumi",
+          "text": "「嗯。不過艾梅先生說，那個行商也不一定親眼去過，所以還不能確定。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0300",
+          "speaker": null,
+          "text": "山田仔細看著筆記。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0301",
+          "speaker": "kentaro",
+          "text": "「那張舊圖呢？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0302",
+          "speaker": "natsumi",
+          "text": "「聽說原本是在山間驛站保存的，上面除了道路，還畫著星星的位置。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0303",
+          "speaker": "kentaro",
+          "text": "「星星……」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0304",
+          "speaker": null,
+          "text": "他拿起筆，在地圖上星燈之城附近的位置輕輕點了一下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0305",
+          "speaker": "kentaro",
+          "text": "「會不會跟石門上面的圖案有關？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0306",
+          "speaker": "natsumi",
+          "text": "「我也想過。不過只憑這些還看不出來。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0307",
+          "speaker": "kentaro",
+          "text": "「也是。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0308",
+          "speaker": null,
+          "text": "山田將筆放下。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0309",
+          "speaker": "kentaro",
+          "text": "「那到了驛站再問問吧！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0310",
+          "speaker": "natsumi",
+          "text": "「嗯，我也是這樣想。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0311",
+          "speaker": null,
+          "text": "兩人將新得到的情報補充到地圖旁邊。西寫下尚未確認的事項，山田則重新查看兩人之前記錄的道路。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0312",
+          "speaker": null,
+          "text": "過了一會兒，他忽然抬起頭。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0313",
+          "speaker": "kentaro",
+          "text": "「對了，奈津美。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0314",
+          "speaker": "natsumi",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0315",
+          "speaker": "kentaro",
+          "text": "「妳今天跟那個老先生聊了很久啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0316",
+          "speaker": "natsumi",
+          "text": "「是啊。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0317",
+          "speaker": null,
+          "text": "西想了想。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0318",
+          "speaker": "natsumi",
+          "text": "「其實一開始他好像不太想聊天。我還以為今天什麼都問不到了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0319",
+          "speaker": "kentaro",
+          "text": "「後來呢？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0320",
+          "speaker": "natsumi",
+          "text": "「後來不知道為什麼，就聊了很多以前的事情。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0321",
+          "speaker": null,
+          "text": "她想起艾梅說起年輕時旅行的模樣，不由得笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0322",
+          "speaker": "natsumi",
+          "text": "「他還說，下次可以再去坐坐。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0323",
+          "speaker": "kentaro",
+          "text": "「那很好啊！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0324",
+          "speaker": null,
+          "text": "山田笑得很開心。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0325",
+          "speaker": "kentaro",
+          "text": "「妳交到新朋友了耶。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0326",
+          "speaker": "natsumi",
+          "text": "「朋友……？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0327",
+          "speaker": null,
+          "text": "西稍微想了想。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0328",
+          "speaker": "natsumi",
+          "text": "「唔……應該算吧？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0329",
+          "speaker": "kentaro",
+          "text": "「肯定算啦。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0330",
+          "speaker": "natsumi",
+          "text": "「你又知道？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0331",
+          "speaker": "kentaro",
+          "text": "「因為他都叫妳下次再去了嘛。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0332",
+          "speaker": null,
+          "text": "西笑了，低頭將筆記放好。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0333",
+          "speaker": "natsumi",
+          "text": "「那下次如果你有空，我們可以一起去。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0334",
+          "speaker": "kentaro",
+          "text": "「好啊！我還想看看那個草藥架呢。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0335",
+          "speaker": "natsumi",
+          "text": "「健太郎！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0336",
+          "speaker": null,
+          "text": "山田哈哈笑了起來。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0337",
+          "speaker": null,
+          "text": "窗外的夜色漸漸深了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0338",
+          "speaker": null,
+          "text": "桌上的地圖仍然有大片空白，前往星燈之城的道路，也只畫出一段尚未確認的虛線。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0339",
+          "speaker": null,
+          "text": "但在那條虛線旁邊，已經多了一個新的地名。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0340",
+          "speaker": null,
+          "text": "山間驛站。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0341",
+          "speaker": null,
+          "text": "西望著兩人剛寫下的筆記。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0342",
+          "speaker": "natsumi",
+          "text": "「健太郎。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0343",
+          "speaker": "kentaro",
+          "text": "「嗯？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0344",
+          "speaker": "natsumi",
+          "text": "「你覺得……我們真的能找到嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0345",
+          "speaker": null,
+          "text": "山田看了看地圖，又看向她。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0346",
+          "speaker": "kentaro",
+          "text": "「不知道耶。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0347",
+          "speaker": null,
+          "text": "他回答得很坦率。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0348",
+          "speaker": "kentaro",
+          "text": "「不過，今天不是又多知道一點了嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0349",
+          "speaker": null,
+          "text": "西低頭看著筆記。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0350",
+          "speaker": null,
+          "text": "確實如此。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0351",
+          "speaker": null,
+          "text": "雖然距離真正找到古石門，似乎還有很長一段路要走，但至少他們並不是毫無進展。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0352",
+          "speaker": "natsumi",
+          "text": "「嗯。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0353",
+          "speaker": null,
+          "text": "她將筆記合上，放到兩人共同繪製的地圖旁邊。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0354",
+          "speaker": null,
+          "text": "山田站起身，伸了個懶腰。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0355",
+          "speaker": "kentaro",
+          "text": "「啊——肚子餓了！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0356",
+          "speaker": null,
+          "text": "西忍不住笑了。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0357",
+          "speaker": "natsumi",
+          "text": "「你剛剛不是才說吃過東西嗎？」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0358",
+          "speaker": "kentaro",
+          "text": "「可是聽妳講了這麼久，又餓了。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0359",
+          "speaker": "natsumi",
+          "text": "「哪有這種事啦。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0360",
+          "speaker": "kentaro",
+          "text": "「真的啦！」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0361",
+          "speaker": null,
+          "text": "山田笑著朝她伸出手。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0362",
+          "speaker": "kentaro",
+          "text": "「走吧，去看看多恩先生還有沒有什麼吃的。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0363",
+          "speaker": null,
+          "text": "西看了看桌上的地圖，又看向他。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0364",
+          "speaker": "natsumi",
+          "text": "「好。」",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0365",
+          "speaker": null,
+          "text": "她握住他的手，從椅子上站起來。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0366",
+          "speaker": null,
+          "text": "明天還有很多事情要做。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        },
+        {
+          "id": "herbs-0367",
+          "speaker": null,
+          "text": "但至少今晚，他們可以先好好吃頓晚餐。",
+          "background": "./assets/backgrounds/bg-estrala-inn-room-night.webp",
+          "weather": "clear"
+        }
+      ]
+    }
+  ]
+}
